@@ -841,66 +841,6 @@
 - raw: "八荒六合掌"
   splits:
   - text: "八荒六合掌"
-- raw: "妖月宗"
-  splits:
-  - text: "妖月宗"
-- raw: "好感度："
-  splits:
-  - text: "好感度："
-- raw: "门派善用兵器："
-  splits:
-  - text: "门派善用兵器："
-- raw: "刀，枪"
-  splits:
-  - text: "刀，枪"
-- raw: "门派擅长特性："
-  splits:
-  - text: "门派擅长特性："
-- raw: "门派背景："
-  splits:
-  - text: "门派背景："
-- raw: "妖月之山，以月为伴，有沉鱼落雁之姿，然后"
-  splits:
-  - text: "妖月之山，以月为伴，有沉鱼落雁之姿，然后"
-- raw: "嵩山派，明教"
-  splits:
-  - text: "嵩山派，明教"
-- raw: "不万能风"
-  splits:
-  - text: "不万能风"
-- raw: "乱世枭雄"
-  splits:
-  - text: "乱世枭雄"
-- raw: "势力：燕国"
-  splits:
-  - text: "势力：燕国"
-- raw: "身份：不详"
-  splits:
-  - text: "身份：不详"
-- raw: "好感：陌路不识"
-  splits:
-  - text: "好感：陌路不识"
-- raw: "情分：0"
-  splits:
-  - text: "情分：0"
-- raw: "精力：100"
-  splits:
-  - text: "精力：100"
-- raw: "性别：女"
-  splits:
-  - text: "性别：女"
-- raw: "兴趣：乐器\\n"
-  splits:
-  - text: "兴趣：乐器\\n"
-- raw: "此人实力："
-  splits:
-  - text: "此人实力："
-- raw: "生平："
-  splits:
-  - text: "生平："
-- raw: "原为楚国秦世家小女，饱受宠爱"
-  splits:
-  - text: "原为楚国秦世家小女，饱受宠爱"
 - raw: "正在播放-下一站江湖"
   splits:
   - text: "正在播放-下一站江湖"
@@ -3280,981 +3220,15 @@
 - raw: "捭阖"
   splits:
   - text: "捭阖"
-- raw: "流派"
-  splits:
-  - text: "流派"
-- raw: "万家剑法 "
-  splits:
-  - text: "万家剑法 "
-- raw: "亢龙有悔"
-  splits:
-  - text: "亢龙有悔"
-- raw: "水到渠成"
-  splits:
-  - text: "水到渠成"
-- raw: "偷梁换柱"
-  splits:
-  - text: "偷梁换柱"
-- raw: "天赋"
-  splits:
-  - text: "天赋"
-- raw: "小"
-  splits:
-  - text: "小"
-- raw: "基本信息"
-  splits:
-  - text: "基本信息"
-- raw: "实力："
-  splits:
-  - text: "实力："
-- raw: "特质"
-  splits:
-  - text: "特质"
-- raw: "对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对"
-  splits:
-  - text: "对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对"
-- raw: "万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法"
-  splits:
-  - text: "万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法"
-- raw: "万家剑法"
-  splits:
-  - text: "万家剑法"
-- raw: "兴趣：乐器"
-  splits:
-  - text: "兴趣：乐器"
-- raw: "沈雁弓，名将之后。\\n因意外"
-  splits:
-  - text: "沈雁弓，名将之后。\\n因意外"
-- raw: "母亲"
-  splits:
-  - text: "母亲"
-- raw: "亲人"
-  splits:
-  - text: "亲人"
-- raw: "生死之交"
-  splits:
-  - text: "生死之交"
-- raw: "萍水相逢"
-  splits:
-  - text: "萍水相逢"
-- raw: "齐国"
-  splits:
-  - text: "齐国"
-- raw: "楚国"
-  splits:
-  - text: "楚国"
-- raw: "燕国"
-  splits:
-  - text: "燕国"
-- raw: "关外"
-  splits:
-  - text: "关外"
-- raw: "海外"
-  splits:
-  - text: "海外"
-- raw: "不夜京"
-  splits:
-  - text: "不夜京"
-- raw: "嵩山派"
-  splits:
-  - text: "嵩山派"
-- raw: "配置：拳套"
-  splits:
-  - text: "配置：拳套"
-- raw: "修为：10000"
-  splits:
-  - text: "修为：10000"
-- raw: "感悟：10000"
-  splits:
-  - text: "感悟：10000"
-- raw: "冷却中"
-  splits:
-  - text: "冷却中"
-- raw: "鬼眼来决"
-  splits:
-  - text: "鬼眼来决"
-- raw: "先天功"
-  splits:
-  - text: "先天功"
-- raw: "调息"
-  splits:
-  - text: "调息"
-- raw: "战斗中功体自动运行的效果"
-  splits:
-  - text: "战斗中功体自动运行的效果"
-- raw: "一段:"
-  splits:
-  - text: "一段:"
-- raw: "每秒恢复105"
-  splits:
-  - text: "每秒恢复105"
-- raw: "运功"
-  splits:
-  - text: "运功"
-- raw: "清除自己点穴状态"
-  splits:
-  - text: "清除自己点穴状态"
-- raw: "回光回光回光"
-  splits:
-  - text: "回光回光回光"
-- raw: "属于剑\\刀\\长兵\\搏击套路下的秘籍只会显示在该套路对应的目录中，通用秘籍则是会显示在所有套路对应的目录中，在进行技能装配时需要把该技能拖动到右边的空白框内，同样，属于剑\\刀\\长兵\\搏击秘籍中的技能只能装配到对应套路的空白技能框内，通用秘籍中的技能则是能装配到所有套路的空白技能框。"
-  splits:
-  - text: "属于剑\\刀\\长兵\\搏击套路下的秘籍只会显示在该套路对应的目录中，通用秘籍则是会显示在所有套路对应的目录中，在进行技能装配时需要把该技能拖动到右边的空白框内，同样，属于剑\\刀\\长兵\\搏击秘籍中的技能只能装配到对应套路的空白技能框内，通用秘籍中的技能则是能装配到所有套路的空白技能框。"
-- raw: "一元归元剑"
-  splits:
-  - text: "一元归元剑"
-- raw: "护体"
-  splits:
-  - text: "护体"
-- raw: "招式"
-  splits:
-  - text: "招式"
-- raw: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
-  splits:
-  - text: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
-- raw: "选中武学中招式、功体、绝技可查看其中的详细信息"
-  splits:
-  - text: "选中武学中招式、功体、绝技可查看其中的详细信息"
-- raw: "这里包含了武学秘籍中招式的基础信息"
-  splits:
-  - text: "这里包含了武学秘籍中招式的基础信息"
-- raw: "武学秘籍中招式的强化效果，该效果可通过领悟招式的冲灵所窍来解锁，不同窍穴对应不同的强化效果，部分窍穴则没有强化效果；红色边框的强化效果的目标是敌人，绿色和白色的效果目标则是自身。"
-  splits:
-  - text: "武学秘籍中招式的强化效果，该效果可通过领悟招式的冲灵所窍来解锁，不同窍穴对应不同的强化效果，部分窍穴则没有强化效果；红色边框的强化效果的目标是敌人，绿色和白色的效果目标则是自身。"
-- raw: "武学秘籍中招式的冲灵所窍，所有招式都有四个窍穴，分别为“入门”、“熟练”、“精通”、“化境”；达到激活条件后可领悟窍穴解锁对应的强化效果和词条，在窍穴中也可添加道具、丹药、密卷来产生额外的词条。"
-  splits:
-  - text: "武学秘籍中招式的冲灵所窍，所有招式都有四个窍穴，分别为“入门”、“熟练”、“精通”、“化境”；达到激活条件后可领悟窍穴解锁对应的强化效果和词条，在窍穴中也可添加道具、丹药、密卷来产生额外的词条。"
-- raw: "点击秘籍右下角区域按住鼠标左键拖拽鼠标可翻页"
-  splits:
-  - text: "点击秘籍右下角区域按住鼠标左键拖拽鼠标可翻页"
-- raw: "或"
-  splits:
-  - text: "或"
-- raw: "恭喜少侠已经初步知晓武学大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
-  splits:
-  - text: "恭喜少侠已经初步知晓武学大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
-- raw: "<color=#969696>消耗：</color><color=#f0f0f0>感悟1000</color>"
-  splits:
-  - text: "<color=#969696>消耗：</color><color=#f0f0f0>感悟1000</color>"
-- raw: "需求武学dfsdfsrfdsfdsfdsfdf"
-  splits:
-  - text: "需求武学dfsdfsrfdsfdsfdsfdf"
-- raw: "额外武学"
-  splits:
-  - text: "额外武学"
-- raw: "需求："
-  splits:
-  - text: "需求："
-- raw: "精通"
-  splits:
-  - text: "精通"
-- raw: "艳新觉"
-  splits:
-  - text: "艳新觉"
-- raw: "参悟武学"
-  splits:
-  - text: "参悟武学"
-- raw: "人阶武学"
-  splits:
-  - text: "人阶武学"
-- raw: "地阶武学"
-  splits:
-  - text: "地阶武学"
-- raw: "天阶武学"
-  splits:
-  - text: "天阶武学"
-- raw: "参悟"
-  splits:
-  - text: "参悟"
-- raw: "套路一"
-  splits:
-  - text: "套路一"
-- raw: "套路二"
-  splits:
-  - text: "套路二"
-- raw: "套路三"
-  splits:
-  - text: "套路三"
-- raw: "套路四"
-  splits:
-  - text: "套路四"
-- raw: "套路五"
-  splits:
-  - text: "套路五"
-- raw: "<color=#E7BF87>侠胆剑心：</color><color=#b46049>......</color>"
-  splits:
-  - text: "<color=#E7BF87>侠胆剑心：</color><color=#b46049>......</color>"
-- raw: "<color=#E7BF87>刃下刀心：</color><color=#b46049>......</color>"
-  splits:
-  - text: "<color=#E7BF87>刃下刀心：</color><color=#b46049>......</color>"
-- raw: "<color=#E7BF87>游龙花枪：</color><color=#b46049>......</color>"
-  splits:
-  - text: "<color=#E7BF87>游龙花枪：</color><color=#b46049>......</color>"
-- raw: "<color=#E7BF87>北冥玄拳：</color><color=#b46049>......</color>"
-  splits:
-  - text: "<color=#E7BF87>北冥玄拳：</color><color=#b46049>......</color>"
-- raw: "<color=#E7BF87>千幻万器：</color><color=#b46049>......</color>"
-  splits:
-  - text: "<color=#E7BF87>千幻万器：</color><color=#b46049>......</color>"
-- raw: "<color=#acacac>需提升兵道属性</color>\\n<color=#acacac>并解锁天赋</color><color=#f0f0f0>【诸武齐登】</color>"
-  splits:
-  - text: "<color=#acacac>需提升兵道属性</color>\\n<color=#acacac>并解锁天赋</color><color=#f0f0f0>【诸武齐登】</color>"
-- raw: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
-  splits:
-  - text: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
-- raw: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
-  splits:
-  - text: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
-- raw: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
-  splits:
-  - text: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
-- raw: "<color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>"
-  splits:
-  - text: "<color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>"
-- raw: "<color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>"
-  splits:
-  - text: "<color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>"
-- raw: "保存"
-  splits:
-  - text: "保存"
-- raw: "可选武学"
-  splits:
-  - text: "可选武学"
-- raw: "武学分为<color=#3ad67c>秘籍和护体</color>，秘籍为各类传统武学秘籍，其中包含多个技能，护体为单独的护身绝技。请点击护体以操作刚才所学习的万法森罗。"
-  splits:
-  - text: "武学分为<color=#3ad67c>秘籍和护体</color>，秘籍为各类传统武学秘籍，其中包含多个技能，护体为单独的护身绝技。请点击护体以操作刚才所学习的万法森罗。"
-- raw: "点击<color=#3ad67c>护身绝技</color>查看展开内容。"
-  splits:
-  - text: "点击<color=#3ad67c>护身绝技</color>查看展开内容。"
-- raw: "通过<color=#3ad67c>拖动</color>技能图标到对应的<color=#3ad67c>招式、秘技或者功体</color>位置以进行装备技能。请拖动万法森罗到秘技的位置。"
-  splits:
-  - text: "通过<color=#3ad67c>拖动</color>技能图标到对应的<color=#3ad67c>招式、秘技或者功体</color>位置以进行装备技能。请拖动万法森罗到秘技的位置。"
-- raw: "点击切换"
-  splits:
-  - text: "点击切换"
-- raw: "装备技能"
-  splits:
-  - text: "装备技能"
-- raw: "装备套路"
-  splits:
-  - text: "装备套路"
-- raw: "九阳神功"
-  splits:
-  - text: "九阳神功"
-- raw: "内功威力：15                                外功威力：1011\\n招式范围：前方2m\\n前式：云光倒影"
-  splits:
-  - text: "内功威力：15                                外功威力：1011\\n招式范围：前方2m\\n前式：云光倒影"
-- raw: "清除点血状态"
-  splits:
-  - text: "清除点血状态"
-- raw: "招式属性(学习后可获得一些属性加成，无法洗练。)"
-  splits:
-  - text: "招式属性(学习后可获得一些属性加成，无法洗练。)"
-- raw: "学习后可获得一些属性加成，无法洗练。"
-  splits:
-  - text: "学习后可获得一些属性加成，无法洗练。"
-- raw: "力量 +10"
-  splits:
-  - text: "力量 +10"
-- raw: "堪武"
-  splits:
-  - text: "堪武"
-- raw: "流血：流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值"
-  splits:
-  - text: "流血：流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值"
-- raw: "词条(可额外获得的一些特殊效果或者属性，可洗练。)"
-  splits:
-  - text: "词条(可额外获得的一些特殊效果或者属性，可洗练。)"
-- raw: "可额外获得的一些特殊效果或者属性，可洗练。"
-  splits:
-  - text: "可额外获得的一些特殊效果或者属性，可洗练。"
-- raw: "力量+100"
-  splits:
-  - text: "力量+100"
-- raw: "招式修炼"
-  splits:
-  - text: "招式修炼"
-- raw: "经脉：任脉阿布"
-  splits:
-  - text: "经脉：任脉阿布"
-- raw: "已打通"
-  splits:
-  - text: "已打通"
-- raw: "感悟：200"
-  splits:
-  - text: "感悟：200"
-- raw: "收集率：10000"
-  splits:
-  - text: "收集率：10000"
-- raw: "在万宗界面，可以为各类武器的普通攻击"
-  splits:
-  - text: "在万宗界面，可以为各类武器的普通攻击"
-- raw: "\\n洗炼额外属性和效果，洗炼会消耗感悟点"
-  splits:
-  - text: "\\n洗炼额外属性和效果，洗炼会消耗感悟点"
-- raw: "点击下方按钮，消耗感悟进行洗练"
-  splits:
-  - text: "点击下方按钮，消耗感悟进行洗练"
-- raw: "此处可以切换其他类型武器的万宗界面"
-  splits:
-  - text: "此处可以切换其他类型武器的万宗界面"
-- raw: "此处可以选择万总的套路效果"
-  splits:
-  - text: "此处可以选择万总的套路效果"
-- raw: "恭喜少侠已经初步知晓万宗大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
-  splits:
-  - text: "恭喜少侠已经初步知晓万宗大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
-- raw: "尚未修习"
-  splits:
-  - text: "尚未修习"
-- raw: "蜻蜓点水"
-  splits:
-  - text: "蜻蜓点水"
-- raw: "总轻功值：10000/10000"
-  splits:
-  - text: "总轻功值：10000/10000"
-- raw: "当前境界：踏雪无痕"
-  splits:
-  - text: "当前境界：踏雪无痕"
-- raw: "学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。"
-  splits:
-  - text: "学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。"
-- raw: "踏雪飞鸿"
-  splits:
-  - text: "踏雪飞鸿"
-- raw: "轻功值：2000"
-  splits:
-  - text: "轻功值：2000"
-- raw: "该轻功不需要过多的解释"
-  splits:
-  - text: "该轻功不需要过多的解释"
-- raw: "轻功能力"
-  splits:
-  - text: "轻功能力"
-- raw: "[天地仍握有]"
-  splits:
-  - text: "[天地仍握有]"
-- raw: "移动速度    2000\\n跳跃高度    2000\\n移动距离    2000\\n使用消耗    100真气/s"
-  splits:
-  - text: "移动速度    2000\\n跳跃高度    2000\\n移动距离    2000\\n使用消耗    100真气/s"
-- raw: "轻功附加能力"
-  splits:
-  - text: "轻功附加能力"
-- raw: "移动速度    +20\\n跳跃高度    +15\\n移动距离    +10\\n使用消耗    减少真气消耗 5真气/s"
-  splits:
-  - text: "移动速度    +20\\n跳跃高度    +15\\n移动距离    +10\\n使用消耗    减少真气消耗 5真气/s"
-- raw: "移动速度    +20移动速度    +20移动速度    +20+20+20+20+20+20+20+20+20+20+20+20+20+20+20"
-  splits:
-  - text: "移动速度    +20移动速度    +20移动速度    +20+20+20+20+20+20+20+20+20+20+20+20+20+20+20"
-- raw: "学习条件"
-  splits:
-  - text: "学习条件"
-- raw: "轻功："
-  splits:
-  - text: "轻功："
-- raw: "《就上云霄》"
-  splits:
-  - text: "《就上云霄》"
-- raw: "该轻功已达到最高境界"
-  splits:
-  - text: "该轻功已达到最高境界"
-- raw: "操作：靠近竹子然后双击<space      > 释放"
-  splits:
-  - text: "操作：靠近竹子然后双击<space      > 释放"
-- raw: "提升"
-  splits:
-  - text: "提升"
-- raw: "        精通          化境"
-  splits:
-  - text: "        精通          化境"
-- raw: "            靠近竹子然后双击      释放"
-  splits:
-  - text: "            靠近竹子然后双击      释放"
-- raw: "激活"
-  splits:
-  - text: "激活"
-- raw: "神品级"
-  splits:
-  - text: "神品级"
-- raw: "太极心法"
-  splits:
-  - text: "太极心法"
-- raw: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
-  splits:
-  - text: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
-- raw: "技能说明"
-  splits:
-  - text: "技能说明"
-- raw: "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
-  splits:
-  - text: "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
-- raw: "特技效果"
-  splits:
-  - text: "特技效果"
-- raw: "解锁条件"
-  splits:
-  - text: "解锁条件"
-- raw: "初学乍道"
-  splits:
-  - text: "初学乍道"
-- raw: "当前层数：第五层"
-  splits:
-  - text: "当前层数：第五层"
-- raw: "修炼达到炉火纯情，修炼达到炉火纯情修炼达到炉火纯情"
-  splits:
-  - text: "修炼达到炉火纯情，修炼达到炉火纯情修炼达到炉火纯情"
-- raw: "固灵：固灵属性"
-  splits:
-  - text: "固灵：固灵属性"
-- raw: "经脉：任脉任脉任脉"
-  splits:
-  - text: "经脉：任脉任脉任脉"
-- raw: "生命"
-  splits:
-  - text: "生命"
-- raw: "永灵：特殊属性"
-  splits:
-  - text: "永灵：特殊属性"
-- raw: "经脉：任脉"
-  splits:
-  - text: "经脉：任脉"
-- raw: "生命 +2700"
-  splits:
-  - text: "生命 +2700"
-- raw: "固定属性"
-  splits:
-  - text: "固定属性"
-- raw: "添加心法"
-  splits:
-  - text: "添加心法"
-- raw: "修行"
-  splits:
-  - text: "修行"
-- raw: "消耗感悟：1000999"
-  splits:
-  - text: "消耗感悟：1000999"
-- raw: "洗练"
-  splits:
-  - text: "洗练"
-- raw: "太上针线：对敌人造成伤害，自身气血增加"
-  splits:
-  - text: "太上针线：对敌人造成伤害，自身气血增加"
-- raw: "隐藏属性"
-  splits:
-  - text: "隐藏属性"
-- raw: "突破"
-  splits:
-  - text: "突破"
-- raw: "消耗修为：100000000000"
-  splits:
-  - text: "消耗修为：100000000000"
-- raw: "帮助信息：\\n1、境界是经脉提升到一定强度之后激活的等级效果，<color=#3ad67c>满足条件</color>激活境界可获得<color=#3ad67c>额外的属性</color>。\\n2、激活境界的条件除了最基本的修为值需求外，还分为两个，<color=#3ad67c>固定属性</color>包含<color=#3ad67c>境界丹，打通的经脉和属性值</color>，<color=#3ad67c>特殊属性</color>包含<color=#3ad67c>属性丹药和更高的属性值</color>，同时只有<color=#3ad67c>满足固定属性的条件</color>才可查看。\\n3、固定属性中的<color=#3ad67c>境界丹</color>可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n4、特殊属性中的<color=#3ad67c>属性丹药</color>可通过<color=#3ad67c>习得配方自行炼制</color>，也可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n5、提升不同的境界需要不同的心法，低阶境界只能使用低品质心法，反之，高阶境界只能使用高阶心法。"
-  splits:
-  - text: "帮助信息：\\n1、境界是经脉提升到一定强度之后激活的等级效果，<color=#3ad67c>满足条件</color>激活境界可获得<color=#3ad67c>额外的属性</color>。\\n2、激活境界的条件除了最基本的修为值需求外，还分为两个，<color=#3ad67c>固定属性</color>包含<color=#3ad67c>境界丹，打通的经脉和属性值</color>，<color=#3ad67c>特殊属性</color>包含<color=#3ad67c>属性丹药和更高的属性值</color>，同时只有<color=#3ad67c>满足固定属性的条件</color>才可查看。\\n3、固定属性中的<color=#3ad67c>境界丹</color>可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n4、特殊属性中的<color=#3ad67c>属性丹药</color>可通过<color=#3ad67c>习得配方自行炼制</color>，也可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n5、提升不同的境界需要不同的心法，低阶境界只能使用低品质心法，反之，高阶境界只能使用高阶心法。"
-- raw: "境界介绍"
-  splits:
-  - text: "境界介绍"
-- raw: "心法选择"
-  splits:
-  - text: "心法选择"
-- raw: "心法："
-  splits:
-  - text: "心法："
-- raw: "徒手画铁"
-  splits:
-  - text: "徒手画铁"
-- raw: "心法属性：<color=#9a9a9a>根据选择的心法，随机获取以下buff中的一条</color>"
-  splits:
-  - text: "心法属性：<color=#9a9a9a>根据选择的心法，随机获取以下buff中的一条</color>"
-- raw: "化解霸王心："
-  splits:
-  - text: "化解霸王心："
-- raw: "为自身添加一个驱散效果。攻击时附带霸体效果，且攻击力提升100点。"
-  splits:
-  - text: "为自身添加一个驱散效果。攻击时附带霸体效果，且攻击力提升100点。"
-- raw: "消耗修为：1000999"
-  splits:
-  - text: "消耗修为：1000999"
-- raw: "无情刀客"
-  splits:
-  - text: "无情刀客"
-- raw: "身份："
-  splits:
-  - text: "身份："
-- raw: "基础属性"
-  splits:
-  - text: "基础属性"
-- raw: "攻击属性"
-  splits:
-  - text: "攻击属性"
-- raw: "外攻"
-  splits:
-  - text: "外攻"
-- raw: "防御属性"
-  splits:
-  - text: "防御属性"
-- raw: "综合属性"
-  splits:
-  - text: "综合属性"
-- raw: "角色天赋"
-  splits:
-  - text: "角色天赋"
-- raw: "对"
-  splits:
-  - text: "对"
-- raw: "离队"
-  splits:
-  - text: "离队"
-- raw: "物品"
-  splits:
-  - text: "物品"
-- raw: "快捷道具一"
-  splits:
-  - text: "快捷道具一"
-- raw: "快捷道具二"
-  splits:
-  - text: "快捷道具二"
-- raw: "配饰"
-  splits:
-  - text: "配饰"
-- raw: "特效"
-  splits:
-  - text: "特效"
-- raw: "时装"
-  splits:
-  - text: "时装"
-- raw: "幻化"
-  splits:
-  - text: "幻化"
-- raw: "武器预设"
-  splits:
-  - text: "武器预设"
-- raw: "宝物预设"
-  splits:
-  - text: "宝物预设"
-- raw: "状态"
-  splits:
-  - text: "状态"
-- raw: "刀法"
-  splits:
-  - text: "刀法"
-- raw: "熟练度："
-  splits:
-  - text: "熟练度："
-- raw: "等级99"
-  splits:
-  - text: "等级99"
-- raw: "这里是角色的<color=#3ad67c>基本信息</color>，详细记录了少侠的<color=#3ad67c>战斗属性</color>和<color=#3ad67c>天赋效果</color>。<color=#3ad67c>鼠标悬浮</color>在想要查看的属性信息上时，可以<color=#3ad67c>查看</color>到该属性的<color=#3ad67c>效果和来源</color>。请少侠<color=#3ad67c>按住鼠标左键向上滑动</color>查看全部信息。"
-  splits:
-  - text: "这里是角色的<color=#3ad67c>基本信息</color>，详细记录了少侠的<color=#3ad67c>战斗属性</color>和<color=#3ad67c>天赋效果</color>。<color=#3ad67c>鼠标悬浮</color>在想要查看的属性信息上时，可以<color=#3ad67c>查看</color>到该属性的<color=#3ad67c>效果和来源</color>。请少侠<color=#3ad67c>按住鼠标左键向上滑动</color>查看全部信息。"
-- raw: "此处是角色<color=#3ad67c>当前佩戴的装备</color>，可以通过点击打开想要查看的装备种类。现在请<color=#3ad67c>点击防具</color>，查看自身拥有的防具并<color=#3ad67c>更换</color>防具。"
-  splits:
-  - text: "此处是角色<color=#3ad67c>当前佩戴的装备</color>，可以通过点击打开想要查看的装备种类。现在请<color=#3ad67c>点击防具</color>，查看自身拥有的防具并<color=#3ad67c>更换</color>防具。"
-- raw: "此处为<color=#3ad67c>快捷道具栏</color>，可以配置<color=#3ad67c>各类恢复药品</color>方便在<color=#3ad67c>战斗时用快捷按键</color>使用。现在请点击一个<color=#3ad67c>快捷道具栏位</color>，选择一个恢复道具<color=#3ad67c>装备</color>起来。"
-  splits:
-  - text: "此处为<color=#3ad67c>快捷道具栏</color>，可以配置<color=#3ad67c>各类恢复药品</color>方便在<color=#3ad67c>战斗时用快捷按键</color>使用。现在请点击一个<color=#3ad67c>快捷道具栏位</color>，选择一个恢复道具<color=#3ad67c>装备</color>起来。"
-- raw: "辅助属性分为人格、战术、学识、生活、技艺，可以从此处切换。"
-  splits:
-  - text: "辅助属性分为人格、战术、学识、生活、技艺，可以从此处切换。"
-- raw: "使用冷却中：0.5秒"
-  splits:
-  - text: "使用冷却中：0.5秒"
-- raw: "批量丢弃"
-  splits:
-  - text: "批量丢弃"
-- raw: "一键全选"
-  splits:
-  - text: "一键全选"
-- raw: "确认丢弃"
-  splits:
-  - text: "确认丢弃"
-- raw: "行囊界面可以看到<color=#3ad67c>当前持有</color>的物品，可以通过上方的<color=#3ad67c>搜索栏</color>搜索想要查询的道具，<color=#3ad67c>单击左键</color>可选中物品。"
-  splits:
-  - text: "行囊界面可以看到<color=#3ad67c>当前持有</color>的物品，可以通过上方的<color=#3ad67c>搜索栏</color>搜索想要查询的道具，<color=#3ad67c>单击左键</color>可选中物品。"
-- raw: "选中物品后可在右侧<color=#3ad67c>物品详情页</color>查看详情，同时也可以<color=#3ad67c>对物品进行操作</color>。请点击<color=#3ad67c>使用</color>按钮使用秘卷物品。"
-  splits:
-  - text: "选中物品后可在右侧<color=#3ad67c>物品详情页</color>查看详情，同时也可以<color=#3ad67c>对物品进行操作</color>。请点击<color=#3ad67c>使用</color>按钮使用秘卷物品。"
-- raw: "请点击<color=#3ad67c>上方的武学</color>标签页，用以查看学习过的<color=#3ad67c>秘籍或者秘卷</color>。"
-  splits:
-  - text: "请点击<color=#3ad67c>上方的武学</color>标签页，用以查看学习过的<color=#3ad67c>秘籍或者秘卷</color>。"
-- raw: "当你有了天工图以后，便可从背包里选择它进行使用，天工图品级越高，可以吸取的词条等级就越高。"
-  splits:
-  - text: "当你有了天工图以后，便可从背包里选择它进行使用，天工图品级越高，可以吸取的词条等级就越高。"
-- raw: "点击萃取"
-  splits:
-  - text: "点击萃取"
-- raw: "选择要萃取的装备"
-  splits:
-  - text: "选择要萃取的装备"
-- raw: "确定好装备后，点击萃取，选择要吸附的词条，确定后再次点击萃取"
-  splits:
-  - text: "确定好装备后，点击萃取，选择要吸附的词条，确定后再次点击萃取"
-- raw: "选择萃取好了的天工图，进行词条覆写"
-  splits:
-  - text: "选择萃取好了的天工图，进行词条覆写"
-- raw: "点击覆写"
-  splits:
-  - text: "点击覆写"
-- raw: "选择要覆写的装备"
-  splits:
-  - text: "选择要覆写的装备"
-- raw: "点击覆写，写入词条"
-  splits:
-  - text: "点击覆写，写入词条"
-- raw: "武器预设为切换套路时默认首选武器"
-  splits:
-  - text: "武器预设为切换套路时默认首选武器"
-- raw: "带脉"
-  splits:
-  - text: "带脉"
-- raw: "冲脉"
-  splits:
-  - text: "冲脉"
-- raw: "阳维"
-  splits:
-  - text: "阳维"
-- raw: "阴维"
-  splits:
-  - text: "阴维"
-- raw: "阴跷"
-  splits:
-  - text: "阴跷"
-- raw: "阳跷"
-  splits:
-  - text: "阳跷"
-- raw: "任脉"
-  splits:
-  - text: "任脉"
-- raw: "真力值"
-  splits:
-  - text: "真力值"
-- raw: "帮助信息：\\n1、满足修为和前置经脉点位条件即可进行激活操作。\\n2、激活时可添加心法附加特殊属性，可添加秘卷附加隐藏属性。\\n3、添加秘卷时会新增秘卷使用条件，只有额外满足秘卷的使用条件才可激活。\\n4、激活后可针对特殊属性、附加属性进行洗练，以获得更适合自己的属性。洗练时必须添加对应的心法或秘卷。\\n5、激活经脉主界面上的六条经脉后方可对任督二脉进行激活操作。八条经脉都全部激活才可进行五脏激活。\\n6、点击中心的双鱼图标可进入任督二脉和心法配置界面。外圈为任督二脉点位，中心为心法配置。\\n7、配置心法会获得对应的真力值，主心法获得百分百的真力效果，辅心法获得百分之三十的真力效果。最多可保存三套心法配置。\\n8、配置了心法后可进行经脉的周天运行和五脏淬炼。周天运行可获得额外的效果，淬炼过的五脏属性才会生效。\\n9、经脉周天运行必须满足至少三个点位组成的循环才会生效。没有属性效果的周天运行无法生效。"
-  splits:
-  - text: "帮助信息：\\n1、满足修为和前置经脉点位条件即可进行激活操作。\\n2、激活时可添加心法附加特殊属性，可添加秘卷附加隐藏属性。\\n3、添加秘卷时会新增秘卷使用条件，只有额外满足秘卷的使用条件才可激活。\\n4、激活后可针对特殊属性、附加属性进行洗练，以获得更适合自己的属性。洗练时必须添加对应的心法或秘卷。\\n5、激活经脉主界面上的六条经脉后方可对任督二脉进行激活操作。八条经脉都全部激活才可进行五脏激活。\\n6、点击中心的双鱼图标可进入任督二脉和心法配置界面。外圈为任督二脉点位，中心为心法配置。\\n7、配置心法会获得对应的真力值，主心法获得百分百的真力效果，辅心法获得百分之三十的真力效果。最多可保存三套心法配置。\\n8、配置了心法后可进行经脉的周天运行和五脏淬炼。周天运行可获得额外的效果，淬炼过的五脏属性才会生效。\\n9、经脉周天运行必须满足至少三个点位组成的循环才会生效。没有属性效果的周天运行无法生效。"
-- raw: "督脉"
-  splits:
-  - text: "督脉"
-- raw: "套路1"
-  splits:
-  - text: "套路1"
-- raw: "主心法"
-  splits:
-  - text: "主心法"
-- raw: "辅心法"
-  splits:
-  - text: "辅心法"
-- raw: "心法融合效果"
-  splits:
-  - text: "心法融合效果"
-- raw: "回光返照"
-  splits:
-  - text: "回光返照"
-- raw: "返回经脉"
-  splits:
-  - text: "返回经脉"
-- raw: "通用"
-  splits:
-  - text: "通用"
-- raw: "将其绝大沙"
-  splits:
-  - text: "将其绝大沙"
-- raw: "改变心法配置会改变真力值，导致对应方案的周天运行和五脏配置清空，确定要这样做？"
-  splits:
-  - text: "改变心法配置会改变真力值，导致对应方案的周天运行和五脏配置清空，确定要这样做？"
-- raw: "周天运功"
-  splits:
-  - text: "周天运功"
-- raw: "内攻内攻内攻内攻内攻内攻内攻内攻内攻内攻"
-  splits:
-  - text: "内攻内攻内攻内攻内攻内攻内攻内攻内攻内攻"
-- raw: "点击<color=#E1B861>对应区域</color>周天，可查看所需连线的点"
-  splits:
-  - text: "点击<color=#E1B861>对应区域</color>周天，可查看所需连线的点"
-- raw: "周天运功连线已达成，是否开启？"
-  splits:
-  - text: "周天运功连线已达成，是否开启？"
-- raw: "开启"
-  splits:
-  - text: "开启"
-- raw: "特殊属性"
-  splits:
-  - text: "特殊属性"
-- raw: "已激活"
-  splits:
-  - text: "已激活"
-- raw: "心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养"
-  splits:
-  - text: "心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养"
-- raw: "激活条件："
-  splits:
-  - text: "激活条件："
-- raw: "需要满足以下条件才可打通脏器"
-  splits:
-  - text: "需要满足以下条件才可打通脏器"
-- raw: "经脉:未激活"
-  splits:
-  - text: "经脉:未激活"
-- raw: "（未激活）"
-  splits:
-  - text: "（未激活）"
-- raw: "需激活8条经脉"
-  splits:
-  - text: "需激活8条经脉"
-- raw: "选择心法"
-  splits:
-  - text: "选择心法"
-- raw: "心法"
-  splits:
-  - text: "心法"
-- raw: "激活或洗练时，添加心法可随机获得一条心法附带属性"
-  splits:
-  - text: "激活或洗练时，添加心法可随机获得一条心法附带属性"
-- raw: "（相同选择等于取消）"
-  splits:
-  - text: "（相同选择等于取消）"
-- raw: "洗练心法"
-  splits:
-  - text: "洗练心法"
-- raw: "心法心法"
-  splits:
-  - text: "心法心法"
-- raw: "随机一条心法附带的效果"
-  splits:
-  - text: "随机一条心法附带的效果"
-- raw: "选择秘卷"
-  splits:
-  - text: "选择秘卷"
-- raw: "秘卷"
-  splits:
-  - text: "秘卷"
-- raw: "激活或洗练时，添加秘卷可获得经脉隐藏属性"
-  splits:
-  - text: "激活或洗练时，添加秘卷可获得经脉隐藏属性"
-- raw: "秘卷："
-  splits:
-  - text: "秘卷："
-- raw: "赤沙粉赤沙粉赤沙粉"
-  splits:
-  - text: "赤沙粉赤沙粉赤沙粉"
-- raw: "洗练秘卷"
-  splits:
-  - text: "洗练秘卷"
-- raw: "需修为:123000"
-  splits:
-  - text: "需修为:123000"
-- raw: "五脏淬炼状态中，仅显示详情，无法激活或洗练操作"
-  splits:
-  - text: "五脏淬炼状态中，仅显示详情，无法激活或洗练操作"
-- raw: "此时，请点击<color=#3ad67c>确定</color>，便可<color=#3ad67c>开启</color>周天运行。为了帮助少侠<color=#3ad67c>增强属性</color>，那些<color=#3ad67c>无法获得属性的错误周天</color>我就自作主张的帮少侠忽略了。"
-  splits:
-  - text: "此时，请点击<color=#3ad67c>确定</color>，便可<color=#3ad67c>开启</color>周天运行。为了帮助少侠<color=#3ad67c>增强属性</color>，那些<color=#3ad67c>无法获得属性的错误周天</color>我就自作主张的帮少侠忽略了。"
-- raw: "xx的经历"
-  splits:
-  - text: "xx的经历"
-- raw: "我的关系"
-  splits:
-  - text: "我的关系"
-- raw: "永历"
-  splits:
-  - text: "永历"
-- raw: "辛亥"
-  splits:
-  - text: "辛亥"
-- raw: "六"
-  splits:
-  - text: "六"
-- raw: "十二"
-  splits:
-  - text: "十二"
-- raw: "八月"
-  splits:
-  - text: "八月"
-- raw: "永历年."
-  splits:
-  - text: "永历年."
-- raw: "十二月."
-  splits:
-  - text: "十二月."
-- raw: "永历年.十二月."
-  splits:
-  - text: "永历年.十二月."
-- raw: "关系："
-  splits:
-  - text: "关系："
-- raw: "成长："
-  splits:
-  - text: "成长："
-- raw: "事件："
-  splits:
-  - text: "事件："
-- raw: "师徒"
-  splits:
-  - text: "师徒"
-- raw: "结交"
-  splits:
-  - text: "结交"
-- raw: "结仇"
-  splits:
-  - text: "结仇"
-- raw: "相识"
-  splits:
-  - text: "相识"
-- raw: "结义"
-  splits:
-  - text: "结义"
-- raw: "阅读"
-  splits:
-  - text: "阅读"
-- raw: "技能"
-  splits:
-  - text: "技能"
-- raw: "上限"
-  splits:
-  - text: "上限"
-- raw: "境界"
-  splits:
-  - text: "境界"
-- raw: "互动"
-  splits:
-  - text: "互动"
-- raw: "委托"
-  splits:
-  - text: "委托"
-- raw: "击败"
-  splits:
-  - text: "击败"
-- raw: "采集"
-  splits:
-  - text: "采集"
-- raw: "帮助"
-  splits:
-  - text: "帮助"
-- raw: "切磋"
-  splits:
-  - text: "切磋"
-- raw: "决斗"
-  splits:
-  - text: "决斗"
-- raw: "商曲"
-  splits:
-  - text: "商曲"
-- raw: "气冲"
-  splits:
-  - text: "气冲"
-- raw: "周天"
-  splits:
-  - text: "周天"
-- raw: "经脉总加成"
-  splits:
-  - text: "经脉总加成"
-- raw: "心法运功"
-  splits:
-  - text: "心法运功"
-- raw: "真气值"
-  splits:
-  - text: "真气值"
-- raw: "心法运行效果"
-  splits:
-  - text: "心法运行效果"
-- raw: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值，同时防御力提升300点，持续20秒。"
-  splits:
-  - text: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值，同时防御力提升300点，持续20秒。"
-- raw: "点击连接已激活的<color=#fcfcae>经脉点</color>，不同的连接方式将获得对应的周天运行效果"
-  splits:
-  - text: "点击连接已激活的<color=#fcfcae>经脉点</color>，不同的连接方式将获得对应的周天运行效果"
-- raw: "周天运行效果"
-  splits:
-  - text: "周天运行效果"
-- raw: "展开"
-  splits:
-  - text: "展开"
-- raw: "生效中"
-  splits:
-  - text: "生效中"
-- raw: "[吸星]"
-  splits:
-  - text: "[吸星]"
-- raw: "任脉 x5"
-  splits:
-  - text: "任脉 x5"
-- raw: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值"
-  splits:
-  - text: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值"
-- raw: "退出"
-  splits:
-  - text: "退出"
-- raw: "五脏属性"
-  splits:
-  - text: "五脏属性"
-- raw: "气血:"
-  splits:
-  - text: "气血:"
-- raw: "奇经八脉"
-  splits:
-  - text: "奇经八脉"
-- raw: "五脏六腑"
-  splits:
-  - text: "五脏六腑"
-- raw: "幽门"
-  splits:
-  - text: "幽门"
-- raw: "心神主藏神的作用，调养生息，使得自身运功自如，增加修炼速度，链接其他分支经脉。"
-  splits:
-  - text: "心神主藏神的作用，调养生息，使得自身运功自如，增加修炼速度，链接其他分支经脉。"
-- raw: "经脉点加成"
-  splits:
-  - text: "经脉点加成"
-- raw: "激活该经脉可提供<size=40><color=#f0f0f0>5点</color></size>属性点"
-  splits:
-  - text: "激活该经脉可提供<size=40><color=#f0f0f0>5点</color></size>属性点"
-- raw: "需要打通以下经脉才可激活"
-  splits:
-  - text: "需要打通以下经脉才可激活"
-- raw: "(未拥有)"
-  splits:
-  - text: "(未拥有)"
-- raw: "已经获得该经脉点<size=40><color=#e0c889>5点</color></size>属性点"
-  splits:
-  - text: "已经获得该经脉点<size=40><color=#e0c889>5点</color></size>属性点"
-- raw: "消耗修为："
-  splits:
-  - text: "消耗修为："
-- raw: "修为："
-  splits:
-  - text: "修为："
-- raw: "感悟："
-  splits:
-  - text: "感悟："
-- raw: "武学参悟"
-  splits:
-  - text: "武学参悟"
-- raw: "入门"
-  splits:
-  - text: "入门"
-- raw: "被动"
-  splits:
-  - text: "被动"
-- raw: "自创连招"
-  splits:
-  - text: "自创连招"
-- raw: "连招一"
-  splits:
-  - text: "连招一"
-- raw: "连招二"
-  splits:
-  - text: "连招二"
-- raw: "连招三"
-  splits:
-  - text: "连招三"
-- raw: "连招四"
-  splits:
-  - text: "连招四"
 - raw: "人物"
   splits:
   - text: "人物"
 - raw: "行囊"
   splits:
   - text: "行囊"
+- raw: "境界"
+  splits:
+  - text: "境界"
 - raw: "经脉"
   splits:
   - text: "经脉"
@@ -4267,78 +3241,15 @@
 - raw: "万宗"
   splits:
   - text: "万宗"
-- raw: "人物装备"
-  splits:
-  - text: "人物装备"
-- raw: "成长"
-  splits:
-  - text: "成长"
-- raw: "快捷物品"
-  splits:
-  - text: "快捷物品"
-- raw: "称号："
-  splits:
-  - text: "称号："
-- raw: "门派："
-  splits:
-  - text: "门派："
-- raw: "武当掌门"
-  splits:
-  - text: "武当掌门"
-- raw: "此人为江湖中有名的大侠，出生贫寒，却级发发发焚烧发电顺丰到vxcvxcvfsfdsfsf"
-  splits:
-  - text: "此人为江湖中有名的大侠，出生贫寒，却级发发发焚烧发电顺丰到vxcvxcvfsfdsfsf"
-- raw: "人物五行"
-  splits:
-  - text: "人物五行"
-- raw: "自身天赋"
-  splits:
-  - text: "自身天赋"
-- raw: "角色先天情商值增加50点，同时获得"
-  splits:
-  - text: "角色先天情商值增加50点，同时获得"
-- raw: "武器 / 宝物"
-  splits:
-  - text: "武器 / 宝物"
-- raw: "降渊恒力·流火长阵"
-  splits:
-  - text: "降渊恒力·流火长阵"
-- raw: "防具"
-  splits:
-  - text: "防具"
-- raw: "武器宝物预设"
-  splits:
-  - text: "武器宝物预设"
-- raw: "返回装备"
-  splits:
-  - text: "返回装备"
-- raw: "玄机"
-  splits:
-  - text: "玄机"
-- raw: "<color=#7e8184>等级</color> 1"
-  splits:
-  - text: "<color=#7e8184>等级</color> 1"
-- raw: "快捷栏一"
-  splits:
-  - text: "快捷栏一"
-- raw: "快捷栏二"
-  splits:
-  - text: "快捷栏二"
-- raw: "快捷栏三"
-  splits:
-  - text: "快捷栏三"
-- raw: "快捷栏四"
-  splits:
-  - text: "快捷栏四"
-- raw: "李红华"
-  splits:
-  - text: "李红华"
 - raw: "修为"
   splits:
   - text: "修为"
 - raw: "15.2万"
   splits:
   - text: "15.2万"
+- raw: "我的关系"
+  splits:
+  - text: "我的关系"
 - raw: "刘备"
   splits:
   - text: "刘备"
@@ -4507,6 +3418,9 @@
 - raw: "辩力"
   splits:
   - text: "辩力"
+- raw: "玄机"
+  splits:
+  - text: "玄机"
 - raw: "全神贯注"
   splits:
   - text: "全神贯注"
@@ -4768,6 +3682,9 @@
 - raw: "大萨达撒多撒但是 的的的"
   splits:
   - text: "大萨达撒多撒但是 的的的"
+- raw: "委托"
+  splits:
+  - text: "委托"
 - raw: "江湖故事"
   splits:
   - text: "江湖故事"
@@ -4802,6 +3719,9 @@
 - raw: "进入编辑模式"
   splits:
   - text: "进入编辑模式"
+- raw: "保存"
+  splits:
+  - text: "保存"
 - raw: "新建"
   splits:
   - text: "新建"
@@ -4838,6 +3758,9 @@
 - raw: "斩仙剑"
   splits:
   - text: "斩仙剑"
+- raw: "神品级"
+  splits:
+  - text: "神品级"
 - raw: "完美"
   splits:
   - text: "完美"
@@ -4889,6 +3812,12 @@
 - raw: "铜钱："
   splits:
   - text: "铜钱："
+- raw: "修为："
+  splits:
+  - text: "修为："
+- raw: "感悟："
+  splits:
+  - text: "感悟："
 - raw: "轻功值："
   splits:
   - text: "轻功值："
@@ -4913,6 +3842,9 @@
 - raw: "背包"
   splits:
   - text: "背包"
+- raw: "技能"
+  splits:
+  - text: "技能"
 - raw: "传闻"
   splits:
   - text: "传闻"
@@ -4925,6 +3857,12 @@
 - raw: "读档"
   splits:
   - text: "读档"
+- raw: "无情刀客"
+  splits:
+  - text: "无情刀客"
+- raw: "称号："
+  splits:
+  - text: "称号："
 - raw: "精力"
   splits:
   - text: "精力"
@@ -5006,6 +3944,9 @@
 - raw: "功体"
   splits:
   - text: "功体"
+- raw: "处决"
+  splits:
+  - text: "处决"
 - raw: "视距X1"
   splits:
   - text: "视距X1"
@@ -5081,12 +4022,18 @@
 - raw: "轻功水上漂"
   splits:
   - text: "轻功水上漂"
-- raw: "处决"
+- raw: "快速读档"
   splits:
-  - text: "处决"
+  - text: "快速读档"
+- raw: "英雄谱"
+  splits:
+  - text: "英雄谱"
 - raw: "返回菜单"
   splits:
   - text: "返回菜单"
+- raw: "不夜京"
+  splits:
+  - text: "不夜京"
 - raw: "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
   splits:
   - text: "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
@@ -5237,72 +4184,15 @@
 - raw: "该区域未优化完成，若加入，\\n不能拥有完整体验。"
   splits:
   - text: "该区域未优化完成，若加入，\\n不能拥有完整体验。"
-- raw: "刀者打啊"
-  splits:
-  - text: "刀者打啊"
 - raw: "李聪明"
   splits:
   - text: "李聪明"
-- raw: "刀者"
+- raw: "尚未知晓"
   splits:
-  - text: "刀者"
+  - text: "尚未知晓"
 - raw: "进入"
   splits:
   - text: "进入"
-- raw: "一舵"
-  splits:
-  - text: "一舵"
-- raw: "外门弟子"
-  splits:
-  - text: "外门弟子"
-- raw: "分舵"
-  splits:
-  - text: "分舵"
-- raw: "忠诚"
-  splits:
-  - text: "忠诚"
-- raw: "剑术"
-  splits:
-  - text: "剑术"
-- raw: "枪棍"
-  splits:
-  - text: "枪棍"
-- raw: "搏击"
-  splits:
-  - text: "搏击"
-- raw: "兵道"
-  splits:
-  - text: "兵道"
-- raw: "决定"
-  splits:
-  - text: "决定"
-- raw: "在野"
-  splits:
-  - text: "在野"
-- raw: "3日后"
-  splits:
-  - text: "3日后"
-- raw: "确认选择"
-  splits:
-  - text: "确认选择"
-- raw: " 纳贤"
-  splits:
-  - text: " 纳贤"
-- raw: "出发地"
-  splits:
-  - text: "出发地"
-- raw: "日期"
-  splits:
-  - text: "日期"
-- raw: "目的地"
-  splits:
-  - text: "目的地"
-- raw: "期限"
-  splits:
-  - text: "期限"
-- raw: "目标"
-  splits:
-  - text: "目标"
 - raw: "当前位置：罗刹国"
   splits:
   - text: "当前位置：罗刹国"
@@ -5384,6 +4274,9 @@
 - raw: "品质耗材说明\\n越高品阶的材料，数量越多，提升对应产出品质概率越高"
   splits:
   - text: "品质耗材说明\\n越高品阶的材料，数量越多，提升对应产出品质概率越高"
+- raw: "嵩山派"
+  splits:
+  - text: "嵩山派"
 - raw: "持有太初剑宗令牌："
   splits:
   - text: "持有太初剑宗令牌："
@@ -5456,21 +4349,336 @@
 - raw: "购买数量"
   splits:
   - text: "购买数量"
-- raw: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
+- raw: "任务执行"
   splits:
-  - text: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
-- raw: "双修府"
+  - text: "任务执行"
+- raw: "天工"
   splits:
-  - text: "双修府"
+  - text: "天工"
+- raw: "执行中：3日后"
+  splits:
+  - text: "执行中：3日后"
+- raw: " 纳贤"
+  splits:
+  - text: " 纳贤"
+- raw: "出发地"
+  splits:
+  - text: "出发地"
+- raw: "目的地"
+  splits:
+  - text: "目的地"
+- raw: "期限"
+  splits:
+  - text: "期限"
+- raw: "日期"
+  splits:
+  - text: "日期"
+- raw: "目标"
+  splits:
+  - text: "目标"
+- raw: "资源"
+  splits:
+  - text: "资源"
 - raw: "安定"
   splits:
   - text: "安定"
-- raw: "59.1万/60.0万"
+- raw: "成员"
   splits:
-  - text: "59.1万/60.0万"
+  - text: "成员"
+- raw: "离派"
+  splits:
+  - text: "离派"
+- raw: "双修府"
+  splits:
+  - text: "双修府"
+- raw: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
+  splits:
+  - text: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
+- raw: "靖延四十年八月"
+  splits:
+  - text: "靖延四十年八月"
+- raw: "贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。"
+  splits:
+  - text: "贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。"
+- raw: "创始人"
+  splits:
+  - text: "创始人"
+- raw: "掌门 "
+  splits:
+  - text: "掌门 "
+- raw: "副掌门 "
+  splits:
+  - text: "副掌门 "
+- raw: "护法"
+  splits:
+  - text: "护法"
+- raw: "长老"
+  splits:
+  - text: "长老"
+- raw: "堂主"
+  splits:
+  - text: "堂主"
+- raw: "关门弟子"
+  splits:
+  - text: "关门弟子"
+- raw: " 外门弟子"
+  splits:
+  - text: " 外门弟子"
+- raw: "替换"
+  splits:
+  - text: "替换"
+- raw: "卸任"
+  splits:
+  - text: "卸任"
+- raw: "聚贤堂"
+  splits:
+  - text: "聚贤堂"
+- raw: "建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述"
+  splits:
+  - text: "建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述"
+- raw: "成为掌门后方可进入"
+  splits:
+  - text: "成为掌门后方可进入"
+- raw: "总产出:"
+  splits:
+  - text: "总产出:"
+- raw: "十日收入:"
+  splits:
+  - text: "十日收入:"
+- raw: "升级条件"
+  splits:
+  - text: "升级条件"
+- raw: "云宵殿:"
+  splits:
+  - text: "云宵殿:"
+- raw: "10级/10级"
+  splits:
+  - text: "10级/10级"
 - raw: "升级"
   splits:
   - text: "升级"
+- raw: "目标门人"
+  splits:
+  - text: "目标门人"
+- raw: "暂无"
+  splits:
+  - text: "暂无"
+- raw: "忠诚"
+  splits:
+  - text: "忠诚"
+- raw: "俸禄"
+  splits:
+  - text: "俸禄"
+- raw: "势力"
+  splits:
+  - text: "势力"
+- raw: "太初剑"
+  splits:
+  - text: "太初剑"
+- raw: "所属"
+  splits:
+  - text: "所属"
+- raw: "太初"
+  splits:
+  - text: "太初"
+- raw: "执行门人"
+  splits:
+  - text: "执行门人"
+- raw: "功绩"
+  splits:
+  - text: "功绩"
+- raw: "风雪侠"
+  splits:
+  - text: "风雪侠"
+- raw: "（我认为）"
+  splits:
+  - text: "（我认为）"
+- raw: "决定"
+  splits:
+  - text: "决定"
+- raw: "职位："
+  splits:
+  - text: "职位："
+- raw: "外门弟子"
+  splits:
+  - text: "外门弟子"
+- raw: "当前评价："
+  splits:
+  - text: "当前评价："
+- raw: "良好"
+  splits:
+  - text: "良好"
+- raw: "评级分"
+  splits:
+  - text: "评级分"
+- raw: "完成任意5个任务即可获得最高俸禄"
+  splits:
+  - text: "完成任意5个任务即可获得最高俸禄"
+- raw: "发展科技"
+  splits:
+  - text: "发展科技"
+- raw: "提升门派"
+  splits:
+  - text: "提升门派"
+- raw: "接取"
+  splits:
+  - text: "接取"
+- raw: "可完成"
+  splits:
+  - text: "可完成"
+- raw: "当前俸禄"
+  splits:
+  - text: "当前俸禄"
+- raw: "执行势力"
+  splits:
+  - text: "执行势力"
+- raw: "浣溪城"
+  splits:
+  - text: "浣溪城"
+- raw: "2级"
+  splits:
+  - text: "2级"
+- raw: "距离下次设施扩建"
+  splits:
+  - text: "距离下次设施扩建"
+- raw: "作业目标"
+  splits:
+  - text: "作业目标"
+- raw: "追加功绩"
+  splits:
+  - text: "追加功绩"
+- raw: "成果"
+  splits:
+  - text: "成果"
+- raw: "获得功绩"
+  splits:
+  - text: "获得功绩"
+- raw: "110日后"
+  splits:
+  - text: "110日后"
+- raw: "化境卷"
+  splits:
+  - text: "化境卷"
+- raw: "提升坊堂等级后方可打造,当前最大打造等级：5"
+  splits:
+  - text: "提升坊堂等级后方可打造,当前最大打造等级：5"
+- raw: "提升藏宝阁等级后方可交换,当前最大交换等级：5"
+  splits:
+  - text: "提升藏宝阁等级后方可交换,当前最大交换等级：5"
+- raw: "出售"
+  splits:
+  - text: "出售"
+- raw: "出征地:"
+  splits:
+  - text: "出征地:"
+- raw: "炉火纯青"
+  splits:
+  - text: "炉火纯青"
+- raw: "编队"
+  splits:
+  - text: "编队"
+- raw: "李小青"
+  splits:
+  - text: "李小青"
+- raw: "主动招式"
+  splits:
+  - text: "主动招式"
+- raw: "秘技秘法"
+  splits:
+  - text: "秘技秘法"
+- raw: "千山雪"
+  splits:
+  - text: "千山雪"
+- raw: "剑·招式"
+  splits:
+  - text: "剑·招式"
+- raw: "出征"
+  splits:
+  - text: "出征"
+- raw: "分舵"
+  splits:
+  - text: "分舵"
+- raw: "剑术"
+  splits:
+  - text: "剑术"
+- raw: "刀法"
+  splits:
+  - text: "刀法"
+- raw: "枪棍"
+  splits:
+  - text: "枪棍"
+- raw: "搏击"
+  splits:
+  - text: "搏击"
+- raw: "兵道"
+  splits:
+  - text: "兵道"
+- raw: "一舵"
+  splits:
+  - text: "一舵"
+- raw: "城池"
+  splits:
+  - text: "城池"
+- raw: "青龙靴"
+  splits:
+  - text: "青龙靴"
+- raw: "穿堂风"
+  splits:
+  - text: "穿堂风"
+- raw: " 四野"
+  splits:
+  - text: " 四野"
+- raw: " 穿堂风"
+  splits:
+  - text: " 穿堂风"
+- raw: "金钱：1000\\n矿石：2000\\n草药：500"
+  splits:
+  - text: "金钱：1000\\n矿石：2000\\n草药：500"
+- raw: "拯救礼堂弟子"
+  splits:
+  - text: "拯救礼堂弟子"
+- raw: "弟子切磋"
+  splits:
+  - text: "弟子切磋"
+- raw: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
+  splits:
+  - text: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
+- raw: "距离完成时间："
+  splits:
+  - text: "距离完成时间："
+- raw: "靖延四十年十一月八日戌时"
+  splits:
+  - text: "靖延四十年十一月八日戌时"
+- raw: "派遣"
+  splits:
+  - text: "派遣"
+- raw: "本门派"
+  splits:
+  - text: "本门派"
+- raw: "子门派"
+  splits:
+  - text: "子门派"
+- raw: "云海逸"
+  splits:
+  - text: "云海逸"
+- raw: "副掌门"
+  splits:
+  - text: "副掌门"
+- raw: "查看信息"
+  splits:
+  - text: "查看信息"
+- raw: "任命"
+  splits:
+  - text: "任命"
+- raw: "驱逐"
+  splits:
+  - text: "驱逐"
+- raw: "华山派"
+  splits:
+  - text: "华山派"
+- raw: "    以奇险峻秀闻名于天下，素有“奇险天下第一山”之称"
+  splits:
+  - text: "    以奇险峻秀闻名于天下，素有“奇险天下第一山”之称"
 - raw: "天工坊"
   splits:
   - text: "天工坊"
@@ -5486,9 +4694,6 @@
 - raw: "云霄殿"
   splits:
   - text: "云霄殿"
-- raw: "演武室"
-  splits:
-  - text: "演武室"
 - raw: "任务分配"
   splits:
   - text: "任务分配"
@@ -5498,30 +4703,15 @@
 - raw: "退出门派"
   splits:
   - text: "退出门派"
-- raw: "拯救礼堂弟子"
+- raw: "演武室"
   splits:
-  - text: "拯救礼堂弟子"
-- raw: "可完成"
+  - text: "演武室"
+- raw: "在野"
   splits:
-  - text: "可完成"
-- raw: "弟子切磋"
+  - text: "在野"
+- raw: "3日后"
   splits:
-  - text: "弟子切磋"
-- raw: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
-  splits:
-  - text: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
-- raw: "派遣"
-  splits:
-  - text: "派遣"
-- raw: "距离完成时间："
-  splits:
-  - text: "距离完成时间："
-- raw: "靖延四十年十一月八日戌时"
-  splits:
-  - text: "靖延四十年十一月八日戌时"
-- raw: " 穿堂风"
-  splits:
-  - text: " 穿堂风"
+  - text: "3日后"
 - raw: "掌门"
   splits:
   - text: "掌门"
@@ -5543,12 +4733,6 @@
 - raw: "宗门传承"
   splits:
   - text: "宗门传承"
-- raw: "提升藏宝阁等级后方可交换,当前最大交换等级：5"
-  splits:
-  - text: "提升藏宝阁等级后方可交换,当前最大交换等级：5"
-- raw: "出售"
-  splits:
-  - text: "出售"
 - raw: "天工巧匠"
   splits:
   - text: "天工巧匠"
@@ -5564,21 +4748,6 @@
 - raw: "未的的配方"
   splits:
   - text: "未的的配方"
-- raw: "青龙靴"
-  splits:
-  - text: "青龙靴"
-- raw: "提升坊堂等级后方可打造,当前最大打造等级：5"
-  splits:
-  - text: "提升坊堂等级后方可打造,当前最大打造等级：5"
-- raw: "穿堂风"
-  splits:
-  - text: "穿堂风"
-- raw: " 四野"
-  splits:
-  - text: " 四野"
-- raw: "金钱：1000\\n矿石：2000\\n草药：500"
-  splits:
-  - text: "金钱：1000\\n矿石：2000\\n草药：500"
 - raw: "当前人数：20"
   splits:
   - text: "当前人数：20"
@@ -5618,15 +4787,18 @@
 - raw: "内防  4520"
   splits:
   - text: "内防  4520"
+- raw: "招式"
+  splits:
+  - text: "招式"
 - raw: "秘技"
   splits:
   - text: "秘技"
-- raw: "千山雪"
+- raw: "冷却中"
   splits:
-  - text: "千山雪"
-- raw: "剑·招式"
+  - text: "冷却中"
+- raw: "鬼眼来决"
   splits:
-  - text: "剑·招式"
+  - text: "鬼眼来决"
 - raw: "解锁"
   splits:
   - text: "解锁"
@@ -5645,6 +4817,9 @@
 - raw: "套路-拳"
   splits:
   - text: "套路-拳"
+- raw: "刀者"
+  splits:
+  - text: "刀者"
 - raw: "补充兵力"
   splits:
   - text: "补充兵力"
@@ -5663,21 +4838,9 @@
 - raw: " 装备"
   splits:
   - text: " 装备"
-- raw: "刀者刀者"
-  splits:
-  - text: "刀者刀者"
-- raw: "编队"
-  splits:
-  - text: "编队"
-- raw: "出征"
-  splits:
-  - text: "出征"
 - raw: "出征地"
   splits:
   - text: "出征地"
-- raw: "浣溪城"
-  splits:
-  - text: "浣溪城"
 - raw: "我方士气"
   splits:
   - text: "我方士气"
@@ -5690,12 +4853,6 @@
 - raw: "跟随"
   splits:
   - text: "跟随"
-- raw: "势力"
-  splits:
-  - text: "势力"
-- raw: "城池"
-  splits:
-  - text: "城池"
 - raw: "增筑"
   splits:
   - text: "增筑"
@@ -5711,36 +4868,6 @@
 - raw: "广收弟子"
   splits:
   - text: "广收弟子"
-- raw: "风雪侠"
-  splits:
-  - text: "风雪侠"
-- raw: "（我认为）"
-  splits:
-  - text: "（我认为）"
-- raw: "目标门人"
-  splits:
-  - text: "目标门人"
-- raw: "暂无"
-  splits:
-  - text: "暂无"
-- raw: "俸禄"
-  splits:
-  - text: "俸禄"
-- raw: "所属"
-  splits:
-  - text: "所属"
-- raw: "太初剑"
-  splits:
-  - text: "太初剑"
-- raw: "太初"
-  splits:
-  - text: "太初"
-- raw: "执行门人"
-  splits:
-  - text: "执行门人"
-- raw: "功绩"
-  splits:
-  - text: "功绩"
 - raw: "发展商业"
   splits:
   - text: "发展商业"
@@ -5759,174 +4886,18 @@
 - raw: "宣扬名声"
   splits:
   - text: "宣扬名声"
-- raw: "职位："
-  splits:
-  - text: "职位："
 - raw: "功绩："
   splits:
   - text: "功绩："
-- raw: "当前评价："
-  splits:
-  - text: "当前评价："
-- raw: "良好"
-  splits:
-  - text: "良好"
-- raw: "评级分"
-  splits:
-  - text: "评级分"
-- raw: "完成任意5个任务即可获得最高俸禄"
-  splits:
-  - text: "完成任意5个任务即可获得最高俸禄"
-- raw: "发展科技"
-  splits:
-  - text: "发展科技"
-- raw: "提升门派"
-  splits:
-  - text: "提升门派"
-- raw: "接取"
-  splits:
-  - text: "接取"
-- raw: "当前俸禄"
-  splits:
-  - text: "当前俸禄"
-- raw: "执行势力"
-  splits:
-  - text: "执行势力"
-- raw: "作业目标"
-  splits:
-  - text: "作业目标"
-- raw: "距离下次设施扩建"
-  splits:
-  - text: "距离下次设施扩建"
-- raw: "追加功绩"
-  splits:
-  - text: "追加功绩"
-- raw: "2级"
-  splits:
-  - text: "2级"
-- raw: "成果"
-  splits:
-  - text: "成果"
-- raw: "获得功绩"
-  splits:
-  - text: "获得功绩"
-- raw: "110日后"
-  splits:
-  - text: "110日后"
-- raw: "靖延四十年八月"
-  splits:
-  - text: "靖延四十年八月"
-- raw: "贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。"
-  splits:
-  - text: "贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。贤堂任务完成，奖励1000门派贡献。"
-- raw: "掌门 "
-  splits:
-  - text: "掌门 "
-- raw: "创始人"
-  splits:
-  - text: "创始人"
-- raw: "卸任"
-  splits:
-  - text: "卸任"
-- raw: "副掌门 "
-  splits:
-  - text: "副掌门 "
-- raw: "护法"
-  splits:
-  - text: "护法"
-- raw: "长老"
-  splits:
-  - text: "长老"
-- raw: "堂主"
-  splits:
-  - text: "堂主"
-- raw: "关门弟子"
-  splits:
-  - text: "关门弟子"
-- raw: "聚贤堂"
-  splits:
-  - text: "聚贤堂"
-- raw: "建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述"
-  splits:
-  - text: "建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述建筑描述"
-- raw: "升级消耗"
-  splits:
-  - text: "升级消耗"
-- raw: "人数：\\n礼堂："
-  splits:
-  - text: "人数：\\n礼堂："
-- raw: "升级条件"
-  splits:
-  - text: "升级条件"
-- raw: "总产出:"
-  splits:
-  - text: "总产出:"
-- raw: "十日收入:"
-  splits:
-  - text: "十日收入:"
-- raw: "收入："
-  splits:
-  - text: "收入："
-- raw: "400/十天"
-  splits:
-  - text: "400/十天"
-- raw: "云海逸"
-  splits:
-  - text: "云海逸"
-- raw: "副掌门"
-  splits:
-  - text: "副掌门"
 - raw: "特质：财源滚滚\\n效果：获得金钱增加200%"
   splits:
   - text: "特质：财源滚滚\\n效果：获得金钱增加200%"
-- raw: "查看信息"
-  splits:
-  - text: "查看信息"
-- raw: "任命"
-  splits:
-  - text: "任命"
-- raw: "驱逐"
-  splits:
-  - text: "驱逐"
-- raw: "成员"
-  splits:
-  - text: "成员"
-- raw: "离派"
-  splits:
-  - text: "离派"
-- raw: "隐藏资源"
-  splits:
-  - text: "隐藏资源"
-- raw: "任务执行"
-  splits:
-  - text: "任务执行"
-- raw: "天工"
-  splits:
-  - text: "天工"
-- raw: "主动招式"
-  splits:
-  - text: "主动招式"
-- raw: "秘技秘法"
-  splits:
-  - text: "秘技秘法"
-- raw: "替换"
-  splits:
-  - text: "替换"
-- raw: "建筑收益"
-  splits:
-  - text: "建筑收益"
-- raw: "成员列表"
-  splits:
-  - text: "成员列表"
-- raw: "华山派"
-  splits:
-  - text: "华山派"
-- raw: "    以奇险峻秀闻名于天下，素有“奇险天下第一山”之称"
-  splits:
-  - text: "    以奇险峻秀闻名于天下，素有“奇险天下第一山”之称"
 - raw: "大殿"
   splits:
   - text: "大殿"
+- raw: "升级消耗"
+  splits:
+  - text: "升级消耗"
 - raw: "下一级升级条件"
   splits:
   - text: "下一级升级条件"
@@ -5999,12 +4970,33 @@
 - raw: "前方凶险，请少侠做好万全准备"
   splits:
   - text: "前方凶险，请少侠做好万全准备"
+- raw: "心法选择"
+  splits:
+  - text: "心法选择"
+- raw: "心法："
+  splits:
+  - text: "心法："
+- raw: "徒手画铁"
+  splits:
+  - text: "徒手画铁"
 - raw: "心法属性：<color=#9a9a9a>根据选择的秘法，随机附加秘法附带的属性</color>"
   splits:
   - text: "心法属性：<color=#9a9a9a>根据选择的秘法，随机附加秘法附带的属性</color>"
+- raw: "化解霸王心："
+  splits:
+  - text: "化解霸王心："
+- raw: "为自身添加一个驱散效果。攻击时附带霸体效果，且攻击力提升100点。"
+  splits:
+  - text: "为自身添加一个驱散效果。攻击时附带霸体效果，且攻击力提升100点。"
+- raw: "入门"
+  splits:
+  - text: "入门"
 - raw: "激活条件"
   splits:
   - text: "激活条件"
+- raw: "经脉：任脉"
+  splits:
+  - text: "经脉：任脉"
 - raw: "(未打通)"
   splits:
   - text: "(未打通)"
@@ -6038,6 +5030,12 @@
 - raw: "一无归元剑"
   splits:
   - text: "一无归元剑"
+- raw: "生命"
+  splits:
+  - text: "生命"
+- raw: "调息"
+  splits:
+  - text: "调息"
 - raw: "战斗中功法自行运行的能力"
   splits:
   - text: "战斗中功法自行运行的能力"
@@ -6053,6 +5051,9 @@
 - raw: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
   splits:
   - text: "非师范生的方法第三方发送到发撒的发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬发斯蒂芬斯蒂芬"
+- raw: "运功"
+  splits:
+  - text: "运功"
 - raw: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
   splits:
   - text: "清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态清除自己点穴状态状态清除自己点穴状态清除自己点穴"
@@ -6068,6 +5069,9 @@
 - raw: "冲击会阴穴可获得强化属性"
   splits:
   - text: "冲击会阴穴可获得强化属性"
+- raw: "基础属性"
+  splits:
+  - text: "基础属性"
 - raw: "外攻伤害"
   splits:
   - text: "外攻伤害"
@@ -6149,6 +5153,9 @@
 - raw: "熟练"
   splits:
   - text: "熟练"
+- raw: "精通"
+  splits:
+  - text: "精通"
 - raw: "提升后获得新属性"
   splits:
   - text: "提升后获得新属性"
@@ -6359,6 +5366,9 @@
 - raw: "信息"
   splits:
   - text: "信息"
+- raw: "配饰"
+  splits:
+  - text: "配饰"
 - raw: "外攻  510"
   splits:
   - text: "外攻  510"
@@ -6380,6 +5390,72 @@
 - raw: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
   splits:
   - text: "查看背包需提升与该角色好感\\n武功高强者亦能直接探查虚实"
+- raw: "母亲"
+  splits:
+  - text: "母亲"
+- raw: "亲人"
+  splits:
+  - text: "亲人"
+- raw: "生死之交"
+  splits:
+  - text: "生死之交"
+- raw: "萍水相逢"
+  splits:
+  - text: "萍水相逢"
+- raw: "永历年."
+  splits:
+  - text: "永历年."
+- raw: "十二月."
+  splits:
+  - text: "十二月."
+- raw: "成长"
+  splits:
+  - text: "成长"
+- raw: "师徒"
+  splits:
+  - text: "师徒"
+- raw: "结交"
+  splits:
+  - text: "结交"
+- raw: "结仇"
+  splits:
+  - text: "结仇"
+- raw: "相识"
+  splits:
+  - text: "相识"
+- raw: "结义"
+  splits:
+  - text: "结义"
+- raw: "阅读"
+  splits:
+  - text: "阅读"
+- raw: "突破"
+  splits:
+  - text: "突破"
+- raw: "上限"
+  splits:
+  - text: "上限"
+- raw: "互动"
+  splits:
+  - text: "互动"
+- raw: "击败"
+  splits:
+  - text: "击败"
+- raw: "采集"
+  splits:
+  - text: "采集"
+- raw: "帮助"
+  splits:
+  - text: "帮助"
+- raw: "切磋"
+  splits:
+  - text: "切磋"
+- raw: "决斗"
+  splits:
+  - text: "决斗"
+- raw: "八月"
+  splits:
+  - text: "八月"
 - raw: "秘传绝技"
   splits:
   - text: "秘传绝技"
@@ -6401,9 +5477,15 @@
 - raw: "紫气"
   splits:
   - text: "紫气"
+- raw: "外攻"
+  splits:
+  - text: "外攻"
 - raw: "心法攻体"
   splits:
   - text: "心法攻体"
+- raw: "战斗中功体自动运行的效果"
+  splits:
+  - text: "战斗中功体自动运行的效果"
 - raw: "每秒恢复自身100的气血，26点真气"
   splits:
   - text: "每秒恢复自身100的气血，26点真气"
@@ -6413,21 +5495,111 @@
 - raw: "风雪凌霜，万籁俱静，通过琴音的力量"
   splits:
   - text: "风雪凌霜，万籁俱静，通过琴音的力量"
+- raw: "流派"
+  splits:
+  - text: "流派"
+- raw: "万家剑法 "
+  splits:
+  - text: "万家剑法 "
+- raw: "亢龙有悔"
+  splits:
+  - text: "亢龙有悔"
+- raw: "水到渠成"
+  splits:
+  - text: "水到渠成"
+- raw: "偷梁换柱"
+  splits:
+  - text: "偷梁换柱"
+- raw: "天赋"
+  splits:
+  - text: "天赋"
+- raw: "小"
+  splits:
+  - text: "小"
+- raw: "乱世枭雄"
+  splits:
+  - text: "乱世枭雄"
+- raw: "势力：燕国"
+  splits:
+  - text: "势力：燕国"
+- raw: "身份：不详"
+  splits:
+  - text: "身份：不详"
+- raw: "好感：陌路不识"
+  splits:
+  - text: "好感：陌路不识"
+- raw: "情分：0"
+  splits:
+  - text: "情分：0"
+- raw: "精力：100"
+  splits:
+  - text: "精力：100"
+- raw: "基本信息"
+  splits:
+  - text: "基本信息"
+- raw: "实力："
+  splits:
+  - text: "实力："
+- raw: "生平："
+  splits:
+  - text: "生平："
+- raw: "原为楚国秦世家小女，饱受宠爱"
+  splits:
+  - text: "原为楚国秦世家小女，饱受宠爱"
+- raw: "特质"
+  splits:
+  - text: "特质"
+- raw: "对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对"
+  splits:
+  - text: "对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对对"
+- raw: "万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法"
+  splits:
+  - text: "万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法万家剑法"
+- raw: "万家剑法"
+  splits:
+  - text: "万家剑法"
+- raw: "性别：女"
+  splits:
+  - text: "性别：女"
+- raw: "兴趣：乐器"
+  splits:
+  - text: "兴趣：乐器"
 - raw: "人物详情"
   splits:
   - text: "人物详情"
 - raw: "神药王"
   splits:
   - text: "神药王"
+- raw: "此人实力："
+  splits:
+  - text: "此人实力："
+- raw: "武器 / 宝物"
+  splits:
+  - text: "武器 / 宝物"
+- raw: "防具"
+  splits:
+  - text: "防具"
 - raw: "阴  37"
   splits:
   - text: "阴  37"
+- raw: "永历年.十二月."
+  splits:
+  - text: "永历年.十二月."
 - raw: "时间:"
   splits:
   - text: "时间:"
 - raw: "六月"
   splits:
   - text: "六月"
+- raw: "关系："
+  splits:
+  - text: "关系："
+- raw: "成长："
+  splits:
+  - text: "成长："
+- raw: "事件："
+  splits:
+  - text: "事件："
 - raw: "筛选经历"
   splits:
   - text: "筛选经历"
@@ -6512,6 +5684,9 @@
 - raw: "角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性"
   splits:
   - text: "角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性角色属性"
+- raw: "角色天赋"
+  splits:
+  - text: "角色天赋"
 - raw: "一代宗师一代宗师一代宗师一代宗师一代宗师一代宗师"
   splits:
   - text: "一代宗师一代宗师一代宗师一代宗师一代宗师一代宗师"
@@ -6548,6 +5723,18 @@
 - raw: "村头王大妈"
   splits:
   - text: "村头王大妈"
+- raw: "永历"
+  splits:
+  - text: "永历"
+- raw: "辛亥"
+  splits:
+  - text: "辛亥"
+- raw: "六"
+  splits:
+  - text: "六"
+- raw: "十二"
+  splits:
+  - text: "十二"
 - raw: "人物经历"
   splits:
   - text: "人物经历"
@@ -6590,6 +5777,9 @@
 - raw: "亲传"
   splits:
   - text: "亲传"
+- raw: "解锁条件"
+  splits:
+  - text: "解锁条件"
 - raw: "两派好感达到"
   splits:
   - text: "两派好感达到"
@@ -6665,6 +5855,9 @@
 - raw: "踏雪无痕"
   splits:
   - text: "踏雪无痕"
+- raw: "提升"
+  splits:
+  - text: "提升"
 - raw: "移动速度："
   splits:
   - text: "移动速度："
@@ -7133,6 +6326,12 @@
 - raw: "隐藏伤害/技能cd/效果提示"
   splits:
   - text: "隐藏伤害/技能cd/效果提示"
+- raw: "npc显示距离(调整距离会影响性能)"
+  splits:
+  - text: "npc显示距离(调整距离会影响性能)"
+- raw: "近中远"
+  splits:
+  - text: "近中远"
 - raw: "返回游戏"
   splits:
   - text: "返回游戏"
@@ -7151,6 +6350,9 @@
 - raw: "资源缓存"
   splits:
   - text: "资源缓存"
+- raw: "开启"
+  splits:
+  - text: "开启"
 - raw: "鼠标灵敏度"
   splits:
   - text: "鼠标灵敏度"
@@ -7244,6 +6446,12 @@
 - raw: "系统"
   splits:
   - text: "系统"
+- raw: "时装"
+  splits:
+  - text: "时装"
+- raw: "特效"
+  splits:
+  - text: "特效"
 - raw: "技能特效"
   splits:
   - text: "技能特效"
@@ -7289,6 +6497,9 @@
 - raw: "输入兑换码可兑换奖励，\\n兑换成功后奖励将自动发放到账号内"
   splits:
   - text: "输入兑换码可兑换奖励，\\n兑换成功后奖励将自动发放到账号内"
+- raw: "激活"
+  splits:
+  - text: "激活"
 - raw: "当前云账号：1232132132132132132"
   splits:
   - text: "当前云账号：1232132132132132132"
@@ -7343,6 +6554,9 @@
 - raw: "批量操作"
   splits:
   - text: "批量操作"
+- raw: "一键全选"
+  splits:
+  - text: "一键全选"
 - raw: "已持有:48000"
   splits:
   - text: "已持有:48000"
@@ -7505,9 +6719,6 @@
 - raw: "程耀师"
   splits:
   - text: "程耀师"
-- raw: "尚未知晓"
-  splits:
-  - text: "尚未知晓"
 - raw: "点击右下角按钮"
   splits:
   - text: "点击右下角按钮"
@@ -7520,12 +6731,24 @@
 - raw: "剑宗"
   splits:
   - text: "剑宗"
-- raw: "快捷使用道具"
-  splits:
-  - text: "快捷使用道具"
 - raw: "输入需要查找信息..."
   splits:
   - text: "输入需要查找信息..."
+- raw: "太极心法"
+  splits:
+  - text: "太极心法"
+- raw: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
+  splits:
+  - text: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
+- raw: "技能说明"
+  splits:
+  - text: "技能说明"
+- raw: "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+  splits:
+  - text: "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+- raw: "特技效果"
+  splits:
+  - text: "特技效果"
 - raw: "朝廷国宝"
   splits:
   - text: "朝廷国宝"
@@ -7970,6 +7193,9 @@
 - raw: "查看奖励"
   splits:
   - text: "查看奖励"
+- raw: "李红华"
+  splits:
+  - text: "李红华"
 - raw: "获胜奖励"
   splits:
   - text: "获胜奖励"
@@ -7982,15 +7208,45 @@
 - raw: "三等奖："
   splits:
   - text: "三等奖："
-- raw: "无双斗技坛"
-  splits:
-  - text: "无双斗技坛"
 - raw: "剩余："
   splits:
   - text: "剩余："
-- raw: "主将-无名无名"
+- raw: "无双斗技坛"
   splits:
-  - text: "主将-无名无名"
+  - text: "无双斗技坛"
+- raw: "无名无名"
+  splits:
+  - text: "无名无名"
+- raw: "妖月宗"
+  splits:
+  - text: "妖月宗"
+- raw: "好感度："
+  splits:
+  - text: "好感度："
+- raw: "门派善用兵器："
+  splits:
+  - text: "门派善用兵器："
+- raw: "刀，枪"
+  splits:
+  - text: "刀，枪"
+- raw: "门派擅长特性："
+  splits:
+  - text: "门派擅长特性："
+- raw: "门派背景："
+  splits:
+  - text: "门派背景："
+- raw: "妖月之山，以月为伴，有沉鱼落雁之姿，然后"
+  splits:
+  - text: "妖月之山，以月为伴，有沉鱼落雁之姿，然后"
+- raw: "嵩山派，明教"
+  splits:
+  - text: "嵩山派，明教"
+- raw: "不万能风"
+  splits:
+  - text: "不万能风"
+- raw: "兴趣：乐器\\n"
+  splits:
+  - text: "兴趣：乐器\\n"
 - raw: "对敌方造成50点伤害，并击退50米距离。并且攻击对方灵魂，使敌人丢失60点真气"
   splits:
   - text: "对敌方造成50点伤害，并击退50米距离。并且攻击对方灵魂，使敌人丢失60点真气"
@@ -8096,6 +7352,300 @@
 - raw: "简介"
   splits:
   - text: "简介"
+- raw: "修为：10000"
+  splits:
+  - text: "修为：10000"
+- raw: "感悟：10000"
+  splits:
+  - text: "感悟：10000"
+- raw: "初学乍道"
+  splits:
+  - text: "初学乍道"
+- raw: "当前层数：第五层"
+  splits:
+  - text: "当前层数：第五层"
+- raw: "修炼达到炉火纯情，修炼达到炉火纯情修炼达到炉火纯情"
+  splits:
+  - text: "修炼达到炉火纯情，修炼达到炉火纯情修炼达到炉火纯情"
+- raw: "固灵：固灵属性"
+  splits:
+  - text: "固灵：固灵属性"
+- raw: "经脉：任脉任脉任脉"
+  splits:
+  - text: "经脉：任脉任脉任脉"
+- raw: "已打通"
+  splits:
+  - text: "已打通"
+- raw: "永灵：特殊属性"
+  splits:
+  - text: "永灵：特殊属性"
+- raw: "生命 +2700"
+  splits:
+  - text: "生命 +2700"
+- raw: "固定属性"
+  splits:
+  - text: "固定属性"
+- raw: "添加心法"
+  splits:
+  - text: "添加心法"
+- raw: "修行"
+  splits:
+  - text: "修行"
+- raw: "消耗感悟：1000999"
+  splits:
+  - text: "消耗感悟：1000999"
+- raw: "洗练"
+  splits:
+  - text: "洗练"
+- raw: "太上针线：对敌人造成伤害，自身气血增加"
+  splits:
+  - text: "太上针线：对敌人造成伤害，自身气血增加"
+- raw: "隐藏属性"
+  splits:
+  - text: "隐藏属性"
+- raw: "消耗修为：100000000000"
+  splits:
+  - text: "消耗修为：100000000000"
+- raw: "收集率：10000"
+  splits:
+  - text: "收集率：10000"
+- raw: "帮助信息：\\n1、境界是经脉提升到一定强度之后激活的等级效果，<color=#3ad67c>满足条件</color>激活境界可获得<color=#3ad67c>额外的属性</color>。\\n2、激活境界的条件除了最基本的修为值需求外，还分为两个，<color=#3ad67c>固定属性</color>包含<color=#3ad67c>境界丹，打通的经脉和属性值</color>，<color=#3ad67c>特殊属性</color>包含<color=#3ad67c>属性丹药和更高的属性值</color>，同时只有<color=#3ad67c>满足固定属性的条件</color>才可查看。\\n3、固定属性中的<color=#3ad67c>境界丹</color>可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n4、特殊属性中的<color=#3ad67c>属性丹药</color>可通过<color=#3ad67c>习得配方自行炼制</color>，也可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n5、提升不同的境界需要不同的心法，低阶境界只能使用低品质心法，反之，高阶境界只能使用高阶心法。"
+  splits:
+  - text: "帮助信息：\\n1、境界是经脉提升到一定强度之后激活的等级效果，<color=#3ad67c>满足条件</color>激活境界可获得<color=#3ad67c>额外的属性</color>。\\n2、激活境界的条件除了最基本的修为值需求外，还分为两个，<color=#3ad67c>固定属性</color>包含<color=#3ad67c>境界丹，打通的经脉和属性值</color>，<color=#3ad67c>特殊属性</color>包含<color=#3ad67c>属性丹药和更高的属性值</color>，同时只有<color=#3ad67c>满足固定属性的条件</color>才可查看。\\n3、固定属性中的<color=#3ad67c>境界丹</color>可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n4、特殊属性中的<color=#3ad67c>属性丹药</color>可通过<color=#3ad67c>习得配方自行炼制</color>，也可在少侠的<color=#3ad67c>旅程中</color>获得，也可在<color=#3ad67c>杂货商，游吟商人</color>购买。有传言说有些<color=#3ad67c>强力敌人</color>也会随身携带，也有人在一些<color=#3ad67c>隐秘的宝箱</color>中找到过。\\n5、提升不同的境界需要不同的心法，低阶境界只能使用低品质心法，反之，高阶境界只能使用高阶心法。"
+- raw: "境界介绍"
+  splits:
+  - text: "境界介绍"
+- raw: "心法属性：<color=#9a9a9a>根据选择的心法，随机获取以下buff中的一条</color>"
+  splits:
+  - text: "心法属性：<color=#9a9a9a>根据选择的心法，随机获取以下buff中的一条</color>"
+- raw: "消耗修为：1000999"
+  splits:
+  - text: "消耗修为：1000999"
+- raw: "商曲"
+  splits:
+  - text: "商曲"
+- raw: "气冲"
+  splits:
+  - text: "气冲"
+- raw: "周天"
+  splits:
+  - text: "周天"
+- raw: "任脉"
+  splits:
+  - text: "任脉"
+- raw: "冲脉"
+  splits:
+  - text: "冲脉"
+- raw: "阴跷"
+  splits:
+  - text: "阴跷"
+- raw: "阳维"
+  splits:
+  - text: "阳维"
+- raw: "阴维"
+  splits:
+  - text: "阴维"
+- raw: "阳跷"
+  splits:
+  - text: "阳跷"
+- raw: "带脉"
+  splits:
+  - text: "带脉"
+- raw: "督脉"
+  splits:
+  - text: "督脉"
+- raw: "经脉总加成"
+  splits:
+  - text: "经脉总加成"
+- raw: "心法运功"
+  splits:
+  - text: "心法运功"
+- raw: "主心法"
+  splits:
+  - text: "主心法"
+- raw: "辅心法"
+  splits:
+  - text: "辅心法"
+- raw: "真气值"
+  splits:
+  - text: "真气值"
+- raw: "心法运行效果"
+  splits:
+  - text: "心法运行效果"
+- raw: "回光返照"
+  splits:
+  - text: "回光返照"
+- raw: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值，同时防御力提升300点，持续20秒。"
+  splits:
+  - text: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值，同时防御力提升300点，持续20秒。"
+- raw: "通用"
+  splits:
+  - text: "通用"
+- raw: "将其绝大沙"
+  splits:
+  - text: "将其绝大沙"
+- raw: "改变心法配置会改变真力值，导致对应方案的周天运行和五脏配置清空，确定要这样做？"
+  splits:
+  - text: "改变心法配置会改变真力值，导致对应方案的周天运行和五脏配置清空，确定要这样做？"
+- raw: "点击连接已激活的<color=#fcfcae>经脉点</color>，不同的连接方式将获得对应的周天运行效果"
+  splits:
+  - text: "点击连接已激活的<color=#fcfcae>经脉点</color>，不同的连接方式将获得对应的周天运行效果"
+- raw: "周天运行效果"
+  splits:
+  - text: "周天运行效果"
+- raw: "展开"
+  splits:
+  - text: "展开"
+- raw: "生效中"
+  splits:
+  - text: "生效中"
+- raw: "[吸星]"
+  splits:
+  - text: "[吸星]"
+- raw: "任脉 x5"
+  splits:
+  - text: "任脉 x5"
+- raw: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值"
+  splits:
+  - text: "当生命降低到1点时不会死亡，在5秒内总共回复30%生命值"
+- raw: "退出"
+  splits:
+  - text: "退出"
+- raw: "周天运功连线已达成，是否开启？"
+  splits:
+  - text: "周天运功连线已达成，是否开启？"
+- raw: "已激活"
+  splits:
+  - text: "已激活"
+- raw: "五脏属性"
+  splits:
+  - text: "五脏属性"
+- raw: "气血:"
+  splits:
+  - text: "气血:"
+- raw: "奇经八脉"
+  splits:
+  - text: "奇经八脉"
+- raw: "五脏六腑"
+  splits:
+  - text: "五脏六腑"
+- raw: "幽门"
+  splits:
+  - text: "幽门"
+- raw: "心神主藏神的作用，调养生息，使得自身运功自如，增加修炼速度，链接其他分支经脉。"
+  splits:
+  - text: "心神主藏神的作用，调养生息，使得自身运功自如，增加修炼速度，链接其他分支经脉。"
+- raw: "经脉点加成"
+  splits:
+  - text: "经脉点加成"
+- raw: "激活该经脉可提供<size=40><color=#f0f0f0>5点</color></size>属性点"
+  splits:
+  - text: "激活该经脉可提供<size=40><color=#f0f0f0>5点</color></size>属性点"
+- raw: "激活条件："
+  splits:
+  - text: "激活条件："
+- raw: "需要打通以下经脉才可激活"
+  splits:
+  - text: "需要打通以下经脉才可激活"
+- raw: "(未拥有)"
+  splits:
+  - text: "(未拥有)"
+- raw: "已经获得该经脉点<size=40><color=#e0c889>5点</color></size>属性点"
+  splits:
+  - text: "已经获得该经脉点<size=40><color=#e0c889>5点</color></size>属性点"
+- raw: "消耗修为："
+  splits:
+  - text: "消耗修为："
+- raw: "真力值"
+  splits:
+  - text: "真力值"
+- raw: "帮助信息：\\n1、满足修为和前置经脉点位条件即可进行激活操作。\\n2、激活时可添加心法附加特殊属性，可添加秘卷附加隐藏属性。\\n3、添加秘卷时会新增秘卷使用条件，只有额外满足秘卷的使用条件才可激活。\\n4、激活后可针对特殊属性、附加属性进行洗练，以获得更适合自己的属性。洗练时必须添加对应的心法或秘卷。\\n5、激活经脉主界面上的六条经脉后方可对任督二脉进行激活操作。八条经脉都全部激活才可进行五脏激活。\\n6、点击中心的双鱼图标可进入任督二脉和心法配置界面。外圈为任督二脉点位，中心为心法配置。\\n7、配置心法会获得对应的真力值，主心法获得百分百的真力效果，辅心法获得百分之三十的真力效果。最多可保存三套心法配置。\\n8、配置了心法后可进行经脉的周天运行和五脏淬炼。周天运行可获得额外的效果，淬炼过的五脏属性才会生效。\\n9、经脉周天运行必须满足至少三个点位组成的循环才会生效。没有属性效果的周天运行无法生效。"
+  splits:
+  - text: "帮助信息：\\n1、满足修为和前置经脉点位条件即可进行激活操作。\\n2、激活时可添加心法附加特殊属性，可添加秘卷附加隐藏属性。\\n3、添加秘卷时会新增秘卷使用条件，只有额外满足秘卷的使用条件才可激活。\\n4、激活后可针对特殊属性、附加属性进行洗练，以获得更适合自己的属性。洗练时必须添加对应的心法或秘卷。\\n5、激活经脉主界面上的六条经脉后方可对任督二脉进行激活操作。八条经脉都全部激活才可进行五脏激活。\\n6、点击中心的双鱼图标可进入任督二脉和心法配置界面。外圈为任督二脉点位，中心为心法配置。\\n7、配置心法会获得对应的真力值，主心法获得百分百的真力效果，辅心法获得百分之三十的真力效果。最多可保存三套心法配置。\\n8、配置了心法后可进行经脉的周天运行和五脏淬炼。周天运行可获得额外的效果，淬炼过的五脏属性才会生效。\\n9、经脉周天运行必须满足至少三个点位组成的循环才会生效。没有属性效果的周天运行无法生效。"
+- raw: "套路1"
+  splits:
+  - text: "套路1"
+- raw: "心法融合效果"
+  splits:
+  - text: "心法融合效果"
+- raw: "返回经脉"
+  splits:
+  - text: "返回经脉"
+- raw: "周天运功"
+  splits:
+  - text: "周天运功"
+- raw: "内攻内攻内攻内攻内攻内攻内攻内攻内攻内攻"
+  splits:
+  - text: "内攻内攻内攻内攻内攻内攻内攻内攻内攻内攻"
+- raw: "点击<color=#E1B861>对应区域</color>周天，可查看所需连线的点"
+  splits:
+  - text: "点击<color=#E1B861>对应区域</color>周天，可查看所需连线的点"
+- raw: "特殊属性"
+  splits:
+  - text: "特殊属性"
+- raw: "心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养"
+  splits:
+  - text: "心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养心神主藏神的作用，调养"
+- raw: "需要满足以下条件才可打通脏器"
+  splits:
+  - text: "需要满足以下条件才可打通脏器"
+- raw: "经脉:未激活"
+  splits:
+  - text: "经脉:未激活"
+- raw: "（未激活）"
+  splits:
+  - text: "（未激活）"
+- raw: "需激活8条经脉"
+  splits:
+  - text: "需激活8条经脉"
+- raw: "选择心法"
+  splits:
+  - text: "选择心法"
+- raw: "心法"
+  splits:
+  - text: "心法"
+- raw: "激活或洗练时，添加心法可随机获得一条心法附带属性"
+  splits:
+  - text: "激活或洗练时，添加心法可随机获得一条心法附带属性"
+- raw: "（相同选择等于取消）"
+  splits:
+  - text: "（相同选择等于取消）"
+- raw: "洗练心法"
+  splits:
+  - text: "洗练心法"
+- raw: "心法心法"
+  splits:
+  - text: "心法心法"
+- raw: "随机一条心法附带的效果"
+  splits:
+  - text: "随机一条心法附带的效果"
+- raw: "选择秘卷"
+  splits:
+  - text: "选择秘卷"
+- raw: "秘卷"
+  splits:
+  - text: "秘卷"
+- raw: "激活或洗练时，添加秘卷可获得经脉隐藏属性"
+  splits:
+  - text: "激活或洗练时，添加秘卷可获得经脉隐藏属性"
+- raw: "秘卷："
+  splits:
+  - text: "秘卷："
+- raw: "赤沙粉赤沙粉赤沙粉"
+  splits:
+  - text: "赤沙粉赤沙粉赤沙粉"
+- raw: "洗练秘卷"
+  splits:
+  - text: "洗练秘卷"
+- raw: "需修为:123000"
+  splits:
+  - text: "需修为:123000"
+- raw: "五脏淬炼状态中，仅显示详情，无法激活或洗练操作"
+  splits:
+  - text: "五脏淬炼状态中，仅显示详情，无法激活或洗练操作"
+- raw: "此时，请点击<color=#3ad67c>确定</color>，便可<color=#3ad67c>开启</color>周天运行。为了帮助少侠<color=#3ad67c>增强属性</color>，那些<color=#3ad67c>无法获得属性的错误周天</color>我就自作主张的帮少侠忽略了。"
+  splits:
+  - text: "此时，请点击<color=#3ad67c>确定</color>，便可<color=#3ad67c>开启</color>周天运行。为了帮助少侠<color=#3ad67c>增强属性</color>，那些<color=#3ad67c>无法获得属性的错误周天</color>我就自作主张的帮少侠忽略了。"
 - raw: "心窍"
   splits:
   - text: "心窍"
@@ -8126,6 +7676,423 @@
 - raw: "如何激活经脉：\\n1、满足修为和前置经脉点位条件即可进行激活操作。\\n2、激活有一定概率可获得附加属性。\\n3、激活后可针对附加属性进行洗练，以获得更适合自己的属性。\\n辅助道具：\\n1、在激活或洗练的时候，可以添加辅助素材，包含道具、丹药、密卷和心法。\\n2、辅助素材均可在激活经脉的时候提升成功率。\\n3、其中道具和丹药没有多余的效果，密卷可覆盖激活或洗练时的附加属性，心法可在激活或洗练时添加特殊属性。"
   splits:
   - text: "如何激活经脉：\\n1、满足修为和前置经脉点位条件即可进行激活操作。\\n2、激活有一定概率可获得附加属性。\\n3、激活后可针对附加属性进行洗练，以获得更适合自己的属性。\\n辅助道具：\\n1、在激活或洗练的时候，可以添加辅助素材，包含道具、丹药、密卷和心法。\\n2、辅助素材均可在激活经脉的时候提升成功率。\\n3、其中道具和丹药没有多余的效果，密卷可覆盖激活或洗练时的附加属性，心法可在激活或洗练时添加特殊属性。"
+- raw: "装备技能"
+  splits:
+  - text: "装备技能"
+- raw: "装备套路"
+  splits:
+  - text: "装备套路"
+- raw: "九阳神功"
+  splits:
+  - text: "九阳神功"
 - raw: "内功威力：15                             外功威力：1011\\n招式范围：前方2m\\n前式：云光倒影"
   splits:
   - text: "内功威力：15                             外功威力：1011\\n招式范围：前方2m\\n前式：云光倒影"
+- raw: "清除点血状态"
+  splits:
+  - text: "清除点血状态"
+- raw: "学习后可获得一些属性加成，无法洗练。"
+  splits:
+  - text: "学习后可获得一些属性加成，无法洗练。"
+- raw: "力量 +10"
+  splits:
+  - text: "力量 +10"
+- raw: "堪武"
+  splits:
+  - text: "堪武"
+- raw: "流血：流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值"
+  splits:
+  - text: "流血：流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值流血状态，每秒减少10生命值少10生命值"
+- raw: "可额外获得的一些特殊效果或者属性，可洗练。"
+  splits:
+  - text: "可额外获得的一些特殊效果或者属性，可洗练。"
+- raw: "力量+100"
+  splits:
+  - text: "力量+100"
+- raw: "经脉：任脉阿布"
+  splits:
+  - text: "经脉：任脉阿布"
+- raw: "感悟：200"
+  splits:
+  - text: "感悟：200"
+- raw: "点击切换"
+  splits:
+  - text: "点击切换"
+- raw: "内功威力：15                                外功威力：1011\\n招式范围：前方2m\\n前式：云光倒影"
+  splits:
+  - text: "内功威力：15                                外功威力：1011\\n招式范围：前方2m\\n前式：云光倒影"
+- raw: "招式属性(学习后可获得一些属性加成，无法洗练。)"
+  splits:
+  - text: "招式属性(学习后可获得一些属性加成，无法洗练。)"
+- raw: "词条(可额外获得的一些特殊效果或者属性，可洗练。)"
+  splits:
+  - text: "词条(可额外获得的一些特殊效果或者属性，可洗练。)"
+- raw: "招式修炼"
+  splits:
+  - text: "招式修炼"
+- raw: "套路一"
+  splits:
+  - text: "套路一"
+- raw: "套路二"
+  splits:
+  - text: "套路二"
+- raw: "套路三"
+  splits:
+  - text: "套路三"
+- raw: "在万宗界面，可以为各类武器的普通攻击"
+  splits:
+  - text: "在万宗界面，可以为各类武器的普通攻击"
+- raw: "\\n洗炼额外属性和效果，洗炼会消耗感悟点"
+  splits:
+  - text: "\\n洗炼额外属性和效果，洗炼会消耗感悟点"
+- raw: "点击下方按钮，消耗感悟进行洗练"
+  splits:
+  - text: "点击下方按钮，消耗感悟进行洗练"
+- raw: "此处可以切换其他类型武器的万宗界面"
+  splits:
+  - text: "此处可以切换其他类型武器的万宗界面"
+- raw: "此处可以选择万总的套路效果"
+  splits:
+  - text: "此处可以选择万总的套路效果"
+- raw: "恭喜少侠已经初步知晓万宗大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
+  splits:
+  - text: "恭喜少侠已经初步知晓万宗大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
+- raw: "xx的经历"
+  splits:
+  - text: "xx的经历"
+- raw: "沈雁弓，名将之后。\\n因意外"
+  splits:
+  - text: "沈雁弓，名将之后。\\n因意外"
+- raw: "齐国"
+  splits:
+  - text: "齐国"
+- raw: "楚国"
+  splits:
+  - text: "楚国"
+- raw: "燕国"
+  splits:
+  - text: "燕国"
+- raw: "关外"
+  splits:
+  - text: "关外"
+- raw: "海外"
+  splits:
+  - text: "海外"
+- raw: "尚未修习"
+  splits:
+  - text: "尚未修习"
+- raw: "蜻蜓点水"
+  splits:
+  - text: "蜻蜓点水"
+- raw: "总轻功值：10000/10000"
+  splits:
+  - text: "总轻功值：10000/10000"
+- raw: "当前境界：踏雪无痕"
+  splits:
+  - text: "当前境界：踏雪无痕"
+- raw: "学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。"
+  splits:
+  - text: "学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。学习轻功需要达到对应的条件，轻功分为初级，高级2个阶段，消耗相应的道具材料可以提升轻功的等级，改变轻功的表现形式和实际效果。轻功值需要完成对应的任务才能获得，不同的轻功在不同的地形上有明显的游戏。"
+- raw: "踏雪飞鸿"
+  splits:
+  - text: "踏雪飞鸿"
+- raw: "轻功值：2000"
+  splits:
+  - text: "轻功值：2000"
+- raw: "该轻功不需要过多的解释"
+  splits:
+  - text: "该轻功不需要过多的解释"
+- raw: "轻功能力"
+  splits:
+  - text: "轻功能力"
+- raw: "[天地仍握有]"
+  splits:
+  - text: "[天地仍握有]"
+- raw: "移动速度    2000\\n跳跃高度    2000\\n移动距离    2000\\n使用消耗    100真气/s"
+  splits:
+  - text: "移动速度    2000\\n跳跃高度    2000\\n移动距离    2000\\n使用消耗    100真气/s"
+- raw: "轻功附加能力"
+  splits:
+  - text: "轻功附加能力"
+- raw: "移动速度    +20\\n跳跃高度    +15\\n移动距离    +10\\n使用消耗    减少真气消耗 5真气/s"
+  splits:
+  - text: "移动速度    +20\\n跳跃高度    +15\\n移动距离    +10\\n使用消耗    减少真气消耗 5真气/s"
+- raw: "移动速度    +20移动速度    +20移动速度    +20+20+20+20+20+20+20+20+20+20+20+20+20+20+20"
+  splits:
+  - text: "移动速度    +20移动速度    +20移动速度    +20+20+20+20+20+20+20+20+20+20+20+20+20+20+20"
+- raw: "学习条件"
+  splits:
+  - text: "学习条件"
+- raw: "轻功："
+  splits:
+  - text: "轻功："
+- raw: "《就上云霄》"
+  splits:
+  - text: "《就上云霄》"
+- raw: "该轻功已达到最高境界"
+  splits:
+  - text: "该轻功已达到最高境界"
+- raw: "操作：靠近竹子然后双击<space      > 释放"
+  splits:
+  - text: "操作：靠近竹子然后双击<space      > 释放"
+- raw: "        精通          化境"
+  splits:
+  - text: "        精通          化境"
+- raw: "            靠近竹子然后双击      释放"
+  splits:
+  - text: "            靠近竹子然后双击      释放"
+- raw: "身份："
+  splits:
+  - text: "身份："
+- raw: "攻击属性"
+  splits:
+  - text: "攻击属性"
+- raw: "防御属性"
+  splits:
+  - text: "防御属性"
+- raw: "综合属性"
+  splits:
+  - text: "综合属性"
+- raw: "对"
+  splits:
+  - text: "对"
+- raw: "离队"
+  splits:
+  - text: "离队"
+- raw: "物品"
+  splits:
+  - text: "物品"
+- raw: "快捷道具一"
+  splits:
+  - text: "快捷道具一"
+- raw: "快捷道具二"
+  splits:
+  - text: "快捷道具二"
+- raw: "幻化"
+  splits:
+  - text: "幻化"
+- raw: "武器预设"
+  splits:
+  - text: "武器预设"
+- raw: "宝物预设"
+  splits:
+  - text: "宝物预设"
+- raw: "状态"
+  splits:
+  - text: "状态"
+- raw: "熟练度："
+  splits:
+  - text: "熟练度："
+- raw: "等级99"
+  splits:
+  - text: "等级99"
+- raw: "这里是角色的<color=#3ad67c>基本信息</color>，详细记录了少侠的<color=#3ad67c>战斗属性</color>和<color=#3ad67c>天赋效果</color>。<color=#3ad67c>鼠标悬浮</color>在想要查看的属性信息上时，可以<color=#3ad67c>查看</color>到该属性的<color=#3ad67c>效果和来源</color>。请少侠<color=#3ad67c>按住鼠标左键向上滑动</color>查看全部信息。"
+  splits:
+  - text: "这里是角色的<color=#3ad67c>基本信息</color>，详细记录了少侠的<color=#3ad67c>战斗属性</color>和<color=#3ad67c>天赋效果</color>。<color=#3ad67c>鼠标悬浮</color>在想要查看的属性信息上时，可以<color=#3ad67c>查看</color>到该属性的<color=#3ad67c>效果和来源</color>。请少侠<color=#3ad67c>按住鼠标左键向上滑动</color>查看全部信息。"
+- raw: "此处是角色<color=#3ad67c>当前佩戴的装备</color>，可以通过点击打开想要查看的装备种类。现在请<color=#3ad67c>点击防具</color>，查看自身拥有的防具并<color=#3ad67c>更换</color>防具。"
+  splits:
+  - text: "此处是角色<color=#3ad67c>当前佩戴的装备</color>，可以通过点击打开想要查看的装备种类。现在请<color=#3ad67c>点击防具</color>，查看自身拥有的防具并<color=#3ad67c>更换</color>防具。"
+- raw: "此处为<color=#3ad67c>快捷道具栏</color>，可以配置<color=#3ad67c>各类恢复药品</color>方便在<color=#3ad67c>战斗时用快捷按键</color>使用。现在请点击一个<color=#3ad67c>快捷道具栏位</color>，选择一个恢复道具<color=#3ad67c>装备</color>起来。"
+  splits:
+  - text: "此处为<color=#3ad67c>快捷道具栏</color>，可以配置<color=#3ad67c>各类恢复药品</color>方便在<color=#3ad67c>战斗时用快捷按键</color>使用。现在请点击一个<color=#3ad67c>快捷道具栏位</color>，选择一个恢复道具<color=#3ad67c>装备</color>起来。"
+- raw: "辅助属性分为人格、战术、学识、生活、技艺，可以从此处切换。"
+  splits:
+  - text: "辅助属性分为人格、战术、学识、生活、技艺，可以从此处切换。"
+- raw: "使用冷却中：0.5秒"
+  splits:
+  - text: "使用冷却中：0.5秒"
+- raw: "批量丢弃"
+  splits:
+  - text: "批量丢弃"
+- raw: "确认丢弃"
+  splits:
+  - text: "确认丢弃"
+- raw: "行囊界面可以看到<color=#3ad67c>当前持有</color>的物品，可以通过上方的<color=#3ad67c>搜索栏</color>搜索想要查询的道具，<color=#3ad67c>单击左键</color>可选中物品。"
+  splits:
+  - text: "行囊界面可以看到<color=#3ad67c>当前持有</color>的物品，可以通过上方的<color=#3ad67c>搜索栏</color>搜索想要查询的道具，<color=#3ad67c>单击左键</color>可选中物品。"
+- raw: "选中物品后可在右侧<color=#3ad67c>物品详情页</color>查看详情，同时也可以<color=#3ad67c>对物品进行操作</color>。请点击<color=#3ad67c>使用</color>按钮使用秘卷物品。"
+  splits:
+  - text: "选中物品后可在右侧<color=#3ad67c>物品详情页</color>查看详情，同时也可以<color=#3ad67c>对物品进行操作</color>。请点击<color=#3ad67c>使用</color>按钮使用秘卷物品。"
+- raw: "请点击<color=#3ad67c>上方的武学</color>标签页，用以查看学习过的<color=#3ad67c>秘籍或者秘卷</color>。"
+  splits:
+  - text: "请点击<color=#3ad67c>上方的武学</color>标签页，用以查看学习过的<color=#3ad67c>秘籍或者秘卷</color>。"
+- raw: "当你有了天工图以后，便可从背包里选择它进行使用，天工图品级越高，可以吸取的词条等级就越高。"
+  splits:
+  - text: "当你有了天工图以后，便可从背包里选择它进行使用，天工图品级越高，可以吸取的词条等级就越高。"
+- raw: "点击萃取"
+  splits:
+  - text: "点击萃取"
+- raw: "选择要萃取的装备"
+  splits:
+  - text: "选择要萃取的装备"
+- raw: "确定好装备后，点击萃取，选择要吸附的词条，确定后再次点击萃取"
+  splits:
+  - text: "确定好装备后，点击萃取，选择要吸附的词条，确定后再次点击萃取"
+- raw: "选择萃取好了的天工图，进行词条覆写"
+  splits:
+  - text: "选择萃取好了的天工图，进行词条覆写"
+- raw: "点击覆写"
+  splits:
+  - text: "点击覆写"
+- raw: "选择要覆写的装备"
+  splits:
+  - text: "选择要覆写的装备"
+- raw: "点击覆写，写入词条"
+  splits:
+  - text: "点击覆写，写入词条"
+- raw: "武器预设为切换套路时默认首选武器"
+  splits:
+  - text: "武器预设为切换套路时默认首选武器"
+- raw: "配置：拳套"
+  splits:
+  - text: "配置：拳套"
+- raw: "先天功"
+  splits:
+  - text: "先天功"
+- raw: "一段:"
+  splits:
+  - text: "一段:"
+- raw: "每秒恢复105"
+  splits:
+  - text: "每秒恢复105"
+- raw: "清除自己点穴状态"
+  splits:
+  - text: "清除自己点穴状态"
+- raw: "回光回光回光"
+  splits:
+  - text: "回光回光回光"
+- raw: "属于剑\\刀\\长兵\\搏击套路下的秘籍只会显示在该套路对应的目录中，通用秘籍则是会显示在所有套路对应的目录中，在进行技能装配时需要把该技能拖动到右边的空白框内，同样，属于剑\\刀\\长兵\\搏击秘籍中的技能只能装配到对应套路的空白技能框内，通用秘籍中的技能则是能装配到所有套路的空白技能框。"
+  splits:
+  - text: "属于剑\\刀\\长兵\\搏击套路下的秘籍只会显示在该套路对应的目录中，通用秘籍则是会显示在所有套路对应的目录中，在进行技能装配时需要把该技能拖动到右边的空白框内，同样，属于剑\\刀\\长兵\\搏击秘籍中的技能只能装配到对应套路的空白技能框内，通用秘籍中的技能则是能装配到所有套路的空白技能框。"
+- raw: "一元归元剑"
+  splits:
+  - text: "一元归元剑"
+- raw: "护体"
+  splits:
+  - text: "护体"
+- raw: "<color=#969696>消耗：</color><color=#f0f0f0>感悟1000</color>"
+  splits:
+  - text: "<color=#969696>消耗：</color><color=#f0f0f0>感悟1000</color>"
+- raw: "需求武学dfsdfsrfdsfdsfdsfdf"
+  splits:
+  - text: "需求武学dfsdfsrfdsfdsfdsfdf"
+- raw: "额外武学"
+  splits:
+  - text: "额外武学"
+- raw: "需求："
+  splits:
+  - text: "需求："
+- raw: "艳新觉"
+  splits:
+  - text: "艳新觉"
+- raw: "参悟武学"
+  splits:
+  - text: "参悟武学"
+- raw: "人阶武学"
+  splits:
+  - text: "人阶武学"
+- raw: "地阶武学"
+  splits:
+  - text: "地阶武学"
+- raw: "天阶武学"
+  splits:
+  - text: "天阶武学"
+- raw: "参悟"
+  splits:
+  - text: "参悟"
+- raw: "套路四"
+  splits:
+  - text: "套路四"
+- raw: "套路五"
+  splits:
+  - text: "套路五"
+- raw: "<color=#E7BF87>侠胆剑心：</color><color=#b46049>......</color>"
+  splits:
+  - text: "<color=#E7BF87>侠胆剑心：</color><color=#b46049>......</color>"
+- raw: "<color=#E7BF87>刃下刀心：</color><color=#b46049>......</color>"
+  splits:
+  - text: "<color=#E7BF87>刃下刀心：</color><color=#b46049>......</color>"
+- raw: "<color=#E7BF87>游龙花枪：</color><color=#b46049>......</color>"
+  splits:
+  - text: "<color=#E7BF87>游龙花枪：</color><color=#b46049>......</color>"
+- raw: "<color=#E7BF87>北冥玄拳：</color><color=#b46049>......</color>"
+  splits:
+  - text: "<color=#E7BF87>北冥玄拳：</color><color=#b46049>......</color>"
+- raw: "<color=#E7BF87>千幻万器：</color><color=#b46049>......</color>"
+  splits:
+  - text: "<color=#E7BF87>千幻万器：</color><color=#b46049>......</color>"
+- raw: "<color=#acacac>需提升兵道属性</color>\\n<color=#acacac>并解锁天赋</color><color=#f0f0f0>【诸武齐登】</color>"
+  splits:
+  - text: "<color=#acacac>需提升兵道属性</color>\\n<color=#acacac>并解锁天赋</color><color=#f0f0f0>【诸武齐登】</color>"
+- raw: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
+  splits:
+  - text: "<color=#E7BF87>侠胆剑心：</color><color=#DADBD5>切换到<color=#FF9971>剑</color>套路后5秒内提升10%诛心属性，在攻击目标时回复伤害5%的生命值。</color>"
+- raw: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
+  splits:
+  - text: "<color=#E7BF87>刃下刀心：</color><color=#DADBD5>切换到<color=#FF9971>刀</color>套路后5秒内提升10%内攻属性，获得5%反伤。</color>"
+- raw: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
+  splits:
+  - text: "<color=#E7BF87>游龙花枪：</color><color=#DADBD5>切换到<color=#FF9971>枪</color>套路后5秒内提升10%外攻属性，获得气血最大值5%的护盾。</color>"
+- raw: "<color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>"
+  splits:
+  - text: "<color=#E7BF87>北冥玄拳：</color><color=#DADBD5>切换到<color=#FF9971>拳</color>套路后5秒内提升10%要害属性，减少5%所受伤害。</color>"
+- raw: "<color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>"
+  splits:
+  - text: "<color=#E7BF87>千幻万器：</color><color=#DADBD5>切换到<color=#FF9971>暗器</color>套路后2秒内提升10%要害、恢复1%真气并提升5%造成伤害。</color>"
+- raw: "可选武学"
+  splits:
+  - text: "可选武学"
+- raw: "武学分为<color=#3ad67c>秘籍和护体</color>，秘籍为各类传统武学秘籍，其中包含多个技能，护体为单独的护身绝技。请点击护体以操作刚才所学习的万法森罗。"
+  splits:
+  - text: "武学分为<color=#3ad67c>秘籍和护体</color>，秘籍为各类传统武学秘籍，其中包含多个技能，护体为单独的护身绝技。请点击护体以操作刚才所学习的万法森罗。"
+- raw: "点击<color=#3ad67c>护身绝技</color>查看展开内容。"
+  splits:
+  - text: "点击<color=#3ad67c>护身绝技</color>查看展开内容。"
+- raw: "通过<color=#3ad67c>拖动</color>技能图标到对应的<color=#3ad67c>招式、秘技或者功体</color>位置以进行装备技能。请拖动万法森罗到秘技的位置。"
+  splits:
+  - text: "通过<color=#3ad67c>拖动</color>技能图标到对应的<color=#3ad67c>招式、秘技或者功体</color>位置以进行装备技能。请拖动万法森罗到秘技的位置。"
+- raw: "或"
+  splits:
+  - text: "或"
+- raw: "武学参悟"
+  splits:
+  - text: "武学参悟"
+- raw: "被动"
+  splits:
+  - text: "被动"
+- raw: "自创连招"
+  splits:
+  - text: "自创连招"
+- raw: "连招一"
+  splits:
+  - text: "连招一"
+- raw: "连招二"
+  splits:
+  - text: "连招二"
+- raw: "连招三"
+  splits:
+  - text: "连招三"
+- raw: "连招四"
+  splits:
+  - text: "连招四"
+- raw: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
+  splits:
+  - text: "选中武学秘籍可查看秘籍中记载的招式、功体、绝技"
+- raw: "选中武学中招式、功体、绝技可查看其中的详细信息"
+  splits:
+  - text: "选中武学中招式、功体、绝技可查看其中的详细信息"
+- raw: "这里包含了武学秘籍中招式的基础信息"
+  splits:
+  - text: "这里包含了武学秘籍中招式的基础信息"
+- raw: "武学秘籍中招式的强化效果，该效果可通过领悟招式的冲灵所窍来解锁，不同窍穴对应不同的强化效果，部分窍穴则没有强化效果；红色边框的强化效果的目标是敌人，绿色和白色的效果目标则是自身。"
+  splits:
+  - text: "武学秘籍中招式的强化效果，该效果可通过领悟招式的冲灵所窍来解锁，不同窍穴对应不同的强化效果，部分窍穴则没有强化效果；红色边框的强化效果的目标是敌人，绿色和白色的效果目标则是自身。"
+- raw: "武学秘籍中招式的冲灵所窍，所有招式都有四个窍穴，分别为“入门”、“熟练”、“精通”、“化境”；达到激活条件后可领悟窍穴解锁对应的强化效果和词条，在窍穴中也可添加道具、丹药、密卷来产生额外的词条。"
+  splits:
+  - text: "武学秘籍中招式的冲灵所窍，所有招式都有四个窍穴，分别为“入门”、“熟练”、“精通”、“化境”；达到激活条件后可领悟窍穴解锁对应的强化效果和词条，在窍穴中也可添加道具、丹药、密卷来产生额外的词条。"
+- raw: "点击秘籍右下角区域按住鼠标左键拖拽鼠标可翻页"
+  splits:
+  - text: "点击秘籍右下角区域按住鼠标左键拖拽鼠标可翻页"
+- raw: "恭喜少侠已经初步知晓武学大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"
+  splits:
+  - text: "恭喜少侠已经初步知晓武学大概了。请点击<color=#3ad67c>完成引导</color>按钮以退出。"

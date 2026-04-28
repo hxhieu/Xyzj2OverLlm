@@ -1,1632 +1,1020 @@
-- raw: "1#人定胜天#身寒骨冷苦伶仃，碌碌苦苦无乐日。先天不足，伤害<color=9e9e9e>减少10%</color>，受伤<color=9e9e9e>增加10%</color>，获得修为、感悟、金钱<color=9e9e9e>减少10%</color>。#0#10000#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
+- raw: "1#1500037394#人定胜天#1500037598#0#10000#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
   splits:
-  - split: 1
+  - split: 2
     text: "人定胜天"
     translated: "Human effort prevails over fate"
-  - split: 2
-    text: "身寒骨冷苦伶仃，碌碌苦苦无乐日。先天不足，伤害<color=9e9e9e>减少10%</color>，受伤<color=9e9e9e>增加10%</color>，获得修为、感悟、金钱<color=9e9e9e>减少10%</color>。"
-    translated: "Bitterly cold and lonely with shivering bones, enduring a dreary existence of constant toil without joy. Innate deficiency, reducing damage taken by <color=9e9e9e>10%</color>, increasing vulnerability when injured by <color=9e9e9e>10%</color>, and diminishing the acquisition of skills, insights, and money by <color=9e9e9e>10%</color>."
-- raw: "2#勤能补拙#门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟、金钱的<color=9e9e9e>消耗增加30%</color>。#0#10040#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
+- raw: "2#1500037395#勤能补拙#1500037599#0#10040#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
   splits:
-  - split: 1
+  - split: 2
     text: "勤能补拙"
     translated: "Hard work can make up for a lack of talent"
-  - split: 2
-    text: "门庭营度似稀奇，一世勤劳自把持。做什么事都需要比其他人更多的努力，修为、感悟、金钱的<color=9e9e9e>消耗增加30%</color>。"
-    translated: "The efforts to establish a reputation seem rarefied; for one's lifetime, diligent work is self‑sustained. For any undertaking, it requires more effort than others in terms of cultivation level, understanding, and monetary <color=9e9e9e>consumption increased by 30%</color>."
-- raw: "3#孤傲不群#门庭困苦总难荣，六亲骨肉皆无靠。福源<color=9e9e9e>减少25</color>，但是也造成孤僻凶狠的性格，要害、外攻、内攻<color=9e9e9e>减少10%</color>。#0#10030#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
+- raw: "3#1500037396#孤傲不群#1500037600#0#10030#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
   splits:
-  - split: 1
+  - split: 2
     text: "孤傲不群"
     translated: "Uniquely proud and aloof"
-  - split: 2
-    text: "门庭困苦总难荣，六亲骨肉皆无靠。福源<color=9e9e9e>减少25</color>，但是也造成孤僻凶狠的性格，要害、外攻、内攻<color=9e9e9e>减少10%</color>。"
-    translated: "When the family is in hardship and lacks support from relatives, it leads to a character that becomes isolated and fierce. Fortune diminishes by <color=9e9e9e>25</color>, resulting in a decrease of <color=9e9e9e>10%</color> in vital points, external attack, and internal attack."
-- raw: "4#心高命薄#独自营谋事不休，晚来衣禄自无休。心比天高，命比纸薄，气血和真气<color=9e9e9e>减少25%</color>。#0#10050#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
+- raw: "4#1500037397#心高命薄#1500037601#0#10050#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
   splits:
-  - split: 1
+  - split: 2
     text: "心高命薄"
     translated: "High spirit and low longevity"
-  - split: 2
-    text: "独自营谋事不休，晚来衣禄自无休。心比天高，命比纸薄，气血和真气<color=9e9e9e>减少25%</color>。"
-    translated: "Toiling alone in schemes that never cease, and with late rewards, there is no end to struggles. With ambitions high as the sky, yet a fate as fragile as paper, lifeforce and true Qi <color=9e9e9e>decreased by 25%</color>."
-- raw: "5#多谋少断#一生做事少商量，独马单枪空做去。思考过多则会损失部分收获，金钱、修为、感悟获得<color=9e9e9e>减少30%</color>。#0#10060#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
+- raw: "5#1500037398#多谋少断#1500037602#0#10060#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
   splits:
-  - split: 1
+  - split: 2
     text: "多谋少断"
     translated: "Think much, act little"
-  - split: 2
-    text: "一生做事少商量，独马单枪空做去。思考过多则会损失部分收获，金钱、修为、感悟获得<color=9e9e9e>减少30%</color>。"
-    translated: "Live a life of few consultations, riding alone with just your spear. Overthinking can lead to a reduction in some gains: wealth, skill level, and insights will decrease by <color=9e9e9e>30%</color>."
-- raw: "6#无妄之福#劳劳碌碌苦中求，开支投资有主张。平生运气不好多苦难，但是有投资经营上的天赋，福气<color=9e9e9e>减少25</color>，诛心、外防、内防<color=9e9e9e>减少10%</color>。#0#10090#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
+- raw: "6#1500037399#无妄之福#1500037603#0#10090#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-15#"
   splits:
-  - split: 1
+  - split: 2
     text: "无妄之福"
     translated: "Good fortune that comes without seeking"
-  - split: 2
-    text: "劳劳碌碌苦中求，开支投资有主张。平生运气不好多苦难，但是有投资经营上的天赋，福气<color=9e9e9e>减少25</color>，诛心、外防、内防<color=9e9e9e>减少10%</color>。"
-    translated: "Toil tirelessly in adversity and strive with purposeful spending. Throughout life, you've faced numerous hardships due to bad luck, but possess a talent for investment and entrepreneurship. Luck is reduced by <color=9e9e9e>25</color>, heartbreak, external defense, and internal defense are decreased by <color=9e9e9e>10%</color>."
-- raw: "7#祸中非福#身寒骨冷苦伶仃，终年打拱过平生。天缺悟性，气运不佳，悟性<color=9e9e9e>减少25</color>，福气<color=9e9e9e>减少25</color>，修为、感悟、金钱的<color=9e9e9e>消耗增加10%</color>。#0#10010#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-10#"
+- raw: "7#1500037400#祸中非福#1500037604#0#10010#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-10#"
   splits:
-  - split: 1
+  - split: 2
     text: "祸中非福"
     translated: "Misfortune as a blessing in disguise"
-  - split: 2
-    text: "身寒骨冷苦伶仃，终年打拱过平生。天缺悟性，气运不佳，悟性<color=9e9e9e>减少25</color>，福气<color=9e9e9e>减少25</color>，修为、感悟、金钱的<color=9e9e9e>消耗增加10%</color>。"
-    translated: "Chilled to the bone and lonely in life, always bowing low throughout the years. Lacking comprehension, with unfortunate destiny; comprehension <color=9e9e9e>decreased by 25</color>, luck <color=9e9e9e>reduced by 25</color>, and an increase of <color=9e9e9e>10%</color> consumption for cultivation, understanding, and money."
-- raw: "8#举步维艰#求谋做事事难成，妻儿兄弟实难靠。孤立无助，伤害<color=9e9e9e>减少5%</color>，受伤<color=9e9e9e>增加5%</color>，获得修为、感悟、金钱<color=9e9e9e>减少10%</color>。#0#10020#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-10#"
+- raw: "8#1500037401#举步维艰#1500037605#0#10020#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-10#"
   splits:
-  - split: 1
+  - split: 2
     text: "举步维艰"
     translated: "Every step fraught with difficulty"
-  - split: 2
-    text: "求谋做事事难成，妻儿兄弟实难靠。孤立无助，伤害<color=9e9e9e>减少5%</color>，受伤<color=9e9e9e>增加5%</color>，获得修为、感悟、金钱<color=9e9e9e>减少10%</color>。"
-    translated: "Seeking counsel in matters makes success difficult; one cannot rely on wife, children, or brothers. Alone and helpless: damage received is reduced by <color=9e9e9e>5%</color>, likelihood of injury is increased by <color=9e9e9e>5%</color>, and gains from experience, enlightenment, and money are decreased by <color=9e9e9e>10%</color>."
-- raw: "9#有才无命#一生行事似飘蓬，命如纸薄人鬼精。人多才能，但性命不足，气血和真气<color=9e9e9e>减少15%</color>。#0#10070#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-10#"
+- raw: "9#1500037402#有才无命#1500037606#0#10070#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-10#"
   splits:
-  - split: 1
+  - split: 2
     text: "有才无命"
     translated: "Talented but unlucky"
-  - split: 2
-    text: "一生行事似飘蓬，命如纸薄人鬼精。人多才能，但性命不足，气血和真气<color=9e9e9e>减少15%</color>。"
-    translated: "One lives a life as transient as dandelion fluff; fate is like paper‑thin‑half human, half ghost. Many are talented, yet lacking in vitality and lifeforce, with both Qi and true Qi <color=9e9e9e>decreased by 15%</color>."
-- raw: "10#松柏后凋#初年运限未曾亨，自奔自力不求人。 初限不遂，但靠自己努力犹如枯木逢春，气血和真气<color=9e9e9e>减少10%</color>。#0#10080#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-5#"
+- raw: "10#1500037403#松柏后凋#1500037607#0#10080#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-5#"
   splits:
-  - split: 1
+  - split: 2
     text: "松柏后凋"
     translated: "Cypress unyielding, pine unbent"
-  - split: 2
-    text: "初年运限未曾亨，自奔自力不求人。 初限不遂，但靠自己努力犹如枯木逢春，气血和真气<color=9e9e9e>减少10%</color>。"
-    translated: "In the first year of his fate, he struggled alone without seeking help. Despite not succeeding in overcoming the initial limit and relying solely on himself‑like a withered tree meeting spring‑his lifeforce and true qi decreased by <color=9e9e9e>10%</color>."
-- raw: "11#视财如命#忙忙碌碌把财求，奔走四方事多忧。将自身精力都用在求财方面，精力上限<color=9e9e9e>减少50%</color>，获得修为、感悟<color=9e9e9e>减少10%</color>。#0#10100#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-5#"
+- raw: "11#1500037404#视财如命#1500037608#0#10100#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-5#"
   splits:
-  - split: 1
+  - split: 2
     text: "视财如命"
     translated: "To view wealth as one's life"
-  - split: 2
-    text: "忙忙碌碌把财求，奔走四方事多忧。将自身精力都用在求财方面，精力上限<color=9e9e9e>减少50%</color>，获得修为、感悟<color=9e9e9e>减少10%</color>。"
-    translated: "Frantically pursuing wealth and tirelessly traveling to manage numerous concerns diminishes one's energy. By dedicating all personal energy to seeking wealth, the upper limit of energy is reduced by <color=9e9e9e>50%</color>, and gains in cultivation or enlightenment are decreased by <color=9e9e9e>10%</color>."
-- raw: "12#安富尊荣#不须劳碌过平生，任意行移喜连连。一生运气不错，不需要劳碌，所以生活技艺方面有所欠缺，福气<color=e0834c>增加25</color>。#0#10150#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
+- raw: "12#1500037405#安富尊荣#1500037609#0#10150#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "安富尊荣"
     translated: "Prosperity, wealth, honor, and prestige"
-  - split: 2
-    text: "不须劳碌过平生，任意行移喜连连。一生运气不错，不需要劳碌，所以生活技艺方面有所欠缺，福气<color=e0834c>增加25</color>。"
-    translated: "No need to labor through life; move freely and enjoy happiness unceasingly. With good fortune in life, there's no need for hard work. Therefore, skills in living may be lacking, but luck <color=e0834c>increases by 25</color>."
-- raw: "13#坚定不移#弟兄少力自孤行，祸福无常受折磨。不擅长结交他人，人生经历大起大落，使得心思坚定，坚韧<color=e0834c>增加25</color>。#0#10160#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
+- raw: "13#1500037406#坚定不移#1500037610#0#10160#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "坚定不移"
     translated: "Unwaveringly steadfast"
-  - split: 2
-    text: "弟兄少力自孤行，祸福无常受折磨。不擅长结交他人，人生经历大起大落，使得心思坚定，坚韧<color=e0834c>增加25</color>。"
-    translated: "Brother Li is weak and often ventures alone. He endures the unpredictable ups and downs of life, which fortify his resolve and increase toughness by <color=e0834c>25</color>."
-- raw: "14#盛颜运拙#为人能干异凡庸，不比前时运未通。出生时就有不错的容貌，容貌<color=e0834c>增加25</color>。#0#10200#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
+- raw: "14#1500037407#盛颜运拙#1500037611#0#10200#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "盛颜运拙"
     translated: "My humble appearance belies my inner strength"
-  - split: 2
-    text: "为人能干异凡庸，不比前时运未通。出生时就有不错的容貌，容貌<color=e0834c>增加25</color>。"
-    translated: "Adept at handling tasks and beyond the ordinary. Unlike before when fortune was not on their side. Born with a naturally good appearance; beauty <color=e0834c>increased by 25</color>."
-- raw: "15#豪放不羁#得宽怀处且宽怀，时运未盛枉争艳。为人豪爽，豪爽<color=e0834c>增加25</color>。#0#10210#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
+- raw: "15#1500037408#豪放不羁#1500037612#0#10210#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "豪放不羁"
     translated: "Uninhibited and unrestrained"
-  - split: 2
-    text: "得宽怀处且宽怀，时运未盛枉争艳。为人豪爽，豪爽<color=e0834c>增加25</color>。"
-    translated: "Be generous when you can be generous; there's no point in competing for attention when fortune has not yet favored you. To be generous, generosity <color=e0834c>increases by 25</color>."
-- raw: "16#见钱眼开#为人心性最聪明，经营求财命不穷。善于经商，商道<color=e0834c>增加25</color>。#0#10220#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
+- raw: "16#1500037409#见钱眼开#1500037613#0#10220#0#0#0#0#0#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "见钱眼开"
     translated: "To have eyes only for money"
-  - split: 2
-    text: "为人心性最聪明，经营求财命不穷。善于经商，商道<color=e0834c>增加25</color>。"
-    translated: "The person with the most astute nature is wise in pursuing wealth and will never be short‑lived. Skilled in commerce, their commercial prowess increases by <color=e0834c>25</color>."
-- raw: "17#生财有道#时逢旺运带吉神，渐有财源如水流。从小就对金钱痴迷，获得金钱会<color=e0834c>增加20%</color>。#0#10110#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
+- raw: "17#1500037410#生财有道#1500037614#0#10110#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "生财有道"
     translated: "Wealth comes from hard work"
-  - split: 2
-    text: "时逢旺运带吉神，渐有财源如水流。从小就对金钱痴迷，获得金钱会<color=e0834c>增加20%</color>。"
-    translated: "During a time of prosperity and good fortune, wealth gradually flows in like water. From an early age, they were obsessed with money; obtaining money will increase it by <color=e0834c>20%</color>."
-- raw: "18#心巧嘴乖#初限命中有变化，百计徒劳枉费心。心思巧妙，嘴上乖巧，口才、胆识<color=e0834c>增加25</color>。#0#10120#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
+- raw: "18#1500037411#心巧嘴乖#1500037615#0#10120#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "心巧嘴乖"
     translated: "Wise at heart, skilled in words"
-  - split: 2
-    text: "初限命中有变化，百计徒劳枉费心。心思巧妙，嘴上乖巧，口才、胆识<color=e0834c>增加25</color>。"
-    translated: "Initial hit rate changes have rendered all efforts futile and wasted. With clever thinking and a cunning tongue, eloquence and courage <color=e0834c>increase by 25</color>."
-- raw: "19#讷口进言#名利推来竟若何，六亲相爱少相助。名利双收，修养、口才<color=e0834c>增加25</color>。#0#10240#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
+- raw: "19#1500037412#讷口进言#1500037616#0#10240#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "讷口进言"
     translated: "Hesitant to speak up"
-  - split: 2
-    text: "名利推来竟若何，六亲相爱少相助。名利双收，修养、口才<color=e0834c>增加25</color>。"
-    translated: "Wealth and status come to those who seek them. Yet familial love often turns out lacking in support. When both wealth and status are gained, cultivation and eloquence increase by <color=e0834c>25</color>."
-- raw: "20#福星高照#命带桃花运正红，宗族有光欣喜甚。出生自带福气，并且生得一副好皮囊。福气<color=e0834c>增加25</color>，容貌<color=e0834c>增加25</color>。#0#10310#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20#1500037413#福星高照#1500037617#0#10310#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "福星高照"
     translated: "Good fortune is shining upon you"
-  - split: 2
-    text: "命带桃花运正红，宗族有光欣喜甚。出生自带福气，并且生得一副好皮囊。福气<color=e0834c>增加25</color>，容貌<color=e0834c>增加25</color>。"
-    translated: "Carrying the auspicious peach blossom fortune, your family shines with great joy. Blessed from birth with good luck and a fine appearance. Fortune <color=e0834c>increased by 25</color>, beauty <color=e0834c>increased by 25</color>."
-- raw: "21#高人雅士#做事求谋有人助，名题雁塔登金榜。一路上有贵人相助，结交的人士也都是高雅之士。修养<color=e0834c>增加25</color>，口才<color=e0834c>增加25</color>。#0#10420#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
+- raw: "21#1500037414#高人雅士#1500037618#0#10420#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "高人雅士"
     translated: "Esteemed Sage"
-  - split: 2
-    text: "做事求谋有人助，名题雁塔登金榜。一路上有贵人相助，结交的人士也都是高雅之士。修养<color=e0834c>增加25</color>，口才<color=e0834c>增加25</color>。"
-    translated: "In seeking counsel and receiving assistance from others, their name is inscribed on the golden list at the Wild Goose Pagoda. Throughout their journey, they are aided by esteemed individuals and befriend cultured companions. Cultivation increases <color=e0834c>25</color>, while eloquence increases <color=e0834c>25</color>."
-- raw: "22#人急智生#此命福气果如何，求名谋利空费力。天生性格过于急躁，但是在战斗中会经常先他人一步造成意想不到的效果，伤害<color=e0834c>增加5%</color>。#0#10130#0#0#0#0#2##0##0#0#30#"
+- raw: "22#1500037415#人急智生#1500037619#0#10130#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "人急智生"
     translated: "In times of urgency, wisdom emerges"
-  - split: 2
-    text: "此命福气果如何，求名谋利空费力。天生性格过于急躁，但是在战斗中会经常先他人一步造成意想不到的效果，伤害<color=e0834c>增加5%</color>。"
-    translated: "The fortune of this fate is as follows: in seeking fame and profit, it is a waste of effort to be empty‑handed. Naturally impetuous by temperament, but often acts ahead of others in battle, resulting in unexpected effects with damage increased by <color=e0834c>5%</color>."
-- raw: "23#墨守成规#好奇走冰怕冰薄，营事生涯宜守旧。一生守旧，对于新事物不敢尝试，稳妥行事，受到伤害<color=e0834c>减少5%</color>。#0#10140#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "23#1500037416#墨守成规#1500037620#0#10140#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "墨守成规"
     translated: "Adhering rigidly to tradition"
-  - split: 2
-    text: "好奇走冰怕冰薄，营事生涯宜守旧。一生守旧，对于新事物不敢尝试，稳妥行事，受到伤害<color=e0834c>减少5%</color>。"
-    translated: "Curiosity leads to trepidation on thin ice; a life devoted to tradition is best. Throughout one's life, remaining steadfast in old ways means shunning new endeavors. Acting with caution reduces the likelihood of harm by <color=e0834c>decreasing 5%</color>."
-- raw: "24#身强力壮#一身骨肉最清高，凤鸣岐山四方扬。在修炼外家功夫方面有独特的理解，力道、体魄<color=e0834c>增加10</color>。#0#10170#0#0#0#0#2##0##0#0#30#"
+- raw: "24#1500037417#身强力壮#1500037621#0#10170#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "身强力壮"
     translated: "Physically strong and robust"
-  - split: 2
-    text: "一身骨肉最清高，凤鸣岐山四方扬。在修炼外家功夫方面有独特的理解，力道、体魄<color=e0834c>增加10</color>。"
-    translated: "One's bones and flesh are the clearest of all, with a phoenix calling from Mount Qi spreading far and wide. In understanding external martial arts cultivation, there is a unique interpretation that increases strength and resilience <color=e0834c>by 10</color>."
-- raw: "25#心不二用#苦心竭力成家计，百般计较难圆梦。天生异象，只能花各种心思来弥补容貌方面的欠缺，要害<color=e0834c>增加50</color>、内力<color=e0834c>增加10</color>。#0#10180#0#0#0#0#2##0##0#0#30#"
+- raw: "25#1500037418#心不二用#1500037622#0#10180#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "心不二用"
     translated: "A heart of unwavering devotion"
-  - split: 2
-    text: "苦心竭力成家计，百般计较难圆梦。天生异象，只能花各种心思来弥补容貌方面的欠缺，要害<color=e0834c>增加50</color>、内力<color=e0834c>增加10</color>。"
-    translated: "Devotedly striving to make one's family plans successful is a difficult endeavor. Being born with an unusual appearance requires great effort to compensate for the shortcomings in beauty, increasing vital points by <color=e0834c>50</color>, and enhancing inner power by <color=e0834c>10</color>."
-- raw: "26#隐修求志#立志谋业运未通，少壮名利难如意。专心修行，名利无收，获得修为和感悟<color=e0834c>增加10%</color>。#0#10230#0#0#0#0#2##0##0#0#30#"
+- raw: "26#1500037419#隐修求志#1500037623#0#10230#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "隐修求志"
     translated: "Seeking aspiration through secluded practice"
-  - split: 2
-    text: "立志谋业运未通，少壮名利难如意。专心修行，名利无收，获得修为和感悟<color=e0834c>增加10%</color>。"
-    translated: "Devoted to ambition but with fate yet unclear, it is hard for the young and strong to attain fame and fortune. By focusing on cultivation, without seeking fame or wealth, one gains an increase of <color=e0834c>10%</color> in both skills and insight."
-- raw: "27#时来运转#时来运转喜开颜，平生原有滔滔福。枯木逢春，福气<color=e0834c>增加25</color>，要害<color=e0834c>增加50</color>。#0#10260#0#0#0#0#2##0##0#0#30#"
+- raw: "27#1500037420#时来运转#1500037624#0#10260#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "时来运转"
     translated: "Timing is everything"
-  - split: 2
-    text: "时来运转喜开颜，平生原有滔滔福。枯木逢春，福气<color=e0834c>增加25</color>，要害<color=e0834c>增加50</color>。"
-    translated: "When the time is right and your fortunes turn in a favorable direction, you will find great joy. Throughout your life, an abundance of blessings has always been yours. As with trees that blossom in spring, your luck will increase by <color=e0834c>25</color>, and your vital points will grow by <color=e0834c>50</color>."
-- raw: "28#好事多磨#初年运道未曾亨，风吹雨打运正衰。一生风雨飘摇，但也磨练了自己的心性，胆识<color=e0834c>增加25</color>，力道<color=e0834c>增加10</color>。#0#10270#0#0#0#0#2#1|2|4|5|25#0##0#0#30#"
+- raw: "28#1500037421#好事多磨#1500037625#0#10270#0#0#0#0#2#1|2|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "好事多磨"
     translated: "Good things take time"
-  - split: 2
-    text: "初年运道未曾亨，风吹雨打运正衰。一生风雨飘摇，但也磨练了自己的心性，胆识<color=e0834c>增加25</color>，力道<color=e0834c>增加10</color>。"
-    translated: "In the early years, my path was not auspicious; storms and rain battered as fortune waned. Throughout a life of tumultuous winds and rains, I honed my spirit, increasing my courage <color=e0834c>by 25</color> and strength <color=e0834c>by 10</color>."
-- raw: "29#文弱书生#一世为人好名声，从来富贵人钦敬。学识引世人倾佩，十分痴迷书籍，所有学识<color=e0834c>增加25</color>。#0#10280#0#0#0#0#2##0##0#0#30#"
+- raw: "29#1500037422#文弱书生#1500037626#0#10280#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "文弱书生"
     translated: "A bookish weakling"
-  - split: 2
-    text: "一世为人好名声，从来富贵人钦敬。学识引世人倾佩，十分痴迷书籍，所有学识<color=e0834c>增加25</color>。"
-    translated: "To be well‑known in this lifetime brings respect and admiration from the wealthy and noble. Knowledge that captivates and commands respect from all is a passion for books above all else, with all knowledge <color=e0834c>increasing by 25</color>."
-- raw: "30#丁财两旺#一生荣华事事通，前运辛苦后逍遥。初始胆识，修养，坚韧，豪爽各<color=e0834c>增加25点</color>。#0#10300#0#0#0#0#2##0##0#0#30#"
+- raw: "30#1500037423#丁财两旺#1500037627#0#10300#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "丁财两旺"
     translated: "Both rich and wealthy"
-  - split: 2
-    text: "一生荣华事事通，前运辛苦后逍遥。初始胆识，修养，坚韧，豪爽各<color=e0834c>增加25点</color>。"
-    translated: "Achieve glory and prosperity throughout life, with early hardships leading to later ease. Initially, increase <color=e0834c>Courage 25</color>, Cultivation 25, Toughness 25, and Generosity 25."
-- raw: "31#满腹经纶#运开满腹好文章，诗书满腹看功成。读书破万卷，所有学识<color=e0834c>增加10</color>，所有技艺<color=e0834c>增加10</color>。#0#10330#0#0#0#0#2##0##0#0#30#"
+- raw: "31#1500037424#满腹经纶#1500037628#0#10330#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "满腹经纶"
     translated: "Erudite in strategy and learning"
-  - split: 2
-    text: "运开满腹好文章，诗书满腹看功成。读书破万卷，所有学识<color=e0834c>增加10</color>，所有技艺<color=e0834c>增加10</color>。"
-    translated: "They are full of excellent essays and verses, with literary knowledge that brings success. Having read ten thousand volumes, their scholarly learning <color=e0834c>increases by 10</color>, and all skills <color=e0834c>improve by 10</color>."
-- raw: "32#才气无双#雨雪载途路泥泞，必定才高礼义通。才高八斗，技艺全通。所有技艺<color=e0834c>增加10</color>，所有学识<color=e0834c>增加10</color>。#0#10380#0#0#0#0#2##0##0#0#30#"
+- raw: "32#1500037425#才气无双#1500037629#0#10380#0#0#0#0#2##0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "才气无双"
     translated: "Peerless talent"
-  - split: 2
-    text: "雨雪载途路泥泞，必定才高礼义通。才高八斗，技艺全通。所有技艺<color=e0834c>增加10</color>，所有学识<color=e0834c>增加10</color>。"
-    translated: "On a journey through rain and snow with muddy roads, one must certainly possess great talent and be well‑versed in manners. With extraordinary talent and comprehensive skills, all skills <color=e0834c>increase by 10</color>, and all scholarship <color=e0834c>increases by 10</color>."
-- raw: "33#有胆有识#孤舟行水离沙滩，食禄无亏天数定。一人闯荡江湖，受伤时只能看自己运气来恢复，胆识<color=e0834c>增加25</color>，伤害<color=e0834c>增加5%</color>。#0#10250#0#0#0#0#2##0##0#0#40#"
+- raw: "33#1500037426#有胆有识#1500037630#0#10250#0#0#0#0#2##0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "有胆有识"
     translated: "Brave and insightful"
-  - split: 2
-    text: "孤舟行水离沙滩，食禄无亏天数定。一人闯荡江湖，受伤时只能看自己运气来恢复，胆识<color=e0834c>增加25</color>，伤害<color=e0834c>增加5%</color>。"
-    translated: "A lone boat sails away from the shore, sustenance and longevity are as fated by the heavens. Venturing alone in the Jianghu, when injured, recovery is left to one's luck; courage increases <color=e0834c>25</color>, damage increases <color=e0834c>5%</color>."
-- raw: "34#全神贯注#鞭驽策蹇争名利，少年谋事空筹计。算无遗策，诛心<color=e0834c>增加50</color>，身法<color=e0834c>增加10</color>。#0#10340#0#0#0#0#2##0##0#0#40#"
+- raw: "34#1500037427#全神贯注#1500037631#0#10340#0#0#0#0#2##0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "全神贯注"
     translated: "Fully focused"
-  - split: 2
-    text: "鞭驽策蹇争名利，少年谋事空筹计。算无遗策，诛心<color=e0834c>增加50</color>，身法<color=e0834c>增加10</color>。"
-    translated: "Chasing fame and profit with whip in hand, a young man plots strategies in vain. Calculated without flaw, Mind Attack increases by 50, Agility increases by 10."
-- raw: "35#神采焕发#明珠辉吐好彩来，甜酸苦辣皆尝过。锻炼自身要害，要害<color=e0834c>增加50</color>，内力<color=e0834c>增加10</color>。#0#10350#0#0#0#0#2##0##0#0#40#"
+- raw: "35#1500037428#神采焕发#1500037632#0#10350#0#0#0#0#2##0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "神采焕发"
     translated: "Full of vitality and radiance"
-  - split: 2
-    text: "明珠辉吐好彩来，甜酸苦辣皆尝过。锻炼自身要害，要害<color=e0834c>增加50</color>，内力<color=e0834c>增加10</color>。"
-    translated: "Pearl Gem emits beautiful colors and has tasted sweet, sour, bitter, and spicy flavors. Strengthening one's vital points increases the number of <color=e0834c>vital points by 50</color>, and enhances <color=e0834c>inner power by 10</color>."
-- raw: "36#身轻体健#福禄丰盈万事全，三尺杨柳垂金线。淬炼自身体魄，力道<color=e0834c>增加10</color>，体魄<color=e0834c>增加10</color>。#0#10360#0#0#0#0#2##0##0#0#40#"
+- raw: "36#1500037429#身轻体健#1500037633#0#10360#0#0#0#0#2##0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "身轻体健"
     translated: "Light on their feet and in good health"
-  - split: 2
-    text: "福禄丰盈万事全，三尺杨柳垂金线。淬炼自身体魄，力道<color=e0834c>增加10</color>，体魄<color=e0834c>增加10</color>。"
-    translated: "Prosperity and happiness in all endeavors; three feet of willow bending with golden threads. Through self‑cultivation, resilience is enhanced by 10, and strength is increased by <color=e0834c>10</color>."
-- raw: "37#孔武有力#平生食禄自然来，名利兼全福寿偕。福禄双全，真气<color=e0834c>增加50</color>，根骨<color=e0834c>增加10</color>。#0#10370#0#0#0#0#2##0##0#0#40#"
+- raw: "37#1500037430#孔武有力#1500037634#0#10370#0#0#0#0#2##0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "孔武有力"
     translated: "Physically strong"
-  - split: 2
-    text: "平生食禄自然来，名利兼全福寿偕。福禄双全，真气<color=e0834c>增加50</color>，根骨<color=e0834c>增加10</color>。"
-    translated: "Throughout life, sustenance and status naturally align; wealth and longevity accompany fame. With fortune and rank in harmony, True Qi <color=e0834c>increases by 50</color> and Potential <color=e0834c>increases by 10</color>."
-- raw: "38#灵心慧性#缘木求鱼事多难，聪明天赋经书熟。天资聪慧，获得修为、感悟<color=e0834c>增加20%</color>。#0#10400#0#0#0#0#2##0##0#0#40#"
+- raw: "38#1500037431#灵心慧性#1500037635#0#10400#0#0#0#0#2##0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "灵心慧性"
     translated: "Intuitive wisdom"
-  - split: 2
-    text: "缘木求鱼事多难，聪明天赋经书熟。天资聪慧，获得修为、感悟<color=e0834c>增加20%</color>。"
-    translated: "Seeking fish by grasping a tree is often challenging; those with innate intelligence and thorough knowledge of scriptures can succeed. With natural acumen and understanding, they gain proficiency, enhancing their comprehension by <color=e0834c>20%</color>."
-- raw: "39#后福无量#前面风霜都受过，有福降临不怕迟。初限历经磨难，使得自己防御增强，内外防<color=e0834c>增加10%</color>。#0#10190#0#0#0#0#3##0##0#0#50#"
+- raw: "39#1500037432#后福无量#1500037636#0#10190#0#0#0#0#3##0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "后福无量"
     translated: "May you be blessed with endless prosperity"
-  - split: 2
-    text: "前面风霜都受过，有福降临不怕迟。初限历经磨难，使得自己防御增强，内外防<color=e0834c>增加10%</color>。"
-    translated: "Having weathered hardships in the past, one knows that blessings will come, no matter how late. Through initial trials, self‑defense is strengthened, with both internal and external defense increased by <color=e0834c>10%</color>."
-- raw: "40#求名求利#为利为名终日劳，恩人无义反成怨。义无反顾追名逐利，获取金钱、修为、感悟<color=e0834c>增加20%</color>。#0#10290#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "40#1500037433#求名求利#1500037637#0#10290#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "求名求利"
     translated: "Seeking fame and fortune"
-  - split: 2
-    text: "为利为名终日劳，恩人无义反成怨。义无反顾追名逐利，获取金钱、修为、感悟<color=e0834c>增加20%</color>。"
-    translated: "For the sake of gain and reputation, laboring every day until benefactors become foes. Unyielding in righteousness, pursuing fame and profit to acquire wealth, skill, and insight; increases <color=e0834c>20%</color>."
-- raw: "41#文武双全#兴家立业在其中，文武双全功名成。文成武就，所有学识<color=e0834c>增加25</color>，所有战术<color=e0834c>增加25</color>。#0#10320#0#0#0#0#3##0##0#0#50#"
+- raw: "41#1500037434#文武双全#1500037638#0#10320#0#0#0#0#3##0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "文武双全"
     translated: "Proficient in both martial arts and scholarship"
-  - split: 2
-    text: "兴家立业在其中，文武双全功名成。文成武就，所有学识<color=e0834c>增加25</color>，所有战术<color=e0834c>增加25</color>。"
-    translated: "Prosper the family and establish one's career through these endeavors; achieving renown for excellence in both literary and martial arts. Upon succeeding in literature, all knowledge increases by 25, and upon excelling in martial strategy, all tactical skills increase by 25."
-- raw: "42#长命富贵#谋望求财吉庆多，田园财帛更丰盈。衣食富足，气血、真气<color=e0834c>增加10%</color>。#0#10390#0#0#0#0#3##0##0#0#50#"
+- raw: "42#1500037435#长命富贵#1500037639#0#10390#0#0#0#0#3##0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "长命富贵"
     translated: "May you live long and prosper"
-  - split: 2
-    text: "谋望求财吉庆多，田园财帛更丰盈。衣食富足，气血、真气<color=e0834c>增加10%</color>。"
-    translated: "Seeking wealth brings auspicious blessings and prosperity. Fields and stores overflow with riches. With ample clothing and food, your lifeforce and true qi <color=e0834c>increase by 10%.</color>"
-- raw: "43#剑胆琴心#有文有武显要害，读书必定显亲宗。内力深厚，内防<color=e0834c>增加10%</color>，内攻<color=e0834c>增加10%</color>。#0#10410#0#0#0#0#3##0##0#0#60#"
+- raw: "43#1500037436#剑胆琴心#1500037640#0#10410#0#0#0#0#3##0##0#0#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "剑胆琴心"
     translated: "Brave in swordsmanship, calm in music"
-  - split: 2
-    text: "有文有武显要害，读书必定显亲宗。内力深厚，内防<color=e0834c>增加10%</color>，内攻<color=e0834c>增加10%</color>。"
-    translated: "Both literary and martial arts reveal vital points; reading is essential for honoring one's ancestors. With profound inner power, internal defense increases by <color=e0834c>10%</color>, and internal attack increases by <color=e0834c>10%</color>."
-- raw: "44#强弓劲弩#脱离苦难显威风，家大业大谁能及。横练外功，外攻<color=e0834c>增加10%</color>，外防<color=e0834c>增加10%</color>。#0#10430#0#0#0#0#3##0##0#0#60#"
+- raw: "44#1500037437#强弓劲弩#1500037641#0#10430#0#0#0#0#3##0##0#0#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "强弓劲弩"
     translated: "Powerful bows and sturdy crossbows"
-  - split: 2
-    text: "脱离苦难显威风，家大业大谁能及。横练外功，外攻<color=e0834c>增加10%</color>，外防<color=e0834c>增加10%</color>。"
-    translated: "To rise above adversity is to display one's strength; who can compete when the family is great? Through rigorous practice of external skills, external attack increases by <color=e0834c>10%</color>, and external defense increases by <color=e0834c>10%</color>."
-- raw: "45#乐善好义#慈善行为受人敬，富贵荣华孰与争。常发善心受人尊敬，修养<color=e0834c>增加25</color>，受到伤害<color=e0834c>减少10%</color>。#0#10440#0#0#0#0#3#1|3|4|5|25#0##0#0#80#"
+- raw: "45#1500037438#乐善好义#1500037642#0#10440#0#0#0#0#3#1|3|4|5|25#0##0#0#80#"
   splits:
-  - split: 1
+  - split: 2
     text: "乐善好义"
     translated: "Altruistic and inclined to do good"
-  - split: 2
-    text: "慈善行为受人敬，富贵荣华孰与争。常发善心受人尊敬，修养<color=e0834c>增加25</color>，受到伤害<color=e0834c>减少10%</color>。"
-    translated: "Charitable deeds are respected, and who can compete with wealth and honor? Consistently acting with a kind heart earns respect; cultivation <color=e0834c>increases 25</color>, while the chance of taking damage <color=e0834c>reduces by 10%</color>."
-- raw: "46#力敌万夫#运道亨通闺阁楼，堆金积玉满堂春。天生悟性就超过常人，悟性<color=e0834c>增加25</color>，对敌人的伤害<color=e0834c>增加10%</color>。#0#10450#0#0#0#0#3#1|2|3|5|25#0##0#0#80#"
+- raw: "46#1500037439#力敌万夫#1500037643#0#10450#0#0#0#0#3#1|2|3|5|25#0##0#0#80#"
   splits:
-  - split: 1
+  - split: 2
     text: "力敌万夫"
     translated: "An adversary worthy of a thousand men"
-  - split: 2
-    text: "运道亨通闺阁楼，堆金积玉满堂春。天生悟性就超过常人，悟性<color=e0834c>增加25</color>，对敌人的伤害<color=e0834c>增加10%</color>。"
-    translated: "The Dao of Prosperity flows through the chambers and towers, wealth accumulates like spring fills a hall. Born with exceptional comprehension, surpassing ordinary people; comprehension increases by <color=e0834c>25</color>, enhancing damage to enemies by <color=e0834c>10%</color>."
-- raw: "47#修身齐家#平生衣禄盈丰足，谋事求财不用愁。生活<color=e0834c>增加25</color>，诛心<color=e0834c>增加75</color>、力道<color=e0834c>增加15</color>，并且习得生活类属性的效果<color=e0834c>增加50%</color>。#0#10460#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "47#1500037440#修身齐家#1500037644#0#10460#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "修身齐家"
     translated: "Self‑cultivation, family management"
-  - split: 2
-    text: "平生衣禄盈丰足，谋事求财不用愁。生活<color=e0834c>增加25</color>，诛心<color=e0834c>增加75</color>、力道<color=e0834c>增加15</color>，并且习得生活类属性的效果<color=e0834c>增加50%</color>。"
-    translated: "Throughout life, with abundant wealth and prosperity, there is no need to worry about schemes or seeking riches. Living <color=e0834c>increases by 25</color>, Mind Attack <color=e0834c>increases by 75</color>, Strength <color=e0834c>increases by 15</color>, and also gains an effect of <color=e0834c>increasing living attributes by 50%</color>."
-- raw: "48#风流才子#富贵由天莫苦求，万金家计不须谋。学识<color=e0834c>增加25</color>，要害、真气<color=e0834c>增加75</color>，并且习得学识类属性的效果<color=e0834c>增加50%</color>。#0#10470#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "48#1500037441#风流才子#1500037645#0#10470#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "风流才子"
     translated: "A dashing literary genius"
-  - split: 2
-    text: "富贵由天莫苦求，万金家计不须谋。学识<color=e0834c>增加25</color>，要害、真气<color=e0834c>增加75</color>，并且习得学识类属性的效果<color=e0834c>增加50%</color>。"
-    translated: "Fortune is bestowed by the heavens and should not be pursued with toil; wealth need not be planned for meticulously. Learnings <color=e0834c>increase by 25</color>, vital points, true Qi <color=e0834c>increase by 75</color>, and also gain an enhancement of effect for learning attributes of <color=e0834c>50%</color>."
-- raw: "49#妙手丹青#一生富贵众人钦，大模大样走天涯。技艺<color=e0834c>增加25</color>，内力、身法<color=e0834c>增加15</color>，并且习得技艺类属性的效果<color=e0834c>增加50%</color>。#0#10480#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "49#1500037442#妙手丹青#1500037646#0#10480#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "妙手丹青"
     translated: "Artful brushwork"
-  - split: 2
-    text: "一生富贵众人钦，大模大样走天涯。技艺<color=e0834c>增加25</color>，内力、身法<color=e0834c>增加15</color>，并且习得技艺类属性的效果<color=e0834c>增加50%</color>。"
-    translated: "Wealth and honor that everyone admires throughout life; bold and carefree as you wander the world. Technique <color=e0834c>increases by 25</color>, inner power and agility <color=e0834c>increase by 15</color>, and the effects of techniques related to skill attributes are also increased by <color=e0834c>50%</color>."
-- raw: "50#高门大族#富贵荣华极品隆，公侯卿相在其中。获得金钱、修为、感悟<color=e0834c>增加20%</color>，伤害<color=e0854c>增加5%</color>，受到伤害<color=e0834c>降低5%</color>。#0#10500#0#0#0#0#4#2|3|4|5|25#0##0#0#120#"
+- raw: "50#1500037443#高门大族#1500037647#0#10500#0#0#0#0#4#2|3|4|5|25#0##0#0#120#"
   splits:
-  - split: 1
+  - split: 2
     text: "高门大族"
     translated: "Esteemed noble family"
-  - split: 2
-    text: "富贵荣华极品隆，公侯卿相在其中。获得金钱、修为、感悟<color=e0834c>增加20%</color>，伤害<color=e0854c>增加5%</color>，受到伤害<color=e0834c>降低5%</color>。"
-    translated: "Wealth and honor, the ultimate in prestige, encompass lords and ministers. Gaining money, improving skills, and enhancing understanding increases by <color=e0834c>20%</color>; damage dealt is increased by <color=e0854c>5%</color>, while received damage is reduced by <color=e0834c>5%</color>."
-- raw: "51#福寿双全#不须愁虑苦劳心，又富又贵乐平生。大幅<color=e0834c>提升</color>自身暴击的几率和暴击伤害，诛心<color=e0834c>增加10%</color>，要害<color=e0834c>增加10%</color>，同时在暴击时可以触发额外吸血。#0#10490#0#0#0#0#4#1|2|3|4|25#0##0#0#150#"
+- raw: "51#1500037444#福寿双全#1500037648#0#10490#0#0#0#0#4#1|2|3|4|25#0##0#0#150#"
   splits:
-  - split: 1
+  - split: 2
     text: "福寿双全"
     translated: "Fu and Shou both live long lives"
-  - split: 2
-    text: "不须愁虑苦劳心，又富又贵乐平生。大幅<color=e0834c>提升</color>自身暴击的几率和暴击伤害，诛心<color=e0834c>增加10%</color>，要害<color=e0834c>增加10%</color>，同时在暴击时可以触发额外吸血。"
-    translated: "There is no need to worry or labor over hardships; be rich and enjoy life. Significantly increase the chance and damage of critical hits, heartbreak increases by <color=e0834c>10%, </color> vital point increases by <color=e0834c>10%,</color> while also triggering additional lifesteal on a critical hit."
-- raw: "52#紫薇天降#一生自有逍遥福，安享富贵胜班超。天生获得庇佑，战斗中有一定几率会获得上苍庇佑，获得<color=e0834c>免疫伤害</color>的能力，同时还可以获得<color=e0834c>福气加成</color>。#0#10510#0#0#0#0#4#1|2|3|4|5|25#0##0#0#210#"
+- raw: "52#1500037445#紫薇天降#1500037649#0#10510#0#0#0#0#4#1|2|3|4|5|25#0##0#0#210#"
   splits:
-  - split: 1
+  - split: 2
     text: "紫薇天降"
     translated: "A sapphire descends from the heavens"
-  - split: 2
-    text: "一生自有逍遥福，安享富贵胜班超。天生获得庇佑，战斗中有一定几率会获得上苍庇佑，获得<color=e0834c>免疫伤害</color>的能力，同时还可以获得<color=e0834c>福气加成</color>。"
-    translated: "A lifetime of leisure and fortune is better than surpassing Ban Chao in wealth. Naturally endowed with protection, there's a chance during battles to receive celestial favor, gaining immunity to damage while also earning luck bonuses."
-- raw: "53#散修传承#父亲就是个散修，教会了他打不过就跑的修仙法则，闪避<color=e0834c>增加5%</color>。#0#10650#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "53#1500037446#散修传承#1500037650#0#10650#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "散修传承"
     translated: "Scattered Immortals' Lineage"
-  - split: 2
-    text: "父亲就是个散修，教会了他打不过就跑的修仙法则，闪避<color=e0834c>增加5%</color>。"
-    translated: "Father is an independent practitioner who taught him the Daoist principle of flee if you cannot win, increasing <color=e0834c>Dodge by 5%</color>."
-- raw: "54#狗中一霸#年幼时和狗抢过食，颇懂得进退自如的精髓，人送外号“护食王”，命中<color=e0834c>增加5%</color>。#0#10660#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "54#1500037447#狗中一霸#1500037651#0#10660#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "狗中一霸"
     translated: "Alpha of the pack"
-  - split: 2
-    text: "年幼时和狗抢过食，颇懂得进退自如的精髓，人送外号“护食王”，命中<color=e0834c>增加5%</color>。"
-    translated: "As a child, he often scuffled with dogs over food and truly understood the essence of knowing when to advance and retreat. People gave him the nickname Protector of Food. <color=e0834c>Command Hit Rate increases by 5%. </color>"
-- raw: "55#金蝉遗蜕#自从有个和尚赠予金蝉后，总是不自觉的想喊“大威天龙”之类的话，要害、诛心<color=e0834c>增加10%</color>。#0#10610#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "55#1500037448#金蝉遗蜕#1500037652#0#10610#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "金蝉遗蜕"
     translated: "Remnants of a golden cicada's shed skin"
-  - split: 2
-    text: "自从有个和尚赠予金蝉后，总是不自觉的想喊“大威天龙”之类的话，要害、诛心<color=e0834c>增加10%</color>。"
-    translated: "Ever since a monk gave him the Golden Cicada, he unconsciously finds himself wanting to shout things like Great Mighty Dragon. Vital Point, Mind Attack <color=e0834c>Increase 10%</color>."
-- raw: "56#心口鳞片#自从见过手持乾坤圈的小孩后，总会梦见被扒皮抽筋的场景，心口还长出了鳞片，化解、御心<color=e0834c>增加10%</color>。#0#10620#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "56#1500037449#心口鳞片#1500037653#0#10620#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "心口鳞片"
     translated: "A heart shaped scale"
-  - split: 2
-    text: "自从见过手持乾坤圈的小孩后，总会梦见被扒皮抽筋的场景，心口还长出了鳞片，化解、御心<color=e0834c>增加10%</color>。"
-    translated: "Ever since seeing the child with the Quan Kun Ring, I've been haunted by dreams of flaying and dismemberment. My chest has even grown scales; this discipline increases <color=e0834c>10%</color> in countering and controlling emotions."
-- raw: "57#在下姓萧#很多时候，一个姓氏就能决定这个人有多强，真的……，外攻、內攻<color=e0834c>增加10%</color>。#0#10630#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "57#1500037450#在下姓萧#1500037654#0#10630#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "在下姓萧"
     translated: "I am of the XIAO family"
-  - split: 2
-    text: "很多时候，一个姓氏就能决定这个人有多强，真的……，外攻、內攻<color=e0834c>增加10%</color>。"
-    translated: "Many times, a surname alone can determine how strong someone is... Really..., external attack and internal strength <color=e0834c>increase by 10%</color>."
-- raw: "58#钢筋铁骨#力道皮膜，天生坚韧异常，外防、内防<color=e0834c>增加10%</color>。#0#10640#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "58#1500037451#钢筋铁骨#1500037655#0#10640#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "钢筋铁骨"
     translated: "Steel‑reinforced skeleton"
-  - split: 2
-    text: "力道皮膜，天生坚韧异常，外防、内防<color=e0834c>增加10%</color>。"
-    translated: "Toughness Skin, naturally exceptionally resilient, enhances <color=e0834c>external defense by 10%</color> and <color=e0834c>internal defense by 10%</color>."
-- raw: "59#太阴·真#打通太阴之穴，劲力延展，可随心所欲渗透血肉，元气、内力<color=e0834c>增加10%</color>，阴<color=e0834c>加5%</color>。#0#10570#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "59#1500037452#太阴·真#1500037656#0#10570#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "太阴·真"
     translated: "Great Yin · True"
-  - split: 2
-    text: "打通太阴之穴，劲力延展，可随心所欲渗透血肉，元气、内力<color=e0834c>增加10%</color>，阴<color=e0834c>加5%</color>。"
-    translated: "Opening the Great Yin acupoint allows your power to extend and flow through flesh and blood as desired. This increases Vitality by <color=e0834c>10%</color> and enhances Yin by <color=e0834c>5%</color>."
-- raw: "60#太阳·御#打通太阳之穴，内聚阳炎，气血奔腾可环护躯体，根骨、力道<color=e0834c>增加10%</color>，阳<color=e0834c>加5%</color>。#0#10580#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "60#1500037453#太阳·御#1500037657#0#10580#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "太阳·御"
     translated: "Great Yang · Supreme Ruler"
-  - split: 2
-    text: "打通太阳之穴，内聚阳炎，气血奔腾可环护躯体，根骨、力道<color=e0834c>增加10%</color>，阳<color=e0834c>加5%</color>。"
-    translated: "Unblock the Great Yang aperture and concentrate on internal yang fire; when the lifeforce surges around the body to protect it, potential and strength <color=e0834c>increase by 10%</color>, while yang <color=e0834c>grows by 5%</color>."
-- raw: "61#双极·衡#打通双极之穴，内寻人体诸多奥秘，于众妙渐寻秘术，体魄、要害<color=e0834c>增加10%</color>，柔<color=e0834c>加5%</color>。#0#10590#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "61#1500037454#双极·衡#1500037658#0#10590#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "双极·衡"
     translated: "Balance of Extremes·Equilibrium"
-  - split: 2
-    text: "打通双极之穴，内寻人体诸多奥秘，于众妙渐寻秘术，体魄、要害<color=e0834c>增加10%</color>，柔<color=e0834c>加5%</color>。"
-    translated: "Unblocking the Twin Pole's Nexus and delving into the myriad mysteries of the human body, one gradually discovers secret techniques, enhancing resilience by <color=e0834c>10%</color> and increasing softness by <color=e0834c>5%</color>."
-- raw: "62#涌泉·命#灵气充斥，贯穿穴位，从而凝聚内外一气，生生不息，气机永不绝眠，诛心、身法<color=e0834c>增加10%</color>，刚<color=e0834c>加5%</color>。#0#10600#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "62#1500037455#涌泉·命#1500037659#0#10600#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "涌泉·命"
     translated: "Surging Spring · Fate"
-  - split: 2
-    text: "灵气充斥，贯穿穴位，从而凝聚内外一气，生生不息，气机永不绝眠，诛心、身法<color=e0834c>增加10%</color>，刚<color=e0834c>加5%</color>。"
-    translated: "Charged with spiritual energy permeating and coursing through the acupoints, it consolidates inner and outer energies into a continuous cycle of life and vitality. The energy mechanism never ceases to rest, resulting in Heartbreak; Agility increased by <color=e0834c>10%</color>, Hardness enhanced by <color=e0834c>5%</color>."
-- raw: "63#北冥·焚#气之北冥，贯以穿群，三洲四界，无所求不可救，元气、根骨<color=e0834c>增加10%</color>，毒<color=e0834c>加5%</color>。#0#10890#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
+- raw: "63#1500037456#北冥·焚#1500037660#0#10890#0#0#0#0#4#1|2|3|4|5|25#0##0#0#100#"
   splits:
-  - split: 1
+  - split: 2
     text: "北冥·焚"
     translated: "Northern Darkness · Conflagration"
-  - split: 2
-    text: "气之北冥，贯以穿群，三洲四界，无所求不可救，元气、根骨<color=e0834c>增加10%</color>，毒<color=e0834c>加5%</color>。"
-    translated: "The Northernmost Qi, penetrating through multitudes, across the three continents and four corners of the world, can achieve anything that cannot be saved. Increases Vitality by <color=e0834c>10%</color>, enhances Poison by <color=e0834c>5%</color>."
-- raw: "501#机杼传承#巧手匠心制器械，机关巧思妙无穷。得机杼传承，解锁第四技能栏位。#0#10530#0#0#0#0#3##0##0#0#0#"
+- raw: "501#1500037457#机杼传承#1500037661#0#10530#0#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "机杼传承"
     translated: "Legacy of looms"
-  - split: 2
-    text: "巧手匠心制器械，机关巧思妙无穷。得机杼传承，解锁第四技能栏位。"
-    translated: "Crafted with skilled hands and ingenious design, the mechanisms are endlessly clever. Upon inheriting the loom techniques, unlock the fourth skill slot."
-- raw: "502#诸武齐登#兵家秘传，精通多般武器，不同武学套路切换时，会获得不同的增益效果。#0#10550#0#0#0#0#4##0##0#0#0#"
+- raw: "502#1500037458#诸武齐登#1500037662#0#10550#0#0#0#0#4##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "诸武齐登"
     translated: "All martial artists ascend together"
-  - split: 2
-    text: "兵家秘传，精通多般武器，不同武学套路切换时，会获得不同的增益效果。"
-    translated: "A military family secret skill; proficient in various weapons. When switching between different martial arts techniques, different buffs are obtained."
-- raw: "1000#生财有道#时逢旺运带吉神，渐有财源如水流。从小就对金钱痴迷，获得金钱会<color=e0834c>增加20%</color>。#0#10110#10#0#0#0#1##0##0#0#0#"
+- raw: "1000#1500037459#生财有道#1500037663#0#10110#10#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "生财有道"
     translated: "Wealth comes from hard work"
-  - split: 2
-    text: "时逢旺运带吉神，渐有财源如水流。从小就对金钱痴迷，获得金钱会<color=e0834c>增加20%</color>。"
-    translated: "During a time of prosperity and good fortune, wealth gradually flows in like water. From an early age, they were obsessed with money; obtaining money will increase it by <color=e0834c>20%</color>."
-- raw: "1010#人急智生#此命福气果如何，求名谋利空费力。天生性格过于急躁，但是在战斗中会造成意想不到的效果，伤害<color=e0834c>增加5%。#0#10130#10#0#0#0#2##0##0#0#0#"
+- raw: "1010#1500037460#人急智生#1500037664#0#10130#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "人急智生"
     translated: "In times of urgency, wisdom emerges"
-  - split: 2
-    text: "此命福气果如何，求名谋利空费力。天生性格过于急躁，但是在战斗中会造成意想不到的效果，伤害<color=e0834c>增加5%。"
-    translated: "How fortunate is your destiny? Seeking fame and profit at great effort. Naturally quick‑tempered in disposition, yet this trait can lead to unexpected effects in battle, increasing damage by <color=e0834c>5%."
-- raw: "1020#墨守成规#好奇走冰怕冰薄，营事生涯宜守旧。一生守旧，对于新事物不敢尝试，稳妥行事，受到伤害<color=e0834c>减少5%</color>。#0#10140#10#0#0#0#2##0##0#0#0#"
+- raw: "1020#1500037461#墨守成规#1500037665#0#10140#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "墨守成规"
     translated: "Adhering rigidly to tradition"
-  - split: 2
-    text: "好奇走冰怕冰薄，营事生涯宜守旧。一生守旧，对于新事物不敢尝试，稳妥行事，受到伤害<color=e0834c>减少5%</color>。"
-    translated: "Curiosity leads to trepidation on thin ice; a life devoted to tradition is best. Throughout one's life, remaining steadfast in old ways means shunning new endeavors. Acting with caution reduces the likelihood of harm by <color=e0834c>decreasing 5%</color>."
-- raw: "1030#身强力壮#一身骨肉最清高，凤鸣岐山四方扬。在修炼外家功夫方面有独特的理解，力道、体魄<color=e0834c>增加10</color>。#0#10170#10#0#0#0#2##0##0#0#0#"
+- raw: "1030#1500037462#身强力壮#1500037666#0#10170#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "身强力壮"
     translated: "Physically strong and robust"
-  - split: 2
-    text: "一身骨肉最清高，凤鸣岐山四方扬。在修炼外家功夫方面有独特的理解，力道、体魄<color=e0834c>增加10</color>。"
-    translated: "One's bones and flesh are the clearest of all, with a phoenix calling from Mount Qi spreading far and wide. In understanding external martial arts cultivation, there is a unique interpretation that increases strength and resilience <color=e0834c>by 10</color>."
-- raw: "1040#心不二用#苦心竭力成家计，百般计较难圆梦。天生异象，只能花各种心思来弥补欠缺，内力<color=e0834c>增加10</color>、要害<color=e0834c>增加50</color>。#0#10180#10#0#0#0#2##0##0#0#0#"
+- raw: "1040#1500037463#心不二用#1500037667#0#10180#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "心不二用"
     translated: "A heart of unwavering devotion"
-  - split: 2
-    text: "苦心竭力成家计，百般计较难圆梦。天生异象，只能花各种心思来弥补欠缺，内力<color=e0834c>增加10</color>、要害<color=e0834c>增加50</color>。"
-    translated: "After toiling tirelessly to establish a household and meticulously planning in every way possible, achieving dreams proves difficult. Born with an unusual fate, one must employ various strategies to compensate for deficiencies. Inner Power <color=e0834c>increases by 10</color>, Vital Point <color=e0834c>increases by 50</color>."
-- raw: "1050#后福无量#前面风霜都受过，有福降临不怕迟。初限历经磨难，使得自己防御增强，内外防<color=e0834c>增加10%</color>。#0#10190#10#0#0#0#3##0##0#0#0#"
+- raw: "1050#1500037464#后福无量#1500037668#0#10190#10#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "后福无量"
     translated: "May you be blessed with endless prosperity"
-  - split: 2
-    text: "前面风霜都受过，有福降临不怕迟。初限历经磨难，使得自己防御增强，内外防<color=e0834c>增加10%</color>。"
-    translated: "Having weathered hardships in the past, one knows that blessings will come, no matter how late. Through initial trials, self‑defense is strengthened, with both internal and external defense increased by <color=e0834c>10%</color>."
-- raw: "1060#隐修求志#立志谋业运未通，少壮名利难如意。专心修行，名利无收，获得修为和感悟<color=e0834c>增加10%</color>。#0#10230#10#0#0#0#2##0##0#0#0#"
+- raw: "1060#1500037465#隐修求志#1500037669#0#10230#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "隐修求志"
     translated: "Seeking aspiration through secluded practice"
-  - split: 2
-    text: "立志谋业运未通，少壮名利难如意。专心修行，名利无收，获得修为和感悟<color=e0834c>增加10%</color>。"
-    translated: "Devoted to ambition but with fate yet unclear, it is hard for the young and strong to attain fame and fortune. By focusing on cultivation, without seeking fame or wealth, one gains an increase of <color=e0834c>10%</color> in both skills and insight."
-- raw: "1070#讷口进言#名利推来竟若何，六亲相爱少相助。名利双收，修养、口才<color=e0834c>增加25</color>。#0#10240#10#0#0#0#1##0##0#0#0#"
+- raw: "1070#1500037466#讷口进言#1500037670#0#10240#10#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "讷口进言"
     translated: "Hesitant to speak up"
-  - split: 2
-    text: "名利推来竟若何，六亲相爱少相助。名利双收，修养、口才<color=e0834c>增加25</color>。"
-    translated: "Wealth and status come to those who seek them. Yet familial love often turns out lacking in support. When both wealth and status are gained, cultivation and eloquence increase by <color=e0834c>25</color>."
-- raw: "1080#有胆有识#孤舟行水离沙滩，食禄无亏天数定。一人闯荡江湖，受伤时只能看自己运气来恢复，胆识<color=e0834c>增加25</color>，伤害<color=e0834c>增加5%</color>。#0#10250#10#0#0#0#2##0##0#0#0#"
+- raw: "1080#1500037467#有胆有识#1500037671#0#10250#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "有胆有识"
     translated: "Brave and insightful"
-  - split: 2
-    text: "孤舟行水离沙滩，食禄无亏天数定。一人闯荡江湖，受伤时只能看自己运气来恢复，胆识<color=e0834c>增加25</color>，伤害<color=e0834c>增加5%</color>。"
-    translated: "A lone boat sails away from the shore, sustenance and longevity are as fated by the heavens. Venturing alone in the Jianghu, when injured, recovery is left to one's luck; courage increases <color=e0834c>25</color>, damage increases <color=e0834c>5%</color>."
-- raw: "1090#时来运转#时来运转喜开颜，平生原有滔滔福。枯木逢春，福气<color=e0834c>增加25</color>，要害<color=e0834c>增加50</color>。#0#10260#10#0#0#0#2##0##0#0#0#"
+- raw: "1090#1500037468#时来运转#1500037672#0#10260#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "时来运转"
     translated: "Timing is everything"
-  - split: 2
-    text: "时来运转喜开颜，平生原有滔滔福。枯木逢春，福气<color=e0834c>增加25</color>，要害<color=e0834c>增加50</color>。"
-    translated: "When the time is right and your fortunes turn in a favorable direction, you will find great joy. Throughout your life, an abundance of blessings has always been yours. As with trees that blossom in spring, your luck will increase by <color=e0834c>25</color>, and your vital points will grow by <color=e0834c>50</color>."
-- raw: "1100#好事多磨#初年运道未曾亨，风吹雨打运正衰。一生风雨飘摇，但也磨练了自己的心性，胆识<color=e0834c>增加25</color>，力道<color=e0834c>增加10</color>。#0#10270#10#0#0#0#2##0##0#0#0#"
+- raw: "1100#1500037469#好事多磨#1500037673#0#10270#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "好事多磨"
     translated: "Good things take time"
-  - split: 2
-    text: "初年运道未曾亨，风吹雨打运正衰。一生风雨飘摇，但也磨练了自己的心性，胆识<color=e0834c>增加25</color>，力道<color=e0834c>增加10</color>。"
-    translated: "In the early years, my path was not auspicious; storms and rain battered as fortune waned. Throughout a life of tumultuous winds and rains, I honed my spirit, increasing my courage <color=e0834c>by 25</color> and strength <color=e0834c>by 10</color>."
-- raw: "1110#求名求利#为利为名终日劳，恩人无义反成怨。义无反顾追名逐利，获取金钱、修为、感悟<color=e0834c>增加20%</color>。#0#10290#10#0#0#0#3##0##0#0#0#"
+- raw: "1110#1500037470#求名求利#1500037674#0#10290#10#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "求名求利"
     translated: "Seeking fame and fortune"
-  - split: 2
-    text: "为利为名终日劳，恩人无义反成怨。义无反顾追名逐利，获取金钱、修为、感悟<color=e0834c>增加20%</color>。"
-    translated: "For the sake of gain and reputation, laboring every day until benefactors become foes. Unyielding in righteousness, pursuing fame and profit to acquire wealth, skill, and insight; increases <color=e0834c>20%</color>."
-- raw: "1120#丁财两旺#一生荣华事事通，前运辛苦后逍遥。初始胆识，修养，坚韧，豪爽各<color=e0834c>增加25点。#0#10300#10#0#0#0#2##0##0#0#0#"
+- raw: "1120#1500037471#丁财两旺#1500037675#0#10300#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "丁财两旺"
     translated: "Both rich and wealthy"
-  - split: 2
-    text: "一生荣华事事通，前运辛苦后逍遥。初始胆识，修养，坚韧，豪爽各<color=e0834c>增加25点。"
-    translated: "A life of glory and prosperity in all things; hard work initially leads to ease later. Initially increases 25 points each for courage, cultivation, toughness, and generosity."
-- raw: "1130#福星高照#命带桃花运正红，宗族有光欣喜甚。出生自带福气，并且生得一副好皮囊。福气<color=e0834c>增加25</color>，容貌<color=e0834c>增加25</color>。#0#10310#10#0#0#0#1##0##0#0#0#"
+- raw: "1130#1500037472#福星高照#1500037676#0#10310#10#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "福星高照"
     translated: "Good fortune is shining upon you"
-  - split: 2
-    text: "命带桃花运正红，宗族有光欣喜甚。出生自带福气，并且生得一副好皮囊。福气<color=e0834c>增加25</color>，容貌<color=e0834c>增加25</color>。"
-    translated: "Carrying the auspicious peach blossom fortune, your family shines with great joy. Blessed from birth with good luck and a fine appearance. Fortune <color=e0834c>increased by 25</color>, beauty <color=e0834c>increased by 25</color>."
-- raw: "1140#文武双全#兴家立业在其中，文武双全功名成。文成武就，所有学识<color=e0834c>增加25</color>，所有战术<color=e0834c>增加25</color>。#0#10320#10#0#0#0#3##0##0#0#0#"
+- raw: "1140#1500037473#文武双全#1500037677#0#10320#10#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "文武双全"
     translated: "Proficient in both martial arts and scholarship"
-  - split: 2
-    text: "兴家立业在其中，文武双全功名成。文成武就，所有学识<color=e0834c>增加25</color>，所有战术<color=e0834c>增加25</color>。"
-    translated: "Prosper the family and establish one's career through these endeavors; achieving renown for excellence in both literary and martial arts. Upon succeeding in literature, all knowledge increases by 25, and upon excelling in martial strategy, all tactical skills increase by 25."
-- raw: "1150#全神贯注#鞭驽策蹇争名利，少年谋事空筹计。算无遗策，诛心<color=e0834c>增加50，身法<color=e0834c>增加10</color>。#0#10340#10#0#0#0#2##0##0#0#0#"
+- raw: "1150#1500037474#全神贯注#1500037678#0#10340#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "全神贯注"
     translated: "Fully focused"
-  - split: 2
-    text: "鞭驽策蹇争名利，少年谋事空筹计。算无遗策，诛心<color=e0834c>增加50，身法<color=e0834c>增加10</color>。"
-    translated: "Striving for fame and fortune with whip to the lazy horse and urging on the limping one, a young man plans his affairs in vain. Master of all strategies, this mind attack increases <color=e0834c>50 Mind Attack</color>, and increases <color=e0834c>10 Agility</color>."
-- raw: "1160#神采焕发#明珠辉吐好彩来，甜酸苦辣皆尝过。锻炼自身要害，要害<color=e0834c>增加50，内力<color=e0834c>增加10。#0#10350#10#0#0#0#2##0##0#0#0#"
+- raw: "1160#1500037475#神采焕发#1500037679#0#10350#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "神采焕发"
     translated: "Full of vitality and radiance"
-  - split: 2
-    text: "明珠辉吐好彩来，甜酸苦辣皆尝过。锻炼自身要害，要害<color=e0834c>增加50，内力<color=e0834c>增加10。"
-    translated: "Mingzhu Huitu hao cai lai, tian suan ku la jie chang guo. Duanlian zishen yaohai, yaohai <color=e0834c>zengjia50, neili <color=e0834c>zengjia10."
-- raw: "1170#身轻体健#福禄丰盈万事全，三尺杨柳垂金线。淬炼自身体魄，力道<color=e0834c>增加10，体魄<color=e0834c>增加10</color>。#0#10360#10#0#0#0#2##0##0#0#0#"
+- raw: "1170#1500037476#身轻体健#1500037680#0#10360#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "身轻体健"
     translated: "Light on their feet and in good health"
-  - split: 2
-    text: "福禄丰盈万事全，三尺杨柳垂金线。淬炼自身体魄，力道<color=e0834c>增加10，体魄<color=e0834c>增加10</color>。"
-    translated: "Abundant fortune and prosperity bring complete success; even the three‑foot willow bends under golden threads. Through self‑refinement of resilience, strength <color=e0834c>increases by 10 and resilience <color=e0834c>increases by 10</color>."
-- raw: "1180#长命富贵#谋望求财吉庆多，田园财帛更丰盈。衣食富足，气血、真气<color=e0834c>增加10%</color>。#0#10390#10#0#0#0#3##0##0#0#0#"
+- raw: "1180#1500037477#长命富贵#1500037681#0#10390#10#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "长命富贵"
     translated: "May you live long and prosper"
-  - split: 2
-    text: "谋望求财吉庆多，田园财帛更丰盈。衣食富足，气血、真气<color=e0834c>增加10%</color>。"
-    translated: "Seeking wealth brings auspicious blessings and prosperity. Fields and stores overflow with riches. With ample clothing and food, your lifeforce and true qi <color=e0834c>increase by 10%.</color>"
-- raw: "1190#灵心慧性#缘木求鱼事多难，聪明天赋经书熟。天资聪慧，获得修为、感悟<color=e0834c>增加20%</color>。#0#10400#10#0#0#0#2##0##0#0#0#"
+- raw: "1190#1500037478#灵心慧性#1500037682#0#10400#10#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "灵心慧性"
     translated: "Intuitive wisdom"
-  - split: 2
-    text: "缘木求鱼事多难，聪明天赋经书熟。天资聪慧，获得修为、感悟<color=e0834c>增加20%</color>。"
-    translated: "Seeking fish by grasping a tree is often challenging; those with innate intelligence and thorough knowledge of scriptures can succeed. With natural acumen and understanding, they gain proficiency, enhancing their comprehension by <color=e0834c>20%</color>."
-- raw: "1200#风流才子#富贵由天莫苦求，万金家计不须谋。学识<color=e0834c>增加25</color>，要害、真气<color=e0834c>增加75</color>，并且习得学识类属性的效果<color=e0834c>增加50%</color>。#0#10470#10#0#0#0#4##0##0#0#0#"
+- raw: "1200#1500037479#风流才子#1500037683#0#10470#10#0#0#0#4##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "风流才子"
     translated: "A dashing literary genius"
-  - split: 2
-    text: "富贵由天莫苦求，万金家计不须谋。学识<color=e0834c>增加25</color>，要害、真气<color=e0834c>增加75</color>，并且习得学识类属性的效果<color=e0834c>增加50%</color>。"
-    translated: "Fortune is bestowed by the heavens and should not be pursued with toil; wealth need not be planned for meticulously. Learnings <color=e0834c>increase by 25</color>, vital points, true Qi <color=e0834c>increase by 75</color>, and also gain an enhancement of effect for learning attributes of <color=e0834c>50%</color>."
-- raw: "5000#横炼无敌#接受了一位姓迈的强者传承，愿称你为最强。内攻<color=e0834c>增加3%</color>。#0#10670#0#0#0#0#1##0##0#0#0#"
+- raw: "5000#1500037480#横炼无敌#1500037684#0#10670#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "横炼无敌"
     translated: "Heng Lian is invincible"
-  - split: 2
-    text: "接受了一位姓迈的强者传承，愿称你为最强。内攻<color=e0834c>增加3%</color>。"
-    translated: "Having accepted a legacy from a powerful individual surnamed Mai, I wish to call you the strongest. Internal Attack <color=e0834c>Increased by 3%</color>."
-- raw: "5001#吐气如剑#吐出一口真气便能化为飞剑攻击。内攻<color=e0834c>增加3%</color>。#0#10680#0#0#0#0#1##0##0#0#0#"
+- raw: "5001#1500037481#吐气如剑#1500037685#0#10680#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "吐气如剑"
     translated: "Exhale like a sword"
-  - split: 2
-    text: "吐出一口真气便能化为飞剑攻击。内攻<color=e0834c>增加3%</color>。"
-    translated: "Exhale a breath of True Qi and it transforms into a flying sword attack. Internal Attack <color=e0834c>increases by 3%</color>."
-- raw: "5002#刀枪不入#杀不进枪刺不死，肉体已经锻炼到了极致。外防<color=e0834c>增加3%</color>。#0#10690#0#0#0#0#1##0##0#0#0#"
+- raw: "5002#1500037482#刀枪不入#1500037686#0#10690#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "刀枪不入"
     translated: "Impenetrable by blades and spears"
-  - split: 2
-    text: "杀不进枪刺不死，肉体已经锻炼到了极致。外防<color=e0834c>增加3%</color>。"
-    translated: "Not penetrable with a spear and not killable by stabbing, the body has been refined to its utmost. External Defense <color=e0834c>increases 3%</color>."
-- raw: "5003#万法不侵#即便杀死你也无法真正的打败你，你的意志不会屈服。内防<color=e0834c>增加3%</color>。#0#10700#0#0#0#0#1##0##0#0#0#"
+- raw: "5003#1500037483#万法不侵#1500037687#0#10700#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "万法不侵"
     translated: "Invincible to all forces"
-  - split: 2
-    text: "即便杀死你也无法真正的打败你，你的意志不会屈服。内防<color=e0834c>增加3%</color>。"
-    translated: "Even if you kill me, you will not truly defeat me; my will shall never yield. Internal Defense <color=e0834c>increases by 3%</color>."
-- raw: "5004#擘两分星#没有东西能逃过你的眼睛。命中<color=e0834c>增加3%</color>。#0#10710#0#0#0#0#1##0##0#0#0#"
+- raw: "5004#1500037484#擘两分星#1500037688#0#10710#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "擘两分星"
     translated: "Split it into two parts"
-  - split: 2
-    text: "没有东西能逃过你的眼睛。命中<color=e0834c>增加3%</color>。"
-    translated: "Nothing can escape your eyes. Hit Rate <color=e0834c>increased by 3%</color>."
-- raw: "5005#风驰电逝#风驰电逝，蹑景追风；凌历中原，顾盼生姿。闪避<color=e0834c>增加3%</color>。#0#10720#0#0#0#0#1##0##0#0#0#"
+- raw: "5005#1500037485#风驰电逝#1500037689#0#10720#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "风驰电逝"
     translated: "Blazing fast as the wind"
-  - split: 2
-    text: "风驰电逝，蹑景追风；凌历中原，顾盼生姿。闪避<color=e0834c>增加3%</color>。"
-    translated: "Swift as the wind and quick as lightning, moving with the shadows and chasing the breeze; traversing central plains while casting a grace in every glance. Increase dodge by <color=e0834c>3%</color>."
-- raw: "5006#鞭辟入里#精准得如同猎手一般。要害<color=e0834c></color>。增加3%。#0#10730#0#0#0#0#1##0##0#0#0#"
+- raw: "5006#1500037486#鞭辟入里#1500037690#0#10730#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "鞭辟入里"
     translated: "To get to the heart of the matter."
-  - split: 2
-    text: "精准得如同猎手一般。要害<color=e0834c></color>。增加3%。"
-    translated: "Precise as a hunter. Vital point <color=e0834c></color>. Increases 3%."
-- raw: "5007#烟消云散#过往得一切就如同烟消云散。化解<color=e0834c>增加3%</color>。#0#10740#0#0#0#0#1##0##0#0#0#"
+- raw: "5007#1500037487#烟消云散#1500037691#0#10740#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "烟消云散"
     translated: "Fleeting as a dissipating mist"
-  - split: 2
-    text: "过往得一切就如同烟消云散。化解<color=e0834c>增加3%</color>。"
-    translated: "All that has passed is like smoke and clouds dissipating. Counter <color=e0834c>+3%</color>."
-- raw: "5008#杀人诛心#言辞犀利，真是杀人又诛心啊！诛心<color=e0834c>增加3%</color>。#0#10750#0#0#0#0#1##0##0#0#0#"
+- raw: "5008#1500037488#杀人诛心#1500037692#0#10750#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "杀人诛心"
     translated: "Kill with a mind attack"
-  - split: 2
-    text: "言辞犀利，真是杀人又诛心啊！诛心<color=e0834c>增加3%</color>。"
-    translated: "Your words are sharp and ruthless‑truly a kill and then mind attack. Mind Attack increases <color=e0834c>3%</color>."
-- raw: "5009#无懈可击#跟钱非常亲近！金钱获取<color=e0834c>增加3%</color>。#0#10760#0#0#0#0#1##0##0#0#0#"
+- raw: "5009#1500037489#无懈可击#1500037693#0#10760#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "无懈可击"
     translated: "Without a single fault"
-  - split: 2
-    text: "跟钱非常亲近！金钱获取<color=e0834c>增加3%</color>。"
-    translated: "Closely related to money! Money gain increased by <color=e0834c>3%</color>."
-- raw: "5010#天生财缘#生下来就与钱财有缘，日后不可限量。金钱获取量<color=e0834c>增加5%</color>。#0#10770#0#0#0#0#1##0##0#0#0#"
+- raw: "5010#1500037490#天生财缘#1500037694#0#10770#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "天生财缘"
     translated: "Money comes naturally to them"
-  - split: 2
-    text: "生下来就与钱财有缘，日后不可限量。金钱获取量<color=e0834c>增加5%</color>。"
-    translated: "Born with a destiny intertwined with wealth, their future riches know no bounds. The quantity of money acquired increases by <color=e0834c>5%</color>."
-- raw: "8000#生财有道#时逢旺运带吉神，渐有财源如水流。从小就对金钱痴迷，获得金钱会<color=e0834c>增加20%</color>。#0#10110#9#0#0#0#1##0##0#0#0#"
+- raw: "8000#1500037491#生财有道#1500037695#0#10110#9#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "生财有道"
     translated: "Wealth comes from hard work"
-  - split: 2
-    text: "时逢旺运带吉神，渐有财源如水流。从小就对金钱痴迷，获得金钱会<color=e0834c>增加20%</color>。"
-    translated: "During a time of prosperity and good fortune, wealth gradually flows in like water. From an early age, they were obsessed with money; obtaining money will increase it by <color=e0834c>20%</color>."
-- raw: "8010#人急智生#此命福气果如何，求名谋利空费力。天生性格过于急躁，但是在战斗中会造成意想不到的效果，伤害<color=e0834c>增加5%</color>。#0#10130#9#0#0#0#2##0##0#0#0#"
+- raw: "8010#1500037492#人急智生#1500037696#0#10130#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "人急智生"
     translated: "In times of urgency, wisdom emerges"
-  - split: 2
-    text: "此命福气果如何，求名谋利空费力。天生性格过于急躁，但是在战斗中会造成意想不到的效果，伤害<color=e0834c>增加5%</color>。"
-    translated: "How fortunate is this fate? Pursuing fame and profit at great effort. Naturally impulsive in temperament, but in battle, it can yield unexpected effects with damage <color=e0834c>increased by 5%</color>."
-- raw: "8020#墨守成规#好奇走冰怕冰薄，营事生涯宜守旧。一生守旧，对于新事物不敢尝试，稳妥行事，受到伤害<color=e0834c>减少5%</color>。#0#10140#9#0#0#0#2##0##0#0#0#"
+- raw: "8020#1500037493#墨守成规#1500037697#0#10140#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "墨守成规"
     translated: "Adhering rigidly to tradition"
-  - split: 2
-    text: "好奇走冰怕冰薄，营事生涯宜守旧。一生守旧，对于新事物不敢尝试，稳妥行事，受到伤害<color=e0834c>减少5%</color>。"
-    translated: "Curiosity leads to trepidation on thin ice; a life devoted to tradition is best. Throughout one's life, remaining steadfast in old ways means shunning new endeavors. Acting with caution reduces the likelihood of harm by <color=e0834c>decreasing 5%</color>."
-- raw: "8030#身强力壮#一身骨肉最清高，凤鸣岐山四方扬。在修炼外家功夫方面有独特的理解，力道、体魄<color=e0834c>增加10</color>。#0#10170#9#0#0#0#2##0##0#0#0#"
+- raw: "8030#1500037494#身强力壮#1500037698#0#10170#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "身强力壮"
     translated: "Physically strong and robust"
-  - split: 2
-    text: "一身骨肉最清高，凤鸣岐山四方扬。在修炼外家功夫方面有独特的理解，力道、体魄<color=e0834c>增加10</color>。"
-    translated: "One's bones and flesh are the clearest of all, with a phoenix calling from Mount Qi spreading far and wide. In understanding external martial arts cultivation, there is a unique interpretation that increases strength and resilience <color=e0834c>by 10</color>."
-- raw: "8040#心不二用#苦心竭力成家计，百般计较难圆梦。天生异象，只能花各种心思来弥补欠缺，内力<color=e0834c>增加10</color>、要害<color=e0834c>增加50</color>。#0#10180#9#0#0#0#2##0##0#0#0#"
+- raw: "8040#1500037495#心不二用#1500037699#0#10180#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "心不二用"
     translated: "A heart of unwavering devotion"
-  - split: 2
-    text: "苦心竭力成家计，百般计较难圆梦。天生异象，只能花各种心思来弥补欠缺，内力<color=e0834c>增加10</color>、要害<color=e0834c>增加50</color>。"
-    translated: "After toiling tirelessly to establish a household and meticulously planning in every way possible, achieving dreams proves difficult. Born with an unusual fate, one must employ various strategies to compensate for deficiencies. Inner Power <color=e0834c>increases by 10</color>, Vital Point <color=e0834c>increases by 50</color>."
-- raw: "8050#后福无量#前面风霜都受过，有福降临不怕迟。初限历经磨难，使得自己防御增强，内外防<color=e0834c>增加10%</color>。#0#10190#9#0#0#0#3##0##0#0#0#"
+- raw: "8050#1500037496#后福无量#1500037700#0#10190#9#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "后福无量"
     translated: "May you be blessed with endless prosperity"
-  - split: 2
-    text: "前面风霜都受过，有福降临不怕迟。初限历经磨难，使得自己防御增强，内外防<color=e0834c>增加10%</color>。"
-    translated: "Having weathered hardships in the past, one knows that blessings will come, no matter how late. Through initial trials, self‑defense is strengthened, with both internal and external defense increased by <color=e0834c>10%</color>."
-- raw: "8060#隐修求志#立志谋业运未通，少壮名利难如意。专心修行，名利无收，获得修为和感悟<color=e0834c>增加10%</color>。#0#10230#9#0#0#0#2##0##0#0#0#"
+- raw: "8060#1500037497#隐修求志#1500037701#0#10230#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "隐修求志"
     translated: "Seeking aspiration through secluded practice"
-  - split: 2
-    text: "立志谋业运未通，少壮名利难如意。专心修行，名利无收，获得修为和感悟<color=e0834c>增加10%</color>。"
-    translated: "Devoted to ambition but with fate yet unclear, it is hard for the young and strong to attain fame and fortune. By focusing on cultivation, without seeking fame or wealth, one gains an increase of <color=e0834c>10%</color> in both skills and insight."
-- raw: "8070#讷口进言#名利推来竟若何，六亲相爱少相助。名利双收，修养、口才<color=e0834c>增加25</color>。#0#10240#9#0#0#0#1##0##0#0#0#"
+- raw: "8070#1500037498#讷口进言#1500037702#0#10240#9#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "讷口进言"
     translated: "Hesitant to speak up"
-  - split: 2
-    text: "名利推来竟若何，六亲相爱少相助。名利双收，修养、口才<color=e0834c>增加25</color>。"
-    translated: "Wealth and status come to those who seek them. Yet familial love often turns out lacking in support. When both wealth and status are gained, cultivation and eloquence increase by <color=e0834c>25</color>."
-- raw: "8080#有胆有识#孤舟行水离沙滩，食禄无亏天数定。一人闯荡江湖，受伤时只能看自己运气来恢复，胆识<color=e0834c>增加25</color>，伤害<color=e0834c>增加5%</color>。#0#10250#9#0#0#0#2##0##0#0#0#"
+- raw: "8080#1500037499#有胆有识#1500037703#0#10250#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "有胆有识"
     translated: "Brave and insightful"
-  - split: 2
-    text: "孤舟行水离沙滩，食禄无亏天数定。一人闯荡江湖，受伤时只能看自己运气来恢复，胆识<color=e0834c>增加25</color>，伤害<color=e0834c>增加5%</color>。"
-    translated: "A lone boat sails away from the shore, sustenance and longevity are as fated by the heavens. Venturing alone in the Jianghu, when injured, recovery is left to one's luck; courage increases <color=e0834c>25</color>, damage increases <color=e0834c>5%</color>."
-- raw: "8090#时来运转#时来运转喜开颜，平生原有滔滔福。枯木逢春，福气<color=e0834c>增加25</color>，要害<color=e0834c>增加50</color>。#0#10260#9#0#0#0#2##0##0#0#0#"
+- raw: "8090#1500037500#时来运转#1500037704#0#10260#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "时来运转"
     translated: "Timing is everything"
-  - split: 2
-    text: "时来运转喜开颜，平生原有滔滔福。枯木逢春，福气<color=e0834c>增加25</color>，要害<color=e0834c>增加50</color>。"
-    translated: "When the time is right and your fortunes turn in a favorable direction, you will find great joy. Throughout your life, an abundance of blessings has always been yours. As with trees that blossom in spring, your luck will increase by <color=e0834c>25</color>, and your vital points will grow by <color=e0834c>50</color>."
-- raw: "8100#好事多磨#初年运道未曾亨，风吹雨打运正衰。一生风雨飘摇，但也磨练了自己的心性，胆识<color=e0834c>增加25</color>，力道<color=e0834c>增加10</color>。#0#10270#9#0#0#0#2##0##0#0#0#"
+- raw: "8100#1500037501#好事多磨#1500037705#0#10270#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "好事多磨"
     translated: "Good things take time"
-  - split: 2
-    text: "初年运道未曾亨，风吹雨打运正衰。一生风雨飘摇，但也磨练了自己的心性，胆识<color=e0834c>增加25</color>，力道<color=e0834c>增加10</color>。"
-    translated: "In the early years, my path was not auspicious; storms and rain battered as fortune waned. Throughout a life of tumultuous winds and rains, I honed my spirit, increasing my courage <color=e0834c>by 25</color> and strength <color=e0834c>by 10</color>."
-- raw: "8110#求名求利#为利为名终日劳，恩人无义反成怨。义无反顾追名逐利，获取金钱、修为、感悟<color=e0834c>增加20%</color>。#0#10290#9#0#0#0#3##0##0#0#0#"
+- raw: "8110#1500037502#求名求利#1500037706#0#10290#9#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "求名求利"
     translated: "Seeking fame and fortune"
-  - split: 2
-    text: "为利为名终日劳，恩人无义反成怨。义无反顾追名逐利，获取金钱、修为、感悟<color=e0834c>增加20%</color>。"
-    translated: "For the sake of gain and reputation, laboring every day until benefactors become foes. Unyielding in righteousness, pursuing fame and profit to acquire wealth, skill, and insight; increases <color=e0834c>20%</color>."
-- raw: "8120#丁财两旺#一生荣华事事通，前运辛苦后逍遥。初始胆识，修养，坚韧，豪爽各<color=e0834c>增加25点</color>。#0#10300#9#0#0#0#2##0##0#0#0#"
+- raw: "8120#1500037503#丁财两旺#1500037707#0#10300#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "丁财两旺"
     translated: "Both rich and wealthy"
-  - split: 2
-    text: "一生荣华事事通，前运辛苦后逍遥。初始胆识，修养，坚韧，豪爽各<color=e0834c>增加25点</color>。"
-    translated: "Achieve glory and prosperity throughout life, with early hardships leading to later ease. Initially, increase <color=e0834c>Courage 25</color>, Cultivation 25, Toughness 25, and Generosity 25."
-- raw: "8130#福星高照#命带桃花运正红，宗族有光欣喜甚。出生自带福气，并且生得一副好皮囊。福气<color=e0834c>增加25</color>，容貌<color=e0834c>增加25</color>。#0#10310#9#0#0#0#1##0##0#0#0#"
+- raw: "8130#1500037504#福星高照#1500037708#0#10310#9#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "福星高照"
     translated: "Good fortune is shining upon you"
-  - split: 2
-    text: "命带桃花运正红，宗族有光欣喜甚。出生自带福气，并且生得一副好皮囊。福气<color=e0834c>增加25</color>，容貌<color=e0834c>增加25</color>。"
-    translated: "Carrying the auspicious peach blossom fortune, your family shines with great joy. Blessed from birth with good luck and a fine appearance. Fortune <color=e0834c>increased by 25</color>, beauty <color=e0834c>increased by 25</color>."
-- raw: "8140#文武双全#兴家立业在其中，文武双全功名成。文成武就，所有学识<color=e0834c>增加25</color>，所有战术<color=e0834c>增加25</color>。#0#10320#9#0#0#0#3##0##0#0#0#"
+- raw: "8140#1500037505#文武双全#1500037709#0#10320#9#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "文武双全"
     translated: "Proficient in both martial arts and scholarship"
-  - split: 2
-    text: "兴家立业在其中，文武双全功名成。文成武就，所有学识<color=e0834c>增加25</color>，所有战术<color=e0834c>增加25</color>。"
-    translated: "Prosper the family and establish one's career through these endeavors; achieving renown for excellence in both literary and martial arts. Upon succeeding in literature, all knowledge increases by 25, and upon excelling in martial strategy, all tactical skills increase by 25."
-- raw: "8150#全神贯注#鞭驽策蹇争名利，少年谋事空筹计。算无遗策，诛心<color=e0834c>增加50</color>，身法<color=e0834c>增加10</color>。#0#10340#9#0#0#0#2##0##0#0#0#"
+- raw: "8150#1500037506#全神贯注#1500037710#0#10340#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "全神贯注"
     translated: "Fully focused"
-  - split: 2
-    text: "鞭驽策蹇争名利，少年谋事空筹计。算无遗策，诛心<color=e0834c>增加50</color>，身法<color=e0834c>增加10</color>。"
-    translated: "Chasing fame and profit with whip in hand, a young man plots strategies in vain. Calculated without flaw, Mind Attack increases by 50, Agility increases by 10."
-- raw: "8160#神采焕发#明珠辉吐好彩来，甜酸苦辣皆尝过。锻炼自身要害，要害<color=e0834c>增加50</color>，内力<color=e0834c>增加10</color>。#0#10350#9#0#0#0#2##0##0#0#0#"
+- raw: "8160#1500037507#神采焕发#1500037711#0#10350#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "神采焕发"
     translated: "Full of vitality and radiance"
-  - split: 2
-    text: "明珠辉吐好彩来，甜酸苦辣皆尝过。锻炼自身要害，要害<color=e0834c>增加50</color>，内力<color=e0834c>增加10</color>。"
-    translated: "Pearl Gem emits beautiful colors and has tasted sweet, sour, bitter, and spicy flavors. Strengthening one's vital points increases the number of <color=e0834c>vital points by 50</color>, and enhances <color=e0834c>inner power by 10</color>."
-- raw: "8170#身轻体健#福禄丰盈万事全，三尺杨柳垂金线。淬炼自身体魄，力道<color=e0834c>增加10</color>，体魄<color=e0834c>增加10</color>。#0#10360#9#0#0#0#2##0##0#0#0#"
+- raw: "8170#1500037508#身轻体健#1500037712#0#10360#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "身轻体健"
     translated: "Light on their feet and in good health"
-  - split: 2
-    text: "福禄丰盈万事全，三尺杨柳垂金线。淬炼自身体魄，力道<color=e0834c>增加10</color>，体魄<color=e0834c>增加10</color>。"
-    translated: "Prosperity and happiness in all endeavors; three feet of willow bending with golden threads. Through self‑cultivation, resilience is enhanced by 10, and strength is increased by <color=e0834c>10</color>."
-- raw: "8180#孔武有力#平生食禄自然来，名利兼全福寿偕。福禄双全，真气<color=e0834c>增加50</color>，根骨<color=e0834c>增加10</color>。#0#10370#9#0#0#0#2##0##0#0#0#"
+- raw: "8180#1500037509#孔武有力#1500037713#0#10370#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "孔武有力"
     translated: "Physically strong"
-  - split: 2
-    text: "平生食禄自然来，名利兼全福寿偕。福禄双全，真气<color=e0834c>增加50</color>，根骨<color=e0834c>增加10</color>。"
-    translated: "Throughout life, sustenance and status naturally align; wealth and longevity accompany fame. With fortune and rank in harmony, True Qi <color=e0834c>increases by 50</color> and Potential <color=e0834c>increases by 10</color>."
-- raw: "8190#长命富贵#谋望求财吉庆多，田园财帛更丰盈。衣食富足，最大生命、最大真气<color=e0834c>增加10%</color>。#0#10390#9#0#0#0#3##0##0#0#0#"
+- raw: "8190#1500037510#长命富贵#1500037714#0#10390#9#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "长命富贵"
     translated: "May you live long and prosper"
-  - split: 2
-    text: "谋望求财吉庆多，田园财帛更丰盈。衣食富足，最大生命、最大真气<color=e0834c>增加10%</color>。"
-    translated: "Seeking wealth and fortune brings great joy; the fields and treasures overflow with riches. With abundant food and clothing, health reaches its peak, and True Qi increases by <color=e0834c>10%</color>."
-- raw: "8200#灵心慧性#缘木求鱼事多难，聪明天赋经书熟。天资聪慧，获得修为、感悟<color=e0834c>增加20%</color>。#0#10400#9#0#0#0#2##0##0#0#0#"
+- raw: "8200#1500037511#灵心慧性#1500037715#0#10400#9#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "灵心慧性"
     translated: "Intuitive wisdom"
-  - split: 2
-    text: "缘木求鱼事多难，聪明天赋经书熟。天资聪慧，获得修为、感悟<color=e0834c>增加20%</color>。"
-    translated: "Seeking fish by grasping a tree is often challenging; those with innate intelligence and thorough knowledge of scriptures can succeed. With natural acumen and understanding, they gain proficiency, enhancing their comprehension by <color=e0834c>20%</color>."
-- raw: "8210#剑胆琴心#有文有武显精神，读书必定显亲宗。内力深厚，内防<color=e0834c>增加10%</color>，内攻<color=e0834c>增加10%</color>。#0#10410#9#0#0#0#3##0##0#0#0#"
+- raw: "8210#1500037512#剑胆琴心#1500037716#0#10410#9#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "剑胆琴心"
     translated: "Brave in swordsmanship, calm in music"
-  - split: 2
-    text: "有文有武显精神，读书必定显亲宗。内力深厚，内防<color=e0834c>增加10%</color>，内攻<color=e0834c>增加10%</color>。"
-    translated: "One who is both scholarly and martial demonstrates their spirit. Studying is essential to honoring one's family. Inner Power is profound; internal defense increases by <color=e0834c>10%</color>, and internal attack increases by <color=e0834c>10%</color>."
-- raw: "8220#强弓劲弩#脱离苦难显威风，家大业大谁能及。横练外功，外攻<color=e0834c>增加10%</color>，外防<color=e0834c>增加10%</color>。#0#10430#9#0#0#0#3##0##0#0#0#"
+- raw: "8220#1500037513#强弓劲弩#1500037717#0#10430#9#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "强弓劲弩"
     translated: "Powerful bows and sturdy crossbows"
-  - split: 2
-    text: "脱离苦难显威风，家大业大谁能及。横练外功，外攻<color=e0834c>增加10%</color>，外防<color=e0834c>增加10%</color>。"
-    translated: "To rise above adversity is to display one's strength; who can compete when the family is great? Through rigorous practice of external skills, external attack increases by <color=e0834c>10%</color>, and external defense increases by <color=e0834c>10%</color>."
-- raw: "8230#力敌万夫#运道亨通闺阁楼，堆金积玉满堂春。天生悟性就超过常人，悟性<color=e0834c>增加25</color>，对敌人的伤害<color=e0834c>增加10%</color>。#0#10450#9#0#0#0#3##0##0#0#0#"
+- raw: "8230#1500037514#力敌万夫#1500037718#0#10450#9#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "力敌万夫"
     translated: "An adversary worthy of a thousand men"
-  - split: 2
-    text: "运道亨通闺阁楼，堆金积玉满堂春。天生悟性就超过常人，悟性<color=e0834c>增加25</color>，对敌人的伤害<color=e0834c>增加10%</color>。"
-    translated: "The Dao of Prosperity flows through the chambers and towers, wealth accumulates like spring fills a hall. Born with exceptional comprehension, surpassing ordinary people; comprehension increases by <color=e0834c>25</color>, enhancing damage to enemies by <color=e0834c>10%</color>."
-- raw: "8240#风流才子#富贵由天莫苦求，万金家计不须谋。学识<color=e0834c>增加25</color>，要害、真气<color=e0834c>增加75</color>，并且习得学识类属性的效果<color=e0834c>增加50%</color>。#0#10470#9#0#0#0#4##0##0#0#0#"
+- raw: "8240#1500037515#风流才子#1500037719#0#10470#9#0#0#0#4##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "风流才子"
     translated: "A dashing literary genius"
-  - split: 2
-    text: "富贵由天莫苦求，万金家计不须谋。学识<color=e0834c>增加25</color>，要害、真气<color=e0834c>增加75</color>，并且习得学识类属性的效果<color=e0834c>增加50%</color>。"
-    translated: "Fortune is bestowed by the heavens and should not be pursued with toil; wealth need not be planned for meticulously. Learnings <color=e0834c>increase by 25</color>, vital points, true Qi <color=e0834c>increase by 75</color>, and also gain an enhancement of effect for learning attributes of <color=e0834c>50%</color>."
-- raw: "8250#福寿双全#不须愁虑苦劳心，又富又贵乐平生。大幅提升自身暴击的几率和暴击伤害，诛心<color=e0834c>增加10%</color>，要害<color=e0834c>增加10%</color>，同时在暴击时可以触发额外吸血。#0#10490#9#0#0#0#4##0##0#0#0#"
+- raw: "8250#1500037516#福寿双全#1500037720#0#10490#9#0#0#0#4##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "福寿双全"
     translated: "Fu and Shou both live long lives"
-  - split: 2
-    text: "不须愁虑苦劳心，又富又贵乐平生。大幅提升自身暴击的几率和暴击伤害，诛心<color=e0834c>增加10%</color>，要害<color=e0834c>增加10%</color>，同时在暴击时可以触发额外吸血。"
-    translated: "No need to worry or labor over a troubled heart; enjoy wealth and a happy life. Significantly increase the chances of critical hits and critical hit damage‑heartbreak increased by <color=e0834c>10%</color>, vital point increased by <color=e0834c>10%</color>‑and trigger additional blood sucking upon landing a critical hit."
-- raw: "8260#不动如山#身如山岳，心如止水。无论处于何等境地，均能稳如泰山，任凭风吹雨打，岿然不动，力道、体魄<color=e0834c>增加10</color>、要害<color=e0834c>增加50</color>。#0#10880#0#0#0#0#2##0##0#0#0#"
+- raw: "8260#1500037517#不动如山#1500037721#0#10880#0#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "不动如山"
     translated: "Unyielding as a mountain"
-  - split: 2
-    text: "身如山岳，心如止水。无论处于何等境地，均能稳如泰山，任凭风吹雨打，岿然不动，力道、体魄<color=e0834c>增加10</color>、要害<color=e0834c>增加50</color>。"
-    translated: "Steady as a mountain and calm as still water. Regardless of the situation, one remains unshakeable like a towering peak, unmoved by wind or rain. Strength increases <color=e0834c>10</color>, resilience increases <color=e0834c>50</color>."
-- raw: "8261#赌神#智慧、运气与胆识完美融合的象征，闪避<color=e0834c>增加3%</color>。#0#10720#0#0#0#0#0##0##0#0#0#"
+- raw: "8261#1500037518#赌神#1500037722#0#10720#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "赌神"
     translated: "Gambling God"
-  - split: 2
-    text: "智慧、运气与胆识完美融合的象征，闪避<color=e0834c>增加3%</color>。"
-    translated: "The embodiment of wisdom, luck, and courage perfectly fused together; increases dodge by <color=e0834c>3%</color>."
-- raw: "10780#举人#你已为举人,扶持:可按时获取一笔朝廷发放的扶持银两，送礼好感度加成小幅提高。#0#10780#0#0#0#0#0##0##0#0#0#"
+- raw: "10780#1500037519#举人#1500037723#0#10780#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "举人"
     translated: "Juren"
-  - split: 2
-    text: "你已为举人,扶持:可按时获取一笔朝廷发放的扶持银两，送礼好感度加成小幅提高。"
-    translated: "You have been recommended as a juren, supported to advance: You can receive a stipend from the imperial court on time, and there is a slight increase in gift affection when giving gifts."
-- raw: "10790#贡士#你已为贡士,扶持:可按时获取一笔朝廷发放的扶持银两，送礼好感度加成中幅提高。#0#10790#0#0#0#0#1##0##0#0#0#"
+- raw: "10790#1500037520#贡士#1500037724#0#10790#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "贡士"
     translated: "Gongshi"
-  - split: 2
-    text: "你已为贡士,扶持:可按时获取一笔朝廷发放的扶持银两，送礼好感度加成中幅提高。"
-    translated: "You have already supported the Gongshi candidates: You can receive a portion of the silver granted by the Imperial Court on time, and enjoy a moderate increase in Affinity from gift‑giving."
-- raw: "10800#探花#你已为当朝探花郎,俸禄:可按时获取一笔朝廷发放的俸禄，送礼加成较大提高。#0#10800#0#0#0#0#2##0##0#0#0#"
+- raw: "10800#1500037521#探花#1500037725#0#10800#0#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "探花"
     translated: "First Scholar"
-  - split: 2
-    text: "你已为当朝探花郎,俸禄:可按时获取一笔朝廷发放的俸禄，送礼加成较大提高。"
-    translated: "You have been appointed as a top scholar of the imperial court, receiving your salary: You can obtain a stipend from the imperial court on time, and bonuses for gift‑giving significantly increase it."
-- raw: "10810#榜眼#你已为当朝榜眼,俸禄:可按时获取一笔朝廷发放的俸禄，送礼加成较大提高。#0#10810#0#0#0#0#3##0##0#0#0#"
+- raw: "10810#1500037522#榜眼#1500037726#0#10810#0#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "榜眼"
     translated: "Runners‑up"
-  - split: 2
-    text: "你已为当朝榜眼,俸禄:可按时获取一笔朝廷发放的俸禄，送礼加成较大提高。"
-    translated: "You have become the top scholar of the current dynasty, receiving your salary: You can obtain a salary from the imperial court on time, and there's a significant increase in rewards when presenting gifts."
-- raw: "10820#状元#你已为当朝状元郎,俸禄:可按时获取一笔朝廷发放的俸禄，送礼加成大幅提高。#0#10820#0#0#0#0#4##0##0#0#0#"
+- raw: "10820#1500037523#状元#1500037727#0#10820#0#0#0#0#4##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "状元"
     translated: "Top scholar"
-  - split: 2
-    text: "你已为当朝状元郎,俸禄:可按时获取一笔朝廷发放的俸禄，送礼加成大幅提高。"
-    translated: "You are already the Imperial Academy's top graduate of this reign, earning a salary: You can obtain a stipend from the imperial court on time, with significantly increased bonuses for gift‑giving."
-- raw: "10830#手不释卷#根据所读书籍种类之多寡，略微提升自身之真气。#0#10830#0#0#0#0#0##0##0#0#0#"
+- raw: "10830#1500037524#手不释卷#1500037728#0#10830#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "手不释卷"
     translated: "Always engrossed in their books"
-  - split: 2
-    text: "根据所读书籍种类之多寡，略微提升自身之真气。"
-    translated: "Based on the variety of books read, one can slightly enhance their own true qi."
-- raw: "10840#暮史朝经#根据所读书籍种类之多寡，小幅提升自身之真气。#0#10840#0#0#0#0#1##0##0#0#0#"
+- raw: "10840#1500037525#暮史朝经#1500037729#0#10840#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "暮史朝经"
     translated: "Sunset history, sunrise experience"
-  - split: 2
-    text: "根据所读书籍种类之多寡，小幅提升自身之真气。"
-    translated: "Based on the variety of books read, slightly enhance your own True Qi."
-- raw: "10850#博览群书#根据所读书籍种类之多寡，中幅提升自身之真气。#0#10850#0#0#0#0#2##0##0#0#0#"
+- raw: "10850#1500037526#博览群书#1500037730#0#10850#0#0#0#0#2##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "博览群书"
     translated: "Extensive reader of many books"
-  - split: 2
-    text: "根据所读书籍种类之多寡，中幅提升自身之真气。"
-    translated: "Based on the quantity of books read, gradually enhance your own True Qi."
-- raw: "10860#学富五车#根据所读书籍种类之多寡，较多提升自身之真气。#0#10860#0#0#0#0#3##0##0#0#0#"
+- raw: "10860#1500037527#学富五车#1500037731#0#10860#0#0#0#0#3##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "学富五车"
     translated: "Having extensive knowledge across five disciplines"
-  - split: 2
-    text: "根据所读书籍种类之多寡，较多提升自身之真气。"
-    translated: "Based on the variety of books read, it can significantly enhance one's True Qi."
-- raw: "10870#胸中藏万卷#腹有诗书气自华，根据所读书籍数量，<color=e0834c>提升当前真气10%</color>。#0#10870#0#0#0#0#4##0##0#0#0#"
+- raw: "10870#1500037528#胸中藏万卷#1500037732#0#10870#0#0#0#0#4##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "胸中藏万卷"
     translated: "With a heart holding ten thousand volumes"
-  - split: 2
-    text: "腹有诗书气自华，根据所读书籍数量，<color=e0834c>提升当前真气10%</color>。"
-    translated: "With a wealth of literature in one's mind, one's innate qi naturally flourishes. Based on the number of books read, <color=e0834c>increase current True Qi by 10%.</color>"
-- raw: "10910#练武奇才#全身经脉天生畅通，呼吸吐纳皆是修行，<color=e0834c>修为获取提升10%</color>。#0#10910#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "10910#1500037529#练武奇才#1500037733#0#10910#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "练武奇才"
     translated: "A prodigious martial artist"
-  - split: 2
-    text: "全身经脉天生畅通，呼吸吐纳皆是修行，<color=e0834c>修为获取提升10%</color>。"
-    translated: "The meridians throughout the body are naturally unblocked, and breathing and exhaling are all part of training. <color=e0834c>Practitioner's skill level increases by 10%. </color>"
-- raw: "20100#刚正不阿#刚属性<color=e0834c>增加10点</color>。#0#20100#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
+- raw: "20100#1500037530#刚正不阿#1500037734#0#20100#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "刚正不阿"
     translated: "Uphold justice without favoritism"
-  - split: 2
-    text: "刚属性<color=e0834c>增加10点</color>。"
-    translated: "Hard attribute <color=e0834c>increased by 10 points</color>"
-- raw: "20110#铁骨铮铮#刚属性<color=e0834c>增加20点</color>。#0#20110#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20110#1500037531#铁骨铮铮#1500037735#0#20110#0#0#0#0#1#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "铁骨铮铮"
     translated: "Iron will unyielding"
-  - split: 2
-    text: "刚属性<color=e0834c>增加20点</color>。"
-    translated: "Hard attribute <color=e0834c>increased by 20 points</color>"
-- raw: "20120#忠肝义胆#刚属性<color=e0834c>增加5%</color>。#0#20120#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "20120#1500037532#忠肝义胆#1500037736#0#20120#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "忠肝义胆"
     translated: "Loyal heart and righteous courage"
-  - split: 2
-    text: "刚属性<color=e0834c>增加5%</color>。"
-    translated: "Hard attribute <color=e0834c>increased by 5%</color>"
-- raw: "20130#赤胆忠心#刚属性<color=e0834c>增加10%</color>。#0#20130#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
+- raw: "20130#1500037533#赤胆忠心#1500037737#0#20130#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
   splits:
-  - split: 1
+  - split: 2
     text: "赤胆忠心"
     translated: "Heart of red and loyalty unswerving"
-  - split: 2
-    text: "刚属性<color=e0834c>增加10%</color>。"
-    translated: "Hard attribute <color=e0834c>increased by 10%</color>"
-- raw: "20140#上善若水#柔属性<color=e0834c>增加10点</color>。#0#20140#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
+- raw: "20140#1500037534#上善若水#1500037738#0#20140#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "上善若水"
     translated: "The highest goodness is like water"
-  - split: 2
-    text: "柔属性<color=e0834c>增加10点</color>。"
-    translated: "Soft attribute <color=e0834c>increased by 10 points</color>"
-- raw: "20150#以柔克刚#柔属性<color=e0834c>增加20点</color>。#0#20150#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20150#1500037535#以柔克刚#1500037739#0#20150#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "以柔克刚"
     translated: "Soft overcomes hard"
-  - split: 2
-    text: "柔属性<color=e0834c>增加20点</color>。"
-    translated: "Soft attribute <color=e0834c>increased by 20 points</color>"
-- raw: "20160#柔肠百转#柔属性<color=e0834c>增加5%</color>。#0#20160#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "20160#1500037536#柔肠百转#1500037740#0#20160#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "柔肠百转"
     translated: "Heartstrings tugged a hundred times over"
-  - split: 2
-    text: "柔属性<color=e0834c>增加5%</color>。"
-    translated: "Soft attribute <color=e0834c>increased by 5%</color>"
-- raw: "20170#侠骨柔情#柔属性<color=e0834c>增加10%</color>。#0#20170#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
+- raw: "20170#1500037537#侠骨柔情#1500037741#0#20170#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
   splits:
-  - split: 1
+  - split: 2
     text: "侠骨柔情"
     translated: "Gentlehearted warrior spirit"
-  - split: 2
-    text: "柔属性<color=e0834c>增加10%</color>。"
-    translated: "Soft attribute <color=e0834c>increases by 10%</color>"
-- raw: "20180#阴险狡诈#阴属性<color=e0834c>增加10点</color>。#0#20180#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
+- raw: "20180#1500037538#阴险狡诈#1500037742#0#20180#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "阴险狡诈"
     translated: "Cunningly deceitful"
-  - split: 2
-    text: "阴属性<color=e0834c>增加10点</color>。"
-    translated: "Yin attribute <color=e0834c>increased by 10 points</color>"
-- raw: "20190#笑里藏刀#阴属性<color=e0834c>增加20点</color>。#0#20190#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20190#1500037539#笑里藏刀#1500037743#0#20190#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "笑里藏刀"
     translated: "A smile with a hidden blade"
-  - split: 2
-    text: "阴属性<color=e0834c>增加20点</color>。"
-    translated: "Yin attribute <color=e0834c>increased by 20 points.</color>."
-- raw: "20200#冷若冰霜#阴属性<color=e0834c>增加5%</color>。#0#20200#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "20200#1500037540#冷若冰霜#1500037744#0#20200#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "冷若冰霜"
     translated: "Cold as frost"
-  - split: 2
-    text: "阴属性<color=e0834c>增加5%</color>。"
-    translated: "Yin attribute <color=e0834c>increased by 5%</color>"
-- raw: "20210#冰肌玉骨#阴属性<color=e0834c>增加10%</color>。#0#20210#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
+- raw: "20210#1500037541#冰肌玉骨#1500037745#0#20210#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
   splits:
-  - split: 1
+  - split: 2
     text: "冰肌玉骨"
     translated: "Icy muscles and jade bones"
-  - split: 2
-    text: "阴属性<color=e0834c>增加10%</color>。"
-    translated: "Yin attribute <color=e0834c>increased by 10%</color>"
-- raw: "20220#赤子之心#阳属性<color=e0834c>增加10点</color>。#0#20220#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
+- raw: "20220#1500037542#赤子之心#1500037746#0#20220#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "赤子之心"
     translated: "Heart of a child"
-  - split: 2
-    text: "阳属性<color=e0834c>增加10点</color>。"
-    translated: "Increases <color=e0834c>Yang attribute by 10 points.</color>."
-- raw: "20230#九阳灵脉#阳属性<color=e0834c>增加20点</color>。#0#20230#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20230#1500037543#九阳灵脉#1500037747#0#20230#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "九阳灵脉"
     translated: "Nine Yang Spirit Meridian"
-  - split: 2
-    text: "阳属性<color=e0834c>增加20点</color>。"
-    translated: "Yang attribute <color=e0834c>increased by 20 points</color>"
-- raw: "20240#长河落日#阳属性<color=e0834c>增加5%</color>。#0#20240#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "20240#1500037544#长河落日#1500037748#0#20240#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "长河落日"
     translated: "Evening sun setting over a long river"
-  - split: 2
-    text: "阳属性<color=e0834c>增加5%</color>。"
-    translated: "Yang attribute <color=e0834c>increased by 5%. </color>"
-- raw: "20250#白虹贯日#阳属性<color=e0834c>增加10%</color>。#0#20250#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
+- raw: "20250#1500037545#白虹贯日#1500037749#0#20250#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
   splits:
-  - split: 1
+  - split: 2
     text: "白虹贯日"
     translated: "A white rainbow crosses the sun"
-  - split: 2
-    text: "阳属性<color=e0834c>增加10%</color>。"
-    translated: "Yang attribute <color=e0834c>increased by 10%</color>"
-- raw: "20260#腐骨蚀心#毒属性<color=e0834c>增加10点</color>。#0#20260#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
+- raw: "20260#1500037546#腐骨蚀心#1500037750#0#20260#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "腐骨蚀心"
     translated: "Corrode bones and sap vitality"
-  - split: 2
-    text: "毒属性<color=e0834c>增加10点</color>。"
-    translated: "Poison attribute <color=e0834c>increased by 10 points</color>"
-- raw: "20270#见血封喉#毒属性<color=e0834c>增加20点</color>。#0#20270#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20270#1500037547#见血封喉#1500037751#0#20270#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "见血封喉"
     translated: "See‑saw strike"
-  - split: 2
-    text: "毒属性<color=e0834c>增加20点</color>。"
-    translated: "Poison attribute <color=e0834c>increased by 20 points</color>"
-- raw: "20280#万蛊缠身#毒属性<color=e0834c>增加5%</color>。#0#20280#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "20280#1500037548#万蛊缠身#1500037752#0#20280#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "万蛊缠身"
     translated: "Bewitched by a thousand hexes"
-  - split: 2
-    text: "毒属性<color=e0834c>增加5%</color>。"
-    translated: "Poison attribute <color=e0834c>increased by 5%</color>"
-- raw: "20290#鸩羽千夜#毒属性<color=e0834c>增加10%</color>。#0#20290#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
+- raw: "20290#1500037549#鸩羽千夜#1500037753#0#20290#0#0#0#0#3#1|2|3|4|5|25#0##0#0#55#"
   splits:
-  - split: 1
+  - split: 2
     text: "鸩羽千夜"
     translated: "Toxic Plum and a Thousand Nights"
-  - split: 2
-    text: "毒属性<color=e0834c>增加10%</color>。"
-    translated: "Poison attribute <color=e0834c>increased by 10%</color>"
-- raw: "20300#力敌千钧#力道<color=e0834c>增加10%，外功攻击<color=e0834c>增加30点</color>。#0#20300#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
+- raw: "20300#1500037550#力敌千钧#1500037754#0#20300#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "力敌千钧"
     translated: "Countering a force of thousands of tons"
-  - split: 2
-    text: "力道<color=e0834c>增加10%，外功攻击<color=e0834c>增加30点</color>。"
-    translated: "Strength increases by 10% and external skill attack gains an additional 30 points."
-- raw: "20310#身轻如燕#身法<color=e0834c>增加10%，闪避<color=e0834c>增加30点</color>。#0#20310#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
+- raw: "20310#1500037551#身轻如燕#1500037755#0#20310#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "身轻如燕"
     translated: "Light as a swallow"
-  - split: 2
-    text: "身法<color=e0834c>增加10%，闪避<color=e0834c>增加30点</color>。"
-    translated: "Agility increased by <color=e0834c>10%</color>, dodge increased by <color=e0834c>30 points</color>."
-- raw: "20320#内力深厚#内力<color=e0834c>增加10%，内攻攻击<color=e0834c>增加30点</color>。#0#20320#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
+- raw: "20320#1500037552#内力深厚#1500037756#0#20320#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "内力深厚"
     translated: "Possesses profound inner power"
-  - split: 2
-    text: "内力<color=e0834c>增加10%，内攻攻击<color=e0834c>增加30点</color>。"
-    translated: "Inner power increases by 10%. Internal attack damage increases by 30 points."
-- raw: "20330#虎背熊腰#根骨<color=e0834c>增加10%，生命值<color=e0834c>增加300点</color>。#0#20330#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
+- raw: "20330#1500037553#虎背熊腰#1500037757#0#20330#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "虎背熊腰"
     translated: "Broad shoulders like a tiger's back"
-  - split: 2
-    text: "根骨<color=e0834c>增加10%，生命值<color=e0834c>增加300点</color>。"
-    translated: "Potential increased by <color=e0834c>10%</color>, health points increased by <color=e0834c>300</color>."
-- raw: "20340#皮糙肉厚#体魄<color=e0834c>增加10%，内防、外防<color=e0834c>增加30点#0#20340#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
+- raw: "20340#1500037554#皮糙肉厚#1500037758#0#20340#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "皮糙肉厚"
     translated: "Tough as nails"
-  - split: 2
-    text: "体魄<color=e0834c>增加10%，内防、外防<color=e0834c>增加30点"
-    translated: "Resilience increased by <color=e0834c>10%, internal defense and external defense increased by <color=e0834c>30 points."
-- raw: "20350#心狠手辣#对生命值低于25%的敌人，伤害提升30%</color>。#0#20350#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "20350#1500037555#心狠手辣#1500037759#0#20350#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "心狠手辣"
     translated: "Heartless and ruthless"
-  - split: 2
-    text: "对生命值低于25%的敌人，伤害提升30%</color>。"
-    translated: "Damage increased by 30% against enemies with health below 25%. </color>"
-- raw: "20360#睚眦必报#被攻击后10秒内，对该敌人<color=e0834c>伤害提升20%</color>，自身受该敌人伤害<color=e0834c>增加15%</color>，冷却15秒#0#20360#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
+- raw: "20360#1500037556#睚眦必报#1500037760#0#20360#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "睚眦必报"
     translated: "An eye for an eye"
-  - split: 2
-    text: "被攻击后10秒内，对该敌人<color=e0834c>伤害提升20%</color>，自身受该敌人伤害<color=e0834c>增加15%</color>，冷却15秒"
-    translated: "After being attacked, for 10 seconds, damage to that enemy is increased by <color=e0834c>20%</color>, while the self takes an increase of <color=e0834c>15%</color> from that enemy's attacks. Cooldown: 15 seconds."
-- raw: "20370#深藏不露#战斗前10秒<color=e0834c>暴击率提升20%</color>；生命低于20%时<color=e0834c>全属性提升10%</color>，冷却360秒。#0#20370#0#0#0#0#4#1|2|3|4|5|25#0##0#0#120#"
+- raw: "20370#1500037557#深藏不露#1500037761#0#20370#0#0#0#0#4#1|2|3|4|5|25#0##0#0#120#"
   splits:
-  - split: 1
+  - split: 2
     text: "深藏不露"
     translated: "Hidden in plain sight"
-  - split: 2
-    text: "战斗前10秒<color=e0834c>暴击率提升20%</color>；生命低于20%时<color=e0834c>全属性提升10%</color>，冷却360秒。"
-    translated: "In the 10 seconds before battle, <color=e0834c>critical strike rate increases by 20%</color>; when health is below 20%, <color=e0834c>all attributes increase by 10%</color>, with a cooldown of 360 seconds."
-- raw: "20380#快意恩仇#击杀单位后恢复自身5%最大生命，冷却3秒#0#20380#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
+- raw: "20380#1500037558#快意恩仇#1500037762#0#20380#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "快意恩仇"
     translated: "Revenge of Kindness and Gratitude"
-  - split: 2
-    text: "击杀单位后恢复自身5%最大生命，冷却3秒"
-    translated: "Upon eliminating a unit, restore 5% of your maximum health; cooldown: 3 seconds."
-- raw: "20390#萍踪侠影#<color=e0834c>移动速度提升10%</color>，每点轻功<color=e0834c>增加1点内攻攻击和1点外功攻击</color>，最多增加1000点#0#20390#0#0#0#0#4#1|2|3|4|5#0##0#0#150#"
+- raw: "20390#1500037559#萍踪侠影#1500037763#0#20390#0#0#0#0#4#1|2|3|4|5#0##0#0#150#"
   splits:
-  - split: 1
+  - split: 2
     text: "萍踪侠影"
     translated: "Wandering Grass, Shadow of a Hero"
-  - split: 2
-    text: "<color=e0834c>移动速度提升10%</color>，每点轻功<color=e0834c>增加1点内攻攻击和1点外功攻击</color>，最多增加1000点"
-    translated: "<color=e0834c>Movement Speed Increased by 10%</color>, each point of Qinggong <color=e0834c>increases Internal Attack by 1 points and External Skill Attack by 1 points</color>, with a maximum increase of 1000 points."
-- raw: "20400#趁火打劫#对有灼阳状态的敌方单位，<color=e0834c>伤害提升15%</color>。#0#20400#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
+- raw: "20400#1500037560#趁火打劫#1500037764#0#20400#0#0#0#0#2#1|2|3|4|5|25#0##0#0#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "趁火打劫"
     translated: "Seize the opportunity in a crisis"
-  - split: 2
-    text: "对有灼阳状态的敌方单位，<color=e0834c>伤害提升15%</color>。"
-    translated: "To enemy units with a scorching yang state, <color=e0834c>damage increased by 15%</color>."
-- raw: "20410#绝处逢生#生命首次低于10%时，50%概率恢复50%生命，获得“绝境反击”状态（内外攻+20%，内外防+20%，持续8秒，冷却360秒）#0#20410#0#0#0#0#4#1|2|3|4|5|25#0##0#0#120#"
+- raw: "20410#1500037561#绝处逢生#1500037765#0#20410#0#0#0#0#4#1|2|3|4|5|25#0##0#0#120#"
   splits:
-  - split: 1
+  - split: 2
     text: "绝处逢生"
     translated: "Escaping from certain death"
-  - split: 2
-    text: "生命首次低于10%时，50%概率恢复50%生命，获得“绝境反击”状态（内外攻+20%，内外防+20%，持续8秒，冷却360秒）"
-    translated: "When health first falls below 10%, there is a 50% chance to recover 50% health and enter the Counterattack in Desperation state (internal external attack increased by +20%, internal external defense increased by +20%, lasting for 8 seconds, with a cooldown of 360 seconds)."
-- raw: "20420#神功大成#携带4个满级招式时，<color=e0834c>增加50点内外功威力</color>。#0#20420#0#0#0#0#4#1|2|3|4|5|25#0##0#0#150#"
+- raw: "20420#1500037562#神功大成#1500037766#0#20420#0#0#0#0#4#1|2|3|4|5|25#0##0#0#150#"
   splits:
-  - split: 1
+  - split: 2
     text: "神功大成"
     translated: "Mastery of divine skill achieved"
-  - split: 2
-    text: "携带4个满级招式时，<color=e0834c>增加50点内外功威力</color>。"
-    translated: "When carrying 4 full‑level techniques, <color=e0834c>increase by 50 points of internal and external power.</color>"
-- raw: "20430#白马追风#骑马时，移动速度<color=e0834c>增加30%</color>。#0#20430#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
+- raw: "20430#1500037563#白马追风#1500037767#0#20430#0#0#0#0#1#1|2|3|4|5|25#0##0#0#10#"
   splits:
-  - split: 1
+  - split: 2
     text: "白马追风"
     translated: "White Horse Chasing Wind"
-  - split: 2
-    text: "骑马时，移动速度<color=e0834c>增加30%</color>。"
-    translated: "While riding a horse, movement speed <color=e0834c>increases by 30%</color>."
-- raw: "20440#百脉俱通#真力值<color=e0834c>增加20%</color>。#0#20440#0#0#0#0#3#1|2|3|4|5|25#0##0#0#80#"
+- raw: "20440#1500037564#百脉俱通#1500037768#0#20440#0#0#0#0#3#1|2|3|4|5|25#0##0#0#80#"
   splits:
-  - split: 1
+  - split: 2
     text: "百脉俱通"
     translated: "Mastery of all meridians"
-  - split: 2
-    text: "真力值<color=e0834c>增加20%</color>。"
-    translated: "True Force Value <color=e0834c>Increase by 20%</color>"
-- raw: "20450#得道多助#NPC好感度获取速度<color=e0834c>增加50%</color>。#0#20450#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20450#1500037565#得道多助#1500037769#0#20450#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "得道多助"
     translated: "He who learns humility will be helped by many."
-  - split: 2
-    text: "NPC好感度获取速度<color=e0834c>增加50%</color>。"
-    translated: "NPC affinity gain speed <color=e0834c>increased by 50%</color>"
-- raw: "20460#名门之后#开局获得紫色武学秘籍《众生相》#0#20460#0#0#0#0#3#1|2|3|4|5|25#0##34503#1#40#"
+- raw: "20460#1500037566#名门之后#1500037770#0#20460#0#0#0#0#3#1|2|3|4|5|25#0##34503#1#40#"
   splits:
-  - split: 1
+  - split: 2
     text: "名门之后"
     translated: "Heir of a prestigious family"
-  - split: 2
-    text: "开局获得紫色武学秘籍《众生相》"
-    translated: "Starting with the acquisition of the purple martial arts secret manual, Faces of All Beings."
-- raw: "20461#禅宗后人 #开局获得紫色拳脚秘籍《明禅拈花指》##20460#0#0#0#0#3#1|2|3|4|5|25#0##34308#1#60#"
+- raw: "20461#1500037567#禅宗后人 #1500037771##20460#0#0#0#0#3#1|2|3|4|5|25#0##34308#1#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "禅宗后人 "
     translated: "Descendants of Chan Buddhism"
-  - split: 2
-    text: "开局获得紫色拳脚秘籍《明禅拈花指》"
-    translated: "Begin by acquiring the purple martial arts secret manual Ming Chan Flower‑Picking Finger."
-- raw: "20462#剑宗传人#开局获得紫色剑法秘籍《二十八星宿剑》##20460#0#0#0#0#3#1|2|3|4|5|25#0##34012#1#60#"
+- raw: "20462#1500037568#剑宗传人#1500037772##20460#0#0#0#0#3#1|2|3|4|5|25#0##34012#1#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "剑宗传人"
     translated: "Descendant of the Sword Sect"
-  - split: 2
-    text: "开局获得紫色剑法秘籍《二十八星宿剑》"
-    translated: "Starting with the purple sword technique secret manual 'Twenty‑Eight Star Palace Sword.'"
-- raw: "20463#天命风流#开局获得紫色枪棍秘籍《凤流恪命枪》##20460#0#0#0#0#3#1|2|3|4|5|25#0##34210#1#60#"
+- raw: "20463#1500037569#天命风流#1500037773##20460#0#0#0#0#3#1|2|3|4|5|25#0##34210#1#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "天命风流"
     translated: "Fate's Charm"
-  - split: 2
-    text: "开局获得紫色枪棍秘籍《凤流恪命枪》"
-    translated: "Starting with the acquisition of the purple spear and staff secret manual, Phoenix Flow Respectful Command Spear."
-- raw: "20464#刀劈星河#开局获得紫色刀法秘籍《浩星撼日刀》##20460#0#0#0#0#3#1|2|3|4|5|25#0##34104#1#60#"
+- raw: "20464#1500037570#刀劈星河#1500037774##20460#0#0#0#0#3#1|2|3|4|5|25#0##34104#1#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "刀劈星河"
     translated: "Slash across the Milky Way"
-  - split: 2
-    text: "开局获得紫色刀法秘籍《浩星撼日刀》"
-    translated: "To begin, obtain the purple‑bladed secret manual 'Cosmic Star Sun‑Shattering Blade.'"
-- raw: "20465#东厂秘法#开局获得紫色暗器秘籍《血炼》##20460#0#0#0#0#3#1|2|3|4|5|25#0##34604#1#60#"
+- raw: "20465#1500037571#东厂秘法#1500037775##20460#0#0#0#0#3#1|2|3|4|5|25#0##34604#1#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "东厂秘法"
     translated: "Eastern Depot Secret Techniques"
-  - split: 2
-    text: "开局获得紫色暗器秘籍《血炼》"
-    translated: "Start by obtaining the purple hidden weapon secret manual, Blood Refining."
-- raw: "20470#江湖新秀#开局获得蓝色护体秘籍《金钟罩》#0#20470#0#0#0#0#2#1|2|3|4|5|25#0##34469#1#25#"
+- raw: "20470#1500037572#江湖新秀#1500037776#0#20470#0#0#0#0#2#1|2|3|4|5|25#0##34469#1#25#"
   splits:
-  - split: 1
+  - split: 2
     text: "江湖新秀"
     translated: "Newcomer of the Jianghu"
-  - split: 2
-    text: "开局获得蓝色护体秘籍《金钟罩》"
-    translated: "Start with the acquisition of the blue protective secret manual Golden Bell Shield."
-- raw: "20480#脱胎换骨#每次突破境界，获得的隐藏属性加倍#0#20480#0#0#0#0#3#1|2|3|4|5|25#0##0#0#60#"
+- raw: "20480#1500037573#脱胎换骨#1500037777#0#20480#0#0#0#0#3#1|2|3|4|5|25#0##0#0#60#"
   splits:
-  - split: 1
+  - split: 2
     text: "脱胎换骨"
     translated: "Transformed beyond recognition"
-  - split: 2
-    text: "每次突破境界，获得的隐藏属性加倍"
-    translated: "Every time you break through a realm, the hidden attributes you gain are doubled."
-- raw: "20490#醍醐灌顶#修为获取<color=e0834c>增加30%</color>，感悟获取<color=e0834c>增加30%</color>。#0#20490#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
+- raw: "20490#1500037574#醍醐灌顶#1500037778#0#20490#0#0#0#0#2#1|2|3|4|5|25#0##0#0#30#"
   splits:
-  - split: 1
+  - split: 2
     text: "醍醐灌顶"
     translated: "Enlightenment bestows great wisdom"
-  - split: 2
-    text: "修为获取<color=e0834c>增加30%</color>，感悟获取<color=e0834c>增加30%</color>。"
-    translated: "Martial cultivation gains increase by <color=e0834c>30%</color>, and wisdom gains increase by <color=e0834c>30%</color>."
-- raw: "20500#桀骜不驯#修为获取<color=e0834c>增加20%</color>，感悟获取<color=e0834c>增加20%</color>。#0#20500#0#0#0#0#2#1|2|3|4|5|25#0##0#0#15#"
+- raw: "20500#1500037575#桀骜不驯#1500037779#0#20500#0#0#0#0#2#1|2|3|4|5|25#0##0#0#15#"
   splits:
-  - split: 1
+  - split: 2
     text: "桀骜不驯"
     translated: "Unbridled and defiant"
-  - split: 2
-    text: "修为获取<color=e0834c>增加20%</color>，感悟获取<color=e0834c>增加20%</color>。"
-    translated: "Cultivation proficiency gain <color=e0834c>increases by 20%</color>, insight gain <color=e0834c>increases by 20%</color>."
-- raw: "20510#贪生怕死#生命低于40%时，内外功<color=e0834c>降低10%</color>。#0#20510#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
+- raw: "20510#1500037576#贪生怕死#1500037780#0#20510#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
   splits:
-  - split: 1
+  - split: 2
     text: "贪生怕死"
     translated: "Craving life and fearing death"
-  - split: 2
-    text: "生命低于40%时，内外功<color=e0834c>降低10%</color>。"
-    translated: "When health drops below 40%, internal and external skills are reduced by <color=e0834c>10%</color>."
-- raw: "20520#身败名裂#初始门派好感度<color=e0834c>减少30</color>。#0#20520#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
+- raw: "20520#1500037577#身败名裂#1500037781#0#20520#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
   splits:
-  - split: 1
+  - split: 2
     text: "身败名裂"
     translated: "Completely disgraced and ruined"
-  - split: 2
-    text: "初始门派好感度<color=e0834c>减少30</color>。"
-    translated: "Initial sect affinity degree <color=e0834c>reduced by 30</color>"
-- raw: "20530#情关难破#修为获取<color=e0834c>减少30%</color>，感悟获取<color=e0834c>减少30%</color>。#0#20530#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
+- raw: "20530#1500037578#情关难破#1500037782#0#20530#0#0#0#0#0#1|2|3|4|5|25#0##0#0#-20#"
   splits:
-  - split: 1
+  - split: 2
     text: "情关难破"
     translated: "Emotional ties are hard to break"
-  - split: 2
-    text: "修为获取<color=e0834c>减少30%</color>，感悟获取<color=e0834c>减少30%</color>。"
-    translated: "Mastery gain reduced by <color=e0834c>30%</color>, Insight gain reduced by <color=e0834c>30%</color>."
-- raw: "20540#拳脚新秀#搏击技能威力<color=e0834c>增加10</color>。#0#20540#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20540#1500037579#拳脚新秀#1500037783#0#20540#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "拳脚新秀"
     translated: "Newcomer in Fist‑Fighting and Footwork"
-  - split: 2
-    text: "搏击技能威力<color=e0834c>增加10</color>。"
-    translated: "Combat skill power increased by <color=e0834c>10</color>"
-- raw: "20550#拳脚世家#搏击技能威力<color=e0834c>增加25</color>。#0#20550#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "20550#1500037580#拳脚世家#1500037784#0#20550#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "拳脚世家"
     translated: "A martial arts family lineage"
-  - split: 2
-    text: "搏击技能威力<color=e0834c>增加25</color>。"
-    translated: "Combat skill power <color=e0834c>increased by 25</color>"
-- raw: "20560#拳圣传人#搏击技能威力<color=e0834c>增加100</color>。#0#20560#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
+- raw: "20560#1500037581#拳圣传人#1500037785#0#20560#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
   splits:
-  - split: 1
+  - split: 2
     text: "拳圣传人"
     translated: "Disciple of the Fist Sage"
-  - split: 2
-    text: "搏击技能威力<color=e0834c>增加100</color>。"
-    translated: "Combat skill might <color=e0834c>increased by 100</color>"
-- raw: "20570#剑法新秀#剑术技能威力<color=e0834c>增加10</color>。#0#20570#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20570#1500037582#剑法新秀#1500037786#0#20570#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "剑法新秀"
     translated: "Swordsmanship prodigy"
-  - split: 2
-    text: "剑术技能威力<color=e0834c>增加10</color>。"
-    translated: "Swordsmanship skill power <color=e0834c>increased by 10.</color>."
-- raw: "20580#剑法世家#剑术技能威力<color=e0834c>增加25</color>。#0#20580#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "20580#1500037583#剑法世家#1500037787#0#20580#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "剑法世家"
     translated: "Swordsmanship lineage"
-  - split: 2
-    text: "剑术技能威力<color=e0834c>增加25</color>。"
-    translated: "Swordsmanship skill power <color=e0834c>increased by 25</color>"
-- raw: "20590#剑圣传人#剑术技能威力<color=e0834c>增加100</color>。#0#20590#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
+- raw: "20590#1500037584#剑圣传人#1500037788#0#20590#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
   splits:
-  - split: 1
+  - split: 2
     text: "剑圣传人"
     translated: "Sword Saint's Successor"
-  - split: 2
-    text: "剑术技能威力<color=e0834c>增加100</color>。"
-    translated: "Swordsmanship skill might increase <color=e0834c>100</color>"
-- raw: "20600#刀法新秀#刀法技能威力<color=e0834c>增加10</color>。#0#20600#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20600#1500037585#刀法新秀#1500037789#0#20600#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "刀法新秀"
     translated: "Newcomer in Blade Arts"
-  - split: 2
-    text: "刀法技能威力<color=e0834c>增加10</color>。"
-    translated: "Blade Technique Skill Power <color=e0834c>Increase 10</color>"
-- raw: "20610#刀法世家#刀法技能威力<color=e0834c>增加25</color>。#0#20610#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "20610#1500037586#刀法世家#1500037790#0#20610#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "刀法世家"
     translated: "Blade Family"
-  - split: 2
-    text: "刀法技能威力<color=e0834c>增加25</color>。"
-    translated: "Blade technique skill power <color=e0834c>increased by 25</color>"
-- raw: "20620#刀神传人#刀法技能威力<color=e0834c>增加100</color>。#0#20620#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
+- raw: "20620#1500037587#刀神传人#1500037791#0#20620#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
   splits:
-  - split: 1
+  - split: 2
     text: "刀神传人"
     translated: "Sword God's Successor"
-  - split: 2
-    text: "刀法技能威力<color=e0834c>增加100</color>。"
-    translated: "Blade Technique skill power <color=e0834c>increased by 100</color>"
-- raw: "20630#枪棍新秀#枪棍技能威力<color=e0834c>增加10</color>。#0#20630#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
+- raw: "20630#1500037588#枪棍新秀#1500037792#0#20630#0#0#0#0#2#1|2|3|4|5|25#0##0#0#20#"
   splits:
-  - split: 1
+  - split: 2
     text: "枪棍新秀"
     translated: "Newcomer in Spear and Staff"
-  - split: 2
-    text: "枪棍技能威力<color=e0834c>增加10</color>。"
-    translated: "Spear and staff skill power <color=e0834c>increased by 10</color>."
-- raw: "20640#枪棍世家#枪棍技能威力<color=e0834c>增加25</color>。#0#20640#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
+- raw: "20640#1500037589#枪棍世家#1500037793#0#20640#0#0#0#0#3#1|2|3|4|5|25#0##0#0#50#"
   splits:
-  - split: 1
+  - split: 2
     text: "枪棍世家"
     translated: "Spear and Staff Family"
-  - split: 2
-    text: "枪棍技能威力<color=e0834c>增加25</color>。"
-    translated: "Spear skill power <color=e0834c>increased by 25</color>"
-- raw: "20650#枪王传人#枪棍技能威力<color=e0834c>增加100</color>。#0#20650#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
+- raw: "20650#1500037590#枪王传人#1500037794#0#20650#0#0#0#0#4#1|2|3|4|5|25#0##0#0#250#"
   splits:
-  - split: 1
+  - split: 2
     text: "枪王传人"
     translated: "Spear King's Heir"
-  - split: 2
-    text: "枪棍技能威力<color=e0834c>增加100</color>。"
-    translated: "Spear and Staff skill power <color=e0834c>increased by 100</color>."
-- raw: "20660#出剑如风#剑招式冷却时间<color=e0834c>减少5%</color>。#0#20660#0#0#0#0#0##0##0#0#0#"
+- raw: "20660#1500037591#出剑如风#1500037795#0#20660#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "出剑如风"
     translated: "Swordplay like a gust of wind"
-  - split: 2
-    text: "剑招式冷却时间<color=e0834c>减少5%</color>。"
-    translated: "Sword technique cooldown time reduced by <color=e0834c>5%</color>"
-- raw: "20670#心无杂念#命中、闪避<color=e0834c>增加2%</color>。#0#20670#0#0#0#0#0##0##0#0#0#"
+- raw: "20670#1500037592#心无杂念#1500037796#0#20670#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "心无杂念"
     translated: "A mind without distractions"
-  - split: 2
-    text: "命中、闪避<color=e0834c>增加2%</color>。"
-    translated: "Hit rate and dodge <color=e0834c>increased by 2%.</color>."
-- raw: "20680#慧根天成#聪明到极具慧根。感悟<color=e0834c>增加3%</color>。#0#20680#0#0#0#0#1##0##0#0#0#"
+- raw: "20680#1500037593#慧根天成#1500037797#0#20680#0#0#0#0#1##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "慧根天成"
     translated: "Innately wise mind"
-  - split: 2
-    text: "聪明到极具慧根。感悟<color=e0834c>增加3%</color>。"
-    translated: "Wise to a remarkable degree, possessing innate intelligence. Perception increased by <color=e0834c>3%</color>."
-- raw: "20690#命定之人#心魔劫起，天下大乱。命定之人，应劫而出。最大生命值增加15%。#0#20690#0#0#0#0#4##0##0#0#0#"
+- raw: "20690#1500037594#命定之人#1500037798#0#20690#0#0#0#0#4##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "命定之人"
     translated: "Person destined by fate"
-  - split: 2
-    text: "心魔劫起，天下大乱。命定之人，应劫而出。最大生命值增加15%。"
-    translated: "The inner demon emerges, chaos ensues across the land. The destined one must rise to meet this challenge. Maximum health increased by 15%."
-- raw: "20700#断金之利#二人意气相投，刀剑挥舞间仿佛有一股无形的锋锐之气流转。当一人出手受阻时，另一人的攻势将变得势不可挡，无坚不摧。上阵时，自身的内外攻增加3%。#0#20700#0#0#0#0#0##0##0#0#0#"
+- raw: "20700#1500037595#断金之利#1500037799#0#20700#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "断金之利"
     translated: "The sharpness that cuts through gold"
-  - split: 2
-    text: "二人意气相投，刀剑挥舞间仿佛有一股无形的锋锐之气流转。当一人出手受阻时，另一人的攻势将变得势不可挡，无坚不摧。上阵时，自身的内外攻增加3%。"
-    translated: "The two people were in perfect harmony, and as they wielded their blades and swords, it seemed as if an invisible surge of sharp energy was flowing between them. When one person's strike was blocked, the other's offensive became unstoppable and invincible. In battle, their own internal and external attacks increase by 3%."
-- raw: "20710#生死同袍#曾对天盟誓，不求同生，但求同死。战斗之时，二人相互关照。一人受伤，另一人便为其撑起一片天。自身的内外防增加3%。#0#20710#0#0#0#0#0##0##0#0#0#"
+- raw: "20710#1500037596#生死同袍#1500037800#0#20710#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "生死同袍"
     translated: "Companions in life and death"
-  - split: 2
-    text: "曾对天盟誓，不求同生，但求同死。战斗之时，二人相互关照。一人受伤，另一人便为其撑起一片天。自身的内外防增加3%。"
-    translated: "Once sworn an oath to the Heavens with his comrade, pledging not for shared life but for a shared death. In battle, they watched over one another. If one were wounded, the other would hold up a piece of heaven for them. Their own external defense increased by 3%."
-- raw: "20720#灵犀相映#二人无需言语，甚至无需眼神交汇，便能知晓对方下一招的落点。刀光剑影中，一人为虚，一人为实，虚实转换只在一念之间，令敌人防不胜防。上阵时，自身的诛心与要害增加3%。#0#20720#0#0#0#0#0##0##0#0#0#"
+- raw: "20720#1500037597#灵犀相映#1500037801#0#20720#0#0#0#0#0##0##0#0#0#"
   splits:
-  - split: 1
+  - split: 2
     text: "灵犀相映"
     translated: "Mutual spiritual resonance"
-  - split: 2
-    text: "二人无需言语，甚至无需眼神交汇，便能知晓对方下一招的落点。刀光剑影中，一人为虚，一人为实，虚实转换只在一念之间，令敌人防不胜防。上阵时，自身的诛心与要害增加3%。"
-    translated: "The two need neither words nor eye contact to know where each other's next move will land. Amidst the flashes of blades and swords, one is feinting while the other is attacking; the shift between feints and attacks occurs in a split second, leaving opponents unable to defend themselves. When engaging, their mind attack and vital points are increased by 3%."

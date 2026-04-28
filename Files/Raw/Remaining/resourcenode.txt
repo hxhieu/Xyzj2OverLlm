@@ -600,6 +600,7 @@
 3911#3911_jian#
 3912#3912_jian#
 3913#3913_xuantiezhongjian#
+3914#3914_shejian#
 3926#3926_dao#
 3927#3927_dao#
 3928#3928_dao#
@@ -619,6 +620,8 @@
 3958#3958_qiang#
 3959#3959_qiang#
 3960#3960_qiang#
+3961#3961_zhuzhang#
+3962#3962_changji#
 3976#3976_bojinv#
 3977#3977_bojinv#
 3978#3978_bojinv#

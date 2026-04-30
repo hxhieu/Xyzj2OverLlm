@@ -185,6 +185,8 @@ public static partial class LineValidation
         if (string.IsNullOrEmpty(raw))
             response = false;
 
+        raw = raw.Replace("<TEMP_SPLIT>", ""); //This is just fkn wierd - oh its actually an escaped #
+
         var invalidPhrases = new[]
         {
             "provide the text",

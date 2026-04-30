@@ -161,6 +161,12 @@ public class TranslationWorkflowTests
                 else
                     return false;
             }
+
+            //if (split.Text.Contains("<TEMP_SPLIT>"))
+            //{
+            //    split.FlaggedForRetranslation = true;
+            //    return true;
+            //}
         }
 
         // If it is already translated or just special characters return it

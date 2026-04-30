@@ -104,7 +104,8 @@ public class FileOutputHandling
                     {
                         if (!textFileToTranslate.PackageOutput
                             || split.FlaggedForRetranslation
-                            || !split.SafeToTranslate) //Count Failure
+                            )
+                            //|| !split.SafeToTranslate) //Count Failure
                         {
                             failed = true;
                             break;

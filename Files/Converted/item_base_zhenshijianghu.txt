@@ -36095,14 +36095,17 @@
   splits:
   - split: 1
     text: "碧玉竹杖"
+    translated: "Green Jade Bamboo Staff"
 - raw: "82717#方天戟#1#1#14#16#31026#1#0#1#0#0#qiang_fangtianji#45085#0#47085#3962#3601#30002#####0#0#0#80109#5#7####0###0####0####1#0#0##"
   splits:
   - split: 1
     text: "方天戟"
+    translated: "Direction‑Pointing Spear"
 - raw: "82718#蛇剑#1#1#14#16#31026#1#0#1#0#0#jian_shejian#45086#0#47086#3914#3601#30000#####0#0#0#6005#5#7####0###0####0####1#0#0##"
   splits:
   - split: 1
     text: "蛇剑"
+    translated: "Snake Sword"
 - raw: "83001#江湖守卫者#1#10#11#14#0#99999#0#1#800#0#bw_smbl_banshu#83001#0#8300101#0#3600#0#83001#800###0#0#0#0#0#0####0###0##0#0#0#0#PC专属福利#0#0#0#0##"
   splits:
   - split: 1
@@ -36121,7 +36124,7 @@
     translated: "Unlocked and obtained with Jianghu Ruomeng as purely a visual DLC."
   - split: 46
     text: "纯外观DLC《江湖初见》解锁获得"
-    translated: "Unlock and obtain 'Jianghu Initial Appearance,' a purely cosmetic DLC."
+    translated: "Purely cosmetic DLC 'First Encounter in the Jianghu' unlocked and obtained."
 - raw: "83003#侠云英杰#1#10#13#14#0#99999#0#1#800#0#bw_smbl_banshu#83003#0#8300301#0#3600#0#83003#801###0#0#0#0#0#0####0###0##0#0#0#0#纯外观DLC《江湖如梦》解锁获得#0#0#0#0#纯外观DLC《江湖初见》解锁获得#"
   splits:
   - split: 1
@@ -36132,7 +36135,7 @@
     translated: "Unlocked and obtained with Jianghu Ruomeng as purely a visual DLC."
   - split: 46
     text: "纯外观DLC《江湖初见》解锁获得"
-    translated: "Unlock and obtain 'Jianghu Initial Appearance,' a purely cosmetic DLC."
+    translated: "Purely cosmetic DLC 'First Encounter in the Jianghu' unlocked and obtained."
 - raw: "83004#太极鲤影#1#10#13#14#0#99999#0#1#800#0#bw_smbl_banshu#83004#0#8400902#0#3600#0#83004#802###0#0#0#0#0#0####0###0##0#0#0#0#纯外观DLC《舞弄太极》解锁获得#0#0#0#0#纯外观DLC《日月玄宗》解锁获得#"
   splits:
   - split: 1
@@ -36935,7 +36938,7 @@
     translated: "Purely cosmetic DLC 'Dragon Subduing' unlocked and obtained."
   - split: 46
     text: "纯外观DLC《江湖初见》解锁获得"
-    translated: "Unlock and obtain 'Jianghu Initial Appearance,' a purely cosmetic DLC."
+    translated: "Purely cosmetic DLC 'First Encounter in the Jianghu' unlocked and obtained."
 - raw: "86023#DLC时装男:赤裘锦袍#1#11#13#14#0#99999#0#1#0#0#shizhuang_86021#86023#0#8602301#0#3600#0#28110#810###0#0#0#0#0#0####0###0##0#0#0#0#PC专属，2025年新春福利#0#0#1|4|8|16|33554432#0#PC专属，2025年新春福利#"
   splits:
   - split: 1
@@ -37152,7 +37155,7 @@
     translated: "Purely cosmetic DLC 'Dragon Subduing' unlocked and obtained."
   - split: 46
     text: "纯外观DLC《江湖初见》解锁获得"
-    translated: "Unlock and obtain 'Jianghu Initial Appearance,' a purely cosmetic DLC."
+    translated: "Purely cosmetic DLC 'First Encounter in the Jianghu' unlocked and obtained."
 - raw: "86059#DLC时装女:红裘绯衣#1#11#13#14#0#99999#0#1#0#0#shizhuang_86057#86059#0#8605901#0#3600#0#27710#810###0#0#0#0#0#0####0###0##0#0#0#0#PC专属，2025年新春福利#0#0#2#0#PC专属，2025年新春福利#"
   splits:
   - split: 1

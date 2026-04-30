@@ -14,8 +14,8 @@ modelParams:
   frequency_penalty: 0
   presence_penalty: 0
   num_ctx: 8192
-retryCount: 5
-batchSize: 500
+retryCount: 3
+batchSize: 100000
 skipLineValidation: false
 correctionPromptsEnabled: false
 translateFlagged: true

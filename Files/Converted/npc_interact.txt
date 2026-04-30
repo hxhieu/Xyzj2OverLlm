@@ -16445,10 +16445,12 @@
   splits:
   - split: 12
     text: "婚前忧思-将门"
+    translated: "Pre‑marital worries ‑ Noble family lineage"
 - raw: "150393002#150393#1#9#0#0#0#0#0#0&18|1|47|120|>;24|938195|1#1&24|923094|1;129|47!#1500016727#婚前忧思-千金#15130#0###0#0#0#0#0#"
   splits:
   - split: 12
     text: "婚前忧思-千金"
+    translated: "Pre‑marital worries ‑ Thousand gold pieces"
 - raw: "150393003#150393#1#9#0#0#0#0#0#0&18|1|47|120|>;24|895635|1#1&24|923094|1;129|47!#1500016727#婚前忧思#15130#0###0#0#0#0#0#"
   splits:
   - split: 12

@@ -19,7 +19,7 @@ namespace EnglishPatch.DynamicStrings;
 public class StringDumperPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
-    public static bool Enabled = true;
+    public static bool Enabled = false;
 
     //static List<string> SafeFunctions = [];
     //static List<string> UnsafeFunctions = [];

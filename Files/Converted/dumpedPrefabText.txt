@@ -5363,9 +5363,11 @@
 - raw: "快速读档"
   splits:
   - text: "快速读档"
+    translated: "Fast load data"
 - raw: "英雄谱"
   splits:
   - text: "英雄谱"
+    translated: "Hero's Chronicle"
 - raw: "返回菜单"
   splits:
   - text: "返回菜单"
@@ -5805,6 +5807,7 @@
 - raw: "执行中：3日后"
   splits:
   - text: "执行中：3日后"
+    translated: "In progress: Day after 3"
 - raw: " 纳贤"
   splits:
   - text: " 纳贤"
@@ -5832,6 +5835,7 @@
 - raw: "资源"
   splits:
   - text: "资源"
+    translated: "Resources"
 - raw: "安定"
   splits:
   - text: "安定"
@@ -5891,6 +5895,7 @@
 - raw: " 外门弟子"
   splits:
   - text: " 外门弟子"
+    translated: "Outsider disciple."
 - raw: "替换"
   splits:
   - text: "替换"
@@ -5910,6 +5915,7 @@
 - raw: "成为掌门后方可进入"
   splits:
   - text: "成为掌门后方可进入"
+    translated: "One can only enter after becoming the sect leader."
 - raw: "总产出:"
   splits:
   - text: "总产出:"
@@ -5925,9 +5931,11 @@
 - raw: "云宵殿:"
   splits:
   - text: "云宵殿:"
+    translated: "Cloudy Night Pavilion:"
 - raw: "10级/10级"
   splits:
   - text: "10级/10级"
+    translated: "Level 10/Level 10"
 - raw: "升级"
   splits:
   - text: "升级"
@@ -6067,6 +6075,7 @@
 - raw: "化境卷"
   splits:
   - text: "化境卷"
+    translated: "Transcendence Scroll"
 - raw: "提升坊堂等级后方可打造,当前最大打造等级：5"
   splits:
   - text: "提升坊堂等级后方可打造,当前最大打造等级：5"
@@ -6082,9 +6091,11 @@
 - raw: "出征地:"
   splits:
   - text: "出征地:"
+    translated: "Expedition Grounds:"
 - raw: "炉火纯青"
   splits:
   - text: "炉火纯青"
+    translated: "Perfected Skill"
 - raw: "编队"
   splits:
   - text: "编队"
@@ -6092,6 +6103,7 @@
 - raw: "李小青"
   splits:
   - text: "李小青"
+    translated: "Li Xiaoqing"
 - raw: "主动招式"
   splits:
   - text: "主动招式"
@@ -6191,9 +6203,11 @@
 - raw: "本门派"
   splits:
   - text: "本门派"
+    translated: "Our sect"
 - raw: "子门派"
   splits:
   - text: "子门派"
+    translated: "Sect child"
 - raw: "云海逸"
   splits:
   - text: "云海逸"
@@ -8421,9 +8435,11 @@
 - raw: "npc显示距离(调整距离会影响性能)"
   splits:
   - text: "npc显示距离(调整距离会影响性能)"
+    translated: "NPC visibility distance (adjusting this will affect performance)."
 - raw: "近中远"
   splits:
   - text: "近中远"
+    translated: "Near Middle Far"
 - raw: "返回游戏"
   splits:
   - text: "返回游戏"
@@ -9603,6 +9619,7 @@
 - raw: "无名无名"
   splits:
   - text: "无名无名"
+    translated: "Anonymous Anonymous"
 - raw: "妖月宗"
   splits:
   - text: "妖月宗"

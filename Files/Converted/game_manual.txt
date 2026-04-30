@@ -122,18 +122,22 @@
   splits:
   - split: 1
     text: "求败"
+    translated: "Seeking defeat"
 - raw: "14002#诗仙#5###14002#700021##0#"
   splits:
   - split: 1
     text: "诗仙"
+    translated: "Poet Immortal"
 - raw: "14003#胖子#5###14003#700022##0#"
   splits:
   - split: 1
     text: "胖子"
+    translated: "Chubby one"
 - raw: "14004#七公#5#0#0#14004#700027#0#0#"
   splits:
   - split: 1
     text: "七公"
+    translated: "Master Seven"
 - raw: "20001#无心#2###50500#1500011219##0#"
   splits:
   - split: 1
@@ -765,6 +769,7 @@
   splits:
   - split: 1
     text: "镜无双"
+    translated: "Jing Wushuang"
 - raw: "34121#天刀八式#3#1&3|34106|1;3|34100|1;3|34422|1;3|34109|1#0#34121#1500011345#0#34121#"
   splits:
   - split: 1
@@ -809,6 +814,7 @@
   splits:
   - split: 1
     text: "独孤飞鸿"
+    translated: "Dugu Feihong"
 - raw: "40001#不夜京#4#0#0#1500011051#1500011353#22#0#"
   splits:
   - split: 1
@@ -833,6 +839,7 @@
   splits:
   - split: 1
     text: "剑斋"
+    translated: "Sword Pavilion"
 - raw: "40006#大雪山#4#0#0#1500011056#1500011358#27#4004101#"
   splits:
   - split: 1
@@ -1397,14 +1404,17 @@
   splits:
   - split: 1
     text: "萧盖世"
+    translated: "Xiao Gaisheng"
 - raw: "94125#段风流#5###94125#155237##0#"
   splits:
   - split: 1
     text: "段风流"
+    translated: "Duan Fengliu"
 - raw: "94126#雄八#5###94126#155238##0#"
   splits:
   - split: 1
     text: "雄八"
+    translated: "Xiong Ba"
 - raw: "105020#天下第二#6#0&66|1|>=|6#0&1|105020|1#1500011168#1500011470#0#105020#"
   splits:
   - split: 1
@@ -2564,6 +2574,7 @@
   splits:
   - split: 1
     text: "郭大侠"
+    translated: "Great Hero Guo"
 - raw: "202001#侠之大者#6#0&66|1|>=|6#0&1|202001|1#1500011169#1500011701#0#202001#"
   splits:
   - split: 1

@@ -1727,11 +1727,6 @@
 - raw: 《庄子》中的“朝三暮四”有什么寓意？
   result: What is the meaning of 'morning three, evening four' in Zhuangzi?
   badtrans: true
-- raw: 黄老道学中的“贵和”思想指什么？
-  result: What does the 'valuing harmony' philosophy in Huang-Lao Daoism refer to?
-  badtrans: true
-  direct: Huang lao dao xue zhong de 'gui he' si xiang zhi shen me?
-  literal: Huang lao dao xue zhong de 'gui he' si xiang zhi shen me?
 - raw: 南宗派的修行者如何看待生命与长生？
   result: How do practitioners of the Southern School view life and immortality?
   badtrans: true
@@ -3498,3 +3493,10 @@
   badtrans: true
   direct: great subtlety
   literal: tai wei
+- raw: 气运
+  rawSimplified: 气运
+  rawTraditional: 氣運
+  result: Luck
+  badtrans: true
+  direct: energy luck
+  literal: qi yun

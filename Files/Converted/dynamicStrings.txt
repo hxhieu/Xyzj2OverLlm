@@ -323,16 +323,19 @@
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
     translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "BagNewNewItemUI,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
     translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "BagNewNewItemUI,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "SpellHoverTipMain,SpellOnHoverBySelf,1154,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[System.Int64，System.Int64]"
   splits:
   - split: 3
@@ -9362,6 +9365,7 @@
   splits:
   - split: 3
     text: "进驻据点"
+    translated: "Station at the outpost"
 - raw: "ComString,.cctor,18077,<color=#ff9758>限购 </color>{0},[]"
   splits:
   - split: 3
@@ -11431,6 +11435,7 @@
   splits:
   - split: 3
     text: "门人总数已达上限"
+    translated: "The total number of disciples has reached its maximum capacity."
 - raw: "ComString,.cctor,22267,烈焱,[]"
   splits:
   - split: 3
@@ -11700,10 +11705,12 @@
   splits:
   - split: 3
     text: "<color=2EDFA3>遗忘</color>"
+    translated: "<color=2EDFA3>Forgetfulness</color>"
 - raw: "ComString,.cctor,22807,遗忘{0},[]"
   splits:
   - split: 3
     text: "遗忘{0}"
+    translated: "Forgotten Placeholder: {0}"
 - raw: "ComString,.cctor,22817,输入内容,[]"
   splits:
   - split: 3
@@ -11713,6 +11720,7 @@
   splits:
   - split: 3
     text: "是否删除整个任务链"
+    translated: "Should I delete the entire task chain?"
 - raw: "ComString,.cctor,22837,是否删除对话组,[]"
   splits:
   - split: 3
@@ -11772,6 +11780,7 @@
   splits:
   - split: 3
     text: "标签：{0}\\n模组大小：{1}KB\\n更新日期：{2}\\n描述：{3}"
+    translated: "Tag: {0}\\nMod Size: {1}KB\\nUpdate date: {2}\\nDescription: {3}"
 - raw: "ComString,.cctor,22957,是否需要保存更改并就此退出,[]"
   splits:
   - split: 3
@@ -11791,6 +11800,7 @@
   splits:
   - split: 3
     text: "yed未找到，请安装到指定路径{0}，是否需要安装？"
+    translated: "Not found, please install to the specified path {0}. Do you need to install?"
 - raw: "ComString,.cctor,22997,是否删除,[]"
   splits:
   - split: 3
@@ -11925,14 +11935,17 @@
   splits:
   - split: 3
     text: "模组目录:{0}"
+    translated: "Module Directory: {0}"
 - raw: "ComString,.cctor,23267,近,[]"
   splits:
   - split: 3
     text: "近"
+    translated: "Recently"
 - raw: "ComString,.cctor,23277,远,[]"
   splits:
   - split: 3
     text: "远"
+    translated: "Far away"
 - raw: "ComString,.cctor,23287,无有效目标,[]"
   splits:
   - split: 3
@@ -11957,6 +11970,7 @@
   splits:
   - split: 3
     text: "武者特技{0}发动，强行进行切磋"
+    translated: "The martial artist's special technique {0} activates, forcefully initiating a sparring session."
 - raw: "ComString,.cctor,23337,失去效果,[]"
   splits:
   - split: 3
@@ -12001,6 +12015,7 @@
   splits:
   - split: 3
     text: "您的{0}属性不足，无法击碎"
+    translated: "Your {0} attribute is insufficient to shatter it."
 - raw: "ComString,.cctor,23427,有技能处于冷却中，无法卸下,[]"
   splits:
   - split: 3
@@ -12020,6 +12035,7 @@
   splits:
   - split: 3
     text: "你获得了{0}"
+    translated: "You have obtained {0}"
 - raw: "ComString,.cctor,23467,根据国家防沉迷通知的相关要求和腾讯最新强化的防沉迷策略，由于您是未成年人，仅能在周五、周六、周日及法定节假日20时至21时进入游戏。,[]"
   splits:
   - split: 3
@@ -12069,6 +12085,7 @@
   splits:
   - split: 3
     text: "少侠你和本门派好感度为:{0}"
+    translated: "Young hero, your affinity with our sect is at: {0}"
 - raw: "ComString,.cctor,23567,队伍中已有此角色！,[]"
   splits:
   - split: 3
@@ -12163,266 +12180,332 @@
   splits:
   - split: 3
     text: "{0}点"
+    translated: "{0} o'clock"
 - raw: "ComString,.cctor,23767,ID是本数据表里一项数据的唯一标识，也会用于脚本函数之中。,[]"
   splits:
   - split: 3
     text: "ID是本数据表里一项数据的唯一标识，也会用于脚本函数之中。"
+    translated: "The ID is a unique identifier for an entry in this data table and will also be used within script functions."
 - raw: "ComString,.cctor,23777,组,[]"
   splits:
   - split: 3
     text: "组"
+    translated: "Group"
 - raw: "ComString,.cctor,23787,商店的组id，组id相同的道具则为同一个商店组。,[]"
   splits:
   - split: 3
     text: "商店的组id，组id相同的道具则为同一个商店组。"
+    translated: "The store ID; items with the same group ID belong to the same store group."
 - raw: "ComString,.cctor,23797,售卖道具,[]"
   splits:
   - split: 3
     text: "售卖道具"
+    translated: "Selling items"
 - raw: "ComString,.cctor,23807,代表该条数据所出售的道具,[]"
   splits:
   - split: 3
     text: "代表该条数据所出售的道具"
+    translated: "This string represents the item being sold in this data entry."
 - raw: "ComString,.cctor,23817,售卖个数,[]"
   splits:
   - split: 3
     text: "售卖个数"
+    translated: "Number of units sold"
 - raw: "ComString,.cctor,23827,代表该条数据在商店里面实际售卖的个数,[]"
   splits:
   - split: 3
     text: "代表该条数据在商店里面实际售卖的个数"
+    translated: "Representing the actual quantity of this item sold in the store."
 - raw: "ComString,.cctor,23837,刷新时间,[]"
   splits:
   - split: 3
     text: "刷新时间"
+    translated: "Refresh time"
 - raw: "ComString,.cctor,23847,代表该条数据在商店里面刷新的时间,[]"
   splits:
   - split: 3
     text: "代表该条数据在商店里面刷新的时间"
+    translated: "The time this data refreshes in the store."
 - raw: "ComString,.cctor,23857,条件组,[]"
   splits:
   - split: 3
     text: "条件组"
+    translated: "Condition Group"
 - raw: "ComString,.cctor,23867,售卖金额,[]"
   splits:
   - split: 3
     text: "售卖金额"
+    translated: "Sale amount"
 - raw: "ComString,.cctor,23887,文件名,[]"
   splits:
   - split: 3
     text: "文件名"
+    translated: "File Name"
 - raw: "ComString,.cctor,23897,只能输入英文以及字符，如输入中文则无法编译,[]"
   splits:
   - split: 3
     text: "只能输入英文以及字符，如输入中文则无法编译"
+    translated: "You can only input English and characters; if you input Chinese, it will not compile."
 - raw: "ComString,.cctor,23917,下一句对话ID,[]"
   splits:
   - split: 3
     text: "下一句对话ID"
+    translated: "Next dialogue line ID"
 - raw: "ComString,.cctor,23927,对话NpcId,[]"
   splits:
   - split: 3
     text: "对话NpcId"
+    translated: "Interact with NPC ID"
 - raw: "ComString,.cctor,23937,代表说此句对话的角色,[]"
   splits:
   - split: 3
     text: "代表说此句对话的角色"
+    translated: "The character saying this line in the dialogue is represented by representative."
 - raw: "ComString,.cctor,23947,对话内容,[]"
   splits:
   - split: 3
     text: "对话内容"
+    translated: "Dialogue content"
 - raw: "ComString,.cctor,23957,任务ID,[]"
   splits:
   - split: 3
     text: "任务ID"
+    translated: "Task ID"
 - raw: "ComString,.cctor,23967,任务类型,[]"
   splits:
   - split: 3
     text: "任务类型"
+    translated: "Task type"
 - raw: "ComString,.cctor,23977,任务名字,[]"
   splits:
   - split: 3
     text: "任务名字"
+    translated: "Task Name"
 - raw: "ComString,.cctor,23987,限制时间,[]"
   splits:
   - split: 3
     text: "限制时间"
+    translated: "Limited time frame"
 - raw: "ComString,.cctor,23997,前一个任务,[]"
   splits:
   - split: 3
     text: "前一个任务"
+    translated: "Previous task"
 - raw: "ComString,.cctor,24007,下一个任务,[]"
   splits:
   - split: 3
     text: "下一个任务"
+    translated: "Next task"
 - raw: "ComString,.cctor,24017,任务奖励,[]"
   splits:
   - split: 3
     text: "任务奖励"
+    translated: "Task Reward"
 - raw: "ComString,.cctor,24027,接受任务执行脚本,[]"
   splits:
   - split: 3
     text: "接受任务执行脚本"
+    translated: "Accept the mission execution script"
 - raw: "ComString,.cctor,24037,完成任务执行脚本,[]"
   splits:
   - split: 3
     text: "完成任务执行脚本"
+    translated: "Complete task execution script"
 - raw: "ComString,.cctor,24047,接受任务触发对话,[]"
   splits:
   - split: 3
     text: "接受任务触发对话"
+    translated: "Accepting task triggers dialogue"
 - raw: "ComString,.cctor,24057,完成任务触发对话,[]"
   splits:
   - split: 3
     text: "完成任务触发对话"
+    translated: "Task completion triggers dialogue"
 - raw: "ComString,.cctor,24067,剧情回顾,[]"
   splits:
   - split: 3
     text: "剧情回顾"
+    translated: "Plot Recap"
 - raw: "ComString,.cctor,24077,自动存档,[]"
   splits:
   - split: 3
     text: "自动存档"
+    translated: "Automatic save"
 - raw: "ComString,.cctor,24087,条件位置坐标,[]"
   splits:
   - split: 3
     text: "条件位置坐标"
+    translated: "Position coordinates under conditions"
 - raw: "ComString,.cctor,24107,距离,[]"
   splits:
   - split: 3
     text: "距离"
+    translated: "Distance from"
 - raw: "ComString,.cctor,24127,最大距离,[]"
   splits:
   - split: 3
     text: "最大距离"
+    translated: "Longest distance"
 - raw: "ComString,.cctor,24137,最小距离,[]"
   splits:
   - split: 3
     text: "最小距离"
+    translated: "Minimum distance"
 - raw: "ComString,.cctor,24147,对话ID,[]"
   splits:
   - split: 3
     text: "对话ID"
+    translated: "Dialogue ID"
 - raw: "ComString,.cctor,24157,对话ID,[]"
   splits:
   - split: 3
     text: "对话ID"
+    translated: "Dialogue ID"
 - raw: "ComString,.cctor,24187,道具ID,[]"
   splits:
   - split: 3
     text: "道具ID"
+    translated: "Item ID"
 - raw: "ComString,.cctor,24197,个数,[]"
   splits:
   - split: 3
     text: "个数"
+    translated: "Quantity"
 - raw: "ComString,.cctor,24207,道具列表,[]"
   splits:
   - split: 3
     text: "道具列表"
+    translated: "List of Props"
 - raw: "ComString,.cctor,24217,时间,[]"
   splits:
   - split: 3
     text: "时间"
+    translated: "Time"
 - raw: "ComString,.cctor,24227,任务ID,[]"
   splits:
   - split: 3
     text: "任务ID"
+    translated: "Task ID"
 - raw: "ComString,.cctor,24237,物品ID,[]"
   splits:
   - split: 3
     text: "物品ID"
+    translated: "Item ID"
 - raw: "ComString,.cctor,24247,条件参数1,[]"
   splits:
   - split: 3
     text: "条件参数1"
+    translated: "Condition parameter 1"
 - raw: "ComString,.cctor,24257,条件参数2,[]"
   splits:
   - split: 3
     text: "条件参数2"
+    translated: "Condition parameters 2"
 - raw: "ComString,.cctor,24267,条件参数3,[]"
   splits:
   - split: 3
     text: "条件参数3"
+    translated: "Condition parameters 3"
 - raw: "ComString,.cctor,24277,条件参数4,[]"
   splits:
   - split: 3
     text: "条件参数4"
+    translated: "Condition parameter 4"
 - raw: "ComString,.cctor,24287,条件参数5,[]"
   splits:
   - split: 3
     text: "条件参数5"
+    translated: "Conditional parameter 5"
 - raw: "ComString,.cctor,24297,条件参数6,[]"
   splits:
   - split: 3
     text: "条件参数6"
+    translated: "Parameter condition 6"
 - raw: "ComString,.cctor,24307,条件参数7,[]"
   splits:
   - split: 3
     text: "条件参数7"
+    translated: "Condition Parameter 7"
 - raw: "ComString,.cctor,24317,条件参数8,[]"
   splits:
   - split: 3
     text: "条件参数8"
+    translated: "Parameter condition 8"
 - raw: "ComString,.cctor,24327,条件参数9,[]"
   splits:
   - split: 3
     text: "条件参数9"
+    translated: "Condition parameter 9"
 - raw: "ComString,.cctor,24337,改变属性,[]"
   splits:
   - split: 3
     text: "改变属性"
+    translated: "Change attributes"
 - raw: "ComString,.cctor,24347,改变属性值,[]"
   splits:
   - split: 3
     text: "改变属性值"
+    translated: "Change attribute value"
 - raw: "ComString,.cctor,24377,条件类型,[]"
   splits:
   - split: 3
     text: "条件类型"
+    translated: "Condition Type"
 - raw: "ComString,.cctor,24387,条件参数,[]"
   splits:
   - split: 3
     text: "条件参数"
+    translated: "Condition parameters"
 - raw: "ComString,.cctor,24397,目标描述,[]"
   splits:
   - split: 3
     text: "目标描述"
+    translated: "Target Description"
 - raw: "ComString,.cctor,24407,完成目标触发对话,[]"
   splits:
   - split: 3
     text: "完成目标触发对话"
+    translated: "Trigger dialogue upon completing the objective"
 - raw: "ComString,.cctor,24417,前置条件,[]"
   splits:
   - split: 3
     text: "前置条件"
+    translated: "Preconditions"
 - raw: "ComString,.cctor,24427,完成目标触发脚本,[]"
   splits:
   - split: 3
     text: "完成目标触发脚本"
+    translated: "Trigger script upon reaching the objective"
 - raw: "ComString,.cctor,24437,完成目标删除道具,[]"
   splits:
   - split: 3
     text: "完成目标删除道具"
+    translated: "Complete the objective by discarding the item"
 - raw: "ComString,.cctor,24447,完成目标奖励道具,[]"
   splits:
   - split: 3
     text: "完成目标奖励道具"
+    translated: "Completed goal reward item"
 - raw: "ComString,.cctor,24457,任务指引,[]"
   splits:
   - split: 3
     text: "任务指引"
+    translated: "Task Guide"
 - raw: "ComString,.cctor,24467,改变属性,[]"
   splits:
   - split: 3
     text: "改变属性"
+    translated: "Change attributes"
 - raw: "ComString,.cctor,24477,完成目标自动拾取,[]"
   splits:
   - split: 3
     text: "完成目标自动拾取"
+    translated: "Automatically pick up once the goal is achieved."
 - raw: "ComString,.cctor,24487,困难提示,[]"
   splits:
   - split: 3
     text: "困难提示"
+    translated: "Hard prompt"
 - raw: "ComString,.cctor,24497,主线,[]"
   splits:
   - split: 3
@@ -12437,26 +12520,32 @@
   splits:
   - split: 3
     text: "解密"
+    translated: "Decryption"
 - raw: "ComString,.cctor,24527,悬赏解密,[]"
   splits:
   - split: 3
     text: "悬赏解密"
+    translated: "Bounty to decode"
 - raw: "ComString,.cctor,24537,是否触发过对话,[]"
   splits:
   - split: 3
     text: "是否触发过对话"
+    translated: "Has a dialogue been triggered before?"
 - raw: "ComString,.cctor,24547,拥有道具,[]"
   splits:
   - split: 3
     text: "拥有道具"
+    translated: "Possessing an item"
 - raw: "ComString,.cctor,24557,完成过某个任务,[]"
   splits:
   - split: 3
     text: "完成过某个任务"
+    translated: "Has completed a certain task"
 - raw: "ComString,.cctor,24567,击杀,[]"
   splits:
   - split: 3
     text: "击杀"
+    translated: "Eliminate"
 - raw: "ComString,.cctor,24577,对话,[]"
   splits:
   - split: 3
@@ -12466,6 +12555,7 @@
   splits:
   - split: 3
     text: "打败"
+    translated: "Defeat"
 - raw: "ComString,.cctor,24597,探索,[]"
   splits:
   - split: 3
@@ -12475,46 +12565,57 @@
   splits:
   - split: 3
     text: "打造物品"
+    translated: "Forge items"
 - raw: "ComString,.cctor,24617,等待时间,[]"
   splits:
   - split: 3
     text: "等待时间"
+    translated: "Waiting time"
 - raw: "ComString,.cctor,24637,属性类型,[]"
   splits:
   - split: 3
     text: "属性类型"
+    translated: "Attribute Type"
 - raw: "ComString,.cctor,24647,出现几率,[]"
   splits:
   - split: 3
     text: "出现几率"
+    translated: "Probability of occurrence"
 - raw: "ComString,.cctor,24657,最小值,[]"
   splits:
   - split: 3
     text: "最小值"
+    translated: "Minimum value"
 - raw: "ComString,.cctor,24667,最大值,[]"
   splits:
   - split: 3
     text: "最大值"
+    translated: "Maximum value"
 - raw: "ComString,.cctor,24687,ID是本数据表里一项数据的唯一标识，也会用于脚本函数之中。,[]"
   splits:
   - split: 3
     text: "ID是本数据表里一项数据的唯一标识，也会用于脚本函数之中。"
+    translated: "The ID is a unique identifier for an entry in this data table and will also be used within script functions."
 - raw: "ComString,.cctor,24697,名字,[]"
   splits:
   - split: 3
     text: "名字"
+    translated: "Name"
 - raw: "ComString,.cctor,24707,称号,[]"
   splits:
   - split: 3
     text: "称号"
+    translated: "Title"
 - raw: "ComString,.cctor,24717,Npc大类型,[]"
   splits:
   - split: 3
     text: "Npc大类型"
+    translated: "NPC Major Types"
 - raw: "ComString,.cctor,24727,Npc子类型,[]"
   splits:
   - split: 3
     text: "Npc子类型"
+    translated: "NPC Subtype"
 - raw: "ComString,.cctor,24737,商店,[]"
   splits:
   - split: 3
@@ -12524,66 +12625,82 @@
   splits:
   - split: 3
     text: "填写商店组id，代表该角色商店内的道具为该组的道具，填写后npc拥有交易功能。"
+    translated: "Enter the store group ID to indicate that this character's items in the shop belong to that group. After entering it, the NPC will have trading functionality."
 - raw: "ComString,.cctor,24757,交互脚本,[]"
   splits:
   - split: 3
     text: "交互脚本"
+    translated: "Interactive script"
 - raw: "ComString,.cctor,24767,代表该角色被交互后触发的脚本,[]"
   splits:
   - split: 3
     text: "代表该角色被交互后触发的脚本"
+    translated: "Script triggered after interacting with this character"
 - raw: "ComString,.cctor,24777,死亡掉落组ID,[]"
   splits:
   - split: 3
     text: "死亡掉落组ID"
+    translated: "Death Drop Group ID"
 - raw: "ComString,.cctor,24787,填写掉落组id，代表该角色死亡后的掉落道具为该组的道具,[]"
   splits:
   - split: 3
     text: "填写掉落组id，代表该角色死亡后的掉落道具为该组的道具"
+    translated: "Enter the drop group ID to indicate that upon this character's death, the dropped items will belong to the specified group of items."
 - raw: "ComString,.cctor,24797,位置,[]"
   splits:
   - split: 3
     text: "位置"
+    translated: "Position"
 - raw: "ComString,.cctor,24807,npc的默认坐标，此处可通过游戏内按下F9复制实际坐标进行填写,[]"
   splits:
   - split: 3
     text: "npc的默认坐标，此处可通过游戏内按下F9复制实际坐标进行填写"
+    translated: "The default coordinates of the NPC; you can copy the actual coordinates by pressing F9 in‑game and fill them in here."
 - raw: "ComString,.cctor,24817,方向,[]"
   splits:
   - split: 3
     text: "方向"
+    translated: "Direction"
 - raw: "ComString,.cctor,24827,npc的默认方向，此处可通过游戏内按下F9复制实际方向进行填写,[]"
   splits:
   - split: 3
     text: "npc的默认方向，此处可通过游戏内按下F9复制实际方向进行填写"
+    translated: "The default direction for NPCs; you can copy the actual direction by pressing F9 in‑game and filling it in here."
 - raw: "ComString,.cctor,24837,显示状态,[]"
   splits:
   - split: 3
     text: "显示状态"
+    translated: "Show status"
 - raw: "ComString,.cctor,24847,npc的默认显示状态,[]"
   splits:
   - split: 3
     text: "npc的默认显示状态"
+    translated: "NPC's default display status"
 - raw: "ComString,.cctor,24857,自动脚本,[]"
   splits:
   - split: 3
     text: "自动脚本"
+    translated: "Automatic script"
 - raw: "ComString,.cctor,24867,npc存在时自动运行的脚本,[]"
   splits:
   - split: 3
     text: "npc存在时自动运行的脚本"
+    translated: "Script that automatically runs when NPCs are present."
 - raw: "ComString,.cctor,24877,生平描述,[]"
   splits:
   - split: 3
     text: "生平描述"
+    translated: "Biographical description"
 - raw: "ComString,.cctor,24887,背包,[]"
   splits:
   - split: 3
     text: "背包"
+    translated: "A backpack"
 - raw: "ComString,.cctor,24897,填写掉落组id，代表该角色背包内的道具是该组的道具,[]"
   splits:
   - split: 3
     text: "填写掉落组id，代表该角色背包内的道具是该组的道具"
+    translated: "Fill in the drop group ID; this indicates that the items in this character's inventory belong to that specific group."
 - raw: "ComString,.cctor,24907,武器,[]"
   splits:
   - split: 3
@@ -12593,6 +12710,7 @@
   splits:
   - split: 3
     text: "衣服"
+    translated: "Clothes"
 - raw: "ComString,.cctor,24927,腰带,[]"
   splits:
   - split: 3
@@ -12627,10 +12745,12 @@
   splits:
   - split: 3
     text: "装备槽"
+    translated: "Equipment Slot"
 - raw: "ComString,.cctor,24997,模型比例,[]"
   splits:
   - split: 3
     text: "模型比例"
+    translated: "Model scale ratio"
 - raw: "ComString,.cctor,25007,门派,[]"
   splits:
   - split: 3
@@ -12640,22 +12760,27 @@
   splits:
   - split: 3
     text: "角色模型"
+    translated: "Character Model"
 - raw: "ComString,.cctor,25027,角色特征,[]"
   splits:
   - split: 3
     text: "角色特征"
+    translated: "Character Traits"
 - raw: "ComString,.cctor,25037,此处可多选，代表角色的特征，如需要角色默认可攻击和boss，则同时选择可攻击及boss,[]"
   splits:
   - split: 3
     text: "此处可多选，代表角色的特征，如需要角色默认可攻击和boss，则同时选择可攻击及boss"
+    translated: "Here, multiple options can be selected to represent a character's traits. If the character is to be default‑attackable and a boss, then select both attackable and boss."
 - raw: "ComString,.cctor,25047,携带金钱,[]"
   splits:
   - split: 3
     text: "携带金钱"
+    translated: "Carrying money"
 - raw: "ComString,.cctor,25057,该角色作为商人时持有的金钱,[]"
   splits:
   - split: 3
     text: "该角色作为商人时持有的金钱"
+    translated: "The money held by this character as a merchant."
 - raw: "ComString,.cctor,25067,交互,[]"
   splits:
   - split: 3
@@ -12670,98 +12795,122 @@
   splits:
   - split: 3
     text: "属性"
+    translated: "Attribute"
 - raw: "ComString,.cctor,25097,属性,[]"
   splits:
   - split: 3
     text: "属性"
+    translated: "Attribute"
 - raw: "ComString,.cctor,25107,固定值/比例值,[]"
   splits:
   - split: 3
     text: "固定值/比例值"
+    translated: "Fixed value/ratio value"
 - raw: "ComString,.cctor,25117,值,[]"
   splits:
   - split: 3
     text: "值"
+    translated: "Value"
 - raw: "ComString,.cctor,25127,技能Id,[]"
   splits:
   - split: 3
     text: "技能Id"
+    translated: "Skill ID"
 - raw: "ComString,.cctor,25137,角色技能,[]"
   splits:
   - split: 3
     text: "角色技能"
+    translated: "Role Skills"
 - raw: "ComString,.cctor,25147,角色所拥有的技能,[]"
   splits:
   - split: 3
     text: "角色所拥有的技能"
+    translated: "The skills possessed by the character"
 - raw: "ComString,.cctor,25157,战斗脚本,[]"
   splits:
   - split: 3
     text: "战斗脚本"
+    translated: "Battle script"
 - raw: "ComString,.cctor,25167,控制角色战斗的脚本，一般请勿进行更改，如更改则需要制作角色整个战斗逻辑,[]"
   splits:
   - split: 3
     text: "控制角色战斗的脚本，一般请勿进行更改，如更改则需要制作角色整个战斗逻辑"
+    translated: "Script for controlling character combat; generally, please do not modify it. If changes are necessary, the entire logic of the character's combat needs to be reconstructed."
 - raw: "ComString,.cctor,25187,属性比例,[]"
   splits:
   - split: 3
     text: "属性比例"
+    translated: "Attribute proportions"
 - raw: "ComString,.cctor,25197,角色境界,[]"
   splits:
   - split: 3
     text: "角色境界"
+    translated: "Character's Realm"
 - raw: "ComString,.cctor,25207,改变属性,[]"
   splits:
   - split: 3
     text: "改变属性"
+    translated: "Change attributes"
 - raw: "ComString,.cctor,25217,功能类型,[]"
   splits:
   - split: 3
     text: "功能类型"
+    translated: "Function Type"
 - raw: "ComString,.cctor,25227,按钮显示条件,[]"
   splits:
   - split: 3
     text: "按钮显示条件"
+    translated: "Button Display Conditions"
 - raw: "ComString,.cctor,25237,按钮消失条件,[]"
   splits:
   - split: 3
     text: "按钮消失条件"
+    translated: "Button Disappearance Condition"
 - raw: "ComString,.cctor,25247,按钮解锁条件,[]"
   splits:
   - split: 3
     text: "按钮解锁条件"
+    translated: "Unlock Conditions Button"
 - raw: "ComString,.cctor,25257,按钮描述,[]"
   splits:
   - split: 3
     text: "按钮描述"
+    translated: "Button Description"
 - raw: "ComString,.cctor,25267,脚本Id,[]"
   splits:
   - split: 3
     text: "脚本Id"
+    translated: "Script ID"
 - raw: "ComString,.cctor,25277,解锁描述,[]"
   splits:
   - split: 3
     text: "解锁描述"
+    translated: "Unlock description"
 - raw: "ComString,.cctor,25287,全局,[]"
   splits:
   - split: 3
     text: "全局"
+    translated: "Global scope"
 - raw: "ComString,.cctor,25297,可攻击,[]"
   splits:
   - split: 3
     text: "可攻击"
+    translated: "Can be attacked"
 - raw: "ComString,.cctor,25317,精英怪,[]"
   splits:
   - split: 3
     text: "精英怪"
+    translated: "Elite Monster"
 - raw: "ComString,.cctor,25327,固定值,[]"
   splits:
   - split: 3
     text: "固定值"
+    translated: "Fixed value"
 - raw: "ComString,.cctor,25337,比例值,[]"
   splits:
   - split: 3
     text: "比例值"
+    translated: "Proportion value"
 - raw: "ComString,.cctor,25347,交谈,[]"
   splits:
   - split: 3
@@ -12776,10 +12925,12 @@
   splits:
   - split: 3
     text: "交易"
+    translated: "Transaction"
 - raw: "ComString,.cctor,25377,交易,[]"
   splits:
   - split: 3
     text: "交易"
+    translated: "Transaction"
 - raw: "ComString,.cctor,25387,脚本,[]"
   splits:
   - split: 3
@@ -12809,42 +12960,52 @@
   splits:
   - split: 3
     text: "技能ID"
+    translated: "Skill ID"
 - raw: "ComString,.cctor,25457,秘籍Node,[]"
   splits:
   - split: 3
     text: "秘籍Node"
+    translated: "Secret Manual Node"
 - raw: "ComString,.cctor,25467,强化属性 BuffId,[]"
   splits:
   - split: 3
     text: "强化属性 BuffId"
+    translated: "Enhance Attributes Buff ID"
 - raw: "ComString,.cctor,25477,延迟时间,[]"
   splits:
   - split: 3
     text: "延迟时间"
+    translated: "Delay time"
 - raw: "ComString,.cctor,25487,调息效果,[]"
   splits:
   - split: 3
     text: "调息效果"
+    translated: "Breathing regulation effect"
 - raw: "ComString,.cctor,25497,强化属性,[]"
   splits:
   - split: 3
     text: "强化属性"
+    translated: "Enhance attributes"
 - raw: "ComString,.cctor,25507,需要感悟,[]"
   splits:
   - split: 3
     text: "需要感悟"
+    translated: "Needs reflection"
 - raw: "ComString,.cctor,25517,需要道具,[]"
   splits:
   - split: 3
     text: "需要道具"
+    translated: "Need a prop"
 - raw: "ComString,.cctor,25527,洗练感悟,[]"
   splits:
   - split: 3
     text: "洗练感悟"
+    translated: "Refined perception and understanding"
 - raw: "ComString,.cctor,25537,选择词条,[]"
   splits:
   - split: 3
     text: "选择词条"
+    translated: "Choose a term"
 - raw: "ComString,.cctor,25547,无,[]"
   splits:
   - split: 3
@@ -12879,94 +13040,117 @@
   splits:
   - split: 3
     text: "五行"
+    translated: "Five Elements"
 - raw: "ComString,.cctor,25627,ID是本数据表里一项数据的唯一标识，也会用于脚本函数之中。,[]"
   splits:
   - split: 3
     text: "ID是本数据表里一项数据的唯一标识，也会用于脚本函数之中。"
+    translated: "The ID is a unique identifier for an entry in this data table and will also be used within script functions."
 - raw: "ComString,.cctor,25637,组,[]"
   splits:
   - split: 3
     text: "组"
+    translated: "Group"
 - raw: "ComString,.cctor,25647,该掉落组的组id，组id相同的道具则为同一个掉落组。,[]"
   splits:
   - split: 3
     text: "该掉落组的组id，组id相同的道具则为同一个掉落组。"
+    translated: "The drop group's ID indicates that items with the same group ID belong to the same drop group."
 - raw: "ComString,.cctor,25657,产出道具,[]"
   splits:
   - split: 3
     text: "产出道具"
+    translated: "Produce items"
 - raw: "ComString,.cctor,25667,代表该条数据所掉落的道具。,[]"
   splits:
   - split: 3
     text: "代表该条数据所掉落的道具。"
+    translated: "The representative item of this data drop"
 - raw: "ComString,.cctor,25677,产出几率,[]"
   splits:
   - split: 3
     text: "产出几率"
+    translated: "Production likelihood rate"
 - raw: "ComString,.cctor,25687,代表该条数据在掉落时被随机到的几率，如超过组内所有道具加起来的几率超过100%，则会根据该条数据的百分比占比进行改变，如填写100%则代表必定掉落。,[]"
   splits:
   - split: 3
     text: "代表该条数据在掉落时被随机到的几率，如超过组内所有道具加起来的几率超过100%，则会根据该条数据的百分比占比进行改变，如填写100%则代表必定掉落。"
+    translated: "This value represents the probability of this item being randomly acquired upon drop. If the total probability of all items within a set exceeds 100%, adjustments will be made based on this data's percentage share. For example, entering 100% indicates that it will definitely drop."
 - raw: "ComString,.cctor,25697,最小产出个数,[]"
   splits:
   - split: 3
     text: "最小产出个数"
+    translated: "Minimum output quantity"
 - raw: "ComString,.cctor,25707,掉落时范围内的掉落的最小道具数,[]"
   splits:
   - split: 3
     text: "掉落时范围内的掉落的最小道具数"
+    translated: "Minimum number of items dropped in the drop range when it drops."
 - raw: "ComString,.cctor,25717,最大产出个数,[]"
   splits:
   - split: 3
     text: "最大产出个数"
+    translated: "Maximum output quantity"
 - raw: "ComString,.cctor,25727,掉落时范围内的掉落的最大道具数,[]"
   splits:
   - split: 3
     text: "掉落时范围内的掉落的最大道具数"
+    translated: "Maximum number of items dropped within the range at the time of drop."
 - raw: "ComString,.cctor,25737,最大掉落次数,[]"
   splits:
   - split: 3
     text: "最大掉落次数"
+    translated: "Maximum number of drops allowed"
 - raw: "ComString,.cctor,25747,代表该道具能够掉落的次数，0为无限次,[]"
   splits:
   - split: 3
     text: "代表该道具能够掉落的次数，0为无限次"
+    translated: "This item can drop a number of times, with 0 indicating unlimited drops."
 - raw: "ComString,.cctor,25757,首杀掉落,[]"
   splits:
   - split: 3
     text: "首杀掉落"
+    translated: "First kill drop"
 - raw: "ComString,.cctor,25767,代表该道具是否为首杀必掉道具,[]"
   splits:
   - split: 3
     text: "代表该道具是否为首杀必掉道具"
+    translated: "This indicates whether this item is a first‑kill drop item."
 - raw: "ComString,.cctor,25777,打造类型,[]"
   splits:
   - split: 3
     text: "打造类型"
+    translated: "Forge Type"
 - raw: "ComString,.cctor,25787,目标道具,[]"
   splits:
   - split: 3
     text: "目标道具"
+    translated: "Target item"
 - raw: "ComString,.cctor,25797,消耗金钱,[]"
   splits:
   - split: 3
     text: "消耗金钱"
+    translated: "Spending money"
 - raw: "ComString,.cctor,25807,消耗精力,[]"
   splits:
   - split: 3
     text: "消耗精力"
+    translated: "Depleting energy"
 - raw: "ComString,.cctor,25817,道具ID,[]"
   splits:
   - split: 3
     text: "道具ID"
+    translated: "Item ID"
 - raw: "ComString,.cctor,25827,数量,[]"
   splits:
   - split: 3
     text: "数量"
+    translated: "Quantity"
 - raw: "ComString,.cctor,25837,需求材料,[]"
   splits:
   - split: 3
     text: "需求材料"
+    translated: "Required materials"
 - raw: "ComString,.cctor,25847,丹药,[]"
   splits:
   - split: 3
@@ -13001,30 +13185,37 @@
   splits:
   - split: 3
     text: "ID是本数据表里一项数据的唯一标识，也会用于脚本函数之中。"
+    translated: "The ID is a unique identifier for an entry in this data table and will also be used within script functions."
 - raw: "ComString,.cctor,25927,道具名字,[]"
   splits:
   - split: 3
     text: "道具名字"
+    translated: "Object Name"
 - raw: "ComString,.cctor,25937,道具大类,[]"
   splits:
   - split: 3
     text: "道具大类"
+    translated: "Primary Category of Props"
 - raw: "ComString,.cctor,25947,道具小类,[]"
   splits:
   - split: 3
     text: "道具小类"
+    translated: "Tool Subcategory"
 - raw: "ComString,.cctor,25957,武器类型,[]"
   splits:
   - split: 3
     text: "武器类型"
+    translated: "Weapon Type"
 - raw: "ComString,.cctor,25967,使用条件,[]"
   splits:
   - split: 3
     text: "使用条件"
+    translated: "Usage conditions"
 - raw: "ComString,.cctor,25977,品质,[]"
   splits:
   - split: 3
     text: "品质"
+    translated: "Quality"
 - raw: "ComString,.cctor,25987,等级,[]"
   splits:
   - split: 3
@@ -13034,86 +13225,107 @@
   splits:
   - split: 3
     text: "售价"
+    translated: "Selling price"
 - raw: "ComString,.cctor,26007,堆叠上限,[]"
   splits:
   - split: 3
     text: "堆叠上限"
+    translated: "Stacking limit"
 - raw: "ComString,.cctor,26017,代表该道具存在背包时可叠加的数量,[]"
   splits:
   - split: 3
     text: "代表该道具存在背包时可叠加的数量"
+    translated: "Number of stackable items in the inventory when this item exists."
 - raw: "ComString,.cctor,26027,能否出售,[]"
   splits:
   - split: 3
     text: "能否出售"
+    translated: "Can it be sold?"
 - raw: "ComString,.cctor,26037,图标,[]"
   splits:
   - split: 3
     text: "图标"
+    translated: "Icon"
 - raw: "ComString,.cctor,26047,道具描述,[]"
   splits:
   - split: 3
     text: "道具描述"
+    translated: "Item Description:"
 - raw: "ComString,.cctor,26057,装备基础属性,[]"
   splits:
   - split: 3
     text: "装备基础属性"
+    translated: "Equipment Base Attributes"
 - raw: "ComString,.cctor,26067,代表该装备道具所拥有的属性,[]"
   splits:
   - split: 3
     text: "代表该装备道具所拥有的属性"
+    translated: "Represents the attributes possessed by this equipment or item."
 - raw: "ComString,.cctor,26077,秘籍组,[]"
   splits:
   - split: 3
     text: "秘籍组"
+    translated: "Secret Manual Group"
 - raw: "ComString,.cctor,26087,代表该道具使用后学会的秘籍,[]"
   splits:
   - split: 3
     text: "代表该道具使用后学会的秘籍"
+    translated: "Represents the secret manual learned after using this item."
 - raw: "ComString,.cctor,26097,固定值,[]"
   splits:
   - split: 3
     text: "固定值"
+    translated: "Fixed value"
 - raw: "ComString,.cctor,26107,比例值,[]"
   splits:
   - split: 3
     text: "比例值"
+    translated: "Proportion value"
 - raw: "ComString,.cctor,26117,属性,[]"
   splits:
   - split: 3
     text: "属性"
+    translated: "Attribute"
 - raw: "ComString,.cctor,26127,值,[]"
   splits:
   - split: 3
     text: "值"
+    translated: "Value"
 - raw: "ComString,.cctor,26137,固定值/比例值,[]"
   splits:
   - split: 3
     text: "固定值/比例值"
+    translated: "Fixed value/ratio value"
 - raw: "ComString,.cctor,26147,效果,[]"
   splits:
   - split: 3
     text: "效果"
+    translated: "Effectiveness"
 - raw: "ComString,.cctor,26157,代表该道具使用后增加的属性,[]"
   splits:
   - split: 3
     text: "代表该道具使用后增加的属性"
+    translated: "Attributes gained from using this item"
 - raw: "ComString,.cctor,26167,套路,[]"
   splits:
   - split: 3
     text: "套路"
+    translated: "Technique"
 - raw: "ComString,.cctor,26177,套路,[]"
   splits:
   - split: 3
     text: "套路"
+    translated: "Technique"
 - raw: "ComString,.cctor,26187,首次效果,[]"
   splits:
   - split: 3
     text: "首次效果"
+    translated: "First‑time effect"
 - raw: "ComString,.cctor,26197,代表该道具首次使用后增加的属性,[]"
   splits:
   - split: 3
     text: "代表该道具首次使用后增加的属性"
+    translated: "Represents the attributes gained by the item upon its first use."
 - raw: "ComString,.cctor,26207,词条组,[]"
   splits:
   - split: 3
@@ -13123,30 +13335,37 @@
   splits:
   - split: 3
     text: "填写词条组id，代表该道具的词条为该组的词条"
+    translated: "Fill in the entry group ID to indicate that the item's entries belong to this group of entries."
 - raw: "ComString,.cctor,26227,最小词条数量,[]"
   splits:
   - split: 3
     text: "最小词条数量"
+    translated: "Minimum number of words per entry"
 - raw: "ComString,.cctor,26237,词条范围内的最小词条数,[]"
   splits:
   - split: 3
     text: "词条范围内的最小词条数"
+    translated: "Minimum number of terms within a glossary range."
 - raw: "ComString,.cctor,26247,最大词条数量,[]"
   splits:
   - split: 3
     text: "最大词条数量"
+    translated: "Maximum number of entries per term"
 - raw: "ComString,.cctor,26257,词条范围内的最大词条数,[]"
   splits:
   - split: 3
     text: "词条范围内的最大词条数"
+    translated: "The maximum number of entries within a defined range."
 - raw: "ComString,.cctor,26267,来源描述,[]"
   splits:
   - split: 3
     text: "来源描述"
+    translated: "Source Description"
 - raw: "ComString,.cctor,26277,详细配置,[]"
   splits:
   - split: 3
     text: "详细配置"
+    translated: "Detailed Configuration"
 - raw: "ComString,.cctor,26287,装备,[]"
   splits:
   - split: 3
@@ -13176,6 +13395,7 @@
   splits:
   - split: 3
     text: "衣服"
+    translated: "Clothes"
 - raw: "ComString,.cctor,26347,鞋子,[]"
   splits:
   - split: 3
@@ -13215,14 +13435,17 @@
   splits:
   - split: 3
     text: "普通材料"
+    translated: "Common material"
 - raw: "ComString,.cctor,26427,矿石,[]"
   splits:
   - split: 3
     text: "矿石"
+    translated: "Ore"
 - raw: "ComString,.cctor,26437,草药,[]"
   splits:
   - split: 3
     text: "草药"
+    translated: "Herbs"
 - raw: "ComString,.cctor,26447,食物,[]"
   splits:
   - split: 3
@@ -13247,6 +13470,7 @@
   splits:
   - split: 3
     text: "技艺书"
+    translated: "Skill Manual"
 - raw: "ComString,.cctor,26497,秘籍,[]"
   splits:
   - split: 3
@@ -13261,6 +13485,7 @@
   splits:
   - split: 3
     text: "被动秘籍"
+    translated: "Passive Secret Manual"
 - raw: "ComString,.cctor,26527,剑,[]"
   splits:
   - split: 3
@@ -13390,170 +13615,212 @@
   splits:
   - split: 3
     text: "最小属性"
+    translated: "Minimum attributes"
 - raw: "ComString,.cctor,26787,属性范围的最小属性,[]"
   splits:
   - split: 3
     text: "属性范围的最小属性"
+    translated: "Minimum attribute range"
 - raw: "ComString,.cctor,26797,最大属性,[]"
   splits:
   - split: 3
     text: "最大属性"
+    translated: "Greatest attribute"
 - raw: "ComString,.cctor,26807,属性范围的最大属性,[]"
   splits:
   - split: 3
     text: "属性范围的最大属性"
+    translated: "Maximum Attribute Range"
 - raw: "ComString,.cctor,26827,位置,[]"
   splits:
   - split: 3
     text: "位置"
+    translated: "Position"
 - raw: "ComString,.cctor,26837,方向,[]"
   splits:
   - split: 3
     text: "方向"
+    translated: "Direction"
 - raw: "ComString,.cctor,26847,进入范围触发脚本,[]"
   splits:
   - split: 3
     text: "进入范围触发脚本"
+    translated: "Trigger script upon entering range"
 - raw: "ComString,.cctor,26857,离开范围触发脚本,[]"
   splits:
   - split: 3
     text: "离开范围触发脚本"
+    translated: "Leave range triggers script"
 - raw: "ComString,.cctor,26867,范围大小,[]"
   splits:
   - split: 3
     text: "范围大小"
+    translated: "Scope size"
 - raw: "ComString,.cctor,26907,形状,[]"
   splits:
   - split: 3
     text: "形状"
+    translated: "Shape"
 - raw: "ComString,.cctor,26947,任务ID,[]"
   splits:
   - split: 3
     text: "任务ID"
+    translated: "Task ID"
 - raw: "ComString,.cctor,26957,是否完成,[]"
   splits:
   - split: 3
     text: "是否完成"
+    translated: "Is it completed?"
 - raw: "ComString,.cctor,27027,属性,[]"
   splits:
   - split: 3
     text: "属性"
+    translated: "Attribute"
 - raw: "ComString,.cctor,27037,要求值,[]"
   splits:
   - split: 3
     text: "要求值"
+    translated: "Required value"
 - raw: "ComString,.cctor,27047,比较,[]"
   splits:
   - split: 3
     text: "比较"
+    translated: "Compare"
 - raw: "ComString,.cctor,27057,对话id,[]"
   splits:
   - split: 3
     text: "对话id"
+    translated: "Dialogue ID"
 - raw: "ComString,.cctor,27067,是否触发,[]"
   splits:
   - split: 3
     text: "是否触发"
+    translated: "Does it trigger?"
 - raw: "ComString,.cctor,27077,道具ID,[]"
   splits:
   - split: 3
     text: "道具ID"
+    translated: "Item ID"
 - raw: "ComString,.cctor,27087,持有数量,[]"
   splits:
   - split: 3
     text: "持有数量"
+    translated: "Quantity Held"
 - raw: "ComString,.cctor,27107,击败或打死,[]"
   splits:
   - split: 3
     text: "击败或打死"
+    translated: "Defeat or kill"
 - raw: "ComString,.cctor,27117,0代表打死，1代表击败,[]"
   splits:
   - split: 3
     text: "0代表打死，1代表击败"
+    translated: "0 represents killing, 1 represents defeating"
 - raw: "ComString,.cctor,27127,全达成,[]"
   splits:
   - split: 3
     text: "全达成"
+    translated: "All accomplished"
 - raw: "ComString,.cctor,27137,达成其一,[]"
   splits:
   - split: 3
     text: "达成其一"
+    translated: "Achieving one of them"
 - raw: "ComString,.cctor,27147,达成,[]"
   splits:
   - split: 3
     text: "达成"
+    translated: "Achieved"
 - raw: "ComString,.cctor,27157,未达成,[]"
   splits:
   - split: 3
     text: "未达成"
+    translated: "Not achieved"
 - raw: "ComString,.cctor,27167,条件参数1,[]"
   splits:
   - split: 3
     text: "条件参数1"
+    translated: "Condition parameter 1"
 - raw: "ComString,.cctor,27177,条件参数1,[]"
   splits:
   - split: 3
     text: "条件参数1"
+    translated: "Condition parameter 1"
 - raw: "ComString,.cctor,27187,条件参数1,[]"
   splits:
   - split: 3
     text: "条件参数1"
+    translated: "Condition parameter 1"
 - raw: "ComString,.cctor,27197,条件参数1,[]"
   splits:
   - split: 3
     text: "条件参数1"
+    translated: "Condition parameter 1"
 - raw: "ComString,.cctor,27207,条件参数1,[]"
   splits:
   - split: 3
     text: "条件参数1"
+    translated: "Condition parameter 1"
 - raw: "ComString,.cctor,27217,条件类型,[]"
   splits:
   - split: 3
     text: "条件类型"
+    translated: "Condition Type"
 - raw: "ComString,.cctor,27227,数据参数,[]"
   splits:
   - split: 3
     text: "数据参数"
+    translated: "Data parameters"
 - raw: "ComString,.cctor,27237,条件达成,[]"
   splits:
   - split: 3
     text: "条件达成"
+    translated: "Conditions met"
 - raw: "ComString,.cctor,27247,条件组,[]"
   splits:
   - split: 3
     text: "条件组"
+    translated: "Condition Group"
 - raw: "ComString,.cctor,27257,选择类型,[]"
   splits:
   - split: 3
     text: "选择类型"
+    translated: "Select type"
 - raw: "ComString,.cctor,27267,完成任务,[]"
   splits:
   - split: 3
     text: "完成任务"
+    translated: "Complete the task"
 - raw: "ComString,.cctor,27277,道具持有数量,[]"
   splits:
   - split: 3
     text: "道具持有数量"
+    translated: "Number of Items Held"
 - raw: "ComString,.cctor,27287,属性判断,[]"
   splits:
   - split: 3
     text: "属性判断"
+    translated: "Attribute Judgment"
 - raw: "ComString,.cctor,27297,触发对话,[]"
   splits:
   - split: 3
     text: "触发对话"
+    translated: "Trigger dialogue"
 - raw: "ComString,.cctor,27307,是否打败Npc,[]"
   splits:
   - split: 3
     text: "是否打败Npc"
+    translated: "Can we defeat the NPC?"
 - raw: "ComString,.cctor,27317,最大气血,[]"
   splits:
   - split: 3
     text: "最大气血"
+    translated: "Greatest lifeforce"
 - raw: "ComString,.cctor,27327,最大真气,[]"
   splits:
   - split: 3
     text: "最大真气"
+    translated: "Greatest True Qi"
 - raw: "ComString,.cctor,27337,当前血量,[]"
   splits:
   - split: 3
@@ -13753,6 +14020,7 @@
   splits:
   - split: 3
     text: "兵学"
+    translated: "Martial Studies"
 - raw: "ComString,.cctor,27737,墨学,[]"
   splits:
   - split: 3
@@ -13762,6 +14030,7 @@
   splits:
   - split: 3
     text: "诡学"
+    translated: "Gexue"
 - raw: "ComString,.cctor,27757,魔学,[]"
   splits:
   - split: 3
@@ -13836,6 +14105,7 @@
   splits:
   - split: 3
     text: "金钱"
+    translated: "Money"
 - raw: "ComString,.cctor,27907,修为,[]"
   splits:
   - split: 3
@@ -13860,6 +14130,7 @@
   splits:
   - split: 3
     text: "任务 {0}"
+    translated: "Mission {0}"
 - raw: "ComString,.cctor,27957,道具,[]"
   splits:
   - split: 3
@@ -13889,6 +14160,7 @@
   splits:
   - split: 3
     text: "待命"
+    translated: "At your service"
 - raw: "ComString,.cctor,28017,移动,[]"
   splits:
   - split: 3
@@ -13898,1386 +14170,1732 @@
   splits:
   - split: 3
     text: "行军-{0}"
+    translated: "Marching ‑ {0}"
 - raw: "ComString,.cctor,28037,战斗准备,[]"
   splits:
   - split: 3
     text: "战斗准备"
+    translated: "Combat preparations"
 - raw: "ComString,.cctor,28047,战斗中,[]"
   splits:
   - split: 3
     text: "战斗中"
+    translated: "In battle"
 - raw: "ComString,.cctor,28057,驻守-{0},[]"
   splits:
   - split: 3
     text: "驻守-{0}"
+    translated: "Garrisoned ‑ {0}"
 - raw: "ComString,.cctor,28067,支援-{0},[]"
   splits:
   - split: 3
     text: "支援-{0}"
+    translated: "Support ‑ {0}"
 - raw: "ComString,.cctor,28077,配方{0},[]"
   splits:
   - split: 3
     text: "配方{0}"
+    translated: "Formula {0}"
 - raw: "ComString,.cctor,28087,鼻子,[]"
   splits:
   - split: 3
     text: "鼻子"
+    translated: "Nose"
 - raw: "ComString,.cctor,28097,眉毛,[]"
   splits:
   - split: 3
     text: "眉毛"
+    translated: "Eyebrows"
 - raw: "ComString,.cctor,28107,额头,[]"
   splits:
   - split: 3
     text: "额头"
+    translated: "Forehead"
 - raw: "ComString,.cctor,28117,眼睛,[]"
   splits:
   - split: 3
     text: "眼睛"
+    translated: "Eyes"
 - raw: "ComString,.cctor,28127,嘴巴,[]"
   splits:
   - split: 3
     text: "嘴巴"
+    translated: "Mouth"
 - raw: "ComString,.cctor,28137,下巴,[]"
   splits:
   - split: 3
     text: "下巴"
+    translated: "Jaw"
 - raw: "ComString,.cctor,28147,下颚,[]"
   splits:
   - split: 3
     text: "下颚"
+    translated: "Lower jaw"
 - raw: "ComString,.cctor,28157,脸颊,[]"
   splits:
   - split: 3
     text: "脸颊"
+    translated: "Cheek"
 - raw: "ComString,.cctor,28167,颧骨,[]"
   splits:
   - split: 3
     text: "颧骨"
+    translated: "Cheekbone"
 - raw: "ComString,.cctor,28177,耳朵,[]"
   splits:
   - split: 3
     text: "耳朵"
+    translated: "Ear"
 - raw: "ComString,.cctor,28187,太阳穴,[]"
   splits:
   - split: 3
     text: "太阳穴"
+    translated: "Temples"
 - raw: "ComString,.cctor,28197,妆容,[]"
   splits:
   - split: 3
     text: "妆容"
+    translated: "Makeup"
 - raw: "ComString,.cctor,28207,鼻子上下,[]"
   splits:
   - split: 3
     text: "鼻子上下"
+    translated: "Nose up and down"
 - raw: "ComString,.cctor,28217,鼻子挺拔,[]"
   splits:
   - split: 3
     text: "鼻子挺拔"
+    translated: "Prominent nose"
 - raw: "ComString,.cctor,28227,鼻子长短,[]"
   splits:
   - split: 3
     text: "鼻子长短"
+    translated: "Length of nose"
 - raw: "ComString,.cctor,28237,鼻子宽窄,[]"
   splits:
   - split: 3
     text: "鼻子宽窄"
+    translated: "Width of the nose"
 - raw: "ComString,.cctor,28247,鼻子挺拔,[]"
   splits:
   - split: 3
     text: "鼻子挺拔"
+    translated: "Prominent nose"
 - raw: "ComString,.cctor,28257,鼻头上下,[]"
   splits:
   - split: 3
     text: "鼻头上下"
+    translated: "Nose tip up and down"
 - raw: "ComString,.cctor,28267,鼻翼上下,[]"
   splits:
   - split: 3
     text: "鼻翼上下"
+    translated: "Nose wings up and down"
 - raw: "ComString,.cctor,28277,鼻翼上下（mirrored）,[]"
   splits:
   - split: 3
     text: "鼻翼上下（mirrored）"
+    translated: "Nose wings up and down (mirrored)"
 - raw: "ComString,.cctor,28287,人中上下,[]"
   splits:
   - split: 3
     text: "人中上下"
+    translated: "Upper and lower ranks among people"
 - raw: "ComString,.cctor,28297,鼻翼旋转,[]"
   splits:
   - split: 3
     text: "鼻翼旋转"
+    translated: "Nasal wing rotation"
 - raw: "ComString,.cctor,28307,鼻翼旋转（mirrored）,[]"
   splits:
   - split: 3
     text: "鼻翼旋转（mirrored）"
+    translated: "Nasal wing flutter (mirrored)"
 - raw: "ComString,.cctor,28317,鼻翼左右,[]"
   splits:
   - split: 3
     text: "鼻翼左右"
+    translated: "Nostrils left and right"
 - raw: "ComString,.cctor,28327,鼻翼左右（mirrored）,[]"
   splits:
   - split: 3
     text: "鼻翼左右（mirrored）"
+    translated: "Left and right nostrils (mirrored)"
 - raw: "ComString,.cctor,28337,鼻梁上下,[]"
   splits:
   - split: 3
     text: "鼻梁上下"
+    translated: "Across the bridge of the nose"
 - raw: "ComString,.cctor,28347,鼻梁高低,[]"
   splits:
   - split: 3
     text: "鼻梁高低"
+    translated: "Height of the nasal bridge"
 - raw: "ComString,.cctor,28357,鼻梁宽窄,[]"
   splits:
   - split: 3
     text: "鼻梁宽窄"
+    translated: "Width of the nasal bridge"
 - raw: "ComString,.cctor,28367,鼻梁底上下,[]"
   splits:
   - split: 3
     text: "鼻梁底上下"
+    translated: "Below the bridge of the nose"
 - raw: "ComString,.cctor,28377,鼻梁底上下（mirrored）,[]"
   splits:
   - split: 3
     text: "鼻梁底上下（mirrored）"
+    translated: "Bilangdi shangxia (mirrored)"
 - raw: "ComString,.cctor,28387,鼻梁底左右,[]"
   splits:
   - split: 3
     text: "鼻梁底左右"
+    translated: "Left and right of the nasal bridge"
 - raw: "ComString,.cctor,28397,鼻梁底左右（mirrored）,[]"
   splits:
   - split: 3
     text: "鼻梁底左右（mirrored）"
+    translated: "Bilateral nasal bridge base (mirrored)"
 - raw: "ComString,.cctor,28407,鼻骨上下,[]"
   splits:
   - split: 3
     text: "鼻骨上下"
+    translated: "Upper and lower nasal bones"
 - raw: "ComString,.cctor,28417,鼻骨高低,[]"
   splits:
   - split: 3
     text: "鼻骨高低"
+    translated: "Height of the nasal bone"
 - raw: "ComString,.cctor,28427,眉毛角度,[]"
   splits:
   - split: 3
     text: "眉毛角度"
+    translated: "Eye brow angle"
 - raw: "ComString,.cctor,28437,眉毛角度（mirrored）,[]"
   splits:
   - split: 3
     text: "眉毛角度（mirrored）"
+    translated: "Eyebrow angle (mirrored)"
 - raw: "ComString,.cctor,28447,眉毛内外,[]"
   splits:
   - split: 3
     text: "眉毛内外"
+    translated: "Brow inner and outer"
 - raw: "ComString,.cctor,28457,眉毛内外（mirrored）,[]"
   splits:
   - split: 3
     text: "眉毛内外（mirrored）"
+    translated: "Eyebrows inward and outward (mirrored)"
 - raw: "ComString,.cctor,28467,眉毛高低,[]"
   splits:
   - split: 3
     text: "眉毛高低"
+    translated: "Eyebrow height variation"
 - raw: "ComString,.cctor,28477,眉毛高低（mirrored）,[]"
   splits:
   - split: 3
     text: "眉毛高低（mirrored）"
+    translated: "Eyebrows arched high and low (mirrored)"
 - raw: "ComString,.cctor,28487,眉心高低,[]"
   splits:
   - split: 3
     text: "眉心高低"
+    translated: "High and low of the brows"
 - raw: "ComString,.cctor,28497,眉头高低,[]"
   splits:
   - split: 3
     text: "眉头高低"
+    translated: "Eyebrows arched high and low"
 - raw: "ComString,.cctor,28507,眉头高低（mirrored）,[]"
   splits:
   - split: 3
     text: "眉头高低（mirrored）"
+    translated: "Forehead furrowed in contemplation (mirrored)"
 - raw: "ComString,.cctor,28517,眉头左右,[]"
   splits:
   - split: 3
     text: "眉头左右"
+    translated: "Brows furrowed"
 - raw: "ComString,.cctor,28527,眉头左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眉头左右（mirrored）"
+    translated: "Forehead left and right (mirrored)"
 - raw: "ComString,.cctor,28537,眉中高低,[]"
   splits:
   - split: 3
     text: "眉中高低"
+    translated: "High and low eyebrows"
 - raw: "ComString,.cctor,28547,眉中高低（mirrored）,[]"
   splits:
   - split: 3
     text: "眉中高低（mirrored）"
+    translated: "High and low between the eyebrows (mirrored)"
 - raw: "ComString,.cctor,28557,眉中左右,[]"
   splits:
   - split: 3
     text: "眉中左右"
+    translated: "Between the eyebrows"
 - raw: "ComString,.cctor,28567,眉中左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眉中左右（mirrored）"
+    translated: "Left and right in the eyebrows (referring to a specific pattern or style commonly seen in traditional Chinese aesthetics)."
 - raw: "ComString,.cctor,28577,眉尾上下,[]"
   splits:
   - split: 3
     text: "眉尾上下"
+    translated: "Eyebrows up and down"
 - raw: "ComString,.cctor,28587,眉尾上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眉尾上下（mirrored）"
+    translated: "Eyebrow ends in mirror image (upside down)"
 - raw: "ComString,.cctor,28597,眉尾左右,[]"
   splits:
   - split: 3
     text: "眉尾左右"
+    translated: "Eyebrow tips left and right"
 - raw: "ComString,.cctor,28607,眉尾左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眉尾左右（mirrored）"
+    translated: "Eyebrows arched to the left and right (mirrored)."
 - raw: "ComString,.cctor,28617,额头上下,[]"
   splits:
   - split: 3
     text: "额头上下"
+    translated: "Beneath the brow"
 - raw: "ComString,.cctor,28627,额头上下（mirrored）,[]"
   splits:
   - split: 3
     text: "额头上下（mirrored）"
+    translated: "Forehead above and below (mirrored)"
 - raw: "ComString,.cctor,28637,额头凸起,[]"
   splits:
   - split: 3
     text: "额头凸起"
+    translated: "Prominent forehead"
 - raw: "ComString,.cctor,28647,额头凸起（mirrored）,[]"
   splits:
   - split: 3
     text: "额头凸起（mirrored）"
+    translated: "Forehead protruding (mirrored)"
 - raw: "ComString,.cctor,28657,眼睛上下,[]"
   splits:
   - split: 3
     text: "眼睛上下"
+    translated: "Looking up and down"
 - raw: "ComString,.cctor,28667,眼睛上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛上下（mirrored）"
+    translated: "Eyes moving up and down (mirrored)"
 - raw: "ComString,.cctor,28677,眼睛左右,[]"
   splits:
   - split: 3
     text: "眼睛左右"
+    translated: "Eye left and right"
 - raw: "ComString,.cctor,28687,眼睛左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛左右（mirrored）"
+    translated: "Eyes gazing in opposite directions (mirrored)"
 - raw: "ComString,.cctor,28697,眼睛旋转,[]"
   splits:
   - split: 3
     text: "眼睛旋转"
+    translated: "Rotating Eyes"
 - raw: "ComString,.cctor,28707,眼睛旋转（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛旋转（mirrored）"
+    translated: "Eyes spinning (mirrored)"
 - raw: "ComString,.cctor,28717,眼睛深浅,[]"
   splits:
   - split: 3
     text: "眼睛深浅"
+    translated: "Depth of eyes"
 - raw: "ComString,.cctor,28727,眼睛深浅（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛深浅（mirrored）"
+    translated: "Eyes deep or shallow (mirrored)"
 - raw: "ComString,.cctor,28737,眼睛内眼角上下,[]"
   splits:
   - split: 3
     text: "眼睛内眼角上下"
+    translated: "Inner corner of the eye"
 - raw: "ComString,.cctor,28747,眼睛内眼角上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛内眼角上下（mirrored）"
+    translated: "The corners of the eyes (inner eye corners), up and down (mirrored)."
 - raw: "ComString,.cctor,28757,眼睛内眼角左右,[]"
   splits:
   - split: 3
     text: "眼睛内眼角左右"
+    translated: "Inner corners of both eyes"
 - raw: "ComString,.cctor,28767,眼睛内眼角左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛内眼角左右（mirrored）"
+    translated: "Within the inner corners of the eyes on both sides (mirrored)."
 - raw: "ComString,.cctor,28777,眼睛内眼角深浅,[]"
   splits:
   - split: 3
     text: "眼睛内眼角深浅"
+    translated: "Depth of the inner corner of the eye."
 - raw: "ComString,.cctor,28787,眼睛内眼角深浅（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛内眼角深浅（mirrored）"
+    translated: "Inner corners of the eyes varying in depth (mirrored)."
 - raw: "ComString,.cctor,28797,眼睛上眼皮（内）上下,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（内）上下"
+    translated: "Eyelid (inner part), upper and lower"
 - raw: "ComString,.cctor,28807,眼睛上眼皮（内）上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（内）上下（mirrored）"
+    translated: "Eyelids (inner side) moving up and down, mirrored."
 - raw: "ComString,.cctor,28817,眼睛上眼皮（内）左右,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（内）左右"
+    translated: "Eyelids (inner), left and right"
 - raw: "ComString,.cctor,28827,眼睛上眼皮（内）左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（内）左右（mirrored）"
+    translated: "Eyebrows (inner) left and right (mirrored)"
 - raw: "ComString,.cctor,28837,眼睛上眼皮（中）上下,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（中）上下"
+    translated: "Eyelids (upper and lower eyelids)"
 - raw: "ComString,.cctor,28847,眼睛上眼皮（中）上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（中）上下（mirrored）"
+    translated: "Eyelids above (mirrored) eyes"
 - raw: "ComString,.cctor,28857,眼睛上眼皮（中）左右,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（中）左右"
+    translated: "Eyelids on both sides of the eyes (left and right)."
 - raw: "ComString,.cctor,28867,眼睛上眼皮（中）左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（中）左右（mirrored）"
+    translated: "Eyelid (left and right, mirrored)"
 - raw: "ComString,.cctor,28877,眼睛上眼皮（外）上下,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（外）上下"
+    translated: "Eyelid movement (up and down) over the eye."
 - raw: "ComString,.cctor,28887,眼睛上眼皮（外）上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（外）上下（mirrored）"
+    translated: "Upper eyelid (outer) up and down (mirrored)"
 - raw: "ComString,.cctor,28897,眼睛上眼皮（外）左右,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（外）左右"
+    translated: "Eyelid skin (outer) left and right"
 - raw: "ComString,.cctor,28907,眼睛上眼皮（外）左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛上眼皮（外）左右（mirrored）"
+    translated: "Eyelids (outer, left and right sides, mirrored)"
 - raw: "ComString,.cctor,28917,眼睛外眼角上下,[]"
   splits:
   - split: 3
     text: "眼睛外眼角上下"
+    translated: "Above and below the outer corners of the eyes."
 - raw: "ComString,.cctor,28927,眼睛外眼角上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛外眼角上下（mirrored）"
+    translated: "Eyebrows arched outward (mirrored)"
 - raw: "ComString,.cctor,28937,眼睛外眼角左右,[]"
   splits:
   - split: 3
     text: "眼睛外眼角左右"
+    translated: "Eyes: outer corners left and right"
 - raw: "ComString,.cctor,28947,眼睛外眼角左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛外眼角左右（mirrored）"
+    translated: "Around the corners of both eyes on the left and right (mirrored)."
 - raw: "ComString,.cctor,28957,眼睛外眼角深浅,[]"
   splits:
   - split: 3
     text: "眼睛外眼角深浅"
+    translated: "Depth of the outer corners of the eyes."
 - raw: "ComString,.cctor,28967,眼睛外眼角深浅（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛外眼角深浅（mirrored）"
+    translated: "Depth of the outer corner of the eye (mirrored)"
 - raw: "ComString,.cctor,28977,眼睛下眼皮（外）上下,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（外）上下"
+    translated: "Lower eyelid (outer side) up and down"
 - raw: "ComString,.cctor,28987,眼睛下眼皮（外）上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（外）上下（mirrored）"
+    translated: "Eyelid (outer) up and down (mirrored)"
 - raw: "ComString,.cctor,28997,眼睛下眼皮（外）左右,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（外）左右"
+    translated: "Under‑eye area (outer left and right sides)"
 - raw: "ComString,.cctor,29007,眼睛下眼皮（外）左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（外）左右（mirrored）"
+    translated: "Lower eyelid on the outside left and right (mirrored)."
 - raw: "ComString,.cctor,29017,眼睛下眼皮（中）上下,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（中）上下"
+    translated: "Under‑eye area (in Chinese: eyes below eyelids, up and down)."
 - raw: "ComString,.cctor,29027,眼睛下眼皮（中）上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（中）上下（mirrored）"
+    translated: "Under‑eye (mirrored)"
 - raw: "ComString,.cctor,29037,眼睛下眼皮（中）左右,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（中）左右"
+    translated: "Under‑eye area (both left and right sides)"
 - raw: "ComString,.cctor,29047,眼睛下眼皮（中）左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（中）左右（mirrored）"
+    translated: "Under‑eye bags (mirrored left and right)"
 - raw: "ComString,.cctor,29057,眼睛下眼皮（内）上下,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（内）上下"
+    translated: "Lower eyelid (inner) up and down"
 - raw: "ComString,.cctor,29067,眼睛下眼皮（内）上下（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（内）上下（mirrored）"
+    translated: "Under‑eye (inner eye) mirroring up and down"
 - raw: "ComString,.cctor,29077,眼睛下眼皮（内）左右,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（内）左右"
+    translated: "Under‑eye area (inner part), left and right"
 - raw: "ComString,.cctor,29087,眼睛下眼皮（内）左右（mirrored）,[]"
   splits:
   - split: 3
     text: "眼睛下眼皮（内）左右（mirrored）"
+    translated: "Under‑eye bags (inner) left and right (mirrored)"
 - raw: "ComString,.cctor,29097,嘴巴大小上下,[]"
   splits:
   - split: 3
     text: "嘴巴大小上下"
+    translated: "Mouth wide open and shut"
 - raw: "ComString,.cctor,29107,嘴巴大小左右,[]"
   splits:
   - split: 3
     text: "嘴巴大小左右"
+    translated: "About the size of a mouth"
 - raw: "ComString,.cctor,29117,嘴巴位置上下,[]"
   splits:
   - split: 3
     text: "嘴巴位置上下"
+    translated: "Position of mouth: up and down"
 - raw: "ComString,.cctor,29127,嘴巴位置前后,[]"
   splits:
   - split: 3
     text: "嘴巴位置前后"
+    translated: "Position of the mouth from front to back."
 - raw: "ComString,.cctor,29137,嘴巴角度左右,[]"
   splits:
   - split: 3
     text: "嘴巴角度左右"
+    translated: "Positioning of the mouth to the left or right."
 - raw: "ComString,.cctor,29147,嘴巴角度上下,[]"
   splits:
   - split: 3
     text: "嘴巴角度上下"
+    translated: "Movement of the mouth up and down"
 - raw: "ComString,.cctor,29157,嘴巴上唇中上下,[]"
   splits:
   - split: 3
     text: "嘴巴上唇中上下"
+    translated: "Upper lip between the teeth and lower lip."
 - raw: "ComString,.cctor,29167,嘴巴上唇中前后,[]"
   splits:
   - split: 3
     text: "嘴巴上唇中前后"
+    translated: "Upper lip and lower lip"
 - raw: "ComString,.cctor,29177,嘴巴上唇中角度,[]"
   splits:
   - split: 3
     text: "嘴巴上唇中角度"
+    translated: "Lip corner angle"
 - raw: "ComString,.cctor,29187,嘴巴上唇中宽度,[]"
   splits:
   - split: 3
     text: "嘴巴上唇中宽度"
+    translated: "Width of the lips at the center of the mouth."
 - raw: "ComString,.cctor,29197,嘴巴上唇中厚度,[]"
   splits:
   - split: 3
     text: "嘴巴上唇中厚度"
+    translated: "Thickness of the upper lip in the mouth area."
 - raw: "ComString,.cctor,29207,嘴巴上唇中饱满,[]"
   splits:
   - split: 3
     text: "嘴巴上唇中饱满"
+    translated: "Full lips with a plump middle"
 - raw: "ComString,.cctor,29217,嘴巴上唇两侧左右,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧左右"
+    translated: "On either side of the lips on the mouth."
 - raw: "ComString,.cctor,29227,嘴巴上唇两侧上下,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧上下"
+    translated: "Upper and lower lips on both sides of the mouth."
 - raw: "ComString,.cctor,29237,嘴巴上唇两侧前后,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧前后"
+    translated: "Cheeks on both sides of the lips front and back."
 - raw: "ComString,.cctor,29247,嘴巴上唇两侧角度,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧角度"
+    translated: "Lip corners angle or Angle of the lip corners."
 - raw: "ComString,.cctor,29257,嘴巴上唇两侧倾斜,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧倾斜"
+    translated: "Their lips are slanted to one side"
 - raw: "ComString,.cctor,29267,嘴巴上唇两侧外翻,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧外翻"
+    translated: "Outwardly flared corners of the mouth"
 - raw: "ComString,.cctor,29277,嘴巴上唇两侧宽度,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧宽度"
+    translated: "Width of both sides of the lips"
 - raw: "ComString,.cctor,29287,嘴巴上唇两侧厚度,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧厚度"
+    translated: "Thickness on either side of the lips"
 - raw: "ComString,.cctor,29297,嘴巴上唇两侧饱满,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧饱满"
+    translated: "Fullness on both sides of the lips"
 - raw: "ComString,.cctor,29307,嘴巴上唇两侧左右（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧左右（mirrored）"
+    translated: "Lips on both sides of the mouth, left and right (mirrored)."
 - raw: "ComString,.cctor,29317,嘴巴上唇两侧上下（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧上下（mirrored）"
+    translated: "Upper lip on both sides of the mouth (mirrored)."
 - raw: "ComString,.cctor,29327,嘴巴上唇两侧前后（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧前后（mirrored）"
+    translated: "Along both sides of the lips, front to back (mirrored)"
 - raw: "ComString,.cctor,29337,嘴巴上唇两侧角度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧角度（mirrored）"
+    translated: "Angle of the corners of the mouth (mirrored)"
 - raw: "ComString,.cctor,29347,嘴巴上唇两侧倾斜（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧倾斜（mirrored）"
+    translated: "Lips on both sides tilted (mirrored)"
 - raw: "ComString,.cctor,29357,嘴巴上唇两侧外翻（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧外翻（mirrored）"
+    translated: "Lips on either side of the mouth protruding outward (mirrored)."
 - raw: "ComString,.cctor,29367,嘴巴上唇两侧宽度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧宽度（mirrored）"
+    translated: "Width of the lips on both sides of the mouth (mirrored)."
 - raw: "ComString,.cctor,29377,嘴巴上唇两侧厚度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧厚度（mirrored）"
+    translated: "Thickness on both sides of the upper lip (mirrored)."
 - raw: "ComString,.cctor,29387,嘴巴上唇两侧饱满（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴上唇两侧饱满（mirrored）"
+    translated: "Lips full on both sides of the mouth (mirrored)."
 - raw: "ComString,.cctor,29397,嘴巴嘴角左右,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角左右"
+    translated: "Corner of the mouth left and right"
 - raw: "ComString,.cctor,29407,嘴巴嘴角上下,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角上下"
+    translated: "Smirk at the corners of one's mouth"
 - raw: "ComString,.cctor,29417,嘴巴嘴角前后,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角前后"
+    translated: "From mouth to corners of the mouth or from lips to the corners of the mouth."
 - raw: "ComString,.cctor,29427,嘴巴嘴角角度,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角角度"
+    translated: "Mouth corner angle"
 - raw: "ComString,.cctor,29437,嘴巴嘴角倾斜,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角倾斜"
+    translated: "The corners of their mouth tilted downward"
 - raw: "ComString,.cctor,29447,嘴巴嘴角外翻,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角外翻"
+    translated: "Lips curved upward at the corners"
 - raw: "ComString,.cctor,29457,嘴巴嘴角宽度,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角宽度"
+    translated: "Width of mouth corners"
 - raw: "ComString,.cctor,29467,嘴巴嘴角厚度,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角厚度"
+    translated: "Thickness of the lips and corners of the mouth."
 - raw: "ComString,.cctor,29477,嘴巴嘴角饱满,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角饱满"
+    translated: "Full‑lipped and well‑defined corners of the mouth"
 - raw: "ComString,.cctor,29487,嘴巴嘴角左右（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角左右（mirrored）"
+    translated: "Smirk at the corners of their mouth (mirrored)."
 - raw: "ComString,.cctor,29497,嘴巴嘴角上下（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角上下（mirrored）"
+    translated: "Lips lifted in a mirrored smile (up and down)."
 - raw: "ComString,.cctor,29507,嘴巴嘴角前后（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角前后（mirrored）"
+    translated: "Mouth corners upturned (mirrored)"
 - raw: "ComString,.cctor,29517,嘴巴嘴角角度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角角度（mirrored）"
+    translated: "Mouth corners (mirrored)"
 - raw: "ComString,.cctor,29527,嘴巴嘴角倾斜（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角倾斜（mirrored）"
+    translated: "Lips and corners of the mouth tilted (mirrored)."
 - raw: "ComString,.cctor,29537,嘴巴嘴角外翻（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角外翻（mirrored）"
+    translated: "Lips turned up at the corners (mirrored)"
 - raw: "ComString,.cctor,29547,嘴巴嘴角宽度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角宽度（mirrored）"
+    translated: "Width of the mouth from corner to corner (mirrored)."
 - raw: "ComString,.cctor,29557,嘴巴嘴角厚度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角厚度（mirrored）"
+    translated: "Thickness of the lips (mirrored)"
 - raw: "ComString,.cctor,29567,嘴巴嘴角饱满（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴嘴角饱满（mirrored）"
+    translated: "Full (mirrored) lips at the corners of the mouth."
 - raw: "ComString,.cctor,29577,嘴巴下唇两侧左右,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧左右"
+    translated: "Cheeks on either side of the lower lip."
 - raw: "ComString,.cctor,29587,嘴巴下唇两侧上下,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧上下"
+    translated: "Cheeks on either side of the lower lip."
 - raw: "ComString,.cctor,29597,嘴巴下唇两侧前后,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧前后"
+    translated: "Cheeks on both sides of the lower lip, front to back."
 - raw: "ComString,.cctor,29607,嘴巴下唇两侧角度,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧角度"
+    translated: "The corners of the lower lip"
 - raw: "ComString,.cctor,29617,嘴巴下唇两侧倾斜,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧倾斜"
+    translated: "Lower lip corners turned down"
 - raw: "ComString,.cctor,29627,嘴巴下唇两侧外翻,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧外翻"
+    translated: "Lips protruding outward on both sides of the lower lip."
 - raw: "ComString,.cctor,29637,嘴巴下唇两侧宽度,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧宽度"
+    translated: "Width of the lower lip on both sides of the mouth."
 - raw: "ComString,.cctor,29647,嘴巴下唇两侧厚度,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧厚度"
+    translated: "Thickness of the lower lip on both sides."
 - raw: "ComString,.cctor,29657,嘴巴下唇两侧饱满,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧饱满"
+    translated: "Fullness on both sides of the lower lip."
 - raw: "ComString,.cctor,29667,嘴巴下唇两侧左右（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧左右（mirrored）"
+    translated: "Cheeks on either side of the lower lip (mirrored)."
 - raw: "ComString,.cctor,29677,嘴巴下唇两侧上下（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧上下（mirrored）"
+    translated: "Cheeks on either side of the lower lip (mirrored)."
 - raw: "ComString,.cctor,29687,嘴巴下唇两侧前后（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧前后（mirrored）"
+    translated: "Lower lip on both sides, front to back (mirrored)."
 - raw: "ComString,.cctor,29697,嘴巴下唇两侧角度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧角度（mirrored）"
+    translated: "Cheek corners of the lower lip (mirrored)"
 - raw: "ComString,.cctor,29707,嘴巴下唇两侧倾斜（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧倾斜（mirrored）"
+    translated: "Lower lip slants outward on both sides (mirrored)."
 - raw: "ComString,.cctor,29717,嘴巴下唇两侧外翻（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧外翻（mirrored）"
+    translated: "Lower lip corners turned outward (mirrored)"
 - raw: "ComString,.cctor,29727,嘴巴下唇两侧宽度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧宽度（mirrored）"
+    translated: "Width of both sides of the lower lip (mirrored)."
 - raw: "ComString,.cctor,29737,嘴巴下唇两侧厚度（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧厚度（mirrored）"
+    translated: "Thickened sides of the lower lip (mirrored)"
 - raw: "ComString,.cctor,29747,嘴巴下唇两侧饱满（mirrored）,[]"
   splits:
   - split: 3
     text: "嘴巴下唇两侧饱满（mirrored）"
+    translated: "Fullness on both sides of the lower lip (mirrored)."
 - raw: "ComString,.cctor,29757,嘴巴下唇上下,[]"
   splits:
   - split: 3
     text: "嘴巴下唇上下"
+    translated: "Lower lip moves up and down under the mouth."
 - raw: "ComString,.cctor,29767,嘴巴下唇前后,[]"
   splits:
   - split: 3
     text: "嘴巴下唇前后"
+    translated: "Lower lip in front and back of the mouth."
 - raw: "ComString,.cctor,29777,嘴巴下唇角度,[]"
   splits:
   - split: 3
     text: "嘴巴下唇角度"
+    translated: "Angle of the lower lip at the mouth corner."
 - raw: "ComString,.cctor,29787,嘴巴下唇宽度,[]"
   splits:
   - split: 3
     text: "嘴巴下唇宽度"
+    translated: "Width of the lower lip"
 - raw: "ComString,.cctor,29797,嘴巴下唇厚度,[]"
   splits:
   - split: 3
     text: "嘴巴下唇厚度"
+    translated: "Thickness of the lower lip"
 - raw: "ComString,.cctor,29807,嘴巴下唇饱满,[]"
   splits:
   - split: 3
     text: "嘴巴下唇饱满"
+    translated: "Full lower lip"
 - raw: "ComString,.cctor,29817,下巴上下,[]"
   splits:
   - split: 3
     text: "下巴上下"
+    translated: "Jaw dropping down and up"
 - raw: "ComString,.cctor,29827,下巴前后,[]"
   splits:
   - split: 3
     text: "下巴前后"
+    translated: "Jaw forward and backward"
 - raw: "ComString,.cctor,29837,下巴宽度,[]"
   splits:
   - split: 3
     text: "下巴宽度"
+    translated: "Jaw width"
 - raw: "ComString,.cctor,29847,下巴厚度,[]"
   splits:
   - split: 3
     text: "下巴厚度"
+    translated: "Chin thickness"
 - raw: "ComString,.cctor,29857,下巴上中上下,[]"
   splits:
   - split: 3
     text: "下巴上中上下"
+    translated: "Mid‑upper chin to lower chin"
 - raw: "ComString,.cctor,29867,下巴上中前后,[]"
   splits:
   - split: 3
     text: "下巴上中前后"
+    translated: "Chin, mid‑front to back"
 - raw: "ComString,.cctor,29877,下巴两侧上下,[]"
   splits:
   - split: 3
     text: "下巴两侧上下"
+    translated: "Underneath either side of the jaw"
 - raw: "ComString,.cctor,29887,下巴两侧左右,[]"
   splits:
   - split: 3
     text: "下巴两侧左右"
+    translated: "On either side of the lower jaw"
 - raw: "ComString,.cctor,29897,下巴两侧前后,[]"
   splits:
   - split: 3
     text: "下巴两侧前后"
+    translated: "Chin on both sides front and back"
 - raw: "ComString,.cctor,29907,下巴两侧上下（mirrored）,[]"
   splits:
   - split: 3
     text: "下巴两侧上下（mirrored）"
+    translated: "Chin on both sides up and down (mirrored)."
 - raw: "ComString,.cctor,29917,下巴两侧左右（mirrored）,[]"
   splits:
   - split: 3
     text: "下巴两侧左右（mirrored）"
+    translated: "Either side of the chin (mirrored)"
 - raw: "ComString,.cctor,29927,下巴两侧前后（mirrored）,[]"
   splits:
   - split: 3
     text: "下巴两侧前后（mirrored）"
+    translated: "Chin on both sides (front and back, mirrored)."
 - raw: "ComString,.cctor,29937,下巴下中上下,[]"
   splits:
   - split: 3
     text: "下巴下中上下"
+    translated: "Lower jaw lower middle upper lower"
 - raw: "ComString,.cctor,29947,下巴下中前后,[]"
   splits:
   - split: 3
     text: "下巴下中前后"
+    translated: "Lower jaw, middle front and back"
 - raw: "ComString,.cctor,29957,下巴下两侧上下,[]"
   splits:
   - split: 3
     text: "下巴下两侧上下"
+    translated: "Cheeks below the chin on both sides"
 - raw: "ComString,.cctor,29967,下巴下两侧左右,[]"
   splits:
   - split: 3
     text: "下巴下两侧左右"
+    translated: "Below the chin on both sides, left and right."
 - raw: "ComString,.cctor,29977,下巴下两侧前后,[]"
   splits:
   - split: 3
     text: "下巴下两侧前后"
+    translated: "Below the chin, on both sides forward and backward."
 - raw: "ComString,.cctor,29987,下巴下两侧上下（mirrored）,[]"
   splits:
   - split: 3
     text: "下巴下两侧上下（mirrored）"
+    translated: "Chin below on both sides up and down (mirrored)."
 - raw: "ComString,.cctor,29997,下巴下两侧左右（mirrored）,[]"
   splits:
   - split: 3
     text: "下巴下两侧左右（mirrored）"
+    translated: "Underneath the chin on both sides (mirrored)"
 - raw: "ComString,.cctor,30007,下巴下两侧前后（mirrored）,[]"
   splits:
   - split: 3
     text: "下巴下两侧前后（mirrored）"
+    translated: "Underneath the chin on both sides in front and back (mirrored)."
 - raw: "ComString,.cctor,30017,下颌上下,[]"
   splits:
   - split: 3
     text: "下颌上下"
+    translated: "Jaw up and down"
 - raw: "ComString,.cctor,30027,下颌饱满,[]"
   splits:
   - split: 3
     text: "下颌饱满"
+    translated: "Full lower jaw"
 - raw: "ComString,.cctor,30037,下颌宽窄,[]"
   splits:
   - split: 3
     text: "下颌宽窄"
+    translated: "Jaw width variation"
 - raw: "ComString,.cctor,30047,下颌长短,[]"
   splits:
   - split: 3
     text: "下颌长短"
+    translated: "Length of the lower jaw"
 - raw: "ComString,.cctor,30057,下颌01上下 ,[]"
   splits:
   - split: 3
     text: "下颌01上下 "
+    translated: "Chin 01 up and down."
 - raw: "ComString,.cctor,30067,下颌01左右,[]"
   splits:
   - split: 3
     text: "下颌01左右"
+    translated: "Cheek left and right of the jaw 01."
 - raw: "ComString,.cctor,30077,下颌01前后,[]"
   splits:
   - split: 3
     text: "下颌01前后"
+    translated: "Jaw 01 front and back"
 - raw: "ComString,.cctor,30087,下颌01上下（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌01上下（mirrored）"
+    translated: "Lower jaw 01 up‑down (mirrored)"
 - raw: "ComString,.cctor,30097,下颌01左右（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌01左右（mirrored）"
+    translated: "Jaw 01 left and right (mirrored)"
 - raw: "ComString,.cctor,30107,下颌01前后（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌01前后（mirrored）"
+    translated: "Lower jaw 01 front to back (mirrored)"
 - raw: "ComString,.cctor,30117,下颌02上下,[]"
   splits:
   - split: 3
     text: "下颌02上下"
+    translated: "Jaw 02 up and down"
 - raw: "ComString,.cctor,30127,下颌02左右,[]"
   splits:
   - split: 3
     text: "下颌02左右"
+    translated: "Lower jaw to the left and right of 02."
 - raw: "ComString,.cctor,30137,下颌02前后,[]"
   splits:
   - split: 3
     text: "下颌02前后"
+    translated: "Jaw in front of 02 and behind"
 - raw: "ComString,.cctor,30147,下颌02上下（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌02上下（mirrored）"
+    translated: "Jaw 02 up and down (mirrored)"
 - raw: "ComString,.cctor,30157,下颌02左右（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌02左右（mirrored）"
+    translated: "Lower jaw 02 left and right (mirrored)"
 - raw: "ComString,.cctor,30167,下颌02前后（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌02前后（mirrored）"
+    translated: "Jaw 02 forwards and backwards (mirrored)"
 - raw: "ComString,.cctor,30177,下颌03上下,[]"
   splits:
   - split: 3
     text: "下颌03上下"
+    translated: "Jaw 03 up and down"
 - raw: "ComString,.cctor,30187,下颌03左右,[]"
   splits:
   - split: 3
     text: "下颌03左右"
+    translated: "Jaw 03 left and right"
 - raw: "ComString,.cctor,30197,下颌03前后,[]"
   splits:
   - split: 3
     text: "下颌03前后"
+    translated: "Mandible in front of 03 and behind 03."
 - raw: "ComString,.cctor,30207,下颌03上下（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌03上下（mirrored）"
+    translated: "Jaw 03 moving up and down (mirrored)"
 - raw: "ComString,.cctor,30217,下颌03左右（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌03左右（mirrored）"
+    translated: "Lower jaw 03 left and right (mirrored)"
 - raw: "ComString,.cctor,30227,下颌03前后（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌03前后（mirrored）"
+    translated: "Jaw 03 forward and backward (mirrored)"
 - raw: "ComString,.cctor,30237,下颌04上下,[]"
   splits:
   - split: 3
     text: "下颌04上下"
+    translated: "Jaw 04 up and down"
 - raw: "ComString,.cctor,30247,下颌04左右,[]"
   splits:
   - split: 3
     text: "下颌04左右"
+    translated: "Lower jaw on the left side 04"
 - raw: "ComString,.cctor,30257,下颌04前后,[]"
   splits:
   - split: 3
     text: "下颌04前后"
+    translated: "Lower jaw 04 forward and backward"
 - raw: "ComString,.cctor,30267,下颌04上下（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌04上下（mirrored）"
+    translated: "Jaw 04 up and down (mirrored)"
 - raw: "ComString,.cctor,30277,下颌04左右（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌04左右（mirrored）"
+    translated: "Jaw 04, left and right (mirrored)"
 - raw: "ComString,.cctor,30287,下颌04前后（mirrored）,[]"
   splits:
   - split: 3
     text: "下颌04前后（mirrored）"
+    translated: "Jaw 04 anterior‑posterior (mirrored)"
 - raw: "ComString,.cctor,30297,脸颊上下,[]"
   splits:
   - split: 3
     text: "脸颊上下"
+    translated: "Cheeks up and down"
 - raw: "ComString,.cctor,30307,脸颊左右,[]"
   splits:
   - split: 3
     text: "脸颊左右"
+    translated: "Cheeks left and right"
 - raw: "ComString,.cctor,30317,脸颊前后,[]"
   splits:
   - split: 3
     text: "脸颊前后"
+    translated: "Forehead to cheeks"
 - raw: "ComString,.cctor,30327,脸颊旋转上下,[]"
   splits:
   - split: 3
     text: "脸颊旋转上下"
+    translated: "Cheeks rotating up and down"
 - raw: "ComString,.cctor,30337,脸颊旋转左右,[]"
   splits:
   - split: 3
     text: "脸颊旋转左右"
+    translated: "Cheeks rotating left and right"
 - raw: "ComString,.cctor,30347,脸颊旋转前后,[]"
   splits:
   - split: 3
     text: "脸颊旋转前后"
+    translated: "Rotating cheeks left and right"
 - raw: "ComString,.cctor,30357,脸颊宽度上下,[]"
   splits:
   - split: 3
     text: "脸颊宽度上下"
+    translated: "Width of the cheeks from top to bottom."
 - raw: "ComString,.cctor,30367,脸颊宽度左右,[]"
   splits:
   - split: 3
     text: "脸颊宽度左右"
+    translated: "Cheek width left and right"
 - raw: "ComString,.cctor,30377,脸颊宽度前后,[]"
   splits:
   - split: 3
     text: "脸颊宽度前后"
+    translated: "Cheek width front to back"
 - raw: "ComString,.cctor,30387,脸颊上下（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊上下（mirrored）"
+    translated: "Cheeks up and down (mirrored)"
 - raw: "ComString,.cctor,30397,脸颊左右（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊左右（mirrored）"
+    translated: "Cheeks on both sides (mirrored)"
 - raw: "ComString,.cctor,30407,脸颊前后（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前后（mirrored）"
+    translated: "Cheeks before and behind (mirrored)"
 - raw: "ComString,.cctor,30417,脸颊旋转上下（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊旋转上下（mirrored）"
+    translated: "Cheeks rotating up and down (mirrored)"
 - raw: "ComString,.cctor,30427,脸颊旋转左右（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊旋转左右（mirrored）"
+    translated: "Cheeks rotating left and right (mirrored)"
 - raw: "ComString,.cctor,30437,脸颊旋转前后（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊旋转前后（mirrored）"
+    translated: "Cheeks rotate front to back (mirrored)"
 - raw: "ComString,.cctor,30447,脸颊宽度上下（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊宽度上下（mirrored）"
+    translated: "Width of cheeks (mirrored)"
 - raw: "ComString,.cctor,30457,脸颊宽度左右（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊宽度左右（mirrored）"
+    translated: "Cheek width left to right (mirrored)"
 - raw: "ComString,.cctor,30467,脸颊宽度前后（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊宽度前后（mirrored）"
+    translated: "Width of cheeks front to back (mirrored)"
 - raw: "ComString,.cctor,30477,脸颊前上上下,[]"
   splits:
   - split: 3
     text: "脸颊前上上下"
+    translated: "Forehead extending from the upper part of the cheekbone downwards."
 - raw: "ComString,.cctor,30487,脸颊前上左右,[]"
   splits:
   - split: 3
     text: "脸颊前上左右"
+    translated: "Forehead left and right cheeks"
 - raw: "ComString,.cctor,30497,脸颊前上前后,[]"
   splits:
   - split: 3
     text: "脸颊前上前后"
+    translated: "Forehead front upper front back"
 - raw: "ComString,.cctor,30507,脸颊前上上下（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前上上下（mirrored）"
+    translated: "Forehead upper right to lower (mirrored)"
 - raw: "ComString,.cctor,30517,脸颊前上左右（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前上左右（mirrored）"
+    translated: "Forehead left and right (mirrored) cheeks"
 - raw: "ComString,.cctor,30527,脸颊前上前后（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前上前后（mirrored）"
+    translated: "Forehead above and below the cheeks (mirrored)"
 - raw: "ComString,.cctor,30537,脸颊前中上下,[]"
   splits:
   - split: 3
     text: "脸颊前中上下"
+    translated: "Forehead upper middle lower"
 - raw: "ComString,.cctor,30547,脸颊前中左右,[]"
   splits:
   - split: 3
     text: "脸颊前中左右"
+    translated: "Forehead center left right"
 - raw: "ComString,.cctor,30557,脸颊前中前后,[]"
   splits:
   - split: 3
     text: "脸颊前中前后"
+    translated: "Cheekbone area: middle front to rear"
 - raw: "ComString,.cctor,30567,脸颊前中上下（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前中上下（mirrored）"
+    translated: "Forehead and cheeks (upper, middle, lower) (mirrored)"
 - raw: "ComString,.cctor,30577,脸颊前中左右（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前中左右（mirrored）"
+    translated: "Cheek area front center left right (mirrored)"
 - raw: "ComString,.cctor,30587,脸颊前中前后（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前中前后（mirrored）"
+    translated: "Forehead, center of the face, and back (mirrored)."
 - raw: "ComString,.cctor,30597,脸颊前下上下,[]"
   splits:
   - split: 3
     text: "脸颊前下上下"
+    translated: "Forehead downwards, cheeks upwards then downwards"
 - raw: "ComString,.cctor,30607,脸颊前下左右,[]"
   splits:
   - split: 3
     text: "脸颊前下左右"
+    translated: "Cheeks lower left and right"
 - raw: "ComString,.cctor,30617,脸颊前下前后,[]"
   splits:
   - split: 3
     text: "脸颊前下前后"
+    translated: "Forehead area below the brow line"
 - raw: "ComString,.cctor,30627,脸颊前下上下（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前下上下（mirrored）"
+    translated: "Forehead down, cheeks up (mirrored)"
 - raw: "ComString,.cctor,30637,脸颊前下左右（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前下左右（mirrored）"
+    translated: "Cheeks in front, slightly downward and to both sides (mirrored)."
 - raw: "ComString,.cctor,30647,脸颊前下前后（mirrored）,[]"
   splits:
   - split: 3
     text: "脸颊前下前后（mirrored）"
+    translated: "Cheekbone area, in front and back (mirrored)"
 - raw: "ComString,.cctor,30657,颧骨上下,[]"
   splits:
   - split: 3
     text: "颧骨上下"
+    translated: "Cheeks up and down"
 - raw: "ComString,.cctor,30667,颧骨左右,[]"
   splits:
   - split: 3
     text: "颧骨左右"
+    translated: "Cheekbones left and right"
 - raw: "ComString,.cctor,30677,颧骨前后,[]"
   splits:
   - split: 3
     text: "颧骨前后"
+    translated: "Cheekbone area in front and behind"
 - raw: "ComString,.cctor,30687,颧骨旋转上下,[]"
   splits:
   - split: 3
     text: "颧骨旋转上下"
+    translated: "Cheekbones rotating up and down"
 - raw: "ComString,.cctor,30697,颧骨旋转左右,[]"
   splits:
   - split: 3
     text: "颧骨旋转左右"
+    translated: "Cheekbones rotating left and right"
 - raw: "ComString,.cctor,30707,颧骨旋转前后,[]"
   splits:
   - split: 3
     text: "颧骨旋转前后"
+    translated: "Rotating the cheekbones back and forth"
 - raw: "ComString,.cctor,30717,颧骨宽度上下,[]"
   splits:
   - split: 3
     text: "颧骨宽度上下"
+    translated: "Width of the cheekbones up and down"
 - raw: "ComString,.cctor,30727,颧骨宽度左右,[]"
   splits:
   - split: 3
     text: "颧骨宽度左右"
+    translated: "Cheekbone width left or right"
 - raw: "ComString,.cctor,30737,颧骨宽度前后,[]"
   splits:
   - split: 3
     text: "颧骨宽度前后"
+    translated: "Cheekbone width front to back"
 - raw: "ComString,.cctor,30747,颧骨上下（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨上下（mirrored）"
+    translated: "Chin high‑low (mirrored)"
 - raw: "ComString,.cctor,30757,颧骨左右（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨左右（mirrored）"
+    translated: "Mirrored zygomatic bones (cheekbones)"
 - raw: "ComString,.cctor,30767,颧骨前后（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨前后（mirrored）"
+    translated: "Cheeks (forehead to chin) (mirrored)"
 - raw: "ComString,.cctor,30777,颧骨旋转上下（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨旋转上下（mirrored）"
+    translated: "Cheekbones rotate up and down (mirrored)"
 - raw: "ComString,.cctor,30787,颧骨旋转左右（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨旋转左右（mirrored）"
+    translated: "Cheekbones twist left and right (mirrored)"
 - raw: "ComString,.cctor,30797,颧骨旋转前后（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨旋转前后（mirrored）"
+    translated: "Cheekbones rotate left to right (mirrored)"
 - raw: "ComString,.cctor,30807,颧骨宽度上下（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨宽度上下（mirrored）"
+    translated: "Width of the cheekbones (mirrored)"
 - raw: "ComString,.cctor,30817,颧骨宽度左右（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨宽度左右（mirrored）"
+    translated: "Cheekbone width left to right (mirrored)"
 - raw: "ComString,.cctor,30827,颧骨宽度前后（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨宽度前后（mirrored）"
+    translated: "Width of cheekbones (front to back, mirrored)"
 - raw: "ComString,.cctor,30837,颧骨前上下,[]"
   splits:
   - split: 3
     text: "颧骨前上下"
+    translated: "Cheekbone area: upper, lower, and front"
 - raw: "ComString,.cctor,30847,颧骨前左右,[]"
   splits:
   - split: 3
     text: "颧骨前左右"
+    translated: "Jawbone area left and right"
 - raw: "ComString,.cctor,30857,颧骨前前后,[]"
   splits:
   - split: 3
     text: "颧骨前前后"
+    translated: "Forehead bump in front of cheekbones"
 - raw: "ComString,.cctor,30867,颧骨前上下（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨前上下（mirrored）"
+    translated: "Cheekbone area front up and down (mirrored)"
 - raw: "ComString,.cctor,30877,颧骨前左右（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨前左右（mirrored）"
+    translated: "Cheekbones forward left and right (mirrored)"
 - raw: "ComString,.cctor,30887,颧骨前前后（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨前前后（mirrored）"
+    translated: "Forehead to cheekbones (mirrored)"
 - raw: "ComString,.cctor,30897,颧骨中上下,[]"
   splits:
   - split: 3
     text: "颧骨中上下"
+    translated: "Upper and lower cheekbones"
 - raw: "ComString,.cctor,30907,颧骨中左右,[]"
   splits:
   - split: 3
     text: "颧骨中左右"
+    translated: "Cheekbones in the center between left and right."
 - raw: "ComString,.cctor,30917,颧骨中前后,[]"
   splits:
   - split: 3
     text: "颧骨中前后"
+    translated: "Forehead area between the cheekbones"
 - raw: "ComString,.cctor,30927,颧骨中上下（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨中上下（mirrored）"
+    translated: "Centered above and below the cheekbone (mirrored)"
 - raw: "ComString,.cctor,30937,颧骨中左右（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨中左右（mirrored）"
+    translated: "Mirrored across the cheekbones (left and right)"
 - raw: "ComString,.cctor,30947,颧骨中前后（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨中前后（mirrored）"
+    translated: "Cheekbones positioned forward and backward (mirrored)"
 - raw: "ComString,.cctor,30957,颧骨后上下,[]"
   splits:
   - split: 3
     text: "颧骨后上下"
+    translated: "Below the cheekbones, up and down"
 - raw: "ComString,.cctor,30967,颧骨后左右,[]"
   splits:
   - split: 3
     text: "颧骨后左右"
+    translated: "Behind the cheekbones on either side"
 - raw: "ComString,.cctor,30977,颧骨后前后,[]"
   splits:
   - split: 3
     text: "颧骨后前后"
+    translated: "Cheekbone behind, front, and back"
 - raw: "ComString,.cctor,30987,颧骨后上下（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨后上下（mirrored）"
+    translated: "Below the cheekbone, up and down (mirrored)"
 - raw: "ComString,.cctor,30997,颧骨后左右（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨后左右（mirrored）"
+    translated: "Below the cheekbones on both sides (mirrored)"
 - raw: "ComString,.cctor,31007,颧骨后前后（mirrored）,[]"
   splits:
   - split: 3
     text: "颧骨后前后（mirrored）"
+    translated: "Cheekbones before and behind (mirrored)"
 - raw: "ComString,.cctor,31017,耳朵上下,[]"
   splits:
   - split: 3
     text: "耳朵上下"
+    translated: "Ears up and down"
 - raw: "ComString,.cctor,31027,耳朵前后,[]"
   splits:
   - split: 3
     text: "耳朵前后"
+    translated: "Before and after the ears"
 - raw: "ComString,.cctor,31037,耳朵角度,[]"
   splits:
   - split: 3
     text: "耳朵角度"
+    translated: "From a different perspective"
 - raw: "ComString,.cctor,31047,耳朵长度,[]"
   splits:
   - split: 3
     text: "耳朵长度"
+    translated: "Length of ears"
 - raw: "ComString,.cctor,31057,耳朵宽度,[]"
   splits:
   - split: 3
     text: "耳朵宽度"
+    translated: "Ear width"
 - raw: "ComString,.cctor,31067,耳朵上下（mirrored）,[]"
   splits:
   - split: 3
     text: "耳朵上下（mirrored）"
+    translated: "Ears up and down (mirrored)"
 - raw: "ComString,.cctor,31077,耳朵前后（mirrored）,[]"
   splits:
   - split: 3
     text: "耳朵前后（mirrored）"
+    translated: "Ears front and back (mirrored)"
 - raw: "ComString,.cctor,31087,耳朵角度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳朵角度（mirrored）"
+    translated: "Angle of the Ears (mirrored)"
 - raw: "ComString,.cctor,31097,耳朵长度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳朵长度（mirrored）"
+    translated: "Ear length (mirrored)"
 - raw: "ComString,.cctor,31107,耳朵宽度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳朵宽度（mirrored）"
+    translated: "Ear width (mirrored)"
 - raw: "ComString,.cctor,31117,耳尖角度,[]"
   splits:
   - split: 3
     text: "耳尖角度"
+    translated: "Sharp‑Eared Angle"
 - raw: "ComString,.cctor,31127,耳尖宽度,[]"
   splits:
   - split: 3
     text: "耳尖宽度"
+    translated: "Width of the earlobe"
 - raw: "ComString,.cctor,31137,耳尖长度,[]"
   splits:
   - split: 3
     text: "耳尖长度"
+    translated: "Ear tip length"
 - raw: "ComString,.cctor,31147,耳尖角度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳尖角度（mirrored）"
+    translated: "Eared tips (mirrored)"
 - raw: "ComString,.cctor,31157,耳尖宽度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳尖宽度（mirrored）"
+    translated: "Ear width (mirrored)"
 - raw: "ComString,.cctor,31167,耳尖长度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳尖长度（mirrored）"
+    translated: "Ear tips (mirrored) length"
 - raw: "ComString,.cctor,31177,耳垂上下,[]"
   splits:
   - split: 3
     text: "耳垂上下"
+    translated: "Above and below the earlobe"
 - raw: "ComString,.cctor,31187,耳垂长度,[]"
   splits:
   - split: 3
     text: "耳垂长度"
+    translated: "Earlobe length"
 - raw: "ComString,.cctor,31197,耳垂宽度,[]"
   splits:
   - split: 3
     text: "耳垂宽度"
+    translated: "Earlobe width"
 - raw: "ComString,.cctor,31207,耳垂上下（mirrored）,[]"
   splits:
   - split: 3
     text: "耳垂上下（mirrored）"
+    translated: "Earring dangles up and down (mirrored)"
 - raw: "ComString,.cctor,31217,耳垂长度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳垂长度（mirrored）"
+    translated: "Earlobe length (mirrored)"
 - raw: "ComString,.cctor,31227,耳垂宽度（mirrored）,[]"
   splits:
   - split: 3
     text: "耳垂宽度（mirrored）"
+    translated: "Earlobe width (mirrored)"
 - raw: "ComString,.cctor,31237,太阳穴01上下,[]"
   splits:
   - split: 3
     text: "太阳穴01上下"
+    translated: "On top and bottom of the temples 01."
 - raw: "ComString,.cctor,31247,太阳穴01左右,[]"
   splits:
   - split: 3
     text: "太阳穴01左右"
+    translated: "Temples on either side of 01"
 - raw: "ComString,.cctor,31257,太阳穴01上下（mirrored）,[]"
   splits:
   - split: 3
     text: "太阳穴01上下（mirrored）"
+    translated: "Temples 01 up and down (mirrored)"
 - raw: "ComString,.cctor,31267,太阳穴01左右（mirrored）,[]"
   splits:
   - split: 3
     text: "太阳穴01左右（mirrored）"
+    translated: "Temples 01 left and right (mirrored)"
 - raw: "ComString,.cctor,31277,太阳穴02上下,[]"
   splits:
   - split: 3
     text: "太阳穴02上下"
+    translated: "On the temples 02 up and down"
 - raw: "ComString,.cctor,31287,太阳穴02左右,[]"
   splits:
   - split: 3
     text: "太阳穴02左右"
+    translated: "On both sides of the temples 02"
 - raw: "ComString,.cctor,31297,太阳穴02上下（mirrored）,[]"
   splits:
   - split: 3
     text: "太阳穴02上下（mirrored）"
+    translated: "Temples 02 up and down (mirrored)"
 - raw: "ComString,.cctor,31307,太阳穴02左右（mirrored）,[]"
   splits:
   - split: 3
     text: "太阳穴02左右（mirrored）"
+    translated: "Temples 02 on either side (mirrored)"
 - raw: "ComString,.cctor,31317,太阳穴03上下,[]"
   splits:
   - split: 3
     text: "太阳穴03上下"
+    translated: "Above and below the temples 03"
 - raw: "ComString,.cctor,31327,太阳穴03左右,[]"
   splits:
   - split: 3
     text: "太阳穴03左右"
+    translated: "Temples 03 left and right"
 - raw: "ComString,.cctor,31337,太阳穴03上下（mirrored）,[]"
   splits:
   - split: 3
     text: "太阳穴03上下（mirrored）"
+    translated: "The temples (03) above and below (mirrored)"
 - raw: "ComString,.cctor,31347,太阳穴03左右（mirrored）,[]"
   splits:
   - split: 3
     text: "太阳穴03左右（mirrored）"
+    translated: "Temples 03 left and right (mirrored)"
 - raw: "ComString,.cctor,31357,亲征,[]"
   splits:
   - split: 3
     text: "亲征"
+    translated: "On a personal campaign"
 - raw: "ComString,.cctor,31367,已在门派战中，无法亲征,[]"
   splits:
   - split: 3
     text: "已在门派战中，无法亲征"
+    translated: "Currently engaged in a sect war, unable to personally lead the campaign."
 - raw: "ComString,.cctor,31377,当前门派已是亲征目标,[]"
   splits:
   - split: 3
     text: "当前门派已是亲征目标"
+    translated: "The current sect has become a target for a punitive expedition."
 - raw: "ComString,.cctor,31387,当前门派正处于战争状态，无法亲征,[]"
   splits:
   - split: 3
     text: "当前门派正处于战争状态，无法亲征"
+    translated: "The current sect is at war and unable to personally lead a campaign."
 - raw: "ComString,.cctor,31397,亲征目标设置成功，请前往旗帜开启门派战,[]"
   splits:
   - split: 3
     text: "亲征目标设置成功，请前往旗帜开启门派战"
+    translated: "Campaign target set successfully; please proceed to the flag to initiate the sect war."
 - raw: "ComString,.cctor,31407,亲征-战斗准备,[]"
   splits:
   - split: 3
     text: "亲征-战斗准备"
+    translated: "On a personal campaign ‑ Combat preparations"
 - raw: "ComString,.cctor,31417,亲征-战斗中,[]"
   splits:
   - split: 3
     text: "亲征-战斗中"
+    translated: "On a personal campaign ‑ In battle"
 - raw: "ComString,.cctor,31427,战斗中,[]"
   splits:
   - split: 3
     text: "战斗中"
+    translated: "In battle"
 - raw: "ComString,.cctor,31437,门派战未完成无法存档,[]"
   splits:
   - split: 3
     text: "门派战未完成无法存档"
+    translated: "Sect battles cannot be saved until completed"
 - raw: "ComString,.cctor,31447,请不要远离门派战交战范围,[]"
   splits:
   - split: 3
     text: "请不要远离门派战交战范围"
+    translated: "Please do not stray far from the battle range of the sect war."
 - raw: "ComString,.cctor,31457,超出门派战交战范围，门派战结束,[]"
   splits:
   - split: 3
     text: "超出门派战交战范围，门派战结束"
+    translated: "Exceeding the boundaries of sect battle engagements; the sect battle has ended."
 - raw: "ComString,.cctor,31467,门派战中无法打开门派界面,[]"
   splits:
   - split: 3
     text: "门派战中无法打开门派界面"
+    translated: "In the sect war, unable to open the sect interface."
 - raw: "ComString,.cctor,31477,该门人正在出征队伍中，无法驱逐,[]"
   splits:
   - split: 3
     text: "该门人正在出征队伍中，无法驱逐"
+    translated: "The disciple who is currently on a campaign cannot be expelled."
 - raw: "ComString,.cctor,31487,公开,[]"
   splits:
   - split: 3
@@ -15297,6 +15915,7 @@
   splits:
   - split: 3
     text: "*图片文件"
+    translated: "Image file"
 - raw: "ComString,.cctor,31527,打开项目,[]"
   splits:
   - split: 3
@@ -15351,114 +15970,142 @@
   splits:
   - split: 3
     text: "商业"
+    translated: "Commerce"
 - raw: "ComString,.cctor,31637,安定,[]"
   splits:
   - split: 3
     text: "安定"
+    translated: "Stability"
 - raw: "ComString,.cctor,31647,繁荣,[]"
   splits:
   - split: 3
     text: "繁荣"
+    translated: "Prosperity"
 - raw: "ComString,.cctor,31657,名声,[]"
   splits:
   - split: 3
     text: "名声"
+    translated: "Reputation"
 - raw: "ComString,.cctor,31667,矿业,[]"
   splits:
   - split: 3
     text: "矿业"
+    translated: "Mining industry"
 - raw: "ComString,.cctor,31677,农业,[]"
   splits:
   - split: 3
     text: "农业"
+    translated: "Agriculture"
 - raw: "ComString,.cctor,31687,人数,[]"
   splits:
   - split: 3
     text: "人数"
+    translated: "Number of people"
 - raw: "ComString,.cctor,31697,门人,[]"
   splits:
   - split: 3
     text: "门人"
+    translated: "Disciple"
 - raw: "ComString,.cctor,31707,资金,[]"
   splits:
   - split: 3
     text: "资金"
+    translated: "Funds"
 - raw: "ComString,.cctor,31717,药粮,[]"
   splits:
   - split: 3
     text: "药粮"
+    translated: "Herb fodder"
 - raw: "ComString,.cctor,31727,矿石,[]"
   splits:
   - split: 3
     text: "矿石"
+    translated: "Ore"
 - raw: "ComString,.cctor,31737,技业,[]"
   splits:
   - split: 3
     text: "技业"
+    translated: "Martial arts skill"
 - raw: "ComString,.cctor,31747,巧匠,[]"
   splits:
   - split: 3
     text: "巧匠"
+    translated: "Artisan"
 - raw: "ComString,.cctor,31757,天工,[]"
   splits:
   - split: 3
     text: "天工"
+    translated: "Work of heaven"
 - raw: "ComString,.cctor,31767,未分配,[]"
   splits:
   - split: 3
     text: "未分配"
+    translated: "Unassigned"
 - raw: "ComString,.cctor,31777,礼堂堂主,[]"
   splits:
   - split: 3
     text: "礼堂堂主"
+    translated: "Grandmaster of the Hall"
 - raw: "ComString,.cctor,31787,卫堂堂主,[]"
   splits:
   - split: 3
     text: "卫堂堂主"
+    translated: "Protector of the Chamberlain Hall Chief"
 - raw: "ComString,.cctor,31797,财堂堂主,[]"
   splits:
   - split: 3
     text: "财堂堂主"
+    translated: "Financial Guild Master"
 - raw: "ComString,.cctor,31807,贤堂堂主,[]"
   splits:
   - split: 3
     text: "贤堂堂主"
+    translated: "Distinguished Chief of the Xian Tang Hall"
 - raw: "ComString,.cctor,31817,藏宝阁堂主,[]"
   splits:
   - split: 3
     text: "藏宝阁堂主"
+    translated: "Master of the Treasure Chamber Hall"
 - raw: "ComString,.cctor,31827,坊堂堂主,[]"
   splits:
   - split: 3
     text: "坊堂堂主"
+    translated: "Guild Master"
 - raw: "ComString,.cctor,31837,大长老,[]"
   splits:
   - split: 3
     text: "大长老"
+    translated: "Great Elder"
 - raw: "ComString,.cctor,31847, 二长老,[]"
   splits:
   - split: 3
     text: " 二长老"
+    translated: "Second Elder"
 - raw: "ComString,.cctor,31857, 三长老,[]"
   splits:
   - split: 3
     text: " 三长老"
+    translated: "The Three Elders."
 - raw: "ComString,.cctor,31867,左护法,[]"
   splits:
   - split: 3
     text: "左护法"
+    translated: "Left Dharma Protector"
 - raw: "ComString,.cctor,31877, 右护法,[]"
   splits:
   - split: 3
     text: " 右护法"
+    translated: "Right Guardian"
 - raw: "ComString,.cctor,31887,副宗主,[]"
   splits:
   - split: 3
     text: "副宗主"
+    translated: "Deputy Sect Leader"
 - raw: "ComString,.cctor,31897, 掌门,[]"
   splits:
   - split: 3
     text: " 掌门"
+    translated: "Sect Leader"
 - raw: "ComString,.cctor,31907,亲传弟子,[]"
   splits:
   - split: 3
@@ -15483,22 +16130,27 @@
   splits:
   - split: 3
     text: "礼堂"
+    translated: "Banquet Hall"
 - raw: "ComString,.cctor,31957,卫堂,[]"
   splits:
   - split: 3
     text: "卫堂"
+    translated: "Wei Tang"
 - raw: "ComString,.cctor,31967,财堂,[]"
   splits:
   - split: 3
     text: "财堂"
+    translated: "Treasury Hall"
 - raw: "ComString,.cctor,31977,贤堂,[]"
   splits:
   - split: 3
     text: "贤堂"
+    translated: "Venerable Hall"
 - raw: "ComString,.cctor,31987,坊堂,[]"
   splits:
   - split: 3
     text: "坊堂"
+    translated: "Streets of the town"
 - raw: "ComString,.cctor,31997,事件,[]"
   splits:
   - split: 3
@@ -15513,58 +16165,72 @@
   splits:
   - split: 3
     text: "纳贤"
+    translated: "Invite talents to join you"
 - raw: "ComString,.cctor,32027,发展,[]"
   splits:
   - split: 3
     text: "发展"
+    translated: "Development"
 - raw: "ComString,.cctor,32037,天工,[]"
   splits:
   - split: 3
     text: "天工"
+    translated: "Work of heaven"
 - raw: "ComString,.cctor,32047,云霄殿,[]"
   splits:
   - split: 3
     text: "云霄殿"
+    translated: "Yunxiao Pavilion"
 - raw: "ComString,.cctor,32057,杏林堂,[]"
   splits:
   - split: 3
     text: "杏林堂"
+    translated: "Fragrant Grove Hall"
 - raw: "ComString,.cctor,32067,演武室,[]"
   splits:
   - split: 3
     text: "演武室"
+    translated: "Dueling Hall"
 - raw: "ComString,.cctor,32077,金玉楼,[]"
   splits:
   - split: 3
     text: "金玉楼"
+    translated: "Golden Jade Tower"
 - raw: "ComString,.cctor,32087,聚贤房,[]"
   splits:
   - split: 3
     text: "聚贤房"
+    translated: "Hall of Gathering Worthies"
 - raw: "ComString,.cctor,32097,藏宝阁,[]"
   splits:
   - split: 3
     text: "藏宝阁"
+    translated: "Treasure Vault"
 - raw: "ComString,.cctor,32107,天工坊,[]"
   splits:
   - split: 3
     text: "天工坊"
+    translated: "Celestial Workshop"
 - raw: "ComString,.cctor,32117,城池,[]"
   splits:
   - split: 3
     text: "城池"
+    translated: "City and fortress"
 - raw: "ComString,.cctor,32127,威逼恐吓,[]"
   splits:
   - split: 3
     text: "威逼恐吓"
+    translated: "Coercion and intimidation"
 - raw: "ComString,.cctor,32137,出言羞辱,[]"
   splits:
   - split: 3
     text: "出言羞辱"
+    translated: "Utter offensive words"
 - raw: "ComString,.cctor,32147,说服入派,[]"
   splits:
   - split: 3
     text: "说服入派"
+    translated: "Persuade them to join the sect"
 - raw: "ComString,.cctor,32157,查看信息,[]"
   splits:
   - split: 3
@@ -15574,22 +16240,27 @@
   splits:
   - split: 3
     text: "说服入队"
+    translated: "Persuade someone to join the team"
 - raw: "ComString,.cctor,32177,勒索物件,[]"
   splits:
   - split: 3
     text: "勒索物件"
+    translated: "Extortion item"
 - raw: "ComString,.cctor,32187,抢夺绝学,[]"
   splits:
   - split: 3
     text: "抢夺绝学"
+    translated: "Seize the Secret Technique"
 - raw: "ComString,.cctor,32197,谋财害命,[]"
   splits:
   - split: 3
     text: "谋财害命"
+    translated: "Plotting to gain wealth at the cost of life"
 - raw: "ComString,.cctor,32207,放人离去,[]"
   splits:
   - split: 3
     text: "放人离去"
+    translated: "Set them free and let them go"
 - raw: "ComString,.cctor,32217,恐吓,[]"
   splits:
   - split: 3
@@ -15599,18 +16270,22 @@
   splits:
   - split: 3
     text: "上刑"
+    translated: "Upper punishment"
 - raw: "ComString,.cctor,32237,认罪,[]"
   splits:
   - split: 3
     text: "认罪"
+    translated: "Admitting guilt"
 - raw: "ComString,.cctor,32247,交代,[]"
   splits:
   - split: 3
     text: "交代"
+    translated: "Provide a detailed explanation"
 - raw: "ComString,.cctor,32257,驻扎待命,[]"
   splits:
   - split: 3
     text: "驻扎待命"
+    translated: "Standby on site"
 - raw: "EndingView,Show,109,game_end没有id为{0}的数据,[System.Int32]"
   splits:
   - split: 3
@@ -15621,6 +16296,7 @@
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "FabricationView/<FabricateItem>d__155,MoveNext,330,104秘术积点加1，当前积点{0},[]"
   splits:
   - split: 3
@@ -15666,6 +16342,7 @@
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "InstantiateView,OpenAttriPanel,314,FormulaBaseAttri表中{0}组，属性{1}重复，id为{2},[]"
   splits:
   - split: 3
@@ -15765,12 +16442,14 @@
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
-    translated: "Backpack Quality"
+    translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "RoleBagItemListHolder,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "LivingAssemblyConfig,CreateFromCsvRow,246,living_assemblyskill， {0}合成材料{1}配置重复,[System.String[]]"
   splits:
   - split: 3
@@ -15965,16 +16644,19 @@
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质{0}"
+    safeToTranslate: false
 - raw: "ChooseItemSlot_mobile,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
-    translated: "Backpack Quality"
+    translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "ChooseItemSlot_mobile,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "LianZhaoItemSlot,OnClickXiuLian,49,修炼 ,[]"
   splits:
   - split: 3
@@ -16045,6 +16727,7 @@
   - split: 3
     text: "Prefab/UISprite/UI_MapMark/标记"
     translated: "Marker"
+    safeToTranslate: false
 - raw: "MapViewNew,UpdateTeleportDetails,1523,未找到Entity id:{0},[]"
   splits:
   - split: 3
@@ -16055,6 +16738,7 @@
   - split: 3
     text: "Prefab/UISprite/UI_MapMark/标记"
     translated: "Marker"
+    safeToTranslate: false
 - raw: "MiJiMgr,Add,115,秘籍Item的misvalue2套路类型配置错误，ItemId:{0},[SweetPotato.Item]"
   splits:
   - split: 3
@@ -16099,22 +16783,26 @@
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
-    translated: "Backpack Quality"
+    translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "PaiMaiHangListItem,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "PaiMaiHangView,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
-    translated: "Backpack Quality"
+    translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "PaiMaiHangView,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "NewChuanWenView/<OnShowChuanWen>d__18,MoveNext,361,传闻中的Npc角色在NpcPrototype表中找不到，chuanwenId:{0}，roleId:{1},[]"
   splits:
   - split: 3
@@ -16125,16 +16813,19 @@
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "ShopHolder,GetIconByQua,12,Prefab/UISprite/UI_ItemBG_mobile/背包品质,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
-    translated: "Backpack Quality"
+    translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "ShopHolder,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "StuntManager,AddStunt,42,NPC {0}  的特技ID {1} 不存在,[System.Int64，System.Boolean]"
   splits:
   - split: 3
@@ -16174,6 +16865,7 @@
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质{0}"
+    safeToTranslate: false
 - raw: "XiaYunLuViewBaiHuaHolder,UpdateFromModel,59,id={0}的npc不存在！！！,[SweetPotato.UIItemData]"
   splits:
   - split: 3
@@ -16198,6 +16890,7 @@
   splits:
   - split: 3
     text: "中文（繁體）"
+    translated: "English (Traditional Chinese)"
 - raw: "LocalMgr,GetLanguageName,38,中文（简体）,[Language]"
   splits:
   - split: 3
@@ -16277,6 +16970,7 @@
   splits:
   - split: 3
     text: "门人已满"
+    translated: "The disciples are now fully enrolled"
 - raw: "MenPaiQuest,AddRewards,678,>的请求被（,[]"
   splits:
   - split: 3
@@ -16576,26 +17270,38 @@
   splits:
   - split: 3
     text: "无法加载 Legion Zone DLL: {0}， 错误代码: {1}"
+    translated: "Unable to load Legion Zone DLL: {0}, error code:  {1}"
+    safeToTranslate: false
 - raw: "LegionZoneGameSDK,GetFunctionDelegate,26,无法找到函数 {0} 在 Legion Zone DLL中， 错误代码: {1},[System.IntPtr，System.String]"
   splits:
   - split: 3
     text: "无法找到函数 {0} 在 Legion Zone DLL中， 错误代码: {1}"
+    translated: "Cannot find function '{0}' in Legion Zone DLL, error code:  {1}"
+    safeToTranslate: false
 - raw: "LegionZoneGameSDK,VerifySignature,134,[VerifySignature] [Verify] 无签名：file_name = ,[System.String]"
   splits:
   - split: 3
     text: "[VerifySignature] [Verify] 无签名：file_name = "
+    translated: "[Verification of Signature] [Verify] No signature present: file_name ="
+    safeToTranslate: false
 - raw: "LegionZoneGameSDK,VerifySignature,168,[VerifySignature] [Verify] 验证签名异常：file_name = ,[System.String]"
   splits:
   - split: 3
     text: "[VerifySignature] [Verify] 验证签名异常：file_name = "
+    translated: "[Verify Signature] [Verify] Signature verification anomaly: file_name ="
+    safeToTranslate: false
 - raw: "LegionZoneGameSDK,InitSDK,91,加载 Legion Zone DLL失败： ,[]"
   splits:
   - split: 3
     text: "加载 Legion Zone DLL失败： "
+    translated: "Failed to load Legion Zone DLL:"
+    safeToTranslate: false
 - raw: "LegionZoneGameSDK,DJZZ_Audit,88,调用 DJZZ_Audit 失败： ,[]"
   splits:
   - split: 3
     text: "调用 DJZZ_Audit 失败： "
+    translated: "Calling DJZZ_Audit failed:"
+    safeToTranslate: false
 - raw: "JHTapSDK,OnAchievementSuccess,118,成就解锁成功，成就Id：{0}，成就名： {1}，成就类型：{2}，当前成就进度：{3},[System.Int32，TapSDK.Achievement.TapAchievementResult]"
   splits:
   - split: 3
@@ -17240,12 +17946,14 @@
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
-    translated: "Inventory Quality"
+    translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "SweetPotato.Tools,GetIconSprite,1301,Prefab/UISprite/UI_YingDao/提示-,[SweetPotato.IconType，System.String]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_YingDao/提示-"
     translated: "Prompt: Ying Dao Tip ‑"
+    safeToTranslate: false
 - raw: "SweetPotato.Tools,PlayEffect,156,角色id：{0}的特效：{1}字符串有问题,[System.Int64，System.String]"
   splits:
   - split: 3
@@ -17266,6 +17974,7 @@
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "SweetPotato.NpcEntity,Init,298,魏琦锐，m_NpcPrototype.id:{0}这种NPC_ATTRI属性中含有8的Npc没有配置对应的境界,[System.Int64，SweetPotato.NpcPrototype，System.Boolean，System.Boolean]"
   splits:
   - split: 3
@@ -17490,12 +18199,14 @@
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG_mobile/背包品质"
-    translated: "Inventory Quality"
+    translated: "Backpack Item Quality"
+    safeToTranslate: false
 - raw: "SweetPotato.ShangChengViewNewScrollItem,GetIconByQua,20,Prefab/UISprite/UI_ItemBG/道具框-,[System.Int32]"
   splits:
   - split: 3
     text: "Prefab/UISprite/UI_ItemBG/道具框-"
     translated: "Item Frame ‑"
+    safeToTranslate: false
 - raw: "SweetPotato.SpellEditView,CheckCondition,612,miji_graph未正确配置id={0}的技能节点,[System.Boolean]"
   splits:
   - split: 3
@@ -18056,10 +18767,12 @@
   - split: 3
     text: "Prefab/UISprite/UI_YingDao/提示-"
     translated: "Prompt: Ying Dao Tip ‑"
+    safeToTranslate: false
 - raw: "SweetPotato.Upload.UploadUserAccountPanel/<GetUserAccount>d__15,MoveNext,262,Get User Account: 获取账号数据失败： {0}  Status Code:  {1},[]"
   splits:
   - split: 3
     text: "Get User Account: 获取账号数据失败： {0}  Status Code:  {1}"
+    translated: "Get User Account: Failed to retrieve account data:  {0}  Status Code:   {1}"
 - raw: "SweetPotato.JingMai.JingMaiEffectCondition,.ctor,121,心法{0}中周天效果{1}的条件{2}配置错误,[System.Int64，System.String]"
   splits:
   - split: 3
@@ -18164,7 +18877,7 @@
   splits:
   - split: 3
     text: "questId:{0}，配置表中没有配置这个任务id"
-    translated: "QuestId: {0}, the task ID is not configured in the configuration table."
+    translated: "QuestId: {0}, this task ID is not configured in the settings table."
 - raw: "ModSpace.ConditionProtoData,FormString,528,条件完成需要的物品字符串配置格式错误，ConditionPrototype.Id:{0},[System.String]"
   splits:
   - split: 3
@@ -18214,6 +18927,7 @@
   splits:
   - split: 3
     text: " 的别名是 "
+    translated: "Their alias is"
 - raw: "ModSpace.WorksShopManager,QueryDetailsCompleted,294,yyyy年MM月dd日,[Steamworks.SteamUGCRequestUGCDetailsResult_t，System.Boolean]"
   splits:
   - split: 3

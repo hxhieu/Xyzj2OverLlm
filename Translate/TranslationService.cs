@@ -537,22 +537,69 @@ public static class TranslationService
 
         try
         {
+            // Set Bearer token if required and not already set
+            if (config.ApiKeyRequired && !client.DefaultRequestHeaders.Contains("Authorization"))
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", config.ApiKey);
+
             HttpResponseMessage response = await client.PostAsync(config.Url, content);
-            response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
+
+            if ((int)response.StatusCode == 429)
+            {
+                // Too Many Requests - simple exponential backoff
+                int retryDelay = 5000; // start with 2 seconds
+                int maxDelay = 60000; // max 30 seconds
+                int retries = 0;
+                while ((int)response.StatusCode == 429 && retries < 5)
+                {
+                    Console.WriteLine("Received 429 Too Many Requests. Backing off...");
+                    await Task.Delay(retryDelay);
+                    retryDelay = Math.Min(retryDelay * 2, maxDelay);
+                    response = await client.PostAsync(config.Url, content);
+                    responseBody = await response.Content.ReadAsStringAsync();
+                    retries++;
+                }
+            }
+
+            response.EnsureSuccessStatusCode();
+
             using var jsonDoc = JsonDocument.Parse(responseBody);
-            var result = jsonDoc.RootElement
-                .GetProperty("message")!
-                .GetProperty("content")!
-                .GetString()
-                ?.Trim() ?? string.Empty;
+
+            var result = string.Empty;
+
+            if (responseBody.Contains("\"choices\":"))
+            {
+                result = jsonDoc.RootElement
+                    .GetProperty("choices")[0]
+                    .GetProperty("message")
+                    .GetProperty("content")
+                    .GetString()
+                    ?.Trim() ?? string.Empty;
+            }
+            else
+            {
+                result = jsonDoc.RootElement
+                    .GetProperty("message")!
+                    .GetProperty("content")!
+                    .GetString()
+                    ?.Trim() ?? string.Empty;
+            }
+
+            // Remove any <think> tags and their content
+            //result = RemoveThinkTags(result);
 
             return result;
         }
-        catch
+        catch (Exception e)
         {
-            Console.WriteLine($"Exception on: {requestData}");
-            throw;
+            if (config.SkipLineValidation)
+            {
+                Console.WriteLine($"Exception on: {requestData}");
+                Console.WriteLine($"Exception message: {e.Message}");
+                return "";
+            }
+            else
+                throw;
         }
     }
 }

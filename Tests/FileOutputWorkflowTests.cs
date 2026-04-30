@@ -75,4 +75,45 @@ public class FileOutputWorkflowTests
 
         await Task.CompletedTask;
     }
+
+    [Fact(DisplayName = "99. Check File Lines Match")]
+    public void CheckFileLinesMatch()
+    {
+        var config = Configuration.GetConfiguration(WorkingDirectory);
+        var originalHeaders = new List<string>();
+        var modHeaders = new List<string>();
+        var badFiles = new List<string>();
+        var originalLines = File.ReadAllLines($"{WorkingDirectory}/Raw/DB/db1.txt");
+        var modLines = File.ReadAllLines($"{WorkingDirectory}/Mod/db1.txt");
+
+        //Get Headers
+        foreach (var line in originalLines)
+        {
+            if (line.Contains('|') && !line.Contains('#'))
+            {
+                originalHeaders.Add(line);
+            }
+        }
+
+        foreach (var line in modLines)
+        {
+            if (line.Contains('|') && !line.Contains('#'))
+            {
+                modHeaders.Add(line);
+            }
+        }
+
+        originalHeaders.Sort();
+        modHeaders.Sort();
+
+        foreach (var line in originalHeaders)
+        {
+            if (!modHeaders.Contains(line))
+            {
+                badFiles.Add(line);
+            }
+        }
+
+        Assert.Empty(badFiles);
+    }
 }

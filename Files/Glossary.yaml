@@ -3198,6 +3198,13 @@
   literal: "{P} jiang jun"
 
 # Names
+- raw: 宫本海
+  rawSimplified: 宫本海
+  rawTraditional: 宮本海
+  result: Gong Benhai
+  badtrans: true
+  direct: palace origin sea
+  literal: gong ben hai
 - raw: 天机老头
   result: Tianji Old Man
   badtrans: true

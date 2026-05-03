@@ -55,7 +55,31 @@ To deploy directly into a game install instead, create an ignored `Directory.Bui
 
 ## Packaging Text Resources
 
-The plugin DLL build does not regenerate translated text resources. To rebuild `Files/Mod/db1.txt` and `Files/Mod/Formatted/*` from the translated files under `Files/Converted`, run:
+The plugin DLL build does not regenerate translated text resources.
+
+To apply exact `Files/Glossary.yaml` `raw`/`result` entries into matching `Files/Converted` translation splits, run:
+
+```bash
+dotnet run --project Translate -- apply-glossary --working-directory Files
+```
+
+Use `--dry-run` first to see how many converted entries would change without writing files:
+
+```bash
+dotnet run --project Translate -- apply-glossary --working-directory Files --dry-run
+```
+
+This command only updates exact source-text matches. Longer strings that merely contain a glossary term still need their full `translated` value edited or regenerated.
+
+To build a SQLite audit database from `Files/Glossary.yaml` and `Files/Converted/stringlang.txt`, run:
+
+```bash
+dotnet run --project Translate -- import-glossary-db --working-directory Files --database _viethoa/glossary-audit.db
+```
+
+This creates tables for glossary entries, `stringlang` translation splits, and glossary occurrences. It is intended for reviewing small batches without loading the large text files into chat.
+
+To rebuild `Files/Mod/db1.txt` and `Files/Mod/Formatted/*` from the translated files under `Files/Converted`, run:
 
 ```bash
 dotnet run --project Translate -- package --working-directory Files

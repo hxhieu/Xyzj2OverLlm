@@ -1,0 +1,15 @@
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+
+[mcp_servers.nmem]
+command = "nmem-mcp"
+args = []
+[mcp_servers.nmem.env]
+NMEM_BRAIN = "nextstopjianghu2-translation"
+
+[mcp_servers.sde-sqlite]
+command = "mcp-server-sqlite"
+args = [
+ "--db-path",
+ "./_viethoa/glossary-audit.db"
+]

@@ -17097,7 +17097,7 @@
     translated: "The Art of a Thousand Wounds"
   - split: 33
     text: "持续时间内，受到伤害提升100%，同时外攻攻击翻倍，持续时间8秒。"
-    translated: "For the duration, damage taken is increased by 100%, and external attack damage is doubled. This lasts for 8 seconds."
+    translated: "For the duration, damage taken is increased by 100%, and EXT damage is doubled. This lasts for 8 seconds."
 - raw: "130001#舍身-外攻增加#1#4#0#1#8000#0#0###0##1#0#0#10000#0#0#0#2#1#0#10000#20#0#20##0#0#0#0####0#0#130001#3##0#0#0#130001##0#0##0.0#0.0###"
   splits:
   - split: 1
@@ -18389,7 +18389,7 @@
     translated: "Chaotic Rings Technique"
   - split: 33
     text: "手脚齐进横竖找,掌中乱环落不空。持续时间内提升柔属性18点，并且攻击目标时候有30%几率触发一次威力为30的普通外攻伤害，持续时间30秒。"
-    translated: "Both hands and feet strike in coordinated chaos; the swirling circles within never miss their mark. During its duration, it enhances soft attributes by 18 points, and when attacking a target, there is a 30% chance to trigger an additional normal external attack damage with might 30, lasting for 30 seconds."
+    translated: "Both hands and feet strike in coordinated chaos; the swirling circles within never miss their mark. During its duration, it enhances soft attributes by 18 points, and when attacking a target, there is a 30% chance to trigger an additional normal EXT damage with might 30, lasting for 30 seconds."
 - raw: "196031#乱环诀-附加攻击#0#1#3#1#999#0#0###0##0#2.0#65.0#10000#0#0#0#0#0#0#20#21#0#0#0#0#30#0#0### #0#0#196031#1#sfx_hero_main_11_hit#0#0#0#196031##0#0##0.0#0.0###"
   splits:
   - split: 1
@@ -18410,7 +18410,7 @@
     translated: "Return to Heaven"
   - split: 33
     text: "在乱环诀状态下攻击目标，会额外触发一次威力为30的普通外攻击伤害。"
-    translated: "When in the Chaotic Rings Technique state and attacking a target, an additional instance of normal external attack damage with power of 30 will be triggered."
+    translated: "When in the Chaotic Rings Technique state and attacking a target, an additional instance of normal EXT damage with power of 30 will be triggered."
 - raw: "196034#卸刃#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1073741826#6000#0#0#0#0#0#0#0#1067##0#1#0#0#卸刃#受到伤害时能有一定几率免疫掉接下来1秒内的所有伤害，触发几率为5%，调息6秒。#buffnew_tiegu#0#0#196034#0#0#0#0#0#196034#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -18958,7 +18958,7 @@
     translated: "Taixu Wei"
   - split: 33
     text: "刚增加10点，所有技能物理外攻威力提升10%。"
-    translated: "Hard increases by 10 points, boosting the power of all skills' physical external attack damage by 10%."
+    translated: "Hard increases by 10 points, boosting the power of all skills' physical EXT damage by 10%."
 - raw: "196271#太岳巍-威力提升#1#31#0#0#-1#0#0#0#0#0#0#1#0#0#10000#0#0#0#0#0#0#0#0#0#0##0#1#0#0#0#0#0#0#0#196271#0#0#0#0#0#196271##4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -39234,7 +39234,7 @@
     translated: "Wild Battle Technique"
   - split: 33
     text: "命中敌人时，会给自己叠加一层持续5s的狂怒，每层狂怒会增加10%吸血，10%内外攻，可叠加5层"
-    translated: "Upon hitting an enemy, you will stack one layer of Rampage that lasts for 5s. Each layer of Rampage increases your life steal by 10% and your internal and external attack damage by 10%, with a maximum of 5 stacks."
+    translated: "Upon hitting an enemy, you will stack one layer of Rampage that lasts for 5s. Each layer of Rampage increases your life steal by 10% and your internal and EXT damage by 10%, with a maximum of 5 stacks."
 - raw: "100400081#狂战技-狂怒#1#8#0#1#5000#0#0#0#0#0#0#1#0#0#10000#0#0#0#0#0#0#0#0#0#5##0#1#0#0#狂怒#每层狂怒会增加10%吸血，10%内外攻，可叠加5层#buffnew_ziqidonglai#0#0#100400081#0#0#0#1#5#100400081##0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -39389,7 +39389,7 @@
     translated: "Scarlet Flying Sword"
   - split: 33
     text: "每把飞剑伤害为内攻的100%威力，同时带有特殊效果。"
-    translated: "Each flying sword deals 100% of its power as internal attack damage and has a special effect."
+    translated: "Each flying sword deals 100% of its power as INT damage and has a special effect."
 - raw: "100500018#万法森罗-森罗相-触发#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#50#1#2000#0#0#0#0#0#0#0#1202##0#1#0#0#血伤#攻击时有50%几率触发一次额外攻击，调息2秒#buffnew_ziqidonglai#0#0#100500018#0#0#0#0#0#100500018##0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -39434,7 +39434,7 @@
     translated: "Break Bones"
   - split: 33
     text: "在攻击敌方时对周围2米敌方造成内伤并且附带额外内力*1的伤害，该伤害可以根据目标内伤的层数增加，内伤：每秒对目标造成施加者内攻*0.03的伤害，可叠加2层。"
-    translated: "When attacking the enemy, it causes internal injury to surrounding enemies within 2 meters and inflicts additional inner power damage of *1. This damage can increase based on the target's layers of internal injury. Internal Injury:: Inflict 0.03 internal attack damage to the target per second, stacking up to 2 layers."
+    translated: "When attacking the enemy, it causes internal injury to surrounding enemies within 2 meters and inflicts additional inner power damage of *1. This damage can increase based on the target's layers of internal injury. Internal Injury:: Inflict 0.03 INT damage to the target per second, stacking up to 2 layers."
 - raw: "100500161#摧筋#1#1#0#0#5000#1000#0#0#0#0#0#2#0#0#10000#0#0#0#6#0#0#300#0#0#21##0#1#0#0#内伤#内伤：每秒对目标造成内攻*0.03的伤害，可叠加2层。#buffnew_ziqidonglai#0#0#100500161#0#0#0#1#2#100500161##0#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -39445,7 +39445,7 @@
     translated: "Internal Injury"
   - split: 33
     text: "内伤：每秒对目标造成内攻*0.03的伤害，可叠加2层。"
-    translated: "Internal injury: Deals internal attack damage of *0.03* to the target per second, stacking up to 2 layers."
+    translated: "Internal injury: Deals INT damage of *0.03* to the target per second, stacking up to 2 layers."
 - raw: "100500162#摧筋#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#1#10#0#0#0#0#0#0#0#1274##0#1#0#0#0#0#0#0#0#100500162#0#0#0#0#0#100500162##4#0#0#0.0#0.0###"
   splits:
   - split: 1
@@ -40349,7 +40349,7 @@
     translated: "Mo Xin"
   - split: 33
     text: "神刀·拔刀斩增强：额外造成自身20%已损失比例血量的伤害;燎原百八式增强：造成额外的3层灼阳;魔相神功增强：运功时清除自身可清除的减益效果;紫气天罗增强：运功时额外造成一段内攻威力120伤害;黑血神针增强：自身获得额外70诛心和70要害;天魔大法增强：反伤效果增强20%;剑罡同流增强：额外造成一次150外攻威力的伤害;天地交征阴阳大悲赋增强：护盾在受伤时可额外获得;天心莲花增强：凝视额外降低5%要害与5%命中;子午罡灭情道增强：额外降低60%治疗;补天诀增强：回复自身15%生命值"
-    translated: "God Sword · Draw Blade Slash Enhancement: Inflicts additional damage equal to 20% of your own current health loss; enhanced by Liao Yuan's Hundred‑Eight Form: Causes additional 3 layers of scorching Yang; enhances the Demon Form Divine Skill: During cultivation, one can clear any removable detrimental effects from oneself; Purple Qi Tianlao enhancement: While channeling energy, it additionally inflicts a segment of internal attack damage with power 120; enhanced by Black Blood Divine Needle: Self gains an additional 70 Mind Attack and 70 Vital Point; the Tianmo Dafa is enhanced: Increased counter‑damage effect by 20%; Enhanced synergy with Jian Gang technique: Inflicts additional damage with the power of one 150 external attack; enhances the effects of the Great Sorrow Bestowal from the Quest for Yin and Yang Harmony: The shield gains additional power upon taking damage; enhanced by Tianxin Lianhua: Gaze at a reduction of 5% on vital points and 5% on hit rate; enhance the flow of Ziwu Gang's destructive path: Reduce healing by 60%; enhance with Bu Tian Jue: Regain 15% of own health"
+    translated: "God Sword · Draw Blade Slash Enhancement: Inflicts additional damage equal to 20% of your own current health loss; enhanced by Liao Yuan's Hundred‑Eight Form: Causes additional 3 layers of scorching Yang; enhances the Demon Form Divine Skill: During cultivation, one can clear any removable detrimental effects from oneself; Purple Qi Tianlao enhancement: While channeling energy, it additionally inflicts a segment of INT damage with power 120; enhanced by Black Blood Divine Needle: Self gains an additional 70 Mind Attack and 70 Vital Point; the Tianmo Dafa is enhanced: Increased counter‑damage effect by 20%; Enhanced synergy with Jian Gang technique: Inflicts additional damage with the power of one 150 external attack; enhances the effects of the Great Sorrow Bestowal from the Quest for Yin and Yang Harmony: The shield gains additional power upon taking damage; enhanced by Tianxin Lianhua: Gaze at a reduction of 5% on vital points and 5% on hit rate; enhance the flow of Ziwu Gang's destructive path: Reduce healing by 60%; enhance with Bu Tian Jue: Regain 15% of own health"
 - raw: "100500481#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#101040&2533|101040&2533|101040&2533#0#1#0#0####0#0#100500481#0##0#0#0#100500481##0#122200##0.0#0.0###"
   splits:
   - split: 1

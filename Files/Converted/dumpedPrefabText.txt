@@ -6763,15 +6763,15 @@
 - raw: "外攻伤害"
   splits:
   - text: "外攻伤害"
-    translated: "External attack damage"
+    translated: "EXT Damage"
 - raw: "内攻伤害"
   splits:
   - text: "内攻伤害"
-    translated: "Internal attack damage"
+    translated: "INT Damage"
 - raw: "技能冷却"
   splits:
   - text: "技能冷却"
-    translated: "Cooldown skill"
+    translated: "Cooldown"
 - raw: "3秒"
   splits:
   - text: "3秒"
@@ -6779,7 +6779,7 @@
 - raw: "技能范围"
   splits:
   - text: "技能范围"
-    translated: "Skill Range"
+    translated: "Range"
 - raw: "前方扇形"
   splits:
   - text: "前方扇形"
@@ -9695,7 +9695,7 @@
 - raw: "技能范围："
   splits:
   - text: "技能范围："
-    translated: "Skill range:"
+    translated: "Range:"
 - raw: "当生命降低到1时，不会受到伤害，当生命降低到1时，不会受到伤害，当生命降低到1时，不会受到伤害，dasdasdasdasdasdasdasdsadasdasdasds"
   splits:
   - text: "当生命降低到1时，不会受到伤害，当生命降低到1时，不会受到伤害，当生命降低到1时，不会受到伤害，dasdasdasdasdasdasdasdsadasdasdasds"

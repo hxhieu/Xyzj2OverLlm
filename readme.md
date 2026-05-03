@@ -41,12 +41,14 @@ Those files come from your game install:
 <Game Folder>/BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll
 ```
 
-The build output is written to `EnglishPatch/bin/<Configuration>/netstandard2.1/`. To also copy the built DLLs directly into the game after each build, create an ignored `Directory.Build.props.user` file in the repo root and set `GameDir`:
+The normal build output is written to `EnglishPatch/bin/<Configuration>/netstandard2.1/`. Builds also copy the plugin DLLs to `_working/BepInEx/plugins` by default.
+
+To deploy directly into a game install instead, create an ignored `Directory.Build.props.user` file in the repo root and set `PluginDeployDir`:
 
 ```xml
 <Project>
   <PropertyGroup>
-    <GameDir>D:\_Steam\steamapps\common\...\BepInEx\plugins</GameDir>
+    <PluginDeployDir>D:\_Steam\steamapps\common\...\BepInEx\plugins</PluginDeployDir>
   </PropertyGroup>
 </Project>
 ```
@@ -57,6 +59,12 @@ The plugin DLL build does not regenerate translated text resources. To rebuild `
 
 ```bash
 dotnet run --project Translate -- package --working-directory Files
+```
+
+To also stage the generated runtime resources into `_working`, run:
+
+```bash
+dotnet run --project Translate -- package --working-directory Files --stage-resources _working/BepInEx/resources
 ```
 
 For the runtime mod, copy the generated files you need into the game install:
@@ -104,6 +112,31 @@ These are inactive in normal builds because `SpriteReplacerV2Plugin.Enabled` is 
 | `F1` | No | Adds a sprite contract for the object under the cursor, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
 | `F2` | No | Adds sprite contracts for the current scene, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
 | `F3` | No | Reloads sprite contracts, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
+
+### Font Replacer
+
+Font replacement is disabled by default. Enable it in `BepInEx/config/FanslationStudio.EnglishPatch.FontReplacer.cfg`:
+
+```ini
+[General]
+Enabled = true
+FontName = Arial
+FontFile =
+AllowOsFont = true
+ReloadHotkey = KeypadDivide
+```
+
+`FontName` first tries to match a loaded TextMeshPro font asset by name. If none is found and `AllowOsFont` is true, the plugin tries to create a TextMeshPro font asset from an installed OS font family or full font name. Do not wrap the value in quotes, for example use `FontName = Wire One`, not `FontName = "Wire One"`.
+
+If OS font lookup fails, copy the `.ttf` or `.otf` file into `BepInEx/resources` and set `FontFile` to the filename:
+
+```ini
+FontName =
+FontFile = WIREONE-REGULAR.TTF
+AllowOsFont = false
+```
+
+`FontFile` also accepts an absolute path. Press `KeypadDivide` to reload the config and reapply the font to currently loaded text.
 
 You can use * inside the path to indicate a wildcard (ie: match zero or more characters where the * is). This will help you do one resizer for lots of stuff.
 

@@ -53,9 +53,10 @@
     <ProjectReference Include="..\SharedAssembly\SharedAssembly.csproj" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="Build" Condition="'$(GameDir)' != '' and '$(OS)' == 'Windows_NT'">
-    <MakeDir Directories="$(GameDir)" />
-    <Copy SourceFiles="$(TargetDir)$(TargetName)$(TargetExt)" DestinationFolder="$(GameDir)" SkipUnchangedFiles="true" />
-    <Copy SourceFiles="$(TargetDir)FanslationStudio.SharedAssembly.dll" DestinationFolder="$(GameDir)" SkipUnchangedFiles="true" />
+  <Target Name="DeployPlugin" AfterTargets="Build" Condition="'$(PluginDeployDir)' != ''">
+    <MakeDir Directories="$(PluginDeployDir)" />
+    <Copy SourceFiles="$(TargetDir)$(TargetName)$(TargetExt)" DestinationFolder="$(PluginDeployDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(TargetDir)FanslationStudio.SharedAssembly.dll" DestinationFolder="$(PluginDeployDir)" SkipUnchangedFiles="true" />
+    <Message Importance="high" Text="Deployed plugin DLLs to $(PluginDeployDir)" />
   </Target>
 </Project>

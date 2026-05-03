@@ -5,5 +5,6 @@
     <ReferenceRoot Condition="'$(ReferenceRoot)' == ''">$([MSBuild]::NormalizeDirectory('$(MSBuildThisFileDirectory)', '_references'))</ReferenceRoot>
     <GameManagedDir Condition="'$(GameManagedDir)' == ''">$(ReferenceRoot)Managed</GameManagedDir>
     <BepInExPluginDir Condition="'$(BepInExPluginDir)' == ''">$(ReferenceRoot)BepInEx/plugins</BepInExPluginDir>
+    <PluginDeployDir Condition="'$(PluginDeployDir)' == ''">$([MSBuild]::NormalizeDirectory('$(MSBuildThisFileDirectory)', '_working', 'BepInEx', 'plugins'))</PluginDeployDir>
   </PropertyGroup>
 </Project>

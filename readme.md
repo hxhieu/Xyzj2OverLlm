@@ -13,20 +13,72 @@ The pre-reqs contains:
   - BepInEx
   - Unstripped Game DLLs
   - Configuration for BepinEx
+
+## Build setup
+
+The plugin project needs game and BepInEx DLLs that are not committed to git. By default the project looks for them under the ignored `_references` folder:
+
+```text
+_references/
+  Managed/
+    Assembly-CSharp.dll
+    Unity.TextMeshPro.dll
+    UnityEngine.UI.dll
+  BepInEx/
+    plugins/
+      XUnity.ResourceRedirector/
+        XUnity.ResourceRedirector.dll
+        XUnity.ResourceRedirector.BepInEx.dll
+```
+
+Those files come from your game install:
+
+```text
+<Game Folder>/下一站江湖Ⅱ_Data/Managed/Assembly-CSharp.dll
+<Game Folder>/下一站江湖Ⅱ_Data/Managed/Unity.TextMeshPro.dll
+<Game Folder>/下一站江湖Ⅱ_Data/Managed/UnityEngine.UI.dll
+<Game Folder>/BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll
+<Game Folder>/BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll
+```
+
+The build output is written to `EnglishPatch/bin/<Configuration>/netstandard2.1/`. To also copy the built DLLs directly into the game after each build, create an ignored `Directory.Build.props.user` file in the repo root and set `GameDir`:
+
+```xml
+<Project>
+  <PropertyGroup>
+    <GameDir>D:\_Steam\steamapps\common\...\BepInEx\plugins</GameDir>
+  </PropertyGroup>
+</Project>
+```
   
 ### Name Changer
 
 If you want to change your name because of an old playthrough with Autotranslator or you simply hate the name.
 
-Press Keypad__Period aka . next to your numpad 0 key. This will bring up the UI with your current name. Type in what you want and hit Save.
+| Hotkey | Active by default? | Function |
+|---|---:|---|
+| `KeypadPeriod` | Yes | Opens/closes the Property Changer UI for changing player name. |
 
 ### Custom Text Resizer
 
-Pressing Keypad_- you will add the resizer under your current cursor to `BepInEx/resizers/zzAddedResizers.yaml` you can then tweak the properties on the resizer to your liking and reload them.
+| Hotkey | Active by default? | Function |
+|---|---:|---|
+| `KeypadMinus` | Yes | Adds a text resizer entry for text under the cursor to `BepInEx/resizers/zzAddedResizers.yaml`. |
+| `KeypadPlus` | Yes | Reloads text resizer YAML files and reapplies resizers. |
+| `KeypadMultiply` | Yes | Adds resizer entries for all text elements in the current scene. Be warned it will grab a lot. |
+| `F1` | No | Same as `KeypadMinus`, only if `TextResizerPlugin.DevMode = true` in code. |
+| `F2` | No | Same as `KeypadPlus`, only if `TextResizerPlugin.DevMode = true` in code. |
+| `F3` | No | Same as `KeypadMultiply`, only if `TextResizerPlugin.DevMode = true` in code. |
 
-Pressing Keypad_+ will reload your resizers if something looks screwy.
+### Sprite Replacer V2 Dev Tools
 
-You can use Keypad_* to add all text items on screen. Be warned it will grab a lot!
+These are inactive in normal builds because `SpriteReplacerV2Plugin.Enabled` is currently `false`.
+
+| Hotkey | Active by default? | Function |
+|---|---:|---|
+| `F1` | No | Adds a sprite contract for the object under the cursor, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
+| `F2` | No | Adds sprite contracts for the current scene, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
+| `F3` | No | Reloads sprite contracts, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
 
 You can use * inside the path to indicate a wildcard (ie: match zero or more characters where the * is). This will help you do one resizer for lots of stuff.
 

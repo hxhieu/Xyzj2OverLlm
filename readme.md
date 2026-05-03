@@ -50,6 +50,22 @@ The build output is written to `EnglishPatch/bin/<Configuration>/netstandard2.1/
   </PropertyGroup>
 </Project>
 ```
+
+## Packaging Text Resources
+
+The plugin DLL build does not regenerate translated text resources. To rebuild `Files/Mod/db1.txt` and `Files/Mod/Formatted/*` from the translated files under `Files/Converted`, run:
+
+```bash
+dotnet run --project Translate -- package --working-directory Files
+```
+
+For the runtime mod, copy the generated files you need into the game install:
+
+```text
+Files/Mod/db1.txt -> BepInEx/resources/db1.txt
+Files/Mod/Formatted/dynamicStrings.txt -> BepInEx/resources/dynamicStrings.txt
+Files/Mod/Formatted/dumpedPrefabText.txt -> BepInEx/resources/dumpedPrefabText.txt
+```
   
 ### Name Changer
 
@@ -60,6 +76,15 @@ If you want to change your name because of an old playthrough with Autotranslato
 | `KeypadPeriod` | Yes | Opens/closes the Property Changer UI for changing player name. |
 
 ### Custom Text Resizer
+
+The text resizer also has a BepInEx config value:
+
+```ini
+[General]
+FontScale = 1
+```
+
+This is created in `BepInEx/config/FanslationStudio.EnglishPatch.TextResizer.cfg`. It applies a global font-size multiplier after individual YAML resizers are applied. For example, `0.5` makes touched text half size, `1` keeps normal size, and `1.25` makes it 125% size. Edit the config, then press `KeypadPlus` to reload and reapply it.
 
 | Hotkey | Active by default? | Function |
 |---|---:|---|

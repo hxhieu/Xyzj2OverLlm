@@ -138,7 +138,7 @@ AllowOsFont = false
 
 `FontFile` also accepts an absolute path. Press `KeypadDivide` to reload the config and reapply the font to currently loaded text.
 
-You can use * inside the path to indicate a wildcard (ie: match zero or more characters where the * is). This will help you do one resizer for lots of stuff.
+You can use `*` inside the path to match one Unity hierarchy segment. This is useful for generated list rows, for example `AnswerGrid/*/Text` matches `AnswerGrid/1001/Text` and `AnswerGrid/1002/Text`.
 
 Please note I include zzAddedResizers.yaml in the patch. So if  you want to keep them move them to another yaml file when your done. Please submit any resizers you think make sense!
 

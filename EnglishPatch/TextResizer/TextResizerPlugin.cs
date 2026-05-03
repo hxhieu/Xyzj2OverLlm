@@ -444,31 +444,30 @@ internal class TextResizerPlugin : BaseUnityPlugin
         {
             var resizer = resizerPair.Value;
 
-            if (resizer.Path.Contains("*"))
-            {
-                //Logger.LogError("Falling to Non compiled!");
-
-                // Convert to Regex
-                var pattern = resizer.Path
-                    .Replace("/", @"\/")
-                    .Replace("(", @"\(")
-                    .Replace(")", @"\)")
-                    .Replace("*", ".*");
-
-                if (Regex.IsMatch(path, pattern))
-                    return resizer;
-
-                // Use our new wildcard matching service
-                //var match = _wildcardMatcher.FindMatch(path);
-                //if (match != null)
-                //{
-                //    cache[path] = resizer; // Cache the result
-                //    return resizer;
-                //}
-            }
+            if (WildcardPathMatches(resizer.Path, path))
+                return resizer;
         }
 
         return null;
+    }
+
+    internal static bool WildcardPathMatches(string patternPath, string path)
+    {
+        if (string.IsNullOrWhiteSpace(patternPath)
+            || string.IsNullOrWhiteSpace(path)
+            || !patternPath.Contains("*"))
+            return false;
+
+        patternPath = NormalizePath(patternPath);
+        path = NormalizePath(path);
+
+        var regexPattern = "^" + Regex.Escape(patternPath).Replace("\\*", "[^/]+") + "$";
+        return Regex.IsMatch(path, regexPattern);
+    }
+
+    private static string NormalizePath(string path)
+    {
+        return path.Trim().Replace('\\', '/');
     }
 
     public static void ApplyAllResizers()

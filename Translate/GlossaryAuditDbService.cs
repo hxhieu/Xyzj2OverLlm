@@ -40,7 +40,7 @@ public static class GlossaryAuditDbService
         await using var connection = new SqliteConnection($"Data Source={databasePath}");
         await connection.OpenAsync();
 
-        await ExecuteAsync(connection, "PRAGMA journal_mode = WAL;");
+        await ExecuteAsync(connection, "PRAGMA journal_mode = DELETE;");
         await ExecuteAsync(connection, "PRAGMA synchronous = NORMAL;");
         await CreateSchemaAsync(connection);
 

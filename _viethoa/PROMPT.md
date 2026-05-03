@@ -8,6 +8,9 @@ Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese 
 - Translate glossary entries only unless the user explicitly asks to update converted game text.
 - Prefer concise canonical terms suitable for repeated use in UI, skill names, item names, quest names, and dialogue.
 - Prefer compact terms for game UI, measured mainly by word count rather than rendered width.
+- For UI labels, omit redundant unit/category words when context already makes them clear. For example, use `Thiên phú` instead of `Điểm thiên phú`, and `Kinh nghiệm` instead of `Điểm kinh nghiệm`.
+- For acupoint/meridian point names, omit the redundant word `huyệt` when the name is already clear or UI context indicates acupoints. For example, use `Thái dương` instead of `Thái dương huyệt`.
+- For compound nouns in the same UI/context group, remove generic category nouns when the specific part is enough. Do not keep words like `điểm`, `huyệt`, `sách`, `cuộn`, `vật phẩm`, `kỹ năng`, or similar category labels just because they exist in the source, unless dropping them would make the term ambiguous.
 
 ## Wuxia Style
 
@@ -19,6 +22,8 @@ Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese 
 ## Naming Rules
 
 - Skill/manual/martial technique names should normally be Hán Việt title case.
+- Japanese names should stay in Japanese romaji/alphabet form, not Hán Việt. For example, use `Miyamoto Kai` instead of `Cung Bản Hải`, and `Marume Hayato` instead of `Hoàn Mục Chuẩn Nhân`.
+- If a martial art, sect, title, or move clearly comes from classic wuxia sources such as Kim Dung/Jin Yong, use the familiar Vietnamese Hán Việt rendering rather than literal translation. Examples: `七伤拳` -> `Thất Thương Quyền`, `打狗棍法` -> `Đả Cẩu Bổng Pháp`, `九阳真经` -> `Cửu Dương Chân Kinh`, `葵花宝典` -> `Quỳ Hoa Bảo Điển`.
 - Job/class labels may use plain Vietnamese when short and natural. If the Quốc ngữ option has the same word count and is clearer, prefer Quốc ngữ.
 - Use Hán Việt for job/class labels mainly when the plain Quốc ngữ option needs more words or sounds too modern/explanatory.
 - Preserve established wuxia terms such as:
@@ -44,6 +49,15 @@ Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese 
 - Mark reviewed entries with `status = 'reviewed'`.
 - Put short rationale or caveats in `notes`.
 - When useful, inspect occurrences from `glossary_occurrences` joined with `stringlang_splits` before choosing a final term.
+
+## Converted File Workflow
+
+- For translated source files that are not pure glossary, use `converted_file_lines` and `converted_file_splits` in `_viethoa/glossary-audit.db`.
+- Import a converted YAML file with `dotnet run --project Translate -- import-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt`.
+- Edit `converted_file_splits.translated`, mark reviewed rows with `status = 'reviewed'`, and lock accepted rows with `status = 'locked'`.
+- Export the table back to the source YAML with `dotnet run --project Translate -- export-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt`.
+- For `game_manual.txt`, focus this session on martial arts, internal skills, manuals, techniques, and wuxia references. Non-target rows can remain `ignored`.
+- The export command writes every imported row back to the corresponding file, so the DB must preserve all lines even if only focus candidates are edited.
 
 ## Caution
 

@@ -7,6 +7,7 @@ Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese 
 - Use Vietnamese for all discussion and final glossary results.
 - Translate glossary entries only unless the user explicitly asks to update converted game text.
 - Prefer concise canonical terms suitable for repeated use in UI, skill names, item names, quest names, and dialogue.
+- Prefer compact terms for game UI, measured mainly by word count rather than rendered width.
 
 ## Wuxia Style
 
@@ -18,6 +19,8 @@ Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese 
 ## Naming Rules
 
 - Skill/manual/martial technique names should normally be Hán Việt title case.
+- Job/class labels may use plain Vietnamese when short and natural. If the Quốc ngữ option has the same word count and is clearer, prefer Quốc ngữ.
+- Use Hán Việt for job/class labels mainly when the plain Quốc ngữ option needs more words or sounds too modern/explanatory.
 - Preserve established wuxia terms such as:
   - `降龙` -> `Hàng Long`
   - `擒龙` -> `Cầm Long`
@@ -25,6 +28,10 @@ Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese 
   - `心诀` -> `Tâm Quyết`
   - `真意` -> `Chân Ý`
   - `劲` -> `Kình`
+- Example UI/job tradeoff:
+  - `渔夫` -> `Ngư phu`, not `Người câu cá`
+  - `铸工` -> `Thợ đúc`, because it is also two words and clearer than `Chú công`
+  - `酿酒师` -> `Tửu sư`, not `Thợ nấu rượu`, for compact UI labels.
 - Example:
   - `碧霄擒龙手` -> `Bích Tiêu Cầm Long Thủ`
 - Do not translate martial names into plain descriptive Vietnamese unless the user asks.

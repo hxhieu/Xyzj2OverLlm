@@ -5,6 +5,9 @@
 
 # Mod specific
 Files/Mod/*
+_references/
+_working/
+Directory.Build.props.user
 
 # User-specific files
 *.rsuser

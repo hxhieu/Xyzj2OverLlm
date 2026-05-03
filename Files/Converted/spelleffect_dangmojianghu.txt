@@ -13220,7 +13220,7 @@
     translated: "Bathed in Blood Technique"
   - split: 33
     text: "浴血奋战，使用后提升自己技能伤害能力，数值为最大生命减当前生命*比例系数0.1，并将其转化为外攻攻击。持续时间6秒。"
-    translated: "Bleed and fight fiercely; after use, it enhances your skill's damage capability. The value is the maximum health minus current health multiplied by a percentage coefficient 0.1, and converts it to external attack damage. Duration: 6 seconds."
+    translated: "Bleed and fight fiercely; after use, it enhances your skill's damage capability. The value is the maximum health minus current health multiplied by a percentage coefficient 0.1, and converts it to EXT damage. Duration: 6 seconds."
 - raw: "100160#幻影#1#4#0#1#10000#0#0###0##1#0#0#10000#0#0#0#2#1#1#50000#75#0#10##0#0#0#0#避蝶舞#在持续时间内，回避力增加身法*5的回避，持续时间10秒。#newbuff_baoqi#0#0#100160#1##0#0#0#100160#0#0#0##0.0#0.0###0#"
   splits:
   - split: 1
@@ -17109,7 +17109,7 @@
     translated: "The Art of a Thousand Wounds"
   - split: 33
     text: "持续时间内，受到伤害提升100%，同时外攻攻击翻倍，持续时间8秒。"
-    translated: "For the duration of this time, damage taken is increased by 100%, and external attack damage is doubled, lasting for 8 seconds."
+    translated: "For the duration of this time, damage taken is increased by 100%, and EXT damage is doubled, lasting for 8 seconds."
 - raw: "130001#舍身-外攻增加#1#4#0#1#8000#0#0###0##1#0#0#10000#0#0#0#2#1#0#10000#20#0#20##0#0#0#0####0#0#130001#3##0#0#0#130001##0#0##0.0#0.0###0#"
   splits:
   - split: 1
@@ -18422,7 +18422,7 @@
     translated: "Return to Heaven"
   - split: 33
     text: "在乱环诀状态下攻击目标，会额外触发一次威力为30的普通外攻击伤害。"
-    translated: "While in the Chaotic Rings Technique state and attacking a target, it will additionally trigger a single instance of normal external attack damage with power 30."
+    translated: "While in the Chaotic Rings Technique state and attacking a target, it will additionally trigger a single instance of normal EXT damage with power 30."
 - raw: "196034#卸刃#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1073741826#6000#0#0#0#0#0#0#0#1067##0#1#0#0#卸刃#受到伤害时能有一定几率免疫掉接下来1秒内的所有伤害，触发几率为5%，调息6秒。#buffnew_tiegu#0#0#196034#0#0#0#0#0#196034##4#0#0#0.0#0.0###1#"
   splits:
   - split: 1
@@ -25037,7 +25037,7 @@
     translated: "Hemorrhagic collapse"
   - split: 33
     text: "撕裂目标伤口引发【血崩】，使其在接下来的5秒内每秒受到施加者外攻*0.6的伤害，且受到的治疗效果降低50%。"
-    translated: "Rend the target's wound to trigger Blood Collapse, causing it to take external attack damage equal to *0.6* from the caster every second for the next 5 seconds and reducing any received healing effects by 50%."
+    translated: "Rend the target's wound to trigger Blood Collapse, causing it to take EXT damage equal to *0.6* from the caster every second for the next 5 seconds and reducing any received healing effects by 50%."
 - raw: "1054004#无锋剑诀-血崩-治疗减少#1#49#0#0#8000#0####0##2#3.0#90.0#10000##0#0#0#0#0#0#0#0#50##0#1#0#0####0#0#1054004#0##0#0#0#1054004##0#0##0.0#0.0###0#"
   splits:
   - split: 1
@@ -39391,7 +39391,7 @@
     translated: "Scarlet Flying Sword"
   - split: 33
     text: "每把飞剑伤害为内攻的100%威力，同时带有特殊效果。"
-    translated: "Each flying sword deals internal attack damage equal to 100% of its power and also has a special effect."
+    translated: "Each flying sword deals INT damage equal to 100% of its power and also has a special effect."
 - raw: "100500018#万法森罗-森罗相-触发#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#50#1#2000#0#0#0#0#0#0#0#1202##0#1#0#0#血伤#攻击时有50%几率触发一次额外攻击，调息2秒#buffnew_ziqidonglai#0#0#100500018#0#0#0#0#0#100500018##0#0#0#0.0#0.0###0#"
   splits:
   - split: 1
@@ -39447,7 +39447,7 @@
     translated: "Internal Injury"
   - split: 33
     text: "内伤：每秒对目标造成内攻*0.03的伤害，可叠加2层。"
-    translated: "Internal Injury: Inflicts internal attack damage of *0.03* on the target every second and can stack up to 2 layers."
+    translated: "Internal Injury: Inflicts INT damage of *0.03* on the target every second and can stack up to 2 layers."
 - raw: "100500162#摧筋#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#1#10#0#0#0#0#0#0#0#1274##0#1#0#0#0#0#0#0#0#100500162#0#0#0#0#0#100500162##4#0#0#0.0#0.0###0#"
   splits:
   - split: 1
@@ -40351,7 +40351,7 @@
     translated: "Mo Xin"
   - split: 33
     text: "神刀·拔刀斩增强：额外造成自身20%已损失比例血量的伤害;燎原百八式增强：造成额外的3层灼阳;魔相神功增强：运功时清除自身可清除的减益效果;紫气天罗增强：运功时额外造成一段内攻威力120伤害;黑血神针增强：自身获得额外70诛心和70要害;天魔大法增强：反伤效果增强20%;剑罡同流增强：额外造成一次150外攻威力的伤害;天地交征阴阳大悲赋增强：护盾在受伤时可额外获得;天心莲花增强：凝视额外降低5%要害与5%命中;子午罡灭情道增强：额外降低60%治疗;补天诀增强：回复自身15%生命值"
-    translated: "Divine Blade · Enhanced Draw Slash: Inflict damage equal to an additional 20% of one's own lost health percentage; enhanced by the Razing Flame Hundred‑Eight Form: Causes additional 3 layers of scorching Yang; enhances the Demon Form Divine Skill: While cultivating, remove any disadvantageous effects that can be cleared from oneself; Purple Qi Tianlu Enhancement: During cultivation, an additional internal attack of power 120 damage is inflicted; enhanced with Black Blood Divine Needle: Gains an additional 70 Mind Attack and 70 Vital Point; the Tianmo Dafa is enhanced: Enhanced counter‑damage effect by 20%; amplified shared momentum with sword force: Causes an additional instance of 150 external attack damage with might; enhanced by the Great Sorrow Bestowal of Yin and Yang in the Heavens and Earth Conflict: Shields can gain additional benefits upon taking damage; enhanced by Tianxin Lotus: Gaze reduces 5% of vital points and 5% of hit rate; enhances the potency of the Ziwugang Mei Qing Dao technique: Reduce healing by 60%; enhance Butian Jue technique: Restore to 15% of their own health"
+    translated: "Divine Blade · Enhanced Draw Slash: Inflict damage equal to an additional 20% of one's own lost health percentage; enhanced by the Razing Flame Hundred‑Eight Form: Causes additional 3 layers of scorching Yang; enhances the Demon Form Divine Skill: While cultivating, remove any disadvantageous effects that can be cleared from oneself; Purple Qi Tianlu Enhancement: During cultivation, an additional internal attack of power 120 damage is inflicted; enhanced with Black Blood Divine Needle: Gains an additional 70 Mind Attack and 70 Vital Point; the Tianmo Dafa is enhanced: Enhanced counter‑damage effect by 20%; amplified shared momentum with sword force: Causes an additional instance of 150 EXT damage with might; enhanced by the Great Sorrow Bestowal of Yin and Yang in the Heavens and Earth Conflict: Shields can gain additional benefits upon taking damage; enhanced by Tianxin Lotus: Gaze reduces 5% of vital points and 5% of hit rate; enhances the potency of the Ziwugang Mei Qing Dao technique: Reduce healing by 60%; enhance Butian Jue technique: Restore to 15% of their own health"
 - raw: "100500481#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#101040&2533|101040&2533|101040&2533#0#1#0#0####0#0#100500481#0##0#0#0#100500481##0#122200##0.0#0.0###0#"
   splits:
   - split: 1

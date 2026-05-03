@@ -79,7 +79,7 @@
   idealFontSize: 18
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/MainUILayer/MiJiBookView/Book/LeftNext/spell/partSpell/baseAttri/*"
-  sampleText: "  External attack damage"
+  sampleText: "  EXT Damage"
   idealFontSize: 18
   allowWordWrap: true
   allowLeftTrimText: true

@@ -4380,7 +4380,7 @@
   splits:
   - split: 3
     text: "外攻伤害：{0}\\n内攻伤害：{1}\\n伤害范围：{2}\\n命中效果：{3}"
-    translated: "External attack damage: {0}\\nInternal attack damage: {1}\\nHarm range: {2}\\nHit Rate Effect: {3}"
+    translated: "EXT Damage: {0}\\nInternal attack damage: {1}\\nHarm range: {2}\\nHit Rate Effect: {3}"
 - raw: "ComString,.cctor,8090,使用后学习{0}，用于论辩，可在论辩中替换主角言技.,[]"
   splits:
   - split: 3
@@ -9785,7 +9785,7 @@
   splits:
   - split: 3
     text: "技能范围  {0}"
-    translated: "Skill Range: {0}"
+    translated: "Range: {0}"
 - raw: "ComString,.cctor,18917,要配置的连招技能与其他连招存在重复,[]"
   splits:
   - split: 3

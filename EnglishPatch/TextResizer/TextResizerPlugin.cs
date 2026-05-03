@@ -1,4 +1,5 @@
 ﻿using BepInEx;
+using BepInEx.Configuration;
 using BepInEx.Logging;
 using EnglishPatch.Support;
 using HarmonyLib;
@@ -19,6 +20,8 @@ internal class TextResizerPlugin : BaseUnityPlugin
     internal static new ManualLogSource Logger;
     public static bool Enabled = true;
     public static bool DevMode = false;
+    public static float FontScale = 1.0f;
+    private ConfigEntry<float> _fontScale;
 
     private KeyCode _addResizerAtCursorHotKey = KeyCode.KeypadMinus;
     private KeyCode _addResizerAtCursorHotKey2 = KeyCode.F1;
@@ -51,6 +54,13 @@ internal class TextResizerPlugin : BaseUnityPlugin
         Harmony.CreateAndPatchAll(typeof(TextResizerPlugin));
         Logger.LogWarning($"TextResizer Plugin should be patched!");
 
+        _fontScale = Config.Bind(
+            "General",
+            "FontScale",
+            1.0f,
+            "Global font size multiplier applied to every TextMeshProUGUI element touched by the text resizer. 0.5 = half size, 1.0 = normal.");
+        FontScale = _fontScale.Value;
+
         _resizerFolder = Path.Combine(Paths.BepInExRootPath, "resizers");
         if (!Directory.Exists(_resizerFolder))
             Directory.CreateDirectory(_resizerFolder);
@@ -64,6 +74,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
         if (UnityInput.Current.GetKeyDown(_reloadHotkey)
             || (DevMode && UnityInput.Current.GetKeyDown(_reloadHotkey2)))
         {
+            ReloadConfiguration();
             LoadResizers();
             ApplyAllResizers();
             Logger.LogWarning("Resizers Reloaded");
@@ -236,23 +247,26 @@ internal class TextResizerPlugin : BaseUnityPlugin
         if (textComponent.gameObject == null)
             return;
 
+        var path = "<unknown>";
+        TextResizerContract resizer = null;
+
         try
         {
             textComponent.wordWrappingRatios = 1.0f; //Disable Word wrapping ratios (should stop eastern rules)
             textComponent.enableKerning = false;
 
-            var path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
-            var resizer = FindAppropriateResizer(path);
+            path = ObjectHelper.GetGameObjectPath(textComponent.gameObject);
+            resizer = FindAppropriateResizer(path);
 
             // Cache the wildcard match so we only have to match once
             if (!CachedMatchedResizers.ContainsKey(path))
                 CachedMatchedResizers.Add(path, resizer);
 
-            if (resizer == null)
-                return;
-
             // Cache components
             var rectTransform = textComponent.rectTransform;
+            if (rectTransform == null)
+                return;
+
             var metadata = textComponent.GetComponent<TextMetadata>();
 
             // If metadata is not attached, add it and store the original values against it
@@ -272,6 +286,12 @@ internal class TextResizerPlugin : BaseUnityPlugin
                 metadata.OriginalAllowAutoSizing = textComponent.enableAutoSizing;
                 metadata.OriginalFontSize = textComponent.fontSize;
             }
+
+            // Apply the global font scale even when no YAML resizer matches.
+            ApplyFontSize(textComponent, metadata, resizer);
+
+            if (resizer == null)
+                return;
 
             // Set this so we can debug bad resizers
             metadata.ActiveResizerPath = resizer.Path;
@@ -294,20 +314,10 @@ internal class TextResizerPlugin : BaseUnityPlugin
                 rectTransform.sizeDelta = new Vector2(metadata.OriginalWidth + metadata.AdjustWidth, metadata.OriginalHeight + metadata.AdjustHeight);
             }
 
-            // Apply the resizing
-            if (textComponent.fontSize != resizer.IdealFontSize
-                && resizer.IdealFontSize != null)
-            {
-                textComponent.fontSize = resizer.IdealFontSize.Value;
-            }
-            else if (resizer.FontPercentage != null)
-            {
-                textComponent.fontSize = metadata.OriginalFontSize * resizer.FontPercentage ?? 1;
-            }
-
             // Text Alignment
-            var validAlignment = Enum.TryParse<TextAlignmentOptions>(resizer.Alignment, true, out var alignment);
-            if (resizer.Alignment != string.Empty && !validAlignment)
+            var resizerAlignment = resizer.Alignment ?? string.Empty;
+            var validAlignment = Enum.TryParse<TextAlignmentOptions>(resizerAlignment, true, out var alignment);
+            if (resizerAlignment != string.Empty && !validAlignment)
                 Logger.LogWarning($"Invalid alignment value: {resizer.Alignment} on {resizer.Path}");
 
             if (validAlignment && textComponent.alignment != alignment)
@@ -319,8 +329,9 @@ internal class TextResizerPlugin : BaseUnityPlugin
                 textComponent.alignment = metadata.OriginalAlignment;
             }
 
-            var validOverflow = Enum.TryParse<TextOverflowModes>(resizer.OverflowMode, true, out var overflowMode);
-            if (resizer.OverflowMode != string.Empty && !validOverflow)
+            var resizerOverflowMode = resizer.OverflowMode ?? string.Empty;
+            var validOverflow = Enum.TryParse<TextOverflowModes>(resizerOverflowMode, true, out var overflowMode);
+            if (resizerOverflowMode != string.Empty && !validOverflow)
                 Logger.LogWarning($"Invalid overflow value: {resizer.OverflowMode} on {resizer.Path}");
 
             if (validOverflow && textComponent.overflowMode != overflowMode)
@@ -393,7 +404,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
             if (resizer.AllowLeftTrimText)
             {
                 //Trim it first so when it initialises it at least trims
-                var trimmed = textComponent.text.TrimStart();
+                var trimmed = (textComponent.text ?? string.Empty).TrimStart();
                 if (textComponent.text != trimmed)
                     textComponent.text = trimmed;
             }
@@ -413,7 +424,9 @@ internal class TextResizerPlugin : BaseUnityPlugin
         }
         catch (Exception ex)
         {
-            Logger.LogError($"Error applying resizer to {textComponent.name}: {ex}");
+            Logger.LogError(
+                $"Error applying resizer to '{textComponent.name}' at path '{path}' " +
+                $"using resizer '{resizer?.Path ?? "<none>"}' sample '{resizer?.SampleText ?? string.Empty}': {ex}");
         }
     }
 
@@ -431,31 +444,30 @@ internal class TextResizerPlugin : BaseUnityPlugin
         {
             var resizer = resizerPair.Value;
 
-            if (resizer.Path.Contains("*"))
-            {
-                //Logger.LogError("Falling to Non compiled!");
-
-                // Convert to Regex
-                var pattern = resizer.Path
-                    .Replace("/", @"\/")
-                    .Replace("(", @"\(")
-                    .Replace(")", @"\)")
-                    .Replace("*", ".*");
-
-                if (Regex.IsMatch(path, pattern))
-                    return resizer;
-
-                // Use our new wildcard matching service
-                //var match = _wildcardMatcher.FindMatch(path);
-                //if (match != null)
-                //{
-                //    cache[path] = resizer; // Cache the result
-                //    return resizer;
-                //}
-            }
+            if (WildcardPathMatches(resizer.Path, path))
+                return resizer;
         }
 
         return null;
+    }
+
+    internal static bool WildcardPathMatches(string patternPath, string path)
+    {
+        if (string.IsNullOrWhiteSpace(patternPath)
+            || string.IsNullOrWhiteSpace(path)
+            || !patternPath.Contains("*"))
+            return false;
+
+        patternPath = NormalizePath(patternPath);
+        path = NormalizePath(path);
+
+        var regexPattern = "^" + Regex.Escape(patternPath).Replace("\\*", "[^/]+") + "$";
+        return Regex.IsMatch(path, regexPattern);
+    }
+
+    private static string NormalizePath(string path)
+    {
+        return path.Trim().Replace('\\', '/');
     }
 
     public static void ApplyAllResizers()
@@ -475,5 +487,27 @@ internal class TextResizerPlugin : BaseUnityPlugin
         var items = __instance.GetComponentsInChildren<TextMeshProUGUI>();
         foreach (var item in items)
             ApplyResizing(item);
+    }
+
+    private void ReloadConfiguration()
+    {
+        Config.Reload();
+        FontScale = _fontScale.Value;
+        Logger.LogMessage($"TextResizer FontScale: {FontScale}");
+    }
+
+    private static void ApplyFontSize(TextMeshProUGUI textComponent, TextMetadata metadata, TextResizerContract resizer)
+    {
+        var fontSize = metadata.OriginalFontSize;
+
+        if (resizer != null)
+        {
+            if (resizer.IdealFontSize.HasValue)
+                fontSize = resizer.IdealFontSize.Value;
+            else if (resizer.FontPercentage.HasValue)
+                fontSize = metadata.OriginalFontSize * resizer.FontPercentage.Value;
+        }
+
+        textComponent.fontSize = fontSize * FontScale;
     }
 }

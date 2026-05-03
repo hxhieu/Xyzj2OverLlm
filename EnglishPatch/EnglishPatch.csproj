@@ -13,7 +13,6 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>EnglishPatch</RootNamespace>
-    <GameDir>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\plugins</GameDir>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,19 +29,19 @@
   
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\下一站江湖Ⅱ_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(GameManagedDir)/Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\下一站江湖Ⅱ_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(GameManagedDir)/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\下一站江湖Ⅱ_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(GameManagedDir)/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="XUnity.ResourceRedirector">
-      <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\plugins\XUnity.ResourceRedirector\XUnity.ResourceRedirector.dll</HintPath>
+      <HintPath>$(BepInExPluginDir)/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll</HintPath>
     </Reference>
     <Reference Include="XUnity.ResourceRedirector.BepInEx">
-      <HintPath>G:\SteamLibrary\steamapps\common\下一站江湖Ⅱ\下一站江湖Ⅱ\BepInEx\plugins\XUnity.ResourceRedirector\XUnity.ResourceRedirector.BepInEx.dll</HintPath>
+      <HintPath>$(BepInExPluginDir)/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -54,8 +53,10 @@
     <ProjectReference Include="..\SharedAssembly\SharedAssembly.csproj" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="Build">
-    <Exec Command="XCOPY /Y /I &quot;$(TargetDir)$(TargetName)$(TargetExt)&quot; &quot;$(GameDir)&quot;" />
-    <Exec Command="XCOPY /Y /I &quot;$(TargetDir)FanslationStudio.SharedAssembly.dll&quot; &quot;$(GameDir)&quot;" />
+  <Target Name="DeployPlugin" AfterTargets="Build" Condition="'$(PluginDeployDir)' != ''">
+    <MakeDir Directories="$(PluginDeployDir)" />
+    <Copy SourceFiles="$(TargetDir)$(TargetName)$(TargetExt)" DestinationFolder="$(PluginDeployDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(TargetDir)FanslationStudio.SharedAssembly.dll" DestinationFolder="$(PluginDeployDir)" SkipUnchangedFiles="true" />
+    <Message Importance="high" Text="Deployed plugin DLLs to $(PluginDeployDir)" />
   </Target>
 </Project>

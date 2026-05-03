@@ -15,6 +15,7 @@ public class FileOutputHandling
             Directory.Delete(outputPath, true);
 
         Directory.CreateDirectory(outputPath);
+        Directory.CreateDirectory($"{outputDbPath}/Formatted");
 
         var finalDb = new List<string>();
         var passedCount = 0;

@@ -178,7 +178,7 @@
   idealFontSize: 18
   allowWordWrap: true
 - path: "GameStart/GameUIRoot/UICamera/FormRoot/HintUILayer/CommonTipView/SpellHoverTipMainView/range"
-  sampleText: "  Skill range:"
+  sampleText: "  Range:"
   idealFontSize: 18
   allowWordWrap: true
   allowLeftTrimText: true
@@ -233,4 +233,3 @@
   idealFontSize: 20
   allowWordWrap: true
   allowLeftTrimText: true
-

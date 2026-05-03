@@ -15218,7 +15218,7 @@
     translated: "Retaliation of the Crimson Blade"
   - split: 33
     text: "刃过留痕，气随血归，伤敌之时，自身更盛；暴击时额外造成自身外攻*1附带30%吸血的伤害"
-    translated: "The blade leaves a mark, the energy follows the blood back; in wounding the enemy, one's own strength increases further. When landing a critical strike, it deals additional external attack damage of *1* with 30% life‑draining damage."
+    translated: "The blade leaves a mark, the energy follows the blood back; in wounding the enemy, one's own strength increases further. When landing a critical strike, it deals additional EXT damage of *1* with 30% life‑draining damage."
 - raw: "82011#0#0#23#1#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#2#0#0#10000#0#0#20##30#1#0#0#0#0#0#0#0#82011#0#0#0#0#0#82011##0#0#0#0.0#0.0###"
   splits: []
 - raw: "82020#闭月沉锋#1#23#0#1#0#0#0#0#0#0#0#0#0#0#10000#0#0#0#1#0#0#20#0#0#0#1020|1021#0#1#0#0#闭月沉锋#封喉一刃，锋芒尽敛，天地归于无声；沉默自身，内外攻增加20%#0#0#0#82020#0#0#0#0#0#82020##5#0#82021#0.0#0.0###"
@@ -21555,7 +21555,7 @@
     translated: "The Art of a Thousand Wounds"
   - split: 33
     text: "持续时间内，受到伤害提升100%，同时外攻攻击翻倍，持续时间8秒。"
-    translated: "For the duration, damage taken is increased by 100%, and external attack damage is doubled. This lasts for 8 seconds."
+    translated: "For the duration, damage taken is increased by 100%, and EXT damage is doubled. This lasts for 8 seconds."
 - raw: "130001#舍身-外攻增加#1#4#0#1#8000#0#0#0#0#0#0#1#0#0#10000#0#0#0#2#1#0#10000#20#0#20##0#0#0#0#0#0#0#0#0#130001#3#0#0#0#0#130001##0#0#0#0.0#0.0##0#"
   splits:
   - split: 1
@@ -22868,7 +22868,7 @@
     translated: "Return to Heaven"
   - split: 33
     text: "在乱环诀状态下攻击目标，会额外触发一次威力为30的普通外攻击伤害。"
-    translated: "While in the Chaotic Rings Technique state and attacking a target, an additional hit with 30 might as normal external attack damage will be triggered."
+    translated: "While in the Chaotic Rings Technique state and attacking a target, an additional hit with 30 might as normal EXT damage will be triggered."
 - raw: "196034#卸刃#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#10000#1073741826#6000#0#0#0#0#0#0#0#1067##0#1#0#0#卸刃#受到伤害时能有一定几率免疫掉接下来1秒内的所有伤害，触发几率为5%，调息6秒。#buffnew_tiegu#0#0#196034#0#0#0#0#0#196034#hurt&10000&dead|dead_2|dead_4|dead_6&2000|2000|2000|2000#4#0#0#0.0#0.0##0#"
   splits:
   - split: 1
@@ -35192,7 +35192,7 @@
     translated: "A surging energy that spans the rainbow"
   - split: 33
     text: "内力伤害会造成内攻*1.8的额外伤害并且击穿目标30%内防。"
-    translated: "Internal power damage will cause additional internal attack damage to 1.8 and penetrate the target's 30% of internal defense."
+    translated: "Internal power damage will cause additional INT damage to 1.8 and penetrate the target's 30% of internal defense."
 - raw: "1345103#少冲-气贯长虹#1#4#0#0#8000#0####0##0#0#0#10000#0#0#0#1#0#0#-30#1023#0#0##0#1#0#0####0#0#1345103#0##0#0#0#1345103##0#0##0.0#0.0###"
   splits:
   - split: 1
@@ -43835,7 +43835,7 @@
     translated: "Scarlet Flying Sword"
   - split: 33
     text: "每把飞剑伤害为内攻的100%威力，同时带有特殊效果。"
-    translated: "Each flying sword deals 100% of its power as internal attack damage and also has a special effect."
+    translated: "Each flying sword deals 100% of its power as INT damage and also has a special effect."
 - raw: "100500018#万法森罗-森罗相-触发#1#15#0#1#-1#0#0#0#0#0#0#1#0#0#50#1#2000#0#0#0#0#0#0#0#1202##0#1#0#0#血伤#攻击时有50%几率触发一次额外攻击，调息2秒#buffnew_ziqidonglai#0#0#100500018#0#0#0#0#0#100500018##0#0#0#0.0#0.0##0#"
   splits:
   - split: 1
@@ -43891,7 +43891,7 @@
     translated: "Internal injury"
   - split: 33
     text: "内伤：每秒对目标造成内攻*0.03的伤害，可叠加2层。"
-    translated: "Internal injury: Inflicts internal attack damage of *0.03* on the target each second, stacking up to 2 layers."
+    translated: "Internal injury: Inflicts INT damage of *0.03* on the target each second, stacking up to 2 layers."
 - raw: "100500162#摧筋#1#15#0#1#0#0#0#0#0#0#0#0#0#0#10000#1#10#0#0#0#0#0#0#0#1274##0#1#0#0#0#0#0#0#0#100500162#0#0#0#0#0#100500162##4#0#0#0.0#0.0##0#"
   splits:
   - split: 1
@@ -44795,7 +44795,7 @@
     translated: "Mo Xin"
   - split: 33
     text: "神刀·拔刀斩增强：额外造成自身20%已损失比例血量的伤害;燎原百八式增强：造成额外的3层灼阳;魔相神功增强：运功时清除自身可清除的减益效果;紫气天罗增强：运功时额外造成一段内攻威力120伤害;黑血神针增强：自身获得额外70诛心和70要害;天魔大法增强：反伤效果增强20%;剑罡同流增强：额外造成一次150外攻威力的伤害;天地交征阴阳大悲赋增强：护盾在受伤时可额外获得;天心莲花增强：凝视额外降低5%要害与5%命中;子午罡灭情道增强：额外降低60%治疗;补天诀增强：回复自身15%生命值"
-    translated: "Divine Sword · Enhanced Draw Blade Slash: Inflicts additional damage equivalent to 20% of your current health loss; enhanced by the Blazing Origin 108 Technique: Causes additional 3 layers of scorching yang; enhances the demon form celestial skill: During meditation, any detrimental effects that can be cleared are removed; Purple Qi Tianlu enhancement: During the use of internal cultivation, it causes additional internal attack damage of power 120; enhanced by Black Blood God Needles: Gains an additional 70 Mind Attacks and 70 Vital Points; enhances the Power of Heavenly Demon: Enhanced counter‑damage effect by 20%; increased mutual amplification with Sword Immobilization: Inflicts an additional hit of 150 external attack might damage; enhances the Tian Di Jiao Zheng Yin Yang Da Bei Fu: Shields gain additional benefits when damaged; enhanced by Tianxin Lotus: Gaze reduces 5% vital points and 5% hit rate; enhances Wu Xing skills for the Child at Zenith: Reduce healing by an additional 60%; enhance Bu Tian Jue: Restore own health by 15%"
+    translated: "Divine Sword · Enhanced Draw Blade Slash: Inflicts additional damage equivalent to 20% of your current health loss; enhanced by the Blazing Origin 108 Technique: Causes additional 3 layers of scorching yang; enhances the demon form celestial skill: During meditation, any detrimental effects that can be cleared are removed; Purple Qi Tianlu enhancement: During the use of internal cultivation, it causes additional INT damage of power 120; enhanced by Black Blood God Needles: Gains an additional 70 Mind Attacks and 70 Vital Points; enhances the Power of Heavenly Demon: Enhanced counter‑damage effect by 20%; increased mutual amplification with Sword Immobilization: Inflicts an additional hit of 150 external attack might damage; enhances the Tian Di Jiao Zheng Yin Yang Da Bei Fu: Shields gain additional benefits when damaged; enhanced by Tianxin Lotus: Gaze reduces 5% vital points and 5% hit rate; enhances Wu Xing skills for the Child at Zenith: Reduce healing by an additional 60%; enhance Bu Tian Jue: Restore own health by 15%"
 - raw: "100500481#道心种魔大法#1#22#0#1#0#0####0##0#0#0#10000##0#0#0#0#0#0#0#0#0#101040&2533|101040&2533|101040&2533#0#1#0#0####0#0#100500481#0##0#0#0#100500481##0#122200##0.0#0.0###"
   splits:
   - split: 1

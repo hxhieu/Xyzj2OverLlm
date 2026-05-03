@@ -13,22 +13,132 @@ The pre-reqs contains:
   - BepInEx
   - Unstripped Game DLLs
   - Configuration for BepinEx
+
+## Build setup
+
+The plugin project needs game and BepInEx DLLs that are not committed to git. By default the project looks for them under the ignored `_references` folder:
+
+```text
+_references/
+  Managed/
+    Assembly-CSharp.dll
+    Unity.TextMeshPro.dll
+    UnityEngine.UI.dll
+  BepInEx/
+    plugins/
+      XUnity.ResourceRedirector/
+        XUnity.ResourceRedirector.dll
+        XUnity.ResourceRedirector.BepInEx.dll
+```
+
+Those files come from your game install:
+
+```text
+<Game Folder>/下一站江湖Ⅱ_Data/Managed/Assembly-CSharp.dll
+<Game Folder>/下一站江湖Ⅱ_Data/Managed/Unity.TextMeshPro.dll
+<Game Folder>/下一站江湖Ⅱ_Data/Managed/UnityEngine.UI.dll
+<Game Folder>/BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll
+<Game Folder>/BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll
+```
+
+The normal build output is written to `EnglishPatch/bin/<Configuration>/netstandard2.1/`. Builds also copy the plugin DLLs to `_working/BepInEx/plugins` by default.
+
+To deploy directly into a game install instead, create an ignored `Directory.Build.props.user` file in the repo root and set `PluginDeployDir`:
+
+```xml
+<Project>
+  <PropertyGroup>
+    <PluginDeployDir>D:\_Steam\steamapps\common\...\BepInEx\plugins</PluginDeployDir>
+  </PropertyGroup>
+</Project>
+```
+
+## Packaging Text Resources
+
+The plugin DLL build does not regenerate translated text resources. To rebuild `Files/Mod/db1.txt` and `Files/Mod/Formatted/*` from the translated files under `Files/Converted`, run:
+
+```bash
+dotnet run --project Translate -- package --working-directory Files
+```
+
+To also stage the generated runtime resources into `_working`, run:
+
+```bash
+dotnet run --project Translate -- package --working-directory Files --stage-resources _working/BepInEx/resources
+```
+
+For the runtime mod, copy the generated files you need into the game install:
+
+```text
+Files/Mod/db1.txt -> BepInEx/resources/db1.txt
+Files/Mod/Formatted/dynamicStrings.txt -> BepInEx/resources/dynamicStrings.txt
+Files/Mod/Formatted/dumpedPrefabText.txt -> BepInEx/resources/dumpedPrefabText.txt
+```
   
 ### Name Changer
 
 If you want to change your name because of an old playthrough with Autotranslator or you simply hate the name.
 
-Press Keypad__Period aka . next to your numpad 0 key. This will bring up the UI with your current name. Type in what you want and hit Save.
+| Hotkey | Active by default? | Function |
+|---|---:|---|
+| `KeypadPeriod` | Yes | Opens/closes the Property Changer UI for changing player name. |
 
 ### Custom Text Resizer
 
-Pressing Keypad_- you will add the resizer under your current cursor to `BepInEx/resizers/zzAddedResizers.yaml` you can then tweak the properties on the resizer to your liking and reload them.
+The text resizer also has a BepInEx config value:
 
-Pressing Keypad_+ will reload your resizers if something looks screwy.
+```ini
+[General]
+FontScale = 1
+```
 
-You can use Keypad_* to add all text items on screen. Be warned it will grab a lot!
+This is created in `BepInEx/config/FanslationStudio.EnglishPatch.TextResizer.cfg`. It applies a global font-size multiplier after individual YAML resizers are applied. For example, `0.5` makes touched text half size, `1` keeps normal size, and `1.25` makes it 125% size. Edit the config, then press `KeypadPlus` to reload and reapply it.
 
-You can use * inside the path to indicate a wildcard (ie: match zero or more characters where the * is). This will help you do one resizer for lots of stuff.
+| Hotkey | Active by default? | Function |
+|---|---:|---|
+| `KeypadMinus` | Yes | Adds a text resizer entry for text under the cursor to `BepInEx/resizers/zzAddedResizers.yaml`. |
+| `KeypadPlus` | Yes | Reloads text resizer YAML files and reapplies resizers. |
+| `KeypadMultiply` | Yes | Adds resizer entries for all text elements in the current scene. Be warned it will grab a lot. |
+| `F1` | No | Same as `KeypadMinus`, only if `TextResizerPlugin.DevMode = true` in code. |
+| `F2` | No | Same as `KeypadPlus`, only if `TextResizerPlugin.DevMode = true` in code. |
+| `F3` | No | Same as `KeypadMultiply`, only if `TextResizerPlugin.DevMode = true` in code. |
+
+### Sprite Replacer V2 Dev Tools
+
+These are inactive in normal builds because `SpriteReplacerV2Plugin.Enabled` is currently `false`.
+
+| Hotkey | Active by default? | Function |
+|---|---:|---|
+| `F1` | No | Adds a sprite contract for the object under the cursor, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
+| `F2` | No | Adds sprite contracts for the current scene, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
+| `F3` | No | Reloads sprite contracts, only if `SpriteReplacerV2Plugin.Enabled = true` and BepInEx config `DevMode = true`. |
+
+### Font Replacer
+
+Font replacement is disabled by default. Enable it in `BepInEx/config/FanslationStudio.EnglishPatch.FontReplacer.cfg`:
+
+```ini
+[General]
+Enabled = true
+FontName = Arial
+FontFile =
+AllowOsFont = true
+ReloadHotkey = KeypadDivide
+```
+
+`FontName` first tries to match a loaded TextMeshPro font asset by name. If none is found and `AllowOsFont` is true, the plugin tries to create a TextMeshPro font asset from an installed OS font family or full font name. Do not wrap the value in quotes, for example use `FontName = Wire One`, not `FontName = "Wire One"`.
+
+If OS font lookup fails, copy the `.ttf` or `.otf` file into `BepInEx/resources` and set `FontFile` to the filename:
+
+```ini
+FontName =
+FontFile = WIREONE-REGULAR.TTF
+AllowOsFont = false
+```
+
+`FontFile` also accepts an absolute path. Press `KeypadDivide` to reload the config and reapply the font to currently loaded text.
+
+You can use `*` inside the path to match one Unity hierarchy segment. This is useful for generated list rows, for example `AnswerGrid/*/Text` matches `AnswerGrid/1001/Text` and `AnswerGrid/1002/Text`.
 
 Please note I include zzAddedResizers.yaml in the patch. So if  you want to keep them move them to another yaml file when your done. Please submit any resizers you think make sense!
 

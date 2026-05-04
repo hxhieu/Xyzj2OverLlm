@@ -9015,3 +9015,9 @@
   context: Found in stringlang, e.g. 魔教教主修习乾坤挪移与九阳; source omits 大 but context clearly alludes to 乾坤大挪移.
   only: []
   exclude: []
+- raw: 碧霄擒龙手
+  result: Bích Tiêu Cầm Long Thủ
+  allowalt: []
+  context: Martial/manual technique name; canonical Hán Việt per _viethoa/PROMPT.md example.
+  only: []
+  exclude: []

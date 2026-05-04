@@ -29,7 +29,7 @@
 - raw: "身份"
   splits:
   - text: "身份"
-    translated: "Identity"
+    translated: "Thân phận"
 - raw: "探索"
   splits:
   - text: "探索"
@@ -37,7 +37,7 @@
 - raw: "门派"
   splits:
   - text: "门派"
-    translated: "Sect"
+    translated: "Môn phái"
 - raw: "武学"
   splits:
   - text: "武学"
@@ -209,7 +209,7 @@
 - raw: "研发"
   splits:
   - text: "研发"
-    translated: "Development"
+    translated: "Nghiên cứu"
 - raw: "暗器打造"
   splits:
   - text: "暗器打造"
@@ -217,7 +217,7 @@
 - raw: "暗器"
   splits:
   - text: "暗器"
-    translated: "Hidden Weapon"
+    translated: "Ám khí"
 - raw: "打造数量：15"
   splits:
   - text: "打造数量：15"
@@ -265,7 +265,7 @@
 - raw: "打造"
   splits:
   - text: "打造"
-    translated: "Forge"
+    translated: "Chế tạo"
 - raw: "打造完成"
   splits:
   - text: "打造完成"
@@ -449,11 +449,11 @@
 - raw: "外功"
   splits:
   - text: "外功"
-    translated: "External Skill"
+    translated: "Ngoại công"
 - raw: "坚韧"
   splits:
   - text: "坚韧"
-    translated: "Toughness"
+    translated: "Kiên cường"
 - raw: "锋锐"
   splits:
   - text: "锋锐"
@@ -493,11 +493,11 @@
 - raw: "琉璃石"
   splits:
   - text: "琉璃石"
-    translated: "Luminous Jade Stone"
+    translated: "Lưu Ly Thạch"
 - raw: "等级"
   splits:
   - text: "等级"
-    translated: "Rank"
+    translated: "Cấp"
 - raw: "品质:  人阶-超一流武学"
   splits:
   - text: "品质:  人阶-超一流武学"
@@ -505,7 +505,7 @@
 - raw: "要求"
   splits:
   - text: "要求"
-    translated: "Requirement"
+    translated: "Yêu cầu"
 - raw: "耐久"
   splits:
   - text: "耐久"
@@ -649,7 +649,7 @@
 - raw: "剑"
   splits:
   - text: "剑"
-    translated: "Sword"
+    translated: "Kiếm"
 - raw: "发顺丰第三方鼓捣鼓捣"
   splits:
   - text: "发顺丰第三方鼓捣鼓捣"
@@ -657,7 +657,7 @@
 - raw: "一阶"
   splits:
   - text: "一阶"
-    translated: "Tier 1"
+    translated: "Nhất Giai"
 - raw: "重要"
   splits:
   - text: "重要"
@@ -765,7 +765,7 @@
 - raw: "聚宝堂"
   splits:
   - text: "聚宝堂"
-    translated: "Treasure Gathering Hall"
+    translated: "Tụ Bảo Đường"
 - raw: "生效："
   splits:
   - text: "生效："
@@ -801,7 +801,7 @@
 - raw: "门派金钱"
   splits:
   - text: "门派金钱"
-    translated: "Sect's Wealth"
+    translated: "Ngân quỹ môn phái"
 - raw: "基础"
   splits:
   - text: "基础"
@@ -897,19 +897,19 @@
 - raw: "晋国"
   splits:
   - text: "晋国"
-    translated: "Jin Kingdom"
+    translated: "Tấn quốc"
 - raw: "夏国"
   splits:
   - text: "夏国"
-    translated: "Xia Kingdom"
+    translated: "Hạ quốc"
 - raw: "周国"
   splits:
   - text: "周国"
-    translated: "Zhou Kingdom"
+    translated: "Chu quốc"
 - raw: "江湖"
   splits:
   - text: "江湖"
-    translated: "Jianghu"
+    translated: "Giang hồ"
 - raw: "永历185年"
   splits:
   - text: "永历185年"
@@ -921,11 +921,11 @@
 - raw: "秘宝"
   splits:
   - text: "秘宝"
-    translated: "Secret treasure"
+    translated: "Bí bảo"
 - raw: "争斗"
   splits:
   - text: "争斗"
-    translated: "Conflict"
+    translated: "Tranh đấu"
 - raw: "活动"
   splits:
   - text: "活动"
@@ -1065,7 +1065,7 @@
 - raw: "斩"
   splits:
   - text: "斩"
-    translated: "Slash"
+    translated: "Trảm"
 - raw: "品质"
   splits:
   - text: "品质"
@@ -1209,11 +1209,11 @@
 - raw: "月"
   splits:
   - text: "月"
-    translated: "Month"
+    translated: "Tháng"
 - raw: "日"
   splits:
   - text: "日"
-    translated: "Day"
+    translated: "Ngày"
 - raw: "时"
   splits:
   - text: "时"
@@ -1438,7 +1438,7 @@
 - raw: "灵均"
   splits:
   - text: "灵均"
-    translated: "Ling Jun"
+    translated: "Linh Quân"
 - raw: "每个材料都有它的<color=#3ad67c>坚韧值</color>，等级越高，坚韧值越高。通过调整材料种类和数量改变坚韧值，使它高于坚韧要求。"
   splits:
   - text: "每个材料都有它的<color=#3ad67c>坚韧值</color>，等级越高，坚韧值越高。通过调整材料种类和数量改变坚韧值，使它高于坚韧要求。"
@@ -1521,7 +1521,7 @@
 - raw: "精良"
   splits:
   - text: "精良"
-    translated: "Exquisite"
+    translated: "Tinh Lương"
 - raw: "劣质"
   splits:
   - text: "劣质"
@@ -1581,7 +1581,7 @@
 - raw: "太阳穴"
   splits:
   - text: "太阳穴"
-    translated: "Temples"
+    translated: "Thái dương"
 - raw: " 保存/下载"
   splits:
   - text: " 保存/下载"
@@ -1705,7 +1705,7 @@
 - raw: "沈雁弓"
   splits:
   - text: "沈雁弓"
-    translated: "Shen Yangong"
+    translated: "Thẩm Nhạn Cung"
 - raw: "沈雁弓​"
   splits:
   - text: "沈雁弓​"
@@ -2262,7 +2262,7 @@
 - raw: "秘籍"
   splits:
   - text: "秘籍"
-    translated: "Secret Manual"
+    translated: "Bí kíp"
 - raw: "猪脚家后宝箱"
   splits:
   - text: "猪脚家后宝箱"
@@ -2570,31 +2570,31 @@
 - raw: "二阶"
   splits:
   - text: "二阶"
-    translated: "Tier 2"
+    translated: "Nhị Giai"
 - raw: "三阶"
   splits:
   - text: "三阶"
-    translated: "Tier 3"
+    translated: "Tam Giai"
 - raw: "四阶"
   splits:
   - text: "四阶"
-    translated: "Tier 4"
+    translated: "Tứ Giai"
 - raw: "五阶"
   splits:
   - text: "五阶"
-    translated: "Tier 5"
+    translated: "Ngũ Giai"
 - raw: "六阶"
   splits:
   - text: "六阶"
-    translated: "Tier 6"
+    translated: "Lục Giai"
 - raw: "七阶"
   splits:
   - text: "七阶"
-    translated: "Tier 7"
+    translated: "Thất Giai"
 - raw: "天罡童子功"
   splits:
   - text: "天罡童子功"
-    translated: "Heavenly Force Pure Body Method"
+    translated: "Thiên Cương Đồng Tử Công"
 - raw: "白色·一阶"
   splits:
   - text: "白色·一阶"
@@ -2838,7 +2838,7 @@
 - raw: "修炼"
   splits:
   - text: "修炼"
-    translated: "Cultivation"
+    translated: "Tu luyện"
 - raw: "消耗"
   splits:
   - text: "消耗"
@@ -2890,7 +2890,7 @@
 - raw: "太初剑宗"
   splits:
   - text: "太初剑宗"
-    translated: "Primordial Origin Sword Sect"
+    translated: "Thái Sơ Kiếm Tông"
 - raw: "华山论剑"
   splits:
   - text: "华山论剑"
@@ -3058,7 +3058,7 @@
 - raw: "高枫芸"
   splits:
   - text: "高枫芸"
-    translated: "Gao Fengyun"
+    translated: "Cao Phong Vân"
 - raw: "踢离"
   splits:
   - text: "踢离"
@@ -3074,7 +3074,7 @@
 - raw: "秦月岚"
   splits:
   - text: "秦月岚"
-    translated: "Qin Yuelan"
+    translated: "Tần Nguyệt Lam"
 - raw: "详情"
   splits:
   - text: "详情"
@@ -3086,83 +3086,83 @@
 - raw: "气血"
   splits:
   - text: "气血"
-    translated: "Lifeforce"
+    translated: "Khí huyết"
 - raw: "真气"
   splits:
   - text: "真气"
-    translated: "True Qi"
+    translated: "Chân khí"
 - raw: "悟性"
   splits:
   - text: "悟性"
-    translated: "Comprehension"
+    translated: "Ngộ tính"
 - raw: "轻功"
   splits:
   - text: "轻功"
-    translated: "Qinggong"
+    translated: "Khinh công"
 - raw: "内功"
   splits:
   - text: "内功"
-    translated: "Neigong"
+    translated: "Nội công"
 - raw: "外防"
   splits:
   - text: "外防"
-    translated: "External Defense"
+    translated: "Ngoại phòng"
 - raw: "内防"
   splits:
   - text: "内防"
-    translated: "Internal Defense"
+    translated: "Nội phòng"
 - raw: "元气"
   splits:
   - text: "元气"
-    translated: "Vitality"
+    translated: "Nguyên khí"
 - raw: "根骨"
   splits:
   - text: "根骨"
-    translated: "Potential"
+    translated: "Căn cốt"
 - raw: "筋骨"
   splits:
   - text: "筋骨"
-    translated: "Muscle & Bone"
+    translated: "Gân cốt"
 - raw: "内息"
   splits:
   - text: "内息"
-    translated: "Inner Qi"
+    translated: "Nội tức"
 - raw: "体魄"
   splits:
   - text: "体魄"
-    translated: "Resilience"
+    translated: "Thể phách"
 - raw: "精神"
   splits:
   - text: "精神"
-    translated: "Willpower"
+    translated: "Tinh thần"
 - raw: "身法"
   splits:
   - text: "身法"
-    translated: "Agility"
+    translated: "Thân pháp"
 - raw: "专注"
   splits:
   - text: "专注"
-    translated: "Focus"
+    translated: "Chuyên chú"
 - raw: "阴"
   splits:
   - text: "阴"
-    translated: "Yin"
+    translated: "Âm"
 - raw: "阳"
   splits:
   - text: "阳"
-    translated: "Yang"
+    translated: "Dương"
 - raw: "刚"
   splits:
   - text: "刚"
-    translated: "Hard"
+    translated: "Cương"
 - raw: "柔"
   splits:
   - text: "柔"
-    translated: "Soft"
+    translated: "Nhu"
 - raw: "毒"
   splits:
   - text: "毒"
-    translated: "Poison"
+    translated: "Độc"
 - raw: "编辑队伍信息"
   splits:
   - text: "编辑队伍信息"
@@ -3222,7 +3222,7 @@
 - raw: "炼丹"
   splits:
   - text: "炼丹"
-    translated: "Alchemy"
+    translated: "Luyện đan"
 - raw: "锻造师·匠人"
   splits:
   - text: "锻造师·匠人"
@@ -3278,7 +3278,7 @@
 - raw: "技艺"
   splits:
   - text: "技艺"
-    translated: "Skill"
+    translated: "Kỹ nghệ"
 - raw: "特殊"
   splits:
   - text: "特殊"
@@ -3306,7 +3306,7 @@
 - raw: "巧手"
   splits:
   - text: "巧手"
-    translated: "Skilled Hands"
+    translated: "Khéo tay"
 - raw: "锻造"
   splits:
   - text: "锻造"
@@ -3334,7 +3334,7 @@
 - raw: "刀"
   splits:
   - text: "刀"
-    translated: "Blade"
+    translated: "Đao"
 - raw: "青龙发生发大水"
   splits:
   - text: "青龙发生发大水"
@@ -3426,7 +3426,7 @@
 - raw: "子"
   splits:
   - text: "子"
-    translated: "Zi"
+    translated: "Tử"
 - raw: "人格"
   splits:
   - text: "人格"
@@ -3482,7 +3482,7 @@
 - raw: "传记一"
   splits:
   - text: "传记一"
-    translated: "Biography I"
+    translated: "Truyện Ký I"
 - raw: "传记二"
   splits:
   - text: "传记二"
@@ -3630,7 +3630,7 @@
 - raw: "枪"
   splits:
   - text: "枪"
-    translated: "Spear"
+    translated: "Thương"
 - raw: "攻击：甲     防御：丙    命中：丙"
   splits:
   - text: "攻击：甲     防御：丙    命中：丙"
@@ -4210,7 +4210,7 @@
 - raw: "捭阖谷"
   splits:
   - text: "捭阖谷"
-    translated: "Baihe Valley"
+    translated: "Bãi Hạp Cốc"
 - raw: "选择你想除掉的人"
   splits:
   - text: "选择你想除掉的人"
@@ -4302,7 +4302,7 @@
 - raw: "境界"
   splits:
   - text: "境界"
-    translated: "Realm"
+    translated: "Cảnh giới"
 - raw: "经脉"
   splits:
   - text: "经脉"
@@ -4318,7 +4318,7 @@
 - raw: "万宗"
   splits:
   - text: "万宗"
-    translated: "Myriad Skills"
+    translated: "Vạn Tông"
 - raw: "修为"
   splits:
   - text: "修为"
@@ -4558,7 +4558,7 @@
 - raw: "玄机"
   splits:
   - text: "玄机"
-    translated: "Secret Art"
+    translated: "Huyền cơ"
 - raw: "全神贯注"
   splits:
   - text: "全神贯注"
@@ -4590,7 +4590,7 @@
 - raw: "攻击力"
   splits:
   - text: "攻击力"
-    translated: "Attack power"
+    translated: "Công kích"
 - raw: "生命力"
   splits:
   - text: "生命力"
@@ -4726,7 +4726,7 @@
 - raw: "师妹"
   splits:
   - text: "师妹"
-    translated: "Junior Sister"
+    translated: "Sư muội"
 - raw: "输入姓名查找"
   splits:
   - text: "输入姓名查找"
@@ -4894,7 +4894,7 @@
 - raw: "大暑"
   splits:
   - text: "大暑"
-    translated: "Great Heat"
+    translated: "Đại Thử"
 - raw: "建安二十七年"
   splits:
   - text: "建安二十七年"
@@ -4910,11 +4910,11 @@
 - raw: "委托"
   splits:
   - text: "委托"
-    translated: "Commission"
+    translated: "Ủy thác"
 - raw: "江湖故事"
   splits:
   - text: "江湖故事"
-    translated: "Jianghu Tales"
+    translated: "Giang Hồ Cố Sự"
 - raw: "悬赏"
   splits:
   - text: "悬赏"
@@ -4926,7 +4926,7 @@
 - raw: "内伤"
   splits:
   - text: "内伤"
-    translated: "Internal Injury"
+    translated: "Nội thương"
 - raw: "扶摇直上"
   splits:
   - text: "扶摇直上"
@@ -4942,7 +4942,7 @@
 - raw: "威力"
   splits:
   - text: "威力"
-    translated: "Power"
+    translated: "Uy lực"
 - raw: "此功能仅适用于让角色脱离卡死状态，可能会造成剧情丢失，请侠士慎重。若出现剧情问题，请读档。"
   splits:
   - text: "此功能仅适用于让角色脱离卡死状态，可能会造成剧情丢失，请侠士慎重。若出现剧情问题，请读档。"
@@ -5015,7 +5015,7 @@
 - raw: "完美"
   splits:
   - text: "完美"
-    translated: "Perfect"
+    translated: "Hoàn Mỹ"
 - raw: "技能是不是展开的"
   splits:
   - text: "技能是不是展开的"
@@ -5151,7 +5151,7 @@
 - raw: "精力"
   splits:
   - text: "精力"
-    translated: "Vital energy"
+    translated: "Tinh lực"
 - raw: "道德"
   splits:
   - text: "道德"
@@ -5375,7 +5375,7 @@
 - raw: "不夜京"
   splits:
   - text: "不夜京"
-    translated: "Evernight Capital"
+    translated: "Bất Dạ Kinh"
 - raw: "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
   splits:
   - text: "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
@@ -5503,7 +5503,7 @@
 - raw: "王铁"
   splits:
   - text: "王铁"
-    translated: "Wang Tie"
+    translated: "Vương Thiết"
 - raw: "士气"
   splits:
   - text: "士气"
@@ -5571,7 +5571,7 @@
 - raw: "酒楼"
   splits:
   - text: "酒楼"
-    translated: "Tavern"
+    translated: "Tửu lâu"
 - raw: "该区域未优化完成，若加入，\\n不能拥有完整体验。"
   splits:
   - text: "该区域未优化完成，若加入，\\n不能拥有完整体验。"
@@ -5851,7 +5851,7 @@
 - raw: "双修府"
   splits:
   - text: "双修府"
-    translated: "Dual Cultivation Manor"
+    translated: "Song Tu Phủ"
 - raw: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
   splits:
   - text: "双修府传承自欢喜禅，其中门人善与人结缘，再邀人"
@@ -5883,7 +5883,7 @@
 - raw: "长老"
   splits:
   - text: "长老"
-    translated: "Elder"
+    translated: "Trưởng lão"
 - raw: "堂主"
   splits:
   - text: "堂主"
@@ -5959,7 +5959,7 @@
 - raw: "势力"
   splits:
   - text: "势力"
-    translated: "Power faction"
+    translated: "Thế lực"
 - raw: "太初剑"
   splits:
   - text: "太初剑"
@@ -5971,7 +5971,7 @@
 - raw: "太初"
   splits:
   - text: "太初"
-    translated: "Primordial Origin"
+    translated: "Thái Sơ"
 - raw: "执行门人"
   splits:
   - text: "执行门人"
@@ -6075,7 +6075,7 @@
 - raw: "化境卷"
   splits:
   - text: "化境卷"
-    translated: "Transcendence Scroll"
+    translated: "Hóa Cảnh Quyển"
 - raw: "提升坊堂等级后方可打造,当前最大打造等级：5"
   splits:
   - text: "提升坊堂等级后方可打造,当前最大打造等级：5"
@@ -6131,27 +6131,27 @@
 - raw: "剑术"
   splits:
   - text: "剑术"
-    translated: "Swordsmanship"
+    translated: "Kiếm thuật"
 - raw: "刀法"
   splits:
   - text: "刀法"
-    translated: "Blade Art"
+    translated: "Đao pháp"
 - raw: "枪棍"
   splits:
   - text: "枪棍"
-    translated: "Spear & Staff"
+    translated: "Thương côn"
 - raw: "搏击"
   splits:
   - text: "搏击"
-    translated: "Martial arts combat"
+    translated: "Bác kích"
 - raw: "兵道"
   splits:
   - text: "兵道"
-    translated: "Martial Prowess"
+    translated: "Binh đạo"
 - raw: "一舵"
   splits:
   - text: "一舵"
-    translated: "First Rudder"
+    translated: "Nhất Đà"
 - raw: "城池"
   splits:
   - text: "城池"
@@ -6283,7 +6283,7 @@
 - raw: "掌门"
   splits:
   - text: "掌门"
-    translated: "Sect Leader"
+    translated: "Chưởng môn"
 - raw: "完成后自动派遣"
   splits:
   - text: "完成后自动派遣"
@@ -6339,7 +6339,7 @@
 - raw: "酿酒"
   splits:
   - text: "酿酒"
-    translated: "Brewing"
+    translated: "Ủ rượu"
 - raw: "烹饪"
   splits:
   - text: "烹饪"
@@ -6391,7 +6391,7 @@
 - raw: "冷却中"
   splits:
   - text: "冷却中"
-    translated: "Cooldown"
+    translated: "Đang hồi chiêu"
 - raw: "鬼眼来决"
   splits:
   - text: "鬼眼来决"
@@ -6707,7 +6707,7 @@
 - raw: "生命"
   splits:
   - text: "生命"
-    translated: "Health"
+    translated: "Sinh mệnh"
 - raw: "调息"
   splits:
   - text: "调息"
@@ -6911,7 +6911,7 @@
 - raw: "化境"
   splits:
   - text: "化境"
-    translated: "Transcendent"
+    translated: "Hóa Cảnh"
 - raw: "提升条件："
   splits:
   - text: "提升条件："
@@ -6931,15 +6931,15 @@
 - raw: "爽文江湖"
   splits:
   - text: "爽文江湖"
-    translated: "Light Jianghu"
+    translated: "Giang hồ sảng văn"
 - raw: "险恶江湖"
   splits:
   - text: "险恶江湖"
-    translated: "Dangerous Jianghu"
+    translated: "Giang hồ hiểm ác"
 - raw: "真实江湖"
   splits:
   - text: "真实江湖"
-    translated: "Authentic Jianghu"
+    translated: "Giang hồ chân thực"
 - raw: "暗黑江湖"
   splits:
   - text: "暗黑江湖"
@@ -7035,7 +7035,7 @@
 - raw: "天赋值"
   splits:
   - text: "天赋值"
-    translated: "Talent points"
+    translated: "Thiên phú"
 - raw: "未解锁"
   splits:
   - text: "未解锁"
@@ -7191,7 +7191,7 @@
 - raw: "亲人"
   splits:
   - text: "亲人"
-    translated: "Relatives"
+    translated: "Thân nhân"
 - raw: "生死之交"
   splits:
   - text: "生死之交"
@@ -7219,7 +7219,7 @@
 - raw: "结交"
   splits:
   - text: "结交"
-    translated: "Befriend"
+    translated: "Kết giao"
 - raw: "结仇"
   splits:
   - text: "结仇"
@@ -7303,7 +7303,7 @@
 - raw: "外攻"
   splits:
   - text: "外攻"
-    translated: "External Attack"
+    translated: "Ngoại công"
 - raw: "心法攻体"
   splits:
   - text: "心法攻体"
@@ -7327,7 +7327,7 @@
 - raw: "流派"
   splits:
   - text: "流派"
-    translated: "Style"
+    translated: "Lưu phái"
 - raw: "万家剑法 "
   splits:
   - text: "万家剑法 "
@@ -7343,7 +7343,7 @@
 - raw: "偷梁换柱"
   splits:
   - text: "偷梁换柱"
-    translated: "Stealing the Beam to Replace the Pillar"
+    translated: "Thâu Lương Hoán Trụ"
 - raw: "天赋"
   splits:
   - text: "天赋"
@@ -7499,23 +7499,23 @@
 - raw: "内攻"
   splits:
   - text: "内攻"
-    translated: "Internal Attack"
+    translated: "Nội công"
 - raw: "诛心"
   splits:
   - text: "诛心"
-    translated: "Mind Attack"
+    translated: "Tru tâm"
 - raw: "御心"
   splits:
   - text: "御心"
-    translated: "Discipline"
+    translated: "Ngự tâm"
 - raw: "要害"
   splits:
   - text: "要害"
-    translated: "Vital Point"
+    translated: "Yếu hại"
 - raw: "化解"
   splits:
   - text: "化解"
-    translated: "Counter"
+    translated: "Hóa giải"
 - raw: "吐纳术"
   splits:
   - text: "吐纳术"
@@ -7535,7 +7535,7 @@
 - raw: "武\\n器"
   splits:
   - text: "武\\n器"
-    translated: "Martial\\nWeapon"
+    translated: "Vũ\\nkhí"
 - raw: "空"
   splits:
   - text: "空"
@@ -7587,7 +7587,7 @@
 - raw: "高级"
   splits:
   - text: "高级"
-    translated: "Advanced"
+    translated: "Cao cấp"
 - raw: "阴："
   splits:
   - text: "阴："
@@ -7687,7 +7687,7 @@
 - raw: "好感"
   splits:
   - text: "好感"
-    translated: "Affection"
+    translated: "Thiện cảm"
 - raw: "内门"
   splits:
   - text: "内门"
@@ -7871,7 +7871,7 @@
 - raw: "佛学"
   splits:
   - text: "佛学"
-    translated: "Buddhism"
+    translated: "Phật học"
 - raw: "乱剑达到达大厦大打"
   splits:
   - text: "乱剑达到达大厦大打"
@@ -7895,7 +7895,7 @@
 - raw: "收益"
   splits:
   - text: "收益"
-    translated: "Earnings"
+    translated: "Thu nhập"
 - raw: "双修"
   splits:
   - text: "双修"
@@ -7967,7 +7967,7 @@
 - raw: "辞退"
   splits:
   - text: "辞退"
-    translated: "Dismiss"
+    translated: "Sa thải"
 - raw: "江湖打赏或人员收益"
   splits:
   - text: "江湖打赏或人员收益"
@@ -8543,7 +8543,7 @@
 - raw: "标准"
   splits:
   - text: "标准"
-    translated: "Normal"
+    translated: "Thường"
 - raw: "高清"
   splits:
   - text: "高清"
@@ -8671,7 +8671,7 @@
 - raw: "穿戴"
   splits:
   - text: "穿戴"
-    translated: "Wear"
+    translated: "Trang bị"
 - raw: "烟雨江湖大大叔大婶"
   splits:
   - text: "烟雨江湖大大叔大婶"
@@ -8979,7 +8979,7 @@
 - raw: "太极心法"
   splits:
   - text: "太极心法"
-    translated: "Tai Chi Heart Method"
+    translated: "Thái Cực Tâm Pháp"
 - raw: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
   splits:
   - text: "<color=#f0f0f0>力量要求:</color> <color=#FFDA5A>60</color>"
@@ -9183,7 +9183,7 @@
 - raw: "命中"
   splits:
   - text: "命中"
-    translated: "Hit Rate"
+    translated: "Trúng đích"
 - raw: "该装备锤炼等级已满"
   splits:
   - text: "该装备锤炼等级已满"
@@ -9383,7 +9383,7 @@
 - raw: "天机老头"
   splits:
   - text: "天机老头"
-    translated: "Tianji Old Man"
+    translated: "Thiên Cơ lão đầu"
 - raw: "江湖名望"
   splits:
   - text: "江湖名望"
@@ -9615,7 +9615,7 @@
 - raw: "无双斗技坛"
   splits:
   - text: "无双斗技坛"
-    translated: "Peerless Martial Arts Arena"
+    translated: "Vô Song Đấu Kỹ Đàn"
 - raw: "无名无名"
   splits:
   - text: "无名无名"
@@ -9895,7 +9895,7 @@
 - raw: "商曲"
   splits:
   - text: "商曲"
-    translated: "Melody"
+    translated: "Thương Khúc"
 - raw: "气冲"
   splits:
   - text: "气冲"
@@ -9907,35 +9907,35 @@
 - raw: "任脉"
   splits:
   - text: "任脉"
-    translated: "Ren Mai"
+    translated: "Nhâm mạch"
 - raw: "冲脉"
   splits:
   - text: "冲脉"
-    translated: "Chong Mai"
+    translated: "Xung mạch"
 - raw: "阴跷"
   splits:
   - text: "阴跷"
-    translated: "Yin Qiao"
+    translated: "Âm Kiểu"
 - raw: "阳维"
   splits:
   - text: "阳维"
-    translated: "Yang Wei"
+    translated: "Dương Duy"
 - raw: "阴维"
   splits:
   - text: "阴维"
-    translated: "Yin Wei"
+    translated: "Âm Duy"
 - raw: "阳跷"
   splits:
   - text: "阳跷"
-    translated: "Yang Qiao"
+    translated: "Dương Kiểu"
 - raw: "带脉"
   splits:
   - text: "带脉"
-    translated: "Dai Mai"
+    translated: "Đới mạch"
 - raw: "督脉"
   splits:
   - text: "督脉"
-    translated: "Du Mai"
+    translated: "Đốc mạch"
 - raw: "经脉总加成"
   splits:
   - text: "经脉总加成"
@@ -10135,7 +10135,7 @@
 - raw: "心法"
   splits:
   - text: "心法"
-    translated: "Heart Method"
+    translated: "Tâm pháp"
 - raw: "激活或洗练时，添加心法可随机获得一条心法附带属性"
   splits:
   - text: "激活或洗练时，添加心法可随机获得一条心法附带属性"
@@ -10351,15 +10351,15 @@
 - raw: "齐国"
   splits:
   - text: "齐国"
-    translated: "Qi Kingdom"
+    translated: "Tề quốc"
 - raw: "楚国"
   splits:
   - text: "楚国"
-    translated: "Chu Kingdom"
+    translated: "Sở quốc"
 - raw: "燕国"
   splits:
   - text: "燕国"
-    translated: "Yan Kingdom"
+    translated: "Yến quốc"
 - raw: "关外"
   splits:
   - text: "关外"

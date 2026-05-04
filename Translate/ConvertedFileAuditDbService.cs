@@ -231,8 +231,7 @@ public static class ConvertedFileAuditDbService
                 id INTEGER PRIMARY KEY,
                 source_file TEXT NOT NULL,
                 line_index INTEGER NOT NULL,
-                raw_line TEXT NOT NULL,
-                UNIQUE(source_file, line_index)
+                raw_line TEXT NOT NULL
             );
 
             CREATE TABLE IF NOT EXISTS converted_file_splits (
@@ -250,15 +249,9 @@ public static class ConvertedFileAuditDbService
                 flagged_hallucination TEXT NOT NULL,
                 is_focus_candidate INTEGER NOT NULL DEFAULT 0,
                 status TEXT NOT NULL DEFAULT 'pending',
-                notes TEXT NOT NULL DEFAULT '',
-                FOREIGN KEY(line_id) REFERENCES converted_file_lines(id) ON DELETE CASCADE,
-                UNIQUE(source_file, line_index, split_order)
+                FOREIGN KEY(line_id) REFERENCES converted_file_lines(id) ON DELETE CASCADE
             );
 
-            CREATE INDEX IF NOT EXISTS idx_converted_splits_file_status
-                ON converted_file_splits(source_file, status, is_focus_candidate, id);
-            CREATE INDEX IF NOT EXISTS idx_converted_splits_file_text
-                ON converted_file_splits(source_file, source_text);
             """);
     }
 

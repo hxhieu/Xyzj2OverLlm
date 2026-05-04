@@ -3758,7 +3758,7 @@
   splits:
   - split: 12
     text: "灼影燃枫"
-    translated: "Scorching Shadow and Burning Maple"
+    translated: "Chước Ảnh Nhiên Phong"
 - raw: "8801902#88019#1#9#0#0#0##0#1&24|941133|1#1&24|941124|1#1500015888#霜凝枫影#9025#0###0#0#0#0#0#"
   splits:
   - split: 12
@@ -6409,7 +6409,7 @@
   splits:
   - split: 12
     text: "承让了"
-    translated: "Thank you for letting me win"
+    translated: "Đa tạ nhường chiêu"
 - raw: "30944005#30944#1#9#0#0#0#0#0#0&24|970798|1#0&27|30944|1;24|970798|1#1500016193#方才想让我做什么？#0#970794###0#0#0#0#0#"
   splits:
   - split: 12
@@ -16385,7 +16385,7 @@
   splits:
   - split: 12
     text: "玲珑匣"
-    translated: "Intricate Casket"
+    translated: "Linh Lung Hạp"
 - raw: "150371001#150371#1#9#0#0#0##0#0&3|71302|1;24|929950|1#1&24|929938|1#1500016717#唐门-晋升亲传#15092#0###0#0##0##"
   splits:
   - split: 12
@@ -16400,7 +16400,7 @@
   splits:
   - split: 12
     text: "机关师"
-    translated: "Mechanism Expert"
+    translated: "Cơ quan sư"
 - raw: "150385002#150385#1#9#0#0#0#0#0#0&18|1|51|79|>;18|1|46|99|>;18|1|52|79|>;24|928482|1#0&24|928397|1#1500016720#机关·机匠#15105#0#0#0#0#0#0#0#0#"
   splits:
   - split: 12
@@ -16645,7 +16645,7 @@
   splits:
   - split: 12
     text: "独孤剑决"
-    translated: "Solitary Sword Technique"
+    translated: "Độc Cô Cửu Kiếm"
 - raw: "150433001#150433#1#9#0#0#0#0#0#0&66|1|>=|5#1&24|913477|1#1500016742#假痴不癫#15164#0#0#0#0#0#0#0#0#"
   splits:
   - split: 12
@@ -17052,7 +17052,7 @@
   splits:
   - split: 12
     text: "葵花宝典"
-    translated: "Sunflower Treasure Manual"
+    translated: "Quỳ Hoa Bảo Điển"
 - raw: "155126001#155126#1#9#0#0#0#0#0#0#0&24|929614|1#1500016803#路边的冲突#20082#0#0#0#0#0#0#0#0#"
   splits:
   - split: 12
@@ -17737,17 +17737,17 @@
   splits:
   - split: 12
     text: "一阳"
-    translated: "One Yang"
+    translated: "Nhất Dương"
 - raw: "165377002#165377#1#9#0#0#0##0#0&24|898678|1#0&24|898560|1#1500016904#少泽#40283#0###0#0#0#0#0#"
   splits:
   - split: 12
     text: "少泽"
-    translated: "Shao Ze"
+    translated: "Thiếu Trạch"
 - raw: "165377003#165377#1#9#0#0#0##0#0&24|898456|1#0&24|897856|1#1500016905#六脉#40291#0###0#0#0#0#0#"
   splits:
   - split: 12
     text: "六脉"
-    translated: "Six Meridians"
+    translated: "Lục Mạch"
 - raw: "165400001#165400#1#9#0#0#0##0##0&24|897675|1#1500016906#凤舞九天#40295#0###0#0#0#0#0#"
   splits:
   - split: 12
@@ -17762,7 +17762,7 @@
   splits:
   - split: 12
     text: "天外飞仙"
-    translated: "Flying Immortal from Beyond the Heavens"
+    translated: "Thiên Ngoại Phi Tiên"
 - raw: "165426002#165426#1#9#0#0#0##0##0&24|894801|1#1500016909#西域英雄帖#40326#0###0#0#0&66|1|>=|6#0#1500017024#"
   splits:
   - split: 12

@@ -1,11 +1,10 @@
-# Vietnamese Glossary Translation Guidelines
+# Vietnamese Converted Text Translation Guidelines
 
-Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese using the SQLite workspace in `_viethoa/glossary-audit.db`.
+Session goal: translate and audit converted game text in Vietnamese using the SQLite workspace in `_viethoa/glossary-audit.db`.
 
 ## Language
 
-- Use Vietnamese for all discussion and final glossary results.
-- Translate glossary entries only unless the user explicitly asks to update converted game text.
+- Use Vietnamese for all discussion and final translation results.
 - Prefer concise canonical terms suitable for repeated use in UI, skill names, item names, quest names, and dialogue.
 - Prefer compact terms for game UI, measured mainly by word count rather than rendered width.
 - For UI labels, omit redundant unit/category words when context already makes them clear. For example, use `Thiên phú` instead of `Điểm thiên phú`, and `Kinh nghiệm` instead of `Điểm kinh nghiệm`.
@@ -41,26 +40,19 @@ Session goal: translate and audit `Files/Glossary.yaml` entries into Vietnamese 
   - `碧霄擒龙手` -> `Bích Tiêu Cầm Long Thủ`
 - Do not translate martial names into plain descriptive Vietnamese unless the user asks.
 
-## Glossary Workflow
-
-- Use `_viethoa/glossary-audit.db` as the working database.
-- Query small batches or individual IDs instead of loading large YAML/text files into context.
-- Use `glossary_entries.result` for the chosen Vietnamese canonical translation.
-- Mark reviewed entries with `status = 'reviewed'`.
-- Put short rationale or caveats in `notes`.
-- When useful, inspect occurrences from `glossary_occurrences` joined with `stringlang_splits` before choosing a final term.
-
 ## Converted File Workflow
 
-- For translated source files that are not pure glossary, use `converted_file_lines` and `converted_file_splits` in `_viethoa/glossary-audit.db`.
+- Use `converted_file_lines` and `converted_file_splits` in `_viethoa/glossary-audit.db`.
+- Query small batches or individual IDs instead of loading large text files into context.
 - Import a converted YAML file with `dotnet run --project Translate -- import-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt`.
 - Edit `converted_file_splits.translated`, mark reviewed rows with `status = 'reviewed'`, and lock accepted rows with `status = 'locked'`.
 - Export the table back to the source YAML with `dotnet run --project Translate -- export-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt`.
 - For `game_manual.txt`, focus this session on martial arts, internal skills, manuals, techniques, and wuxia references. Non-target rows can remain `ignored`.
 - The export command writes every imported row back to the corresponding file, so the DB must preserve all lines even if only focus candidates are edited.
+- `Files/Glossary.yaml` and glossary DB tables are not part of this workflow.
 
 ## Caution
 
-- Short one-character glossary terms are noisy. Prefer reviewing them with occurrence context.
+- Short one-character rows are noisy. Prefer reviewing them with nearby file context.
 - If a term appears inside a longer phrase, translate the full phrase naturally rather than blindly composing word by word.
 - Keep consistency, but allow grammar and readability to override rigid replacement in dialogue.

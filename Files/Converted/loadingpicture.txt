@@ -2,7 +2,7 @@
   splits:
   - split: 2
     text: "清然林"
-    translated: "Serene Forest"
+    translated: "Thanh Nhiên Lâm"
   - split: 3
     text: "青岚帚亚君祖，|绿润高枝忆蔡邕。|长听南园风雨夜，|恐生鳞甲尽为龙。"
     translated: "Green Mist, Master Zha Yu|The lush leaves recall Cai Yong|Listening to the wind and rain in Nanyuan at night.|Fear that scales become a dragon entirely"
@@ -10,7 +10,7 @@
   splits:
   - split: 2
     text: "太初剑宗"
-    translated: "Primordial Origin Sword Sect"
+    translated: "Thái Sơ Kiếm Tông"
   - split: 3
     text: "玄门中的领头门派，因为拥有深厚|的底蕴."
     translated: "The leading sect within Xuanmen holds profound authority and influence.|Its profound foundation"
@@ -18,7 +18,7 @@
   splits:
   - split: 2
     text: "拂松门"
-    translated: "Pine Brushing Gate"
+    translated: "Phất Tùng Môn"
   - split: 3
     text: "建派于北地高山之上，|界内苍松翠柏成林，颇有风骨。|门内弟子擅使刀剑两种武器，|其功法刚柔并济，在江湖上享有盛誉。"
     translated: "The Way was founded atop the high mountains of the Northern Regions.|Within the realm, there are vast forests of blue pines and green cypresses that give it a distinguished air.|The disciple inside the gate is adept at using both knives and swords.|Their martial arts skill masterfully balances hardness and softness, earning great renown in the Jianghu."
@@ -26,7 +26,7 @@
   splits:
   - split: 2
     text: "龙骨岛"
-    translated: "Dragonbone Island"
+    translated: "Long Cốt Đảo"
   - split: 3
     text: "海月为饰，龙骨作里，|博览万物而遨游，望天地而观浩渺。"
     translated: "Sea cucumber as ornamentation, dragon bones for filling.|Surveying all things and roaming freely, gazing at the vastness of heaven and earth."
@@ -34,7 +34,7 @@
   splits:
   - split: 2
     text: "龙骨岛"
-    translated: "Dragonbone Island"
+    translated: "Long Cốt Đảo"
   - split: 3
     text: "海月为饰，龙骨作里，|博览万物而遨游，望天地而观浩渺。"
     translated: "Sea cucumber as ornamentation, dragon bones for filling.|Surveying all things and roaming freely, gazing at the vastness of heaven and earth."
@@ -42,7 +42,7 @@
   splits:
   - split: 2
     text: "龙骨岛"
-    translated: "Dragonbone Island"
+    translated: "Long Cốt Đảo"
   - split: 3
     text: "海月为饰，龙骨作里，|博览万物而遨游，望天地而观浩渺。"
     translated: "Sea cucumber as ornamentation, dragon bones for filling.|Surveying all things and roaming freely, gazing at the vastness of heaven and earth."
@@ -50,7 +50,7 @@
   splits:
   - split: 2
     text: "龙骨岛"
-    translated: "Dragonbone Island"
+    translated: "Long Cốt Đảo"
   - split: 3
     text: "海月为饰，龙骨作里，|博览万物而遨游，望天地而观浩渺。"
     translated: "Sea cucumber as ornamentation, dragon bones for filling.|Surveying all things and roaming freely, gazing at the vastness of heaven and earth."

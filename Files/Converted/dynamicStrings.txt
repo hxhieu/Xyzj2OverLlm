@@ -57,7 +57,7 @@
   splits:
   - split: 3
     text: "机关"
-    translated: "Mechanism"
+    translated: "Cơ quan"
 - raw: "AutomatManager,Script_OpenBox,164,世界中未找到id为{0}的箱子,[AutomatScript，CallFunc]"
   splits:
   - split: 3
@@ -277,7 +277,7 @@
   splits:
   - split: 3
     text: "沈雁弓"
-    translated: "Shen Yangong"
+    translated: "Thẩm Nhạn Cung"
 - raw: "InitialCharacterView,OnButtonStartGame,77,姓名含敏感词汇，请重新输入,[]"
   splits:
   - split: 3
@@ -345,12 +345,12 @@
   splits:
   - split: 3
     text: "气血"
-    translated: "Lifeforce"
+    translated: "Khí huyết"
 - raw: "ComString,.cctor,10,真气,[]"
   splits:
   - split: 3
     text: "真气"
-    translated: "True Qi"
+    translated: "Chân khí"
 - raw: "ComString,.cctor,20,当前血量,[]"
   splits:
   - split: 3
@@ -365,147 +365,147 @@
   splits:
   - split: 3
     text: "元气"
-    translated: "Vitality"
+    translated: "Nguyên khí"
 - raw: "ComString,.cctor,50,根骨,[]"
   splits:
   - split: 3
     text: "根骨"
-    translated: "Potential"
+    translated: "Căn cốt"
 - raw: "ComString,.cctor,60,力道,[]"
   splits:
   - split: 3
     text: "力道"
-    translated: "Strength"
+    translated: "Lực đạo"
 - raw: "ComString,.cctor,70,内力,[]"
   splits:
   - split: 3
     text: "内力"
-    translated: "Inner Power"
+    translated: "Nội lực"
 - raw: "ComString,.cctor,80,体魄,[]"
   splits:
   - split: 3
     text: "体魄"
-    translated: "Resilience"
+    translated: "Thể phách"
 - raw: "ComString,.cctor,90,精神,[]"
   splits:
   - split: 3
     text: "精神"
-    translated: "Willpower"
+    translated: "Tinh thần"
 - raw: "ComString,.cctor,100,身法,[]"
   splits:
   - split: 3
     text: "身法"
-    translated: "Agility"
+    translated: "Thân pháp"
 - raw: "ComString,.cctor,110,专注,[]"
   splits:
   - split: 3
     text: "专注"
-    translated: "Focus"
+    translated: "Chuyên chú"
 - raw: "ComString,.cctor,120,福气,[]"
   splits:
   - split: 3
     text: "福气"
-    translated: "Luck"
+    translated: "Phúc khí"
 - raw: "ComString,.cctor,130,容貌,[]"
   splits:
   - split: 3
     text: "容貌"
-    translated: "Beauty"
+    translated: "Dung mạo"
 - raw: "ComString,.cctor,140,口才,[]"
   splits:
   - split: 3
     text: "口才"
-    translated: "Eloquence"
+    translated: "Khẩu tài"
 - raw: "ComString,.cctor,150,商道,[]"
   splits:
   - split: 3
     text: "商道"
-    translated: "Commerce"
+    translated: "Thương đạo"
 - raw: "ComString,.cctor,160,胆识,[]"
   splits:
   - split: 3
     text: "胆识"
-    translated: "Courage"
+    translated: "Can đảm"
 - raw: "ComString,.cctor,170,修养,[]"
   splits:
   - split: 3
     text: "修养"
-    translated: "Cultivation"
+    translated: "Tu dưỡng"
 - raw: "ComString,.cctor,180,坚韧,[]"
   splits:
   - split: 3
     text: "坚韧"
-    translated: "Toughness"
+    translated: "Kiên cường"
 - raw: "ComString,.cctor,190,豪爽,[]"
   splits:
   - split: 3
     text: "豪爽"
-    translated: "Generosity"
+    translated: "Hào sảng"
 - raw: "ComString,.cctor,200,外攻,[]"
   splits:
   - split: 3
     text: "外攻"
-    translated: "External Attack"
+    translated: "Ngoại công"
 - raw: "ComString,.cctor,210,内攻,[]"
   splits:
   - split: 3
     text: "内攻"
-    translated: "Internal Attack"
+    translated: "Nội công"
 - raw: "ComString,.cctor,220,外防,[]"
   splits:
   - split: 3
     text: "外防"
-    translated: "External Defense"
+    translated: "Ngoại phòng"
 - raw: "ComString,.cctor,230,内防,[]"
   splits:
   - split: 3
     text: "内防"
-    translated: "Internal Defense"
+    translated: "Nội phòng"
 - raw: "ComString,.cctor,240,诛心,[]"
   splits:
   - split: 3
     text: "诛心"
-    translated: "Mind Attack"
+    translated: "Tru tâm"
 - raw: "ComString,.cctor,250,御心,[]"
   splits:
   - split: 3
     text: "御心"
-    translated: "Discipline"
+    translated: "Ngự tâm"
 - raw: "ComString,.cctor,260,要害,[]"
   splits:
   - split: 3
     text: "要害"
-    translated: "Vital Point"
+    translated: "Yếu hại"
 - raw: "ComString,.cctor,270,化解,[]"
   splits:
   - split: 3
     text: "化解"
-    translated: "Counter"
+    translated: "Hóa giải"
 - raw: "ComString,.cctor,280,阴,[]"
   splits:
   - split: 3
     text: "阴"
-    translated: "Yin"
+    translated: "Âm"
 - raw: "ComString,.cctor,290,阳,[]"
   splits:
   - split: 3
     text: "阳"
-    translated: "Yang"
+    translated: "Dương"
 - raw: "ComString,.cctor,300,刚,[]"
   splits:
   - split: 3
     text: "刚"
-    translated: "Hard"
+    translated: "Cương"
 - raw: "ComString,.cctor,310,柔,[]"
   splits:
   - split: 3
     text: "柔"
-    translated: "Soft"
+    translated: "Nhu"
 - raw: "ComString,.cctor,320,毒,[]"
   splits:
   - split: 3
     text: "毒"
-    translated: "Poison"
+    translated: "Độc"
 - raw: "ComString,.cctor,330,轻功值,[]"
   splits:
   - split: 3
@@ -515,27 +515,27 @@
   splits:
   - split: 3
     text: "刀法"
-    translated: "Blade Art"
+    translated: "Đao pháp"
 - raw: "ComString,.cctor,350,剑术,[]"
   splits:
   - split: 3
     text: "剑术"
-    translated: "Swordsmanship"
+    translated: "Kiếm thuật"
 - raw: "ComString,.cctor,360,搏击,[]"
   splits:
   - split: 3
     text: "搏击"
-    translated: "Martial arts combat"
+    translated: "Bác kích"
 - raw: "ComString,.cctor,370,枪棍,[]"
   splits:
   - split: 3
     text: "枪棍"
-    translated: "Spear & Staff"
+    translated: "Thương côn"
 - raw: "ComString,.cctor,380,暗器,[]"
   splits:
   - split: 3
     text: "暗器"
-    translated: "Hidden Weapon"
+    translated: "Ám khí"
 - raw: "ComString,.cctor,390,奇术,[]"
   splits:
   - split: 3
@@ -555,57 +555,57 @@
   splits:
   - split: 3
     text: "道学"
-    translated: "Taoism"
+    translated: "Đạo học"
 - raw: "ComString,.cctor,430,佛学,[]"
   splits:
   - split: 3
     text: "佛学"
-    translated: "Buddhism"
+    translated: "Phật học"
 - raw: "ComString,.cctor,440,儒学,[]"
   splits:
   - split: 3
     text: "儒学"
-    translated: "Confucianism"
+    translated: "Nho học"
 - raw: "ComString,.cctor,450,兵道,[]"
   splits:
   - split: 3
     text: "兵道"
-    translated: "Martial Prowess"
+    translated: "Binh đạo"
 - raw: "ComString,.cctor,460,墨学,[]"
   splits:
   - split: 3
     text: "墨学"
-    translated: "Mohism"
+    translated: "Mặc học"
 - raw: "ComString,.cctor,470,诡辞,[]"
   splits:
   - split: 3
     text: "诡辞"
-    translated: "Deception"
+    translated: "Quỷ từ"
 - raw: "ComString,.cctor,480,魔学,[]"
   splits:
   - split: 3
     text: "魔学"
-    translated: "Dark Arts"
+    translated: "Ma học"
 - raw: "ComString,.cctor,490,农学,[]"
   splits:
   - split: 3
     text: "农学"
-    translated: "Agriculture"
+    translated: "Nông học"
 - raw: "ComString,.cctor,500,炼丹,[]"
   splits:
   - split: 3
     text: "炼丹"
-    translated: "Alchemy"
+    translated: "Luyện đan"
 - raw: "ComString,.cctor,510,炼器,[]"
   splits:
   - split: 3
     text: "炼器"
-    translated: "Refining"
+    translated: "Luyện khí"
 - raw: "ComString,.cctor,520,巧手,[]"
   splits:
   - split: 3
     text: "巧手"
-    translated: "Skilled Hands"
+    translated: "Khéo tay"
 - raw: "ComString,.cctor,530,缝纫,[]"
   splits:
   - split: 3
@@ -615,7 +615,7 @@
   splits:
   - split: 3
     text: "酿酒"
-    translated: "Brewing"
+    translated: "Ủ rượu"
 - raw: "ComString,.cctor,550,烹饪,[]"
   splits:
   - split: 3
@@ -635,12 +635,12 @@
   splits:
   - split: 3
     text: "琴艺"
-    translated: "Zither Art"
+    translated: "Cầm nghệ"
 - raw: "ComString,.cctor,590,棋艺,[]"
   splits:
   - split: 3
     text: "棋艺"
-    translated: "Chess Art"
+    translated: "Kỳ nghệ"
 - raw: "ComString,.cctor,600,书法,[]"
   splits:
   - split: 3
@@ -650,17 +650,17 @@
   splits:
   - split: 3
     text: "画道"
-    translated: "Painting"
+    translated: "Họa đạo"
 - raw: "ComString,.cctor,620,酒量,[]"
   splits:
   - split: 3
     text: "酒量"
-    translated: "Alcohol tolerance"
+    translated: "Tửu lượng"
 - raw: "ComString,.cctor,630,垂钓,[]"
   splits:
   - split: 3
     text: "垂钓"
-    translated: "Fishing"
+    translated: "Câu cá"
 - raw: "ComString,.cctor,640,打猎,[]"
   splits:
   - split: 3
@@ -705,22 +705,22 @@
   splits:
   - split: 3
     text: "等级"
-    translated: "Rank"
+    translated: "Cấp"
 - raw: "ComString,.cctor,730,悟性,[]"
   splits:
   - split: 3
     text: "悟性"
-    translated: "Comprehension"
+    translated: "Ngộ tính"
 - raw: "ComString,.cctor,740,命中,[]"
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit Rate"
+    translated: "Trúng đích"
 - raw: "ComString,.cctor,750,闪避,[]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
+    translated: "Né tránh"
 - raw: "ComString,.cctor,760,会心,[]"
   splits:
   - split: 3
@@ -760,7 +760,7 @@
   splits:
   - split: 3
     text: "精力"
-    translated: "Energy"
+    translated: "Tinh lực"
 - raw: "ComString,.cctor,840,最大精力,[]"
   splits:
   - split: 3
@@ -785,7 +785,7 @@
   splits:
   - split: 3
     text: "轻功"
-    translated: "Qinggong"
+    translated: "Khinh công"
 - raw: "ComString,.cctor,890,轻功值最大值,[]"
   splits:
   - split: 3
@@ -940,7 +940,7 @@
   splits:
   - split: 3
     text: "子"
-    translated: "Zi"
+    translated: "Tử"
 - raw: "ComString,.cctor,1200,丑,[]"
   splits:
   - split: 3
@@ -1210,122 +1210,122 @@
   splits:
   - split: 3
     text: "立春"
-    translated: "Start of Spring"
+    translated: "Lập Xuân"
 - raw: "ComString,.cctor,1740,雨水,[]"
   splits:
   - split: 3
     text: "雨水"
-    translated: "Rain Water"
+    translated: "Vũ Thủy"
 - raw: "ComString,.cctor,1750,惊蛰,[]"
   splits:
   - split: 3
     text: "惊蛰"
-    translated: "Awakening of Insects"
+    translated: "Kinh Trập"
 - raw: "ComString,.cctor,1760,春分,[]"
   splits:
   - split: 3
     text: "春分"
-    translated: "Spring Equinox"
+    translated: "Xuân Phân"
 - raw: "ComString,.cctor,1770,清明,[]"
   splits:
   - split: 3
     text: "清明"
-    translated: "Clear"
+    translated: "Thanh Minh"
 - raw: "ComString,.cctor,1780,谷雨,[]"
   splits:
   - split: 3
     text: "谷雨"
-    translated: "Grain Rain"
+    translated: "Cốc Vũ"
 - raw: "ComString,.cctor,1790,立夏,[]"
   splits:
   - split: 3
     text: "立夏"
-    translated: "Start of Summer"
+    translated: "Lập Hạ"
 - raw: "ComString,.cctor,1800,小满,[]"
   splits:
   - split: 3
     text: "小满"
-    translated: "Grain Full"
+    translated: "Tiểu Mãn"
 - raw: "ComString,.cctor,1810,芒种,[]"
   splits:
   - split: 3
     text: "芒种"
-    translated: "Grain in Ear"
+    translated: "Mang Chủng"
 - raw: "ComString,.cctor,1820,夏至,[]"
   splits:
   - split: 3
     text: "夏至"
-    translated: "Summer Solstice"
+    translated: "Hạ Chí"
 - raw: "ComString,.cctor,1830,小暑,[]"
   splits:
   - split: 3
     text: "小暑"
-    translated: "Little Heat"
+    translated: "Tiểu Thử"
 - raw: "ComString,.cctor,1840,大暑,[]"
   splits:
   - split: 3
     text: "大暑"
-    translated: "Great Heat"
+    translated: "Đại Thử"
 - raw: "ComString,.cctor,1850,立秋,[]"
   splits:
   - split: 3
     text: "立秋"
-    translated: "Start of Autumn"
+    translated: "Lập Thu"
 - raw: "ComString,.cctor,1860,处暑,[]"
   splits:
   - split: 3
     text: "处暑"
-    translated: "End of Heat"
+    translated: "Xử Thử"
 - raw: "ComString,.cctor,1870,白露,[]"
   splits:
   - split: 3
     text: "白露"
-    translated: "White Dew"
+    translated: "Bạch Lộ"
 - raw: "ComString,.cctor,1880,秋分,[]"
   splits:
   - split: 3
     text: "秋分"
-    translated: "Autumn Equinox"
+    translated: "Thu Phân"
 - raw: "ComString,.cctor,1890,寒露,[]"
   splits:
   - split: 3
     text: "寒露"
-    translated: "Cold Dew"
+    translated: "Hàn Lộ"
 - raw: "ComString,.cctor,1900,霜降,[]"
   splits:
   - split: 3
     text: "霜降"
-    translated: "Frost's Descent"
+    translated: "Sương Giáng"
 - raw: "ComString,.cctor,1910,立冬,[]"
   splits:
   - split: 3
     text: "立冬"
-    translated: "Start of Winter"
+    translated: "Lập Đông"
 - raw: "ComString,.cctor,1920,小雪,[]"
   splits:
   - split: 3
     text: "小雪"
-    translated: "Little Snow"
+    translated: "Tiểu Tuyết"
 - raw: "ComString,.cctor,1930,大雪,[]"
   splits:
   - split: 3
     text: "大雪"
-    translated: "Great Snow"
+    translated: "Đại Tuyết"
 - raw: "ComString,.cctor,1940,冬至,[]"
   splits:
   - split: 3
     text: "冬至"
-    translated: "Winter Solstice"
+    translated: "Đông Chí"
 - raw: "ComString,.cctor,1950,小寒,[]"
   splits:
   - split: 3
     text: "小寒"
-    translated: "Little Cold"
+    translated: "Tiểu Hàn"
 - raw: "ComString,.cctor,1960,大寒,[]"
   splits:
   - split: 3
     text: "大寒"
-    translated: "Great Cold"
+    translated: "Đại Hàn"
 - raw: "ComString,.cctor,1970,未加入,[]"
   splits:
   - split: 3
@@ -1355,7 +1355,7 @@
   splits:
   - split: 3
     text: "掌门"
-    translated: "Sect Leader"
+    translated: "Chưởng môn"
 - raw: "ComString,.cctor,2030,角色气血的保障，气血降到低于0角色死亡。,[]"
   splits:
   - split: 3
@@ -1660,17 +1660,17 @@
   splits:
   - split: 3
     text: "剑"
-    translated: "Sword"
+    translated: "Kiếm"
 - raw: "ComString,.cctor,2640,刀,[]"
   splits:
   - split: 3
     text: "刀"
-    translated: "Blade"
+    translated: "Đao"
 - raw: "ComString,.cctor,2650,枪,[]"
   splits:
   - split: 3
     text: "枪"
-    translated: "Spear"
+    translated: "Thương"
 - raw: "ComString,.cctor,2660,拳,[]"
   splits:
   - split: 3
@@ -1750,17 +1750,17 @@
   splits:
   - split: 3
     text: "爽文江湖"
-    translated: "Light Jianghu"
+    translated: "Giang hồ sảng văn"
 - raw: "ComString,.cctor,2820,险恶江湖,[]"
   splits:
   - split: 3
     text: "险恶江湖"
-    translated: "Dangerous Jianghu"
+    translated: "Giang hồ hiểm ác"
 - raw: "ComString,.cctor,2830,真实江湖,[]"
   splits:
   - split: 3
     text: "真实江湖"
-    translated: "Authentic Jianghu"
+    translated: "Giang hồ chân thực"
 - raw: "ComString,.cctor,2840,暗黑江湖,[]"
   splits:
   - split: 3
@@ -1775,22 +1775,22 @@
   splits:
   - split: 3
     text: "沈雁弓"
-    translated: "Shen Yangong"
+    translated: "Thẩm Nhạn Cung"
 - raw: "ComString,.cctor,2870,玉玲珑,[]"
   splits:
   - split: 3
     text: "玉玲珑"
-    translated: "Yu Linglong"
+    translated: "Ngọc Linh Lung"
 - raw: "ComString,.cctor,2880,杨若水,[]"
   splits:
   - split: 3
     text: "杨若水"
-    translated: "Yang Ruoshui"
+    translated: "Dương Nhược Thủy"
 - raw: "ComString,.cctor,2890,梁潇,[]"
   splits:
   - split: 3
     text: "梁潇"
-    translated: "Liang Xiao"
+    translated: "Lương Tiêu"
 - raw: "ComString,.cctor,2900,吴明,[]"
   splits:
   - split: 3
@@ -1805,107 +1805,107 @@
   splits:
   - split: 3
     text: "普通"
-    translated: "Common"
+    translated: "Phổ Thông"
 - raw: "ComString,.cctor,2930,精巧,[]"
   splits:
   - split: 3
     text: "精巧"
-    translated: "Delicate craftsmanship"
+    translated: "Tinh Xảo"
 - raw: "ComString,.cctor,2940,无暇,[]"
   splits:
   - split: 3
     text: "无暇"
-    translated: "Flawless"
+    translated: "Vô Hạ"
 - raw: "ComString,.cctor,2950,完美,[]"
   splits:
   - split: 3
     text: "完美"
-    translated: "Perfect"
+    translated: "Hoàn Mỹ"
 - raw: "ComString,.cctor,2960,粗制,[]"
   splits:
   - split: 3
     text: "粗制"
-    translated: "Roughly made"
+    translated: "Thô Chế"
 - raw: "ComString,.cctor,2970,寻常,[]"
   splits:
   - split: 3
     text: "寻常"
-    translated: "Ordinary"
+    translated: "Tầm Thường"
 - raw: "ComString,.cctor,2980,精良,[]"
   splits:
   - split: 3
     text: "精良"
-    translated: "Exquisite"
+    translated: "Tinh Lương"
 - raw: "ComString,.cctor,2990,稀有,[]"
   splits:
   - split: 3
     text: "稀有"
-    translated: "Uncommon"
+    translated: "Hiếm Có"
 - raw: "ComString,.cctor,3000,罕见,[]"
   splits:
   - split: 3
     text: "罕见"
-    translated: "Rarely seen"
+    translated: "Hiếm"
 - raw: "ComString,.cctor,3010,无双,[]"
   splits:
   - split: 3
     text: "无双"
-    translated: "Peerless"
+    translated: "Vô Song"
 - raw: "ComString,.cctor,3020,绝世,[]"
   splits:
   - split: 3
     text: "绝世"
-    translated: "Unparalleled"
+    translated: "Tuyệt Thế"
 - raw: "ComString,.cctor,3030,一阶,[]"
   splits:
   - split: 3
     text: "一阶"
-    translated: "Tier 1"
+    translated: "Nhất Giai"
 - raw: "ComString,.cctor,3040,二阶,[]"
   splits:
   - split: 3
     text: "二阶"
-    translated: "Tier 2"
+    translated: "Nhị Giai"
 - raw: "ComString,.cctor,3050,三阶,[]"
   splits:
   - split: 3
     text: "三阶"
-    translated: "Tier 3"
+    translated: "Tam Giai"
 - raw: "ComString,.cctor,3060,四阶,[]"
   splits:
   - split: 3
     text: "四阶"
-    translated: "Tier 4"
+    translated: "Tứ Giai"
 - raw: "ComString,.cctor,3070,五阶,[]"
   splits:
   - split: 3
     text: "五阶"
-    translated: "Tier 5"
+    translated: "Ngũ Giai"
 - raw: "ComString,.cctor,3080,六阶,[]"
   splits:
   - split: 3
     text: "六阶"
-    translated: "Tier 6"
+    translated: "Lục Giai"
 - raw: "ComString,.cctor,3090,七阶,[]"
   splits:
   - split: 3
     text: "七阶"
-    translated: "Tier 7"
+    translated: "Thất Giai"
 - raw: "ComString,.cctor,3100,八阶,[]"
   splits:
   - split: 3
     text: "八阶"
-    translated: "Eighth Rank"
+    translated: "Bát Giai"
 - raw: "ComString,.cctor,3110,九阶,[]"
   splits:
   - split: 3
     text: "九阶"
-    translated: "Ninth Stage"
+    translated: "Cửu Giai"
 - raw: "ComString,.cctor,3120,十阶,[]"
   splits:
   - split: 3
     text: "十阶"
-    translated: "Tenth Rank"
+    translated: "Thập Giai"
 - raw: "ComString,.cctor,3130,不入流武学,[]"
   splits:
   - split: 3
@@ -2080,7 +2080,7 @@
   splits:
   - split: 3
     text: "赫连"
-    translated: "He Lian"
+    translated: "Hách Liên"
 - raw: "ComString,.cctor,3480,叱干,[]"
   splits:
   - split: 3
@@ -2235,7 +2235,7 @@
   splits:
   - split: 3
     text: "门派"
-    translated: "Sect"
+    translated: "Môn phái"
 - raw: "ComString,.cctor,3790,术法,[]"
   splits:
   - split: 3
@@ -2250,12 +2250,12 @@
   splits:
   - split: 3
     text: "升序"
-    translated: "Ascending Order"
+    translated: "Tăng dần"
 - raw: "ComString,.cctor,3820,降序,[]"
   splits:
   - split: 3
     text: "降序"
-    translated: "Descending Order"
+    translated: "Giảm dần"
 - raw: "ComString,.cctor,3830,所有等级,[]"
   splits:
   - split: 3
@@ -2270,7 +2270,7 @@
   splits:
   - split: 3
     text: "修炼"
-    translated: "Cultivation"
+    translated: "Tu luyện"
 - raw: "ComString,.cctor,3860,装备,[]"
   splits:
   - split: 3
@@ -2310,7 +2310,7 @@
   splits:
   - split: 3
     text: "秘籍"
-    translated: "Secret Manual"
+    translated: "Bí kíp"
 - raw: "ComString,.cctor,3940,秘法,[]"
   splits:
   - split: 3
@@ -2320,32 +2320,32 @@
   splits:
   - split: 3
     text: "造诣书"
-    translated: "Book of Accomplishment"
+    translated: "Tạo Nghệ Thư"
 - raw: "ComString,.cctor,3960,化境卷,[]"
   splits:
   - split: 3
     text: "化境卷"
-    translated: "Transcendence Scroll"
+    translated: "Hóa Cảnh Quyển"
 - raw: "ComString,.cctor,3970,配方,[]"
   splits:
   - split: 3
     text: "配方"
-    translated: "Formula"
+    translated: "Công thức"
 - raw: "ComString,.cctor,3980,淮临珠,[]"
   splits:
   - split: 3
     text: "淮临珠"
-    translated: "Huailin Pearl"
+    translated: "Hoài Lâm Châu"
 - raw: "ComString,.cctor,3990,经脉图,[]"
   splits:
   - split: 3
     text: "经脉图"
-    translated: "Meridian Map"
+    translated: "Kinh Mạch Đồ"
 - raw: "ComString,.cctor,4000,天工图,[]"
   splits:
   - split: 3
     text: "天工图"
-    translated: "Divine Craft Map"
+    translated: "Thiên Công Đồ"
 - raw: "ComString,.cctor,4010,修炼相关,[]"
   splits:
   - split: 3
@@ -2425,7 +2425,7 @@
   splits:
   - split: 3
     text: "虎"
-    translated: "Tiger"
+    translated: "Hổ"
 - raw: "ComString,.cctor,4170,兔,[]"
   splits:
   - split: 3
@@ -2610,7 +2610,7 @@
   splits:
   - split: 3
     text: "心法"
-    translated: "Heart Method"
+    translated: "Tâm pháp"
 - raw: "ComString,.cctor,4540,功体,[]"
   splits:
   - split: 3
@@ -2620,7 +2620,7 @@
   splits:
   - split: 3
     text: "秒"
-    translated: "Second"
+    translated: "Giây"
 - raw: "ComString,.cctor,4560,调息,[]"
   splits:
   - split: 3
@@ -2700,7 +2700,7 @@
   splits:
   - split: 3
     text: "化境"
-    translated: "Transcendent"
+    translated: "Hóa Cảnh"
 - raw: "ComString,.cctor,4720,阶段,[]"
   splits:
   - split: 3
@@ -2900,7 +2900,7 @@
   splits:
   - split: 3
     text: "境界"
-    translated: "Realm"
+    translated: "Cảnh giới"
 - raw: "ComString,.cctor,5120,经脉,[]"
   splits:
   - split: 3
@@ -2960,7 +2960,7 @@
   splits:
   - split: 3
     text: "万法森罗"
-    translated: "Ten Thousand Laws"
+    translated: "Vạn Pháp Sâm La"
 - raw: "ComString,.cctor,5240,一,[]"
   splits:
   - split: 3
@@ -3165,7 +3165,7 @@
   splits:
   - split: 3
     text: "年"
-    translated: "Year"
+    translated: "Năm"
 - raw: "ComString,.cctor,5650,靖延,[]"
   splits:
   - split: 3
@@ -3180,7 +3180,7 @@
   splits:
   - split: 3
     text: "月"
-    translated: "Month"
+    translated: "Tháng"
 - raw: "ComString,.cctor,5680,天,[]"
   splits:
   - split: 3
@@ -3190,7 +3190,7 @@
   splits:
   - split: 3
     text: "日"
-    translated: "Day"
+    translated: "Ngày"
 - raw: "ComString,.cctor,5700,<color=#f8744b>[珍材]</color>,[]"
   splits:
   - split: 3
@@ -3815,52 +3815,52 @@
   splits:
   - split: 3
     text: "江湖小卒"
-    translated: "Jianghu Novice"
+    translated: "Giang hồ tiểu tốt"
 - raw: "ComString,.cctor,6950,武林新秀,[]"
   splits:
   - split: 3
     text: "武林新秀"
-    translated: "Wulin Rising Star"
+    translated: "Tân tú võ lâm"
 - raw: "ComString,.cctor,6960,武道宗师,[]"
   splits:
   - split: 3
     text: "武道宗师"
-    translated: "Grandmaster"
+    translated: "Tông sư võ đạo"
 - raw: "ComString,.cctor,6970,盖世霸主,[]"
   splits:
   - split: 3
     text: "盖世霸主"
-    translated: "World Conqueror"
+    translated: "Bá chủ cái thế"
 - raw: "ComString,.cctor,6980,独步天下,[]"
   splits:
   - split: 3
     text: "独步天下"
-    translated: "Unrivaled in the World"
+    translated: "Độc bộ thiên hạ"
 - raw: "ComString,.cctor,6990,简单,[]"
   splits:
   - split: 3
     text: "简单"
-    translated: "Easy"
+    translated: "Dễ"
 - raw: "ComString,.cctor,7000,标准,[]"
   splits:
   - split: 3
     text: "标准"
-    translated: "Normal"
+    translated: "Thường"
 - raw: "ComString,.cctor,7010,困难,[]"
   splits:
   - split: 3
     text: "困难"
-    translated: "Hard"
+    translated: "Khó"
 - raw: "ComString,.cctor,7020,极难,[]"
   splits:
   - split: 3
     text: "极难"
-    translated: "Extreme"
+    translated: "Cực khó"
 - raw: "ComString,.cctor,7030,地狱,[]"
   splits:
   - split: 3
     text: "地狱"
-    translated: "Hell"
+    translated: "Địa ngục"
 - raw: "ComString,.cctor,7040,读档,[]"
   splits:
   - split: 3
@@ -4735,7 +4735,7 @@
   splits:
   - split: 3
     text: "委托"
-    translated: "Commission"
+    translated: "Ủy thác"
 - raw: "ComString,.cctor,8800,锻造,[]"
   splits:
   - split: 3
@@ -5100,7 +5100,7 @@
   splits:
   - split: 3
     text: "剑法"
-    translated: "Sword Art"
+    translated: "Kiếm pháp"
 - raw: "ComString,.cctor,9530,使用后获得{0},[]"
   splits:
   - split: 3
@@ -5850,42 +5850,42 @@
   splits:
   - split: 3
     text: "任脉"
-    translated: "Ren Mai"
+    translated: "Nhâm mạch"
 - raw: "ComString,.cctor,11030,督脉,[]"
   splits:
   - split: 3
     text: "督脉"
-    translated: "Du Mai"
+    translated: "Đốc mạch"
 - raw: "ComString,.cctor,11040,带脉,[]"
   splits:
   - split: 3
     text: "带脉"
-    translated: "Dai Mai"
+    translated: "Đới mạch"
 - raw: "ComString,.cctor,11050,冲脉,[]"
   splits:
   - split: 3
     text: "冲脉"
-    translated: "Chong Mai"
+    translated: "Xung mạch"
 - raw: "ComString,.cctor,11060,阳维,[]"
   splits:
   - split: 3
     text: "阳维"
-    translated: "Yang Wei"
+    translated: "Dương Duy"
 - raw: "ComString,.cctor,11070,阴维,[]"
   splits:
   - split: 3
     text: "阴维"
-    translated: "Yin Wei"
+    translated: "Âm Duy"
 - raw: "ComString,.cctor,11080,阴跷,[]"
   splits:
   - split: 3
     text: "阴跷"
-    translated: "Yin Qiao"
+    translated: "Âm Kiểu"
 - raw: "ComString,.cctor,11090,阳跷,[]"
   splits:
   - split: 3
     text: "阳跷"
-    translated: "Yang Qiao"
+    translated: "Dương Kiểu"
 - raw: "ComString,.cctor,11100,仇恨值： ,[]"
   splits:
   - split: 3
@@ -5940,7 +5940,7 @@
   splits:
   - split: 3
     text: "幽影"
-    translated: "You Ying"
+    translated: "U Ảnh"
 - raw: "ComString,.cctor,11210,重刃,[]"
   splits:
   - split: 3
@@ -6065,7 +6065,7 @@
   splits:
   - split: 3
     text: "领悟"
-    translated: "Comprehension"
+    translated: "Lĩnh ngộ"
 - raw: "ComString,.cctor,11460,前式招式不匹配,[]"
   splits:
   - split: 3
@@ -6365,7 +6365,7 @@
   splits:
   - split: 3
     text: "江湖"
-    translated: "Jianghu"
+    translated: "Giang hồ"
 - raw: "ComString,.cctor,12060,信友,[]"
   splits:
   - split: 3
@@ -6730,7 +6730,7 @@
   splits:
   - split: 3
     text: "据点"
-    translated: "Outpost"
+    translated: "Cứ điểm"
 - raw: "ComString,.cctor,12790,请先进攻其余据点,[]"
   splits:
   - split: 3
@@ -6965,7 +6965,7 @@
   splits:
   - split: 3
     text: "长老"
-    translated: "Elder"
+    translated: "Trưởng lão"
 - raw: "ComString,.cctor,13260,堂主,[]"
   splits:
   - split: 3
@@ -7480,7 +7480,7 @@
   splits:
   - split: 3
     text: "燕国"
-    translated: "Yan Kingdom"
+    translated: "Yến quốc"
 - raw: "ComString,.cctor,14290,学会{0},[]"
   splits:
   - split: 3
@@ -8895,7 +8895,7 @@
   splits:
   - split: 3
     text: "兄弟"
-    translated: "Brother"
+    translated: "Huynh đệ"
 - raw: "ComString,.cctor,17137,姊妹,[]"
   splits:
   - split: 3
@@ -8965,7 +8965,7 @@
   splits:
   - split: 3
     text: "不共戴天"
-    translated: "Cannot live under the same sky"
+    translated: "Bất cộng đái thiên"
 - raw: "ComString,.cctor,17277,互通名姓,[]"
   splits:
   - split: 3
@@ -9160,7 +9160,7 @@
   splits:
   - split: 3
     text: "高级"
-    translated: "Advanced"
+    translated: "Cao cấp"
 - raw: "ComString,.cctor,17667,流畅,[]"
   splits:
   - split: 3
@@ -9295,7 +9295,7 @@
   splits:
   - split: 3
     text: "穿戴"
-    translated: "Wear"
+    translated: "Trang bị"
 - raw: "ComString,.cctor,17937,{0}米/秒,[]"
   splits:
   - split: 3
@@ -11150,7 +11150,7 @@
   splits:
   - split: 3
     text: "身份"
-    translated: "Identity"
+    translated: "Thân phận"
 - raw: "ComString,.cctor,21697,探索,[]"
   splits:
   - split: 3
@@ -11395,7 +11395,7 @@
   splits:
   - split: 3
     text: "<商贩>"
-    translated: "<Merchant>"
+    translated: "<Thương nhân>"
 - raw: "ComString,.cctor,22187,蓄伤:,[]"
   splits:
   - split: 3
@@ -11640,17 +11640,17 @@
   splits:
   - split: 3
     text: "剑"
-    translated: "Sword"
+    translated: "Kiếm"
 - raw: "ComString,.cctor,22677,刀,[]"
   splits:
   - split: 3
     text: "刀"
-    translated: "Blade"
+    translated: "Đao"
 - raw: "ComString,.cctor,22687,斩,[]"
   splits:
   - split: 3
     text: "斩"
-    translated: "Slash"
+    translated: "Trảm"
 - raw: "ComString,.cctor,22697,刃,[]"
   splits:
   - split: 3
@@ -11715,7 +11715,7 @@
   splits:
   - split: 3
     text: "输入内容"
-    translated: "Input content"
+    translated: "Nội dung nhập"
 - raw: "ComString,.cctor,22827,是否删除整个任务链,[]"
   splits:
   - split: 3
@@ -12755,7 +12755,7 @@
   splits:
   - split: 3
     text: "门派"
-    translated: "Sect"
+    translated: "Môn phái"
 - raw: "ComString,.cctor,25017,角色模型,[]"
   splits:
   - split: 3
@@ -13015,27 +13015,27 @@
   splits:
   - split: 3
     text: "阴"
-    translated: "Yin"
+    translated: "Âm"
 - raw: "ComString,.cctor,25567,阳,[]"
   splits:
   - split: 3
     text: "阳"
-    translated: "Yang"
+    translated: "Dương"
 - raw: "ComString,.cctor,25577,刚,[]"
   splits:
   - split: 3
     text: "刚"
-    translated: "Hard"
+    translated: "Cương"
 - raw: "ComString,.cctor,25587,柔,[]"
   splits:
   - split: 3
     text: "柔"
-    translated: "Soft"
+    translated: "Nhu"
 - raw: "ComString,.cctor,25597,毒,[]"
   splits:
   - split: 3
     text: "毒"
-    translated: "Poison"
+    translated: "Độc"
 - raw: "ComString,.cctor,25607,五行,[]"
   splits:
   - split: 3
@@ -13220,7 +13220,7 @@
   splits:
   - split: 3
     text: "等级"
-    translated: "Rank"
+    translated: "Cấp"
 - raw: "ComString,.cctor,25997,售价,[]"
   splits:
   - split: 3
@@ -13310,12 +13310,12 @@
   splits:
   - split: 3
     text: "套路"
-    translated: "Technique"
+    translated: "Chiêu thức"
 - raw: "ComString,.cctor,26177,套路,[]"
   splits:
   - split: 3
     text: "套路"
-    translated: "Technique"
+    translated: "Chiêu thức"
 - raw: "ComString,.cctor,26187,首次效果,[]"
   splits:
   - split: 3
@@ -13465,7 +13465,7 @@
   splits:
   - split: 3
     text: "配方"
-    translated: "Formula"
+    translated: "Công thức"
 - raw: "ComString,.cctor,26487,技艺书,[]"
   splits:
   - split: 3
@@ -13475,7 +13475,7 @@
   splits:
   - split: 3
     text: "秘籍"
-    translated: "Secret Manual"
+    translated: "Bí kíp"
 - raw: "ComString,.cctor,26507,典籍,[]"
   splits:
   - split: 3
@@ -13490,17 +13490,17 @@
   splits:
   - split: 3
     text: "剑"
-    translated: "Sword"
+    translated: "Kiếm"
 - raw: "ComString,.cctor,26537,刀,[]"
   splits:
   - split: 3
     text: "刀"
-    translated: "Blade"
+    translated: "Đao"
 - raw: "ComString,.cctor,26547,枪,[]"
   splits:
   - split: 3
     text: "枪"
-    translated: "Spear"
+    translated: "Thương"
 - raw: "ComString,.cctor,26557,拳,[]"
   splits:
   - split: 3
@@ -13510,7 +13510,7 @@
   splits:
   - split: 3
     text: "暗器"
-    translated: "Hidden Weapon"
+    translated: "Ám khí"
 - raw: "ComString,.cctor,26577,通用,[]"
   splits:
   - split: 3
@@ -13520,17 +13520,17 @@
   splits:
   - split: 3
     text: "剑"
-    translated: "Sword"
+    translated: "Kiếm"
 - raw: "ComString,.cctor,26597,刀,[]"
   splits:
   - split: 3
     text: "刀"
-    translated: "Blade"
+    translated: "Đao"
 - raw: "ComString,.cctor,26607,枪,[]"
   splits:
   - split: 3
     text: "枪"
-    translated: "Spear"
+    translated: "Thương"
 - raw: "ComString,.cctor,26617,拳,[]"
   splits:
   - split: 3
@@ -13540,77 +13540,77 @@
   splits:
   - split: 3
     text: "暗器"
-    translated: "Hidden Weapon"
+    translated: "Ám khí"
 - raw: "ComString,.cctor,26637,粗制,[]"
   splits:
   - split: 3
     text: "粗制"
-    translated: "Roughly made"
+    translated: "Thô Chế"
 - raw: "ComString,.cctor,26647,寻常,[]"
   splits:
   - split: 3
     text: "寻常"
-    translated: "Ordinary"
+    translated: "Tầm Thường"
 - raw: "ComString,.cctor,26657,精良,[]"
   splits:
   - split: 3
     text: "精良"
-    translated: "Exquisite"
+    translated: "Tinh Lương"
 - raw: "ComString,.cctor,26667,稀有,[]"
   splits:
   - split: 3
     text: "稀有"
-    translated: "Uncommon"
+    translated: "Hiếm Có"
 - raw: "ComString,.cctor,26677,罕见,[]"
   splits:
   - split: 3
     text: "罕见"
-    translated: "Rarely seen"
+    translated: "Hiếm"
 - raw: "ComString,.cctor,26687,无双,[]"
   splits:
   - split: 3
     text: "无双"
-    translated: "Peerless"
+    translated: "Vô Song"
 - raw: "ComString,.cctor,26697,绝世,[]"
   splits:
   - split: 3
     text: "绝世"
-    translated: "Unparalleled"
+    translated: "Tuyệt Thế"
 - raw: "ComString,.cctor,26707,一阶,[]"
   splits:
   - split: 3
     text: "一阶"
-    translated: "Tier 1"
+    translated: "Nhất Giai"
 - raw: "ComString,.cctor,26717,二阶,[]"
   splits:
   - split: 3
     text: "二阶"
-    translated: "Tier 2"
+    translated: "Nhị Giai"
 - raw: "ComString,.cctor,26727,三阶,[]"
   splits:
   - split: 3
     text: "三阶"
-    translated: "Tier 3"
+    translated: "Tam Giai"
 - raw: "ComString,.cctor,26737,四阶,[]"
   splits:
   - split: 3
     text: "四阶"
-    translated: "Tier 4"
+    translated: "Tứ Giai"
 - raw: "ComString,.cctor,26747,五阶,[]"
   splits:
   - split: 3
     text: "五阶"
-    translated: "Tier 5"
+    translated: "Ngũ Giai"
 - raw: "ComString,.cctor,26757,六阶,[]"
   splits:
   - split: 3
     text: "六阶"
-    translated: "Tier 6"
+    translated: "Lục Giai"
 - raw: "ComString,.cctor,26767,七阶,[]"
   splits:
   - split: 3
     text: "七阶"
-    translated: "Tier 7"
+    translated: "Thất Giai"
 - raw: "ComString,.cctor,26777,最小属性,[]"
   splits:
   - split: 3
@@ -13835,187 +13835,187 @@
   splits:
   - split: 3
     text: "元气"
-    translated: "Vitality"
+    translated: "Nguyên khí"
 - raw: "ComString,.cctor,27367,根骨,[]"
   splits:
   - split: 3
     text: "根骨"
-    translated: "Potential"
+    translated: "Căn cốt"
 - raw: "ComString,.cctor,27377,力道,[]"
   splits:
   - split: 3
     text: "力道"
-    translated: "Strength"
+    translated: "Lực đạo"
 - raw: "ComString,.cctor,27387,内力,[]"
   splits:
   - split: 3
     text: "内力"
-    translated: "Inner Power"
+    translated: "Nội lực"
 - raw: "ComString,.cctor,27397,体魄,[]"
   splits:
   - split: 3
     text: "体魄"
-    translated: "Resilience"
+    translated: "Thể phách"
 - raw: "ComString,.cctor,27407,精神,[]"
   splits:
   - split: 3
     text: "精神"
-    translated: "Willpower"
+    translated: "Tinh thần"
 - raw: "ComString,.cctor,27417,身法,[]"
   splits:
   - split: 3
     text: "身法"
-    translated: "Agility"
+    translated: "Thân pháp"
 - raw: "ComString,.cctor,27427,专注,[]"
   splits:
   - split: 3
     text: "专注"
-    translated: "Focus"
+    translated: "Chuyên chú"
 - raw: "ComString,.cctor,27437,福气,[]"
   splits:
   - split: 3
     text: "福气"
-    translated: "Luck"
+    translated: "Phúc khí"
 - raw: "ComString,.cctor,27447,容貌,[]"
   splits:
   - split: 3
     text: "容貌"
-    translated: "Beauty"
+    translated: "Dung mạo"
 - raw: "ComString,.cctor,27457,口才,[]"
   splits:
   - split: 3
     text: "口才"
-    translated: "Eloquence"
+    translated: "Khẩu tài"
 - raw: "ComString,.cctor,27467,商道,[]"
   splits:
   - split: 3
     text: "商道"
-    translated: "Commerce"
+    translated: "Thương đạo"
 - raw: "ComString,.cctor,27477,胆识,[]"
   splits:
   - split: 3
     text: "胆识"
-    translated: "Courage"
+    translated: "Can đảm"
 - raw: "ComString,.cctor,27487,修养,[]"
   splits:
   - split: 3
     text: "修养"
-    translated: "Cultivation"
+    translated: "Tu dưỡng"
 - raw: "ComString,.cctor,27497,坚韧,[]"
   splits:
   - split: 3
     text: "坚韧"
-    translated: "Toughness"
+    translated: "Kiên cường"
 - raw: "ComString,.cctor,27507,豪爽,[]"
   splits:
   - split: 3
     text: "豪爽"
-    translated: "Generosity"
+    translated: "Hào sảng"
 - raw: "ComString,.cctor,27517,外攻,[]"
   splits:
   - split: 3
     text: "外攻"
-    translated: "External Attack"
+    translated: "Ngoại công"
 - raw: "ComString,.cctor,27527,内攻,[]"
   splits:
   - split: 3
     text: "内攻"
-    translated: "Internal Attack"
+    translated: "Nội công"
 - raw: "ComString,.cctor,27537,外防,[]"
   splits:
   - split: 3
     text: "外防"
-    translated: "External Defense"
+    translated: "Ngoại phòng"
 - raw: "ComString,.cctor,27547,内防,[]"
   splits:
   - split: 3
     text: "内防"
-    translated: "Internal Defense"
+    translated: "Nội phòng"
 - raw: "ComString,.cctor,27557,诛心,[]"
   splits:
   - split: 3
     text: "诛心"
-    translated: "Mind Attack"
+    translated: "Tru tâm"
 - raw: "ComString,.cctor,27567,御心,[]"
   splits:
   - split: 3
     text: "御心"
-    translated: "Discipline"
+    translated: "Ngự tâm"
 - raw: "ComString,.cctor,27577,要害,[]"
   splits:
   - split: 3
     text: "要害"
-    translated: "Vital Point"
+    translated: "Yếu hại"
 - raw: "ComString,.cctor,27587,化解,[]"
   splits:
   - split: 3
     text: "化解"
-    translated: "Counter"
+    translated: "Hóa giải"
 - raw: "ComString,.cctor,27597,阴,[]"
   splits:
   - split: 3
     text: "阴"
-    translated: "Yin"
+    translated: "Âm"
 - raw: "ComString,.cctor,27607,阳,[]"
   splits:
   - split: 3
     text: "阳"
-    translated: "Yang"
+    translated: "Dương"
 - raw: "ComString,.cctor,27617,刚,[]"
   splits:
   - split: 3
     text: "刚"
-    translated: "Hard"
+    translated: "Cương"
 - raw: "ComString,.cctor,27627,柔,[]"
   splits:
   - split: 3
     text: "柔"
-    translated: "Soft"
+    translated: "Nhu"
 - raw: "ComString,.cctor,27637,毒,[]"
   splits:
   - split: 3
     text: "毒"
-    translated: "Poison"
+    translated: "Độc"
 - raw: "ComString,.cctor,27647,刀法,[]"
   splits:
   - split: 3
     text: "刀法"
-    translated: "Blade Art"
+    translated: "Đao pháp"
 - raw: "ComString,.cctor,27657,剑术,[]"
   splits:
   - split: 3
     text: "剑术"
-    translated: "Swordsmanship"
+    translated: "Kiếm thuật"
 - raw: "ComString,.cctor,27667,搏击,[]"
   splits:
   - split: 3
     text: "搏击"
-    translated: "Martial arts combat"
+    translated: "Bác kích"
 - raw: "ComString,.cctor,27677,枪棍,[]"
   splits:
   - split: 3
     text: "枪棍"
-    translated: "Spear & Staff"
+    translated: "Thương côn"
 - raw: "ComString,.cctor,27687,暗器,[]"
   splits:
   - split: 3
     text: "暗器"
-    translated: "Hidden Weapon"
+    translated: "Ám khí"
 - raw: "ComString,.cctor,27697,道学,[]"
   splits:
   - split: 3
     text: "道学"
-    translated: "Taoism"
+    translated: "Đạo học"
 - raw: "ComString,.cctor,27707,佛学,[]"
   splits:
   - split: 3
     text: "佛学"
-    translated: "Buddhism"
+    translated: "Phật học"
 - raw: "ComString,.cctor,27717,儒学,[]"
   splits:
   - split: 3
     text: "儒学"
-    translated: "Confucianism"
+    translated: "Nho học"
 - raw: "ComString,.cctor,27727,兵学,[]"
   splits:
   - split: 3
@@ -14025,7 +14025,7 @@
   splits:
   - split: 3
     text: "墨学"
-    translated: "Mohism"
+    translated: "Mặc học"
 - raw: "ComString,.cctor,27747,诡学,[]"
   splits:
   - split: 3
@@ -14035,27 +14035,27 @@
   splits:
   - split: 3
     text: "魔学"
-    translated: "Dark Arts"
+    translated: "Ma học"
 - raw: "ComString,.cctor,27767,农学,[]"
   splits:
   - split: 3
     text: "农学"
-    translated: "Agriculture"
+    translated: "Nông học"
 - raw: "ComString,.cctor,27777,炼丹,[]"
   splits:
   - split: 3
     text: "炼丹"
-    translated: "Alchemy"
+    translated: "Luyện đan"
 - raw: "ComString,.cctor,27787,炼器,[]"
   splits:
   - split: 3
     text: "炼器"
-    translated: "Refining"
+    translated: "Luyện khí"
 - raw: "ComString,.cctor,27797,巧手,[]"
   splits:
   - split: 3
     text: "巧手"
-    translated: "Skilled Hands"
+    translated: "Khéo tay"
 - raw: "ComString,.cctor,27807,缝纫,[]"
   splits:
   - split: 3
@@ -14065,7 +14065,7 @@
   splits:
   - split: 3
     text: "酿酒"
-    translated: "Brewing"
+    translated: "Ủ rượu"
 - raw: "ComString,.cctor,27827,烹饪,[]"
   splits:
   - split: 3
@@ -14075,12 +14075,12 @@
   splits:
   - split: 3
     text: "琴艺"
-    translated: "Zither Art"
+    translated: "Cầm nghệ"
 - raw: "ComString,.cctor,27847,棋艺,[]"
   splits:
   - split: 3
     text: "棋艺"
-    translated: "Chess Art"
+    translated: "Kỳ nghệ"
 - raw: "ComString,.cctor,27857,书法,[]"
   splits:
   - split: 3
@@ -14090,17 +14090,17 @@
   splits:
   - split: 3
     text: "画道"
-    translated: "Painting"
+    translated: "Họa đạo"
 - raw: "ComString,.cctor,27877,酒量,[]"
   splits:
   - split: 3
     text: "酒量"
-    translated: "Alcohol tolerance"
+    translated: "Tửu lượng"
 - raw: "ComString,.cctor,27887,垂钓,[]"
   splits:
   - split: 3
     text: "垂钓"
-    translated: "Fishing"
+    translated: "Câu cá"
 - raw: "ComString,.cctor,27897,金钱,[]"
   splits:
   - split: 3
@@ -14120,7 +14120,7 @@
   splits:
   - split: 3
     text: "悟性"
-    translated: "Comprehension"
+    translated: "Ngộ tính"
 - raw: "ComString,.cctor,27937,输入对话内容,[]"
   splits:
   - split: 3
@@ -14250,7 +14250,7 @@
   splits:
   - split: 3
     text: "太阳穴"
-    translated: "Temples"
+    translated: "Thái dương"
 - raw: "ComString,.cctor,28197,妆容,[]"
   splits:
   - split: 3
@@ -16372,7 +16372,7 @@
   splits:
   - split: 3
     text: "年"
-    translated: "Year"
+    translated: "Năm"
 - raw: "InstantiateView,SetText,195,子分数和总分数：,[]"
   splits:
   - split: 3
@@ -16624,12 +16624,12 @@
   splits:
   - split: 3
     text: "完美"
-    translated: "Perfect"
+    translated: "Hoàn Mỹ"
 - raw: "PharmacyView,Update,762,过火,[]"
   splits:
   - split: 3
     text: "过火"
-    translated: "Excessive"
+    translated: "Quá mức"
 - raw: "PharmacyView,OnClickBegin,26,灭 火,[]"
   splits:
   - split: 3
@@ -16748,7 +16748,7 @@
   splits:
   - split: 3
     text: "秒"
-    translated: "Second"
+    translated: "Giây"
 - raw: "MiJiStealXinfaView,OnRefresh,262,设计时要求只能有1个buff效果，但实际不是，nodeId:{0},[SweetPotato.MiJiPage，SweetPotato.SpellPrototype]"
   splits:
   - split: 3
@@ -17536,42 +17536,42 @@
   splits:
   - split: 3
     text: "任脉"
-    translated: "Ren Mai"
+    translated: "Nhâm mạch"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,72,督脉,[System.Int32]"
   splits:
   - split: 3
     text: "督脉"
-    translated: "Du Mai"
+    translated: "Đốc mạch"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,80,带脉,[System.Int32]"
   splits:
   - split: 3
     text: "带脉"
-    translated: "Dai Mai"
+    translated: "Đới mạch"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,88,冲脉,[System.Int32]"
   splits:
   - split: 3
     text: "冲脉"
-    translated: "Chong Mai"
+    translated: "Xung mạch"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,96,阳维,[System.Int32]"
   splits:
   - split: 3
     text: "阳维"
-    translated: "Yang Wei"
+    translated: "Dương Duy"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,104,阴维,[System.Int32]"
   splits:
   - split: 3
     text: "阴维"
-    translated: "Yin Wei"
+    translated: "Âm Duy"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,112,阴跷,[System.Int32]"
   splits:
   - split: 3
     text: "阴跷"
-    translated: "Yin Qiao"
+    translated: "Âm Kiểu"
 - raw: "SweetPotato.JingMai_node,GetJingMaiTypeName,120,阳跷,[System.Int32]"
   splits:
   - split: 3
     text: "阳跷"
-    translated: "Yang Qiao"
+    translated: "Dương Kiểu"
 - raw: "SweetPotato.JingMai_ZhouTianEffect,GetEffectIdList,179,{0}表中没有配置{1}的效果,[System.Collections.Generic.List`1<System.Int64>]"
   splits:
   - split: 3

@@ -347,12 +347,12 @@
   splits:
   - split: 1
     text: "精铁剑配方"
-    translated: "Fine Iron Sword Formula"
+    translated: "Tinh Thiết Kiếm Phương"
 - raw: "1071#春风手配方#4#7#12#12#766#99999#0#1#0#0#peifang#1071#0#3071#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|100|>=#0##0#0#0#0#1500012467#0#0#0#0#0#"
   splits:
   - split: 1
     text: "春风手配方"
-    translated: "Spring Breeze Hand Formula"
+    translated: "Xuân Phong Thủ Phương"
 - raw: "1072#山有枢配方#4#7#12#13#1341#99999#0#1#0#0#peifang#1072#0#3072#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|250|>=#0##0#0#0#0#1500012468#0#0#0#0#0#"
   splits:
   - split: 1
@@ -372,7 +372,7 @@
   splits:
   - split: 1
     text: "重阳天配方"
-    translated: "Double Ninth Heaven Formula"
+    translated: "Trùng Dương Thiên Phương"
 - raw: "1076#天瀑配方#4#7#14#16#11233#99999#0#1#0#0#peifang#1076#0#3076#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|700|>=#0##0#0#0#0#1500012472#0#0#0#0#0#"
   splits:
   - split: 1
@@ -392,7 +392,7 @@
   splits:
   - split: 1
     text: "云头刀配方"
-    translated: "Cloudtop Blade Formula"
+    translated: "Vân Đầu Đao Phương"
 - raw: "1080#九环刀配方#4#7#11#11#350#99999#0#1#0#0#peifang#1080#0#3080#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|10|>=#0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -502,32 +502,32 @@
   splits:
   - split: 1
     text: "乌鸢配方"
-    translated: "Raven Formula"
+    translated: "Ô Diên Phương"
 - raw: "1102#断肠配方#4#7#12#13#1341#99999#0#1#0#0#peifang#1102#0#3102#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|250|>=#0##0#0#0#0#1500012488#0#0#0#0#0#"
   splits:
   - split: 1
     text: "断肠配方"
-    translated: "Heartbreak Formula"
+    translated: "Đoạn Trường Phương"
 - raw: "1103#百重波配方#4#7#13#14#2935#99999#0#1#0#0#peifang#1103#0#3103#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|400|>=#0##0#0#0#0#1500012489#0#0#0#0#0#"
   splits:
   - split: 1
     text: "百重波配方"
-    translated: "Hundred Layers of Waves Formula"
+    translated: "Bách Trùng Ba Phương"
 - raw: "1104#拥云间配方#4#7#13#15#5135#99999#0#1#0#0#peifang#1104#0#3104#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|550|>=#0##0#0#0#0#1500012490#0#0#0#0#0#"
   splits:
   - split: 1
     text: "拥云间配方"
-    translated: "Embrace the Clouds Formula"
+    translated: "Ủng Vân Gian Phương"
 - raw: "1105#古月摧配方#4#7#14#16#11233#99999#0#1#0#0#peifang#1105#0#3105#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|700|>=#0##0#0#0#0#1500012491#0#0#0#0#0#"
   splits:
   - split: 1
     text: "古月摧配方"
-    translated: "Ancient Moon Crushing Formula"
+    translated: "Cổ Nguyệt Tồi Phương"
 - raw: "1106#引龙驹配方#4#7#14#16#11233#99999#0#1#0#0#peifang#1106#0#3106#0#3600#0#####0#0#0#0#0#0####0##0&18|1|51|700|>=#0##0#0#0#0#1500012492#0#0#0#0#0#"
   splits:
   - split: 1
     text: "引龙驹配方"
-    translated: "Dragon Colt Summoning Formula"
+    translated: "Dẫn Long Câu Phương"
 - raw: "1107#麻衣配方#4#7#10#10#160#99999#0#1#0#0#peifang#1107#0#3107#0#3600#0#####0#0#0#0#0#0####0##0&18|1|53|10|>=#0##0#0#0#0#1500012493#0#0#0#0#0#"
   splits:
   - split: 1
@@ -1557,7 +1557,7 @@
   splits:
   - split: 1
     text: "己寿配方"
-    translated: "Longevity Formula"
+    translated: "Kỷ Thọ Phương"
 - raw: "1313#拜香天配方#4#7#14#16#7018#99999#0#1#0#0#peifang#1313#0#3313#0#3600#0#####0#0#0#0#0#0####0##0&18|1|54|700|>=#0##0#0#0#0#1500012632#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2673,7 +2673,7 @@
   splits:
   - split: 1
     text: "黑铁"
-    translated: "Dark Iron"
+    translated: "Hắc thiết"
 - raw: "5023#松石#3#2#12#13#148#99999#0#1#0#0#st_4#5023#0#7023#0#3600#0##44&3#11&2|3#DAOJU#0#0#0#8623#1#1###all#0###0##1|8423000#0#0#0#1500012689#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2758,12 +2758,12 @@
   splits:
   - split: 1
     text: "玄铁"
-    translated: "Dark Steel"
+    translated: "Huyền thiết"
 - raw: "5040#天清墨玉#3#2#14#16#724#99999#0#1#0#0#kuangshi1#5040#0#7040#0#3600#0##74&5#11&2|3#DAOJU#0#0#0#8640#1#1####0###0##1|8423000#0#0#49019#1500012706#0#0#0#0#0#"
   splits:
   - split: 1
     text: "天清墨玉"
-    translated: "Celestial Ink Jade"
+    translated: "Thiên Thanh Mặc Ngọc"
 - raw: "5041#赤金#3#2#14#16#724#99999#0#1#0#0#new1_cijin#5041#0#7041#0#3600#0##55&5#11&2|3#DAOJU#0#0#0#8641#1#1####0###0##1|8423000#0#0#49009|49010|49019|49020|49029|49030#1500012707#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2788,7 +2788,7 @@
   splits:
   - split: 1
     text: "乌金"
-    translated: "Black Gold"
+    translated: "Ô kim"
 - raw: "5046#慈石#3#2#11#11#55#99999#0#1#0#0#tong_1#5046#0#7046#0#3600#0##26&2#11&1|2|3#DAOJU#0#0#0#8646#1#1####0###0##1|8423000#0#0#0#1500012711#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2888,7 +2888,7 @@
   splits:
   - split: 1
     text: "甘草"
-    translated: "Licorice"
+    translated: "Cam thảo"
 - raw: "9009#黄岑#3#3#10#10#25#99999#0#1#0#0#chazixin#9009#0#11009#0#3600#0##20&2#11&1#DANYAO#0#0#0#8514#1#1###all#0###0##1|8423000#0#0#0#1500012724#0#0#0#0#0#"
   splits:
   - split: 1
@@ -2968,7 +2968,7 @@
   splits:
   - split: 1
     text: "末药"
-    translated: "Final Remedy"
+    translated: "Một dược"
 - raw: "9025#茴香#3#3#11#11#46#99999#0#1#0#0#xianhecao#9025#0#11025#0#3600#0##26&2#11&1#DANYAO#0#0#0#8521#1#1###all#0###0##1|8423000#0#0#0#1500012733#0#0#0#0#0#"
   splits:
   - split: 1
@@ -3043,7 +3043,7 @@
   splits:
   - split: 1
     text: "三七"
-    translated: "Sanqi"
+    translated: "Tam thất"
 - raw: "9040#山药#3#3#11#11#46#99999#0#1#0#0#gancao#9040#0#11040#0#3600#0##26&2#11&1#DANYAO#0#0#0#8521#1#1###all#0###0##1|8423000#0#0#0#1500012743#0#0#0#0#0#"
   splits:
   - split: 1
@@ -3188,7 +3188,7 @@
   splits:
   - split: 1
     text: "细辛"
-    translated: "Fragrant Root"
+    translated: "Tế tân"
 - raw: "9069#半夏#3#3#12#13#124#99999#0#1#0#0#new1_ttc#9069#0#11069#0#3600#0##44&3#11&1#DANYAO#0#0#0#8543#1#1###all#0###0##1|8423000#0#0#18011#1500012768#0#0#0#0#0#"
   splits:
   - split: 1
@@ -3208,7 +3208,7 @@
   splits:
   - split: 1
     text: "黄连"
-    translated: "Coptis root"
+    translated: "Hoàng liên"
 - raw: "9073#鹿药#3#3#13#14#223#99999#0#1#0#0#caoyao7#9073#0#11073#0#3600#0##57&4#11&1#DANYAO#0#0#0#8551#1#1###all#0###0##1|8423000#0#0#18027#1500012769#0#0#0#0#0#"
   splits:
   - split: 1
@@ -3223,7 +3223,7 @@
   splits:
   - split: 1
     text: "茯苓"
-    translated: "Poria"
+    translated: "Phục linh"
 - raw: "9076#人参#3#3#13#14#223#99999#0#1#0#0#new1_jiuqurensheng#9076#0#11076#0#3600#0##57&4#11&1#DANYAO#0#0#0#8554#1#1###all#0###0##1|8423000#0#0#0#1500012703#0#0#0#0#0#"
   splits:
   - split: 1
@@ -3393,7 +3393,7 @@
   splits:
   - split: 1
     text: "泽兰"
-    translated: "Ze Lan"
+    translated: "Trạch Lan"
 - raw: "9110#款冬花#3#3#14#16#604#99999#0#1#0#0#new1_qiannzx#9110#0#11110#0#3600#0##96&6#11&1#DANYAO#0#0#0#8572#1#1####0###0##1|8423000#0#0#18045#1500012798#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4315,7 +4315,7 @@
   splits:
   - split: 1
     text: "养气散"
-    translated: "Yangqi Powder"
+    translated: "Dưỡng Khí Tán"
 - raw: "18006#化淤散#4#5#11#12#882#99999#0#1#0#0#new2_yaofen1#18006#0#20006#0#3605#0##2&33&1###0#0#0#0#0#0###all#0###0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4340,7 +4340,7 @@
   splits:
   - split: 1
     text: "菩提蛇胆丸"
-    translated: "Bodhi Snake Gall Pill"
+    translated: "Bồ Đề Xà Đảm Hoàn"
 - raw: "18011#生肌散#4#5#12#14#3106#99999#0#1#0#0#new2_yaofen2#18011#0#20011#0#3605#0##2&79&1###0#0#0#0#0#0###all#0###0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4380,7 +4380,7 @@
   splits:
   - split: 1
     text: "紫参清灵丹"
-    translated: "Purple Ginseng Clarity Pill"
+    translated: "Tử Sâm Thanh Linh Đan"
 - raw: "18019#灵芝漱魂丹#4#5#12#13#5319#99999#0#1#0#0#yaopin2#18019#0#20019#0#3605#0##5&1&0###0#0#0#0#0#0###all#0##0&28|18019|<|5#0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4445,7 +4445,7 @@
   splits:
   - split: 1
     text: "生脉丹"
-    translated: "Vital Pulse Pill"
+    translated: "Sinh Mạch Đan"
 - raw: "18032#三顺散#4#5#13#14#10705#99999#0#1#0#0#yaofen3#18032#0#20032#0#3605#0##7&3&0###0#0#0#0#0#0###all#0##0&28|18032|<|5#0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4475,7 +4475,7 @@
   splits:
   - split: 1
     text: "明心见性丹"
-    translated: "Mind‑clearing and nature‑revealing pill"
+    translated: "Minh Tâm Kiến Tính Đan"
 - raw: "18038#疾风丹#4#5#13#15#18735#99999#0#1#0#0#yaopin1#18038#0#20038#0#3605#0##10&3&0###0#0#0#0#0#0###all#0##0&28|18038|<|5#0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4510,12 +4510,12 @@
   splits:
   - split: 1
     text: "一气茯神丹"
-    translated: "Unity Poria Elixir"
+    translated: "Nhất Khí Phục Thần Đan"
 - raw: "18045#十陵风玄丹#4#5#14#16#37705#99999#0#1#0#0#yaopin7#18045#0#20045#0#3605#0##10&5&0###0#0#0#0#0#0####0##0&28|18045|<|5#0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
     text: "十陵风玄丹"
-    translated: "Ten Tombs Profound Wind Pill"
+    translated: "Thập Lăng Phong Huyền Đan"
 - raw: "18046#定灵丹#4#5#14#16#37705#99999#0#1#0#0#yaopin9#18046#0#20046#0#3605#0##11&5&0###0#0#0#0#0#0####0##0&28|18046|<|5#0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4525,7 +4525,7 @@
   splits:
   - split: 1
     text: "破障丹"
-    translated: "Obstruction Breaking Pill"
+    translated: "Phá Chướng Đan"
 - raw: "18048#特制狗皮膏药#4#5#10#10#250#99999#0#1#0#0#yaopin8#18048#0#20048#0#3605#0##2&1372&0#0|0&5&0##0#0#0#0#0#0###all#0###0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4840,7 +4840,7 @@
   splits:
   - split: 1
     text: "筋武丹"
-    translated: "Sinew Strengthening Pill"
+    translated: "Cân Võ Đan"
 - raw: "18111#疏络心丹#4#5#11#13#4625#99999#0#1#0#0#yaopin2#18111#0#20111#0#3605#0##69&1226&0###0#0#0#0#0#0####0###0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -4930,7 +4930,7 @@
   splits:
   - split: 1
     text: "凝竹丹"
-    translated: "Bamboo Essence Pill"
+    translated: "Ngưng Trúc Đan"
 - raw: "18129#寒池寻雪散#4#5#14#16#37705#99999#0#1#0#0#yaopin5#18129#0#20129#0#3605#0##32&5&0###0#0#0#0#0#0####0##0&28|18129|<|5#0##0#0#0#0#1500012812#0#0#0#0#0#"
   splits:
   - split: 1
@@ -5425,7 +5425,7 @@
   splits:
   - split: 1
     text: "梅香酎"
-    translated: "Plum‑Scented Liquor"
+    translated: "Mai Hương Trụ"
 - raw: "21002#梨花春#4#6#10#10#525#99999#0#1#14020#0#new2_jiu2#21002#0#23002#0#3600#0##83&20&0#0|62&5&0##0#0#0#0#0#0###all#0###0##0#0#0#0#1500012813#0#0#0#0#0#"
   splits:
   - split: 1
@@ -5621,7 +5621,7 @@
   splits:
   - split: 1
     text: "和玉酝"
-    translated: "Harmonized Jade Brew"
+    translated: "Hòa Ngọc Uẩn"
 - raw: "21040#百华乐#4#6#12#13#4398#99999#0#1#14350#0#new2_jiu2#21040#0#23040#0#3600#0##83&135&0#0|62&12&0##0#0#0#0#0#0###all#0##0&18|1|62|140|>=#0##0#0#0#0#1500012813#0#0#0#0#0#"
   splits:
   - split: 1
@@ -5676,7 +5676,7 @@
   splits:
   - split: 1
     text: "鸿米烧"
-    translated: "Hongmi Roast"
+    translated: "Hồng Mễ Thiêu"
 - raw: "21051#禚秋春#4#6#13#14#9619#99999#0#1#14480#0#new2_jiu2#21051#0#23051#0#3600#0##83&50&1#0|62&15&0##0#0#0#0#0#0###all#0##0&18|1|62|210|>=#0##0#0#0#0#1500012813#0#0#0#0#0#"
   splits:
   - split: 1
@@ -6401,7 +6401,7 @@
   splits:
   - split: 1
     text: "罗汉斋"
-    translated: "Arhat's Retreat"
+    translated: "La Hán Trai"
 - raw: "22054#咕咾肉#4#4#13#14#7491#99999#0#1#12440#0#dongporou#22054#0#24054#0#3600#0##83&50&1#0|84&3&0##0#0#0#0#0#0###all#0###0##0#0#0#0#1500012815#0#0#0#0#0#"
   splits:
   - split: 1
@@ -6461,7 +6461,7 @@
   splits:
   - split: 1
     text: "芋儿鸡"
-    translated: "Taro Chicken"
+    translated: "Gà kho môn"
 - raw: "22066#生鱼烩#4#4#13#15#13109#99999#0#1#12580#0#cuyu#22066#0#24066#0#3600#0##83&225&0#0|84&5&0##0#0#0#0#0#0###all#0###0##0#0#0#0#1500012815#0#0#0#0#0#"
   splits:
   - split: 1
@@ -6811,7 +6811,7 @@
   splits:
   - split: 1
     text: "瑶台秋"
-    translated: "Jade Terrace Autumn"
+    translated: "Dao Đài Thu"
 - raw: "22136#惠山飘香肉#4#4#13#15#13109#99999#0#1#12600#0#chishao#37823#0#37824#0#3600#0##83&225&0#0|84&5&0##0#0#0#0#0#0###all#0###0##0#0#0#0#1500012815#0#0#0#0#0#"
   splits:
   - split: 1
@@ -7076,12 +7076,12 @@
   splits:
   - split: 1
     text: "猴儿酒"
-    translated: "Monkey Wine"
+    translated: "Hầu Nhi Tửu"
 - raw: "25036#熊掌#3#1#14#16#725#99999#0#1#0#0#new1_hwxc#25036#0#27036#0#3600#0##96&6#11&1##0#0#0#0#0#0####0###0##0#0#0#18173#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "熊掌"
-    translated: "Bear Paw"
+    translated: "Tay gấu"
 - raw: "25037#虎鞭#3#1#14#16#725#99999#0#1#0#0#new1_mm#25037#0#27037#0#3600#0##96&6#11&1##0#0#0#0#0#0####0###0##0#0#0#18165|18174#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -9141,62 +9141,62 @@
   splits:
   - split: 1
     text: "紫阳剑谱"
-    translated: "Ziyang Sword Manual"
+    translated: "Tử Dương Kiếm Phổ"
 - raw: "34001#太初剑谱#4#15#12#12#8112#99999#0#1#0#0#miji8#34001#0#36001#0#3600#0#101#0###0#0#0#0#0#0##109|1000&118|1000&127|1000##0#65002|82##0##0#0#1#0#1500012833#0#0#0#0#0#"
   splits:
   - split: 1
     text: "太初剑谱"
-    translated: "Primordial Origin Sword Manual"
+    translated: "Thái Sơ Kiếm Phổ"
 - raw: "34002#碧海潮生剑#4#15#13#13#10546#99999#0#1#0#0#miji15#34002#0#36002#0#3600#0#102#0###0#0#0#0#0#0####0#65005|82##0##0#0#0#0#1500012834#0#0#0#0#0#"
   splits:
   - split: 1
     text: "碧海潮生剑"
-    translated: "Azure Sea Tide Raising Sword"
+    translated: "Bích Hải Triều Sinh Kiếm"
 - raw: "34003#太易剑谱#4#15#12#12#8112#99999#0#1#0#0#miji8#34003#0#36003#0#3600#0#103#0###0#0#0#0#0#0####0#65002|106&65005|106##0##0#0#0#0#1500012833#0#0#0#0#0#"
   splits:
   - split: 1
     text: "太易剑谱"
-    translated: "Tai Yi Sword Manual"
+    translated: "Thái Dịch Kiếm Phổ"
 - raw: "34004#剑宗总诀#4#15#14#14#13710#99999#0#1#0#0#miji10#34004#0#36004#0#3600#0#104#0###0#0#0#0#0#0####0#65002|138##0##0#0#0#0#1500012835#0#0#0#0#0#"
   splits:
   - split: 1
     text: "剑宗总诀"
-    translated: "Sword Sect General Principles"
+    translated: "Kiếm Tông Tổng Quyết"
 - raw: "34005#道剑#4#15#11#11#8112#99999#0#1#0#0#miji11#34005#0#36005#0#3600#0#105#0###0#0#0#0#0#0##109|1250&118|1250&127|1250&131|1250&271|1250&272|1250&281|1250&282|1250##0#65004|82##0##0#0#1#0#1500012835#0#0#0#0#0#"
   splits:
   - split: 1
     text: "道剑"
-    translated: "Sword Path"
+    translated: "Đạo Kiếm"
 - raw: "34006#佛剑#4#15#11#11#8113#99999#0#1#0#0#miji11#34006#0#36006#0#3600#0#106#0###0#0#0#0#0#0####0#65007|82##0##0#0#0#0#1500012836#0#0#0#0#0#"
   splits:
   - split: 1
     text: "佛剑"
-    translated: "Sword of Buddha"
+    translated: "Phật Kiếm"
 - raw: "34007#斜风细雨剑#4#15#12#12#8114#99999#0#1#0#0#miji8#34007#0#36007#0#3600#0#107#0###0#0#0#0#0#0####0#65014|82&65034|82##0##0#0#0#0#1500012837#0#0#0#0#0#"
   splits:
   - split: 1
     text: "斜风细雨剑"
-    translated: "Slanting Wind and Drizzling Rain Sword"
+    translated: "Tà Phong Tế Vũ Kiếm"
 - raw: "34008#霸下剑谱#4#15#12#12#8112#99999#0#1#0#0#miji8#34008#0#36008#0#3600#0#108#0###0#0#0#0#0#0####0#65024|82&65030|82&65031|82##0##0#0#0#0#1500012838#0#0#0#0#0#"
   splits:
   - split: 1
     text: "霸下剑谱"
-    translated: "Sovereign Swords Manual"
+    translated: "Bá Hạ Kiếm Phổ"
 - raw: "34009#流风回雪剑#4#15#12#12#8112#99999#0#1#0#0#miji8#34009#0#36009#0#3600#0#109#0###0#0#0#0#0#0####0#65005|106##0##0#0#0#0#1500012834#0#0#0#0#0#"
   splits:
   - split: 1
     text: "流风回雪剑"
-    translated: "Sword of the Flowing Wind and Returning Snow"
+    translated: "Lưu Phong Hồi Tuyết Kiếm"
 - raw: "34010#大须弥剑典#4#15#12#12#8112#99999#0#1#0#0#miji8#34010#0#36010#0#3600#0#110#0###0#0#0#0#0#0####0#65005|106##0##0#0#0#0#1500012833#0#0#0#0#0#"
   splits:
   - split: 1
     text: "大须弥剑典"
-    translated: "Great Xumi Sword Classic"
+    translated: "Đại Tu Di Kiếm Điển"
 - raw: "34011#天下霸剑#4#15#13#13#13710#99999#0#1#0#0#miji15#34011#0#36011#0#3600#0#111#0###0#0#0#0#0#0####0#65016|138##0##0#0#0#0#1500012839#0#0#0#0#0#"
   splits:
   - split: 1
     text: "天下霸剑"
-    translated: "World Conqueror's Sword"
+    translated: "Thiên Hạ Bá Kiếm"
 - raw: "34012#二十八星宿剑#4#15#13#13#13710#99999#0#1#0#0#miji15#34012#0#36012#0#3600#0#112#0###0#0#0#0#0#0####0#65004|138&65022|138&65041|138##0##0#0#0#0#1500012840#0#0#0#0#0#"
   splits:
   - split: 1
@@ -9206,37 +9206,37 @@
   splits:
   - split: 1
     text: "若水剑法"
-    translated: "Ruoshi Sword Art"
+    translated: "Nhược Thủy Kiếm Pháp"
 - raw: "34014#抱阳剑谱#4#15#11#11#6240#99999#0#1#0#0#miji11#34014#0#36014#0#3600#0#114#0###0#0#0#0#0#0####0#65002|63&65013|63&65016|63&65029|63&65030|63&65031|63&65034|63&65039|63##0##0#0#0#0#1500012833#0#0#0#0#0#"
   splits:
   - split: 1
     text: "抱阳剑谱"
-    translated: "Baoyang Sword Manual"
+    translated: "Bão Dương Kiếm Phổ"
 - raw: "34015#暮雪剑法#4#15#11#11#6240#99999#0#1#0#0#miji11#34015#0#36015#0#3600#0#115#0###0#0#0#0#0#0####0#65002|63&65010|63&65013|63&65016|63&65027|63&65029|63&65034|63&65039|63##0##0#0#0#0#1500012841#0#0#0#0#0#"
   splits:
   - split: 1
     text: "暮雪剑法"
-    translated: "Twilight Snow Sword Art"
+    translated: "Mộ Tuyết Kiếm Pháp"
 - raw: "34016#凌霄剑法#4#15#12#12#8112#99999#0#1#0#0#miji8#34016#0#36016#0#3600#0#116#0###0#0#0#0#0#0####0#65017|82##0##0#0#0#0#1500012842#0#0#0#0#0#"
   splits:
   - split: 1
     text: "凌霄剑法"
-    translated: "Ascending Sky Sword Art"
+    translated: "Lăng Tiêu Kiếm Pháp"
 - raw: "34017#浩然剑诀#4#15#12#12#8112#99999#0#1#0#0#miji8#34017#0#36017#0#3600#0#117#0###0#0#0#0#0#0####0#65004|82&65017|82##0##0#0#0#0#1500012835#0#0#0#0#0#"
   splits:
   - split: 1
     text: "浩然剑诀"
-    translated: "Vast Sword Method"
+    translated: "Hạo Nhiên Kiếm Quyết"
 - raw: "34018#儒剑#4#15#11#11#8112#99999#0#1#0#0#miji11#34018#0#36018#0#3600#0#118#0###0#0#0#0#0#0####0#65004|82&65007|81&65022|82##0##0#0#0#0#1500012835#0#0#0#0#0#"
   splits:
   - split: 1
     text: "儒剑"
-    translated: "Confucian Sword"
+    translated: "Nho Kiếm"
 - raw: "34019#墨剑#4#15#11#11#6240#99999#0#1#0#0#miji11#34019#0#36019#0#3600#0#119#0###0#0#0#0#0#0####0#65007|63&65010|63##0##0#0#0#0#1500012843#0#0#0#0#0#"
   splits:
   - split: 1
     text: "墨剑"
-    translated: "Ink Sword"
+    translated: "Mặc Kiếm"
 - raw: "34020#归雁剑诀#4#15#10#10#4800#99999#0#1#0#0#miji12#34020#0#36020#0#3600#0#120#0###0#0#0#0#0#0#34825|10000###0###0##0#0#0#0#1500012844#0#0#0#0#0#"
   splits:
   - split: 1
@@ -9246,42 +9246,42 @@
   splits:
   - split: 1
     text: "太素剑谱"
-    translated: "Great Simplicity Sword"
+    translated: "Thái Tố Kiếm Phổ"
 - raw: "34022#天行无字诀#4#15#11#11#4800#99999#0#1#0#0#miji11#34022#0#36022#0#3600#0#122#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "天行无字诀"
-    translated: "Unwritten Method of Heaven's Path"
+    translated: "Thiên Hành Vô Tự Quyết"
 - raw: "34023#飞仙剑诀#4#15#11#11#6240#99999#0#1#0#0#miji11#34023#0#36023#0#3600#0#123#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "飞仙剑诀"
-    translated: "Flying Immortal Sword Technique"
+    translated: "Phi Tiên Kiếm Quyết"
 - raw: "34024#天外飞仙#4#15#13#13#10546#99999#0#1#0#0#miji15#34024#0#36024#0#3600#0#124#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "天外飞仙"
-    translated: "Flying Immortal from Beyond the Heavens"
+    translated: "Thiên Ngoại Phi Tiên"
 - raw: "34025#非攻#4#15#11#11#6240#99999#0#1#0#0#miji11#34025#0#36025#0#3600#0#125#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012843#0#0#0#0#0#"
   splits:
   - split: 1
     text: "非攻"
-    translated: "Non‑Agression"
+    translated: "Phi Công"
 - raw: "34026#天下第一剑#4#15#11#11#12480#99999#0#1#0#0#miji11#34026#0#36026#0#3600#0#126#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "天下第一剑"
-    translated: "World's Number One Sword"
+    translated: "Thiên Hạ Đệ Nhất Kiếm"
 - raw: "34027#剑来#4#15#11#11#12480#99999#0#1#0#0#miji11#34027#0#36027#0#3600#0#127#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "剑来"
-    translated: "Sword Comes"
+    translated: "Kiếm Lai"
 - raw: "34028#独孤剑诀#4#15#14#14#21090#99999#0#1#0#0#miji10#34028#0#36028#0#3600#0#128#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "独孤剑诀"
-    translated: "Solitary Sword Technique"
+    translated: "Độc Cô Cửu Kiếm"
 - raw: "34029#雷动剑经#4#15#10#10#4800#99999#0#1#0#0#miji12#34029#0#36029#0#3600#0#129#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
@@ -9311,7 +9311,7 @@
   splits:
   - split: 1
     text: "九剑"
-    translated: "Nine Swords"
+    translated: "Cửu Kiếm"
 - raw: "34036#天上经#4#15#14#14#4800#99999#0#1#0#0#miji10#34036#0#36036#0#3600#0#136#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
@@ -9321,37 +9321,37 @@
   splits:
   - split: 1
     text: "两仪剑法"
-    translated: "Two Forms Sword Art"
+    translated: "Lưỡng Nghi Kiếm Pháp"
 - raw: "34038#狂风快剑#4#15#10#10#4800#99999#0#1#0#0#miji12#34038#0#36038#0#3600#0#138#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012833#0#0#0#0#0#"
   splits:
   - split: 1
     text: "狂风快剑"
-    translated: "Wild Wind Fast Sword"
+    translated: "Cuồng Phong Khoái Kiếm"
 - raw: "34039#神门十三剑#4#15#10#10#4800#99999#0#1#0#0#miji12#34039#0#36039#0#3600#0#139#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012833#0#0#0#0#0#"
   splits:
   - split: 1
     text: "神门十三剑"
-    translated: "Thirteen Swords of the Divine Gate"
+    translated: "Thần Môn Thập Tam Kiếm"
 - raw: "34040#夺命连环三仙剑#4#15#13#13#4800#99999#0#1#0#0#miji15#34040#0#36040#0#3600#0#140#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "夺命连环三仙剑"
-    translated: "Life Taking Three Immortals Sword"
+    translated: "Đoạt Mệnh Liên Hoàn Tam Tiên Kiếm"
 - raw: "34041#玉女剑诀#4#15#11#11#6240#99999#0#1#0#0#miji11#34041#0#36041#0#3600#0#141#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "玉女剑诀"
-    translated: "Jade Maiden Sword Techniques"
+    translated: "Ngọc Nữ Kiếm Pháp"
 - raw: "34042#太极剑#4#15#14#14#27418#99999#0#1#0#0#miji10#34042#0#36042#0#3600#0#142#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#0#"
   splits:
   - split: 1
     text: "太极剑"
-    translated: "Supreme Ultimate Sword"
+    translated: "Thái Cực Kiếm"
 - raw: "34043#纯阳剑诀#4#15#14#14#21090#99999#0#1#0#0#miji10#34043#0#36043#0#3600#0#143#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "纯阳剑诀"
-    translated: "Pure Yang Sword Technique"
+    translated: "Thuần Dương Kiếm Quyết"
 - raw: "34045#太乙分光剑#4#15#15#15#27418#99999#0#1#0#0#miji10#34045#0#36045#0#3600#0#145#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#0#"
   splits:
   - split: 1
@@ -9371,7 +9371,7 @@
   splits:
   - split: 1
     text: "天外飞仙"
-    translated: "Flying Immortal from Beyond the Heavens"
+    translated: "Thiên Ngoại Phi Tiên"
 - raw: "34049#剑二十三#4#15#14#14#21090#99999#0#1#0#0#miji10#34049#0#36049#0#0#0#149#0###0#0#0#0#0#0####0###0####0####0#0#0#0#"
   splits:
   - split: 1
@@ -9406,57 +9406,57 @@
   splits:
   - split: 1
     text: "百殊刀"
-    translated: "Hundred Divergent Blades"
+    translated: "Bách Thù Đao"
 - raw: "34101#天罡极刃#4#15#10#10#6240#99999#0#1#0#0#miji12#34101#0#36101#0#3600#0#201#1###0#0#0#0#0#0##10009|2500&10010|2500&10011|2500&10012|2500##0#65008|48&65009|48&65035|48&65040|48##0##0#0#1#0#1500012846#0#0#0#0#0#"
   splits:
   - split: 1
     text: "天罡极刃"
-    translated: "Heavenly Force Extreme Blade"
+    translated: "Thiên Cương Cực Nhận"
 - raw: "34102#无上太玄刀#4#15#13#13#10546#99999#0#1#0#0#miji15#34102#0#36102#0#3600#0#202#1###0#0#0#0#0#0####0#65015|106&65027|106##0##0#0#0#0#1500012834#0#0#0#0#0#"
   splits:
   - split: 1
     text: "无上太玄刀"
-    translated: "Supreme Mystery Blade"
+    translated: "Vô Thượng Thái Huyền Đao"
 - raw: "34103#神刀鬼谕#4#15#12#12#8112#99999#0#1#0#0#miji8#34103#0#36103#0#3600#0#203#1###0#0#0#0#0#0####0#65009|82&65010|82&65015|82&65023|82&65027|82&65030|82&65035|82&65040|82##0##0#0#0#0#1500012847#0#0#0#0#0#"
   splits:
   - split: 1
     text: "神刀鬼谕"
-    translated: "Divine Blade and Ghostly Decree"
+    translated: "Thần Đao Quỷ Dụ"
 - raw: "34104#浩星撼日刀#4#15#13#13#10546#99999#0#1#0#0#miji15#34104#0#36104#0#3600#0#204#1###0#0#0#0#0#0####0#65008|63##0##0#0#0#0#1500012847#0#0#0#0#0#"
   splits:
   - split: 1
     text: "浩星撼日刀"
-    translated: "Cosmic Star Sun‑Shattering Blade"
+    translated: "Hạo Tinh Hám Nhật Đao"
 - raw: "34105#月渡边山#4#15#12#12#8112#99999#0#1#0#0#miji8#34105#0#36105#0#3600#0#205#1###0#0#0#0#0#0####0#65012|106##0##0#0#0#0#1500012841#0#0#0#0#0#"
   splits:
   - split: 1
     text: "月渡边山"
-    translated: "Moon Crossing the Edge Mountain"
+    translated: "Nguyệt Độ Biên Sơn"
 - raw: "34106#金翅大鹏斩#4#15#13#13#10546#99999#0#1#0#0#miji15#34106#0#36106#0#3600#0#206#1###0#0#0#0#0#0####0#65036|106##0##0#0#0#0#1500012848#0#0#0#0#0#"
   splits:
   - split: 1
     text: "金翅大鹏斩"
-    translated: "Golden‑Winged Roc Slash"
+    translated: "Kim Sí Đại Bằng Trảm"
 - raw: "34107#碧血风如晦#4#15#12#12#8112#99999#0#1#0#0#miji8#34107#0#36107#0#3600#0#207#1###0#0#0#0#0#0####0#65001|82##0##0#0#0#0#1500012849#0#0#0#0#0#"
   splits:
   - split: 1
     text: "碧血风如晦"
-    translated: "Jade Blood and Dark Winds"
+    translated: "Bích Huyết Phong Như Hối"
 - raw: "34108#千川惊鸿#4#15#14#14#13710#99999#0#1#0#0#miji10#34108#0#36108#0#3600#0#208#1###0#0#0#0#0#0####0#65001|138##0##0#0#0#0#1500012850#0#0#0#0#0#"
   splits:
   - split: 1
     text: "千川惊鸿"
-    translated: "A Thousand Rivers and a Startled Swan"
+    translated: "Thiên Xuyên Kinh Hồng"
 - raw: "34109#天梵伏魔刀#4#15#11#11#6240#99999#0#1#0#0#miji11#34109#0#36109#0#3600#0#209#1###0#0#0#0#0#0####0#65008|63##0##0#0#0#0#1500012851#0#0#0#0#0#"
   splits:
   - split: 1
     text: "天梵伏魔刀"
-    translated: "Heavenly Demon Suppressing Blade"
+    translated: "Thiên Phạn Phục Ma Đao"
 - raw: "34110#沧阳天坠刀#4#15#13#13#10546#99999#0#1#0#0#miji15#34110#0#36110#0#3600#0#210#1###0#0#0#0#0#0####0#65012|106##0##0#0#0#0#1500012837#0#0#0#0#0#"
   splits:
   - split: 1
     text: "沧阳天坠刀"
-    translated: "Cangyang Skyfall Blade"
+    translated: "Thương Dương Thiên Trụy Đao"
 - raw: "34111#八荒藏刀决#4#15#10#10#4800#99999#0#1#0#0#miji12#34111#0#36111#0#3600#0#211#1###0#0#0#0#0#0#34825|10000###0###0##0#0#0#0#1500012844#0#0#0#0#0#"
   splits:
   - split: 1
@@ -9466,37 +9466,37 @@
   splits:
   - split: 1
     text: "七杀狂风刀"
-    translated: "Seven Killings Gale Saber"
+    translated: "Thất Sát Cuồng Phong Đao"
 - raw: "34113#流云刀谱#4#15#10#10#6240#99999#0#1#0#0#miji12#34113#0#36113#0#3600#0#213#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012852#0#0#0#0#0#"
   splits:
   - split: 1
     text: "流云刀谱"
-    translated: "Flowing Clouds Saber Manual"
+    translated: "Lưu Vân Đao Phổ"
 - raw: "34114#裂山刀谱#4#15#10#10#6240#99999#0#1#0#0#miji12#34114#0#36114#0#3600#0#214#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012852#0#0#0#0#0#"
   splits:
   - split: 1
     text: "裂山刀谱"
-    translated: "Mountain‑Splitting Blade Manual"
+    translated: "Liệt Sơn Đao Phổ"
 - raw: "34115#捻香刀谱#4#15#10#10#6240#99999#0#1#0#0#miji12#34115#0#36115#0#3600#0#215#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012852#0#0#0#0#0#"
   splits:
   - split: 1
     text: "捻香刀谱"
-    translated: "Twirling Fragrance Blade Manual"
+    translated: "Niêm Hương Đao Phổ"
 - raw: "34116#神刀斩#4#15#14#14#27418#99999#0#1#0#0#miji10#34116#0#36116#0#3600#0#216#1###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "神刀斩"
-    translated: "Divine Blade Slash"
+    translated: "Thần Đao Trảm"
 - raw: "34117#踏月留香#4#15#13#13#4800#99999#0#1#0#0#miji15#34117#0#36117#0#3600#0#217#1###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "踏月留香"
-    translated: "Treading the Moon, Leaving a fragrance"
+    translated: "Đạp Nguyệt Lưu Hương"
 - raw: "34118#傲寒六诀#4#15#15#15#27418#99999#0#1#0#0#miji_hong#34118#0#36118#0#3600#0#218#1###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "傲寒六诀"
-    translated: "Six Proud Cold Techniques"
+    translated: "Ngạo Hàn Lục Quyết"
 - raw: "34119#汲生掠刃#4#15#11#11#4800#99999#0#1#0#0#miji11#34119#0#36119#0#3600#0#219#1###0#0#0#0#0#0####0###0##0#0#0#0#狂刀绝剑门贡献堂主处可获得#0#0#0#1#0#"
   splits:
   - split: 1
@@ -9539,57 +9539,57 @@
   splits:
   - split: 1
     text: "霸王孤枪鸣"
-    translated: "Tyrant's Lone Spear Cry"
+    translated: "Bá Vương Cô Thương Minh"
 - raw: "34201#纵横百花枪#4#15#12#12#8112#99999#0#1#0#0#miji8#34201#0#36201#0#3600#0#301#2###0#0#0#0#0#0#34831|10000###0#65019|82##0##0#1#0#0#1500012853#0#0#0#0#0#"
   splits:
   - split: 1
     text: "纵横百花枪"
-    translated: "Traverse the Hundred Flowers Spear"
+    translated: "Túng Hoành Bách Hoa Thương"
 - raw: "34202#释杀千忏#4#15#13#13#10546#99999#0#1#0#0#miji15#34202#0#36202#0#3600#0#302#2###0#0#0#0#0#0####0#65006|106##0##0#0#0#0#1500012848#0#0#0#0#0#"
   splits:
   - split: 1
     text: "释杀千忏"
-    translated: "Forgive a thousand killings"
+    translated: "Thích Sát Thiên Sám"
 - raw: "34203#伏明棍法#4#15#11#11#6240#99999#0#1#0#0#miji11#34203#0#36203#0#3600#0#303#2###0#0#0#0#0#0####0#65003|63&65006|63&65021|63&65020|63&65032|63&65038|63##0##0#0#0#0#1500012836#0#0#0#0#0#"
   splits:
   - split: 1
     text: "伏明棍法"
-    translated: "Subdue Brightness Staff Technique"
+    translated: "Phục Minh Côn Pháp"
 - raw: "34204#镇山锁岳枪#4#15#11#11#8112#99999#0#1#0#0#miji11#34204#0#36204#0#3600#0#304#2###0#0#0#0#0#0####0#65003|82&65018|82&65021|82&65020|82&65032|82&65038|82##0##0#0#0#0#1500012843#0#0#0#0#0#"
   splits:
   - split: 1
     text: "镇山锁岳枪"
-    translated: "Mountain Subduing Locking Peak Spear"
+    translated: "Trấn Sơn Tỏa Nhạc Thương"
 - raw: "34205#锻武堪禅#4#15#13#13#10546#99999#0#1#0#0#miji15#34205#0#36205#0#3600#0#305#2###0#0#0#0#0#0####0#65003|106##0##0#0#0#0#1500012836#0#0#0#0#0#"
   splits:
   - split: 1
     text: "锻武堪禅"
-    translated: "Tempering Martial Arts with Zen"
+    translated: "Đoán Võ Kham Thiền"
 - raw: "34206#一瞬惊云枪#4#15#12#12#6240#99999#0#1#0#0#miji8#34206#0#36206#0#3600#0#306#2###0#0#0#0#0#0####0#65025|63##0##0#0#0#0#1500012854#0#0#0#0#0#"
   splits:
   - split: 1
     text: "一瞬惊云枪"
-    translated: "One Moment Shocking Cloud Spear"
+    translated: "Nhất Thuấn Kinh Vân Thương"
 - raw: "34207#天转七绝枪#4#15#13#13#10546#99999#0#1#0#0#miji15#34207#0#36207#0#3600#0#307#2###0#0#0#0#0#0####0#65025|106##0##0#0#0#0#1500012854#0#0#0#0#0#"
   splits:
   - split: 1
     text: "天转七绝枪"
-    translated: "Heavenly Seven Turns Absolute Spear"
+    translated: "Thiên Chuyển Thất Tuyệt Thương"
 - raw: "34208#嵩室棍法#4#15#11#11#4800#99999#0#1#0#0#miji11#34208#0#36208#0#3600#0#308#2###0#0#0#0#0#0##159|1450&168|1450&177|1450&178|1450&10051|1450&10052|1450&10053|1450&10054|1450##0#65003|48&65033|48##0##0#0#0#0#1500012836#0#0#0#0#0#"
   splits:
   - split: 1
     text: "嵩室棍法"
-    translated: "Songshi Staff Techniques"
+    translated: "Tung Thất Côn Pháp"
 - raw: "34209#万道天阙#4#15#14#14#13710#99999#0#1#0#0#miji10#34209#0#36209#0#3600#0#309#2###0#0#0#0#0#0####0#65001|138##0##0#0#0#0#1500012850#0#0#0#0#0#"
   splits:
   - split: 1
     text: "万道天阙"
-    translated: "The Ten Thousand Paths to Heaven"
+    translated: "Vạn Đạo Thiên Khuyết"
 - raw: "34210#凤流恪命枪#4#15#13#13#10546#99999#0#1#0#0#miji15#34210#0#36210#0#3600#0#310#2###0#0#0#0#0#0####0#65019|106&65036|106##0##0#0#0#0#1500012853#0#0#0#0#0#"
   splits:
   - split: 1
     text: "凤流恪命枪"
-    translated: "Phoenix Flow Respectful Command Spear"
+    translated: "Phượng Lưu Khác Mệnh Thương"
 - raw: "34211#一字定海枪#4#15#10#10#4800#99999#0#1#0#0#miji12#34211#0#36211#0#3600#0#311#2###0#0#0#0#0#0#34825|10000###0###0##0#0#0#0#1500012844#0#0#0#0#0#"
   splits:
   - split: 1
@@ -9599,12 +9599,12 @@
   splits:
   - split: 1
     text: "问天枪诀"
-    translated: "Questioning Heaven Spear Techniques"
+    translated: "Vấn Thiên Thương Quyết"
 - raw: "34213#小夜叉棍法#4#15#10#10#6240#99999#0#1#0#0#miji12#34213#0#36213#0#3600#0#313#2###0#0#0#0#0#0####0#65003|63&65006|63&65021|63&65020|63&65032|63&65038|63##0##0#0#0#0#1500012836#0#0#0#0#0#"
   splits:
   - split: 1
     text: "小夜叉棍法"
-    translated: "Little Yaksha Staff Technique"
+    translated: "Tiểu Dạ Xoa Côn Pháp"
 - raw: "34214#杨家霸王枪#4#15#14#14#27418#99999#0#1#0#0#miji10#34214#0#36214#0#3600#0#314#2###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
@@ -9614,22 +9614,22 @@
   splits:
   - split: 1
     text: "打狗棍法"
-    translated: "Dog Beating Staff Technique"
+    translated: "Đả Cẩu Bổng Pháp"
 - raw: "34216#定海神针#4#15#16#16#27418#99999#0#1#0#0#miji_qicai#34216#0#36216#0#3600#0#316#2###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "定海神针"
-    translated: "Sea Calming Divine Needle"
+    translated: "Định Hải Thần Châm"
 - raw: "34217#齐眉棍法#4#15#11#11#4800#99999#0#1#0#0#miji11#34217#0#36217#0#3600#0#317#2###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "齐眉棍法"
-    translated: "Eye Level Staff Techniques"
+    translated: "Tề Mi Côn Pháp"
 - raw: "34218#泼水杖法#4#15#12#12#8112#99999#0#1#0#0#miji8#34218#0#36218#0#3600#0#318#2###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "泼水杖法"
-    translated: "Splashing Water Staff Technique"
+    translated: "Bát Thủy Trượng Pháp"
 - raw: "34219#追魂枪#4#15#11#11#6240#99999#0#0#0#0#miji11#34219#0#36219#0#0#0#319#2###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#0#"
   splits:
   - split: 1
@@ -9654,122 +9654,122 @@
   splits:
   - split: 1
     text: "啸虎明筋拳"
-    translated: "Roaring Tiger Bright Tendon Fist"
+    translated: "Khiếu Hổ Minh Cân Quyền"
 - raw: "34301#参严掌#4#15#13#13#10546#99999#0#1#0#0#miji15#34301#0#36301#0#3600#0#401#3###0#0#0#0#0#0####0#65033|106##0##0#0#0#0#1500012851#0#0#0#0#0#"
   splits:
   - split: 1
     text: "参严掌"
-    translated: "Strict Palm"
+    translated: "Tham Nghiêm Chưởng"
 - raw: "34302#惊武回风拳#4#15#11#11#6240#99999#0#1#0#0#miji11#34302#0#36302#0#3600#0#402#3###0#0#0#0#0#0##10037|2500&10038|2500&10039|2500&10040|2500##0#65011|63&65028|63&65037|63##0##0#0#1#0#1500012855#0#0#0#0#0#"
   splits:
   - split: 1
     text: "惊武回风拳"
-    translated: "Surprise Wind Returning Fist"
+    translated: "Kinh Võ Hồi Phong Quyền"
 - raw: "34303#端法渡万生#4#15#14#14#13710#99999#0#1#0#0#miji10#34303#0#36303#0#3600#0#403#3###0#0#0#0#0#0####0#65006|138##0##0#0#0#0#1500012856#0#0#0#0#0#"
   splits:
   - split: 1
     text: "端法渡万生"
-    translated: "Cross Ten Thousand Lives Method"
+    translated: "Đoan Pháp Độ Vạn Sinh"
 - raw: "34304#九天掌封雪#4#15#13#13#10546#99999#0#1#0#0#miji15#34304#0#36304#0#3600#0#404#3###0#0#0#0#0#0####0#65012|106##0##0#0#0#0#1500012840#0#0#0#0#0#"
   splits:
   - split: 1
     text: "九天掌封雪"
-    translated: "Ice Sealed Nine Heavens Palm"
+    translated: "Cửu Thiên Chưởng Phong Tuyết"
 - raw: "34305#焚天烈火掌#4#15#13#13#10546#99999#0#1#0#0#miji15#34305#0#36305#0#3600#0#405#3###0#0#0#0#0#0####0#65023|106&65037|106##0##0#0#0#0#1500012856#0#0#0#0#0#"
   splits:
   - split: 1
     text: "焚天烈火掌"
-    translated: "Fiery Inferno Palm"
+    translated: "Phần Thiên Liệt Hỏa Chưởng"
 - raw: "34306#怀素玄掌#4#15#13#13#13710#99999#0#1#0#0#miji15#34306#0#36306#0#3600#0#406#3###0#0#0#0#0#0####0#65014|138##0##0#0#0#0#1500012834#0#0#0#0#0#"
   splits:
   - split: 1
     text: "怀素玄掌"
-    translated: "Modest Soul Mystical Palm"
+    translated: "Hoài Tố Huyền Chưởng"
 - raw: "34307#借木移影#4#15#11#11#6240#99999#0#1#0#0#miji11#34307#0#36307#0#3600#0#407#3###0#0#0#0#0#0####0#65011|63&65033|63##0##0#0#0#0#1500012857#0#0#0#0#0#"
   splits:
   - split: 1
     text: "借木移影"
-    translated: "Borrowing the Tree to Shift Shadows"
+    translated: "Tá Mộc Di Ảnh"
 - raw: "34308#明禅拈花指#4#15#13#13#10546#99999#0#1#0#0#miji15#34308#0#36308#0#3600#0#408#3###0#0#0#0#0#0####0#65003|106##0##0#0#0#0#1500012836#0#0#0#0#0#"
   splits:
   - split: 1
     text: "明禅拈花指"
-    translated: "Ming Chan Flower‑Picking Finger"
+    translated: "Minh Thiền Niêm Hoa Chỉ"
 - raw: "34309#渡蜀掌#4#15#11#11#4800#99999#0#1#0#0#miji11#34309#0#36309#0#3600#0#409#3###0#0#0#0#0#0##10037|2500&10038|2500&10039|2500&10040|2500##0#65037|48##0##0#0#0#0#1500012858#0#0#0#0#0#"
   splits:
   - split: 1
     text: "渡蜀掌"
-    translated: "Bridge Over Shu"
+    translated: "Độ Thục Chưởng"
 - raw: "34310#撕碑手#4#15#11#11#4800#99999#0#1#0#0#miji11#34310#0#36310#0#3600#0#410#3###0#0#0#0#0#0####0#65011|48&65026|48##0##0#0#0#0#1500012855#0#0#0#0#0#"
   splits:
   - split: 1
     text: "撕碑手"
-    translated: "Monument Tearing Hand"
+    translated: "Tê Bi Thủ"
 - raw: "34311#玉川指#4#15#11#11#4800#99999#0#1#0#0#miji11#34311#0#36311#0#3600#0#411#3###0#0#0#0#0#0####0#65024|48&65028|48##0##0#0#0#0#1500012838#0#0#0#0#0#"
   splits:
   - split: 1
     text: "玉川指"
-    translated: "Jade River Finger"
+    translated: "Ngọc Xuyên Chỉ"
 - raw: "34312#七伤#4#15#13#13#10546#99999#0#1#0#0#miji15#34312#0#36312#0#3600#0#412#3###0#0#0#0#0#0####0#65026|62##0##0#0#0#0#1500012859#0#0#0#0#0#"
   splits:
   - split: 1
     text: "七伤"
-    translated: "Seven Injuries"
+    translated: "Thất Thương"
 - raw: "34313#断海八式#4#15#13#13#10546#99999#0#1#0#0#miji15#34313#0#36313#0#3600#0#413#3###0#0#0#0#0#0####0#65008|106##0##0#0#0#0#1500012860#0#0#0#0#0#"
   splits:
   - split: 1
     text: "断海八式"
-    translated: "Eight Ways to Cut the Sea"
+    translated: "Đoạn Hải Bát Thức"
 - raw: "34314#降龙#4#15#14#14#13710#99999#0#1#0#0#miji10#34314#0#36314#0#3600#0#414#3###0#0#0#0#0#0####0#65012|106##0##0#0#0#0#1500012839#0#0#0#0#0#"
   splits:
   - split: 1
     text: "降龙"
-    translated: "Dragon‑Subduing"
+    translated: "Hàng Long"
 - raw: "34315#碧霄擒龙手#4#15#10#10#4800#99999#0#1#0#0#miji12#34315#0#36315#0#3600#0#415#3###0#0#0#0#0#0#34825|10000###0###0##0#0#0#0#1500012844#0#0#0#0#0#"
   splits:
   - split: 1
     text: "碧霄擒龙手"
-    translated: "Pi Xiao's Dragon‑Catching Palm"
+    translated: "Bích Tiêu Cầm Long Thủ"
 - raw: "34316#尧光古拳#4#15#12#12#8112#99999#0#1#0#0#miji8#34316#0#36316#0#3600#0#416#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "尧光古拳"
-    translated: "Ancient Radiant Fist"
+    translated: "Nghiêu Quang Cổ Quyền"
 - raw: "34317#拂笑手#4#15#11#11#8112#99999#0#1#0#0#miji11#34317#0#36317#0#3600#0#417#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "拂笑手"
-    translated: "Gentle Smile Hand"
+    translated: "Phất Tiếu Thủ"
 - raw: "34318#铁窗泪#4#15#12#12#8112#99999#0#1#0#0#miji8#34318#0#36318#0#3600#0#418#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "铁窗泪"
-    translated: "Tears Behind Iron Bars"
+    translated: "Thiết Song Lệ"
 - raw: "34319#剪刀石头布#4#15#11#11#6240#99999#0#1#0#0#miji11#34319#0#36319#0#3600#0#419#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "剪刀石头布"
-    translated: "Rock‑Paper‑Scissors"
+    translated: "Oẳn tù tì"
 - raw: "34320#乾坤一掷#4#15#11#11#6240#99999#0#1#0#0#miji11#34320#0#36320#0#3600#0#420#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "乾坤一掷"
-    translated: "All in Gamble"
+    translated: "Càn Khôn Nhất Trịch"
 - raw: "34321#金蟾劲#4#15#14#14#16274#99999#0#1#0#0#miji10#34321#0#36321#0#3600#0#421#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "金蟾劲"
-    translated: "Golden Toad Force"
+    translated: "Kim Thiềm Kình"
 - raw: "34322#阴风诀#4#15#10#10#4800#99999#0#1#0#0#miji12#34322#0#36322#0#3600#0#422#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "阴风诀"
-    translated: "Yin Wind Technique"
+    translated: "Âm Phong Quyết"
 - raw: "34323#缠魂毒#4#15#13#13#10546#99999#0#1#0#0#miji15#34323#0#36323#0#3600#0#423#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "缠魂毒"
-    translated: "Heartbinding Poison"
+    translated: "Triền Hồn Độc"
 - raw: "34324#孔雀大明王功#4#15#13#13#10546#99999#0#1#0#0#miji15#34324#0#36324#0#3600#0#424#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012861#0#0#0#0#0#"
   splits:
   - split: 1
@@ -9779,37 +9779,37 @@
   splits:
   - split: 1
     text: "罗汉拳"
-    translated: "Arhat Fist"
+    translated: "La Hán Quyền"
 - raw: "34326#韦陀掌#4#15#10#10#10546#99999#0#1#0#0#miji12#34326#0#36326#0#3600#0#426#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012836#0#0#0#0#0#"
   splits:
   - split: 1
     text: "韦陀掌"
-    translated: "Weituo's Palm"
+    translated: "Vi Đà Chưởng"
 - raw: "34327#大力金刚掌#4#15#13#13#10546#99999#0#1#0#0#miji15#34327#0#36327#0#3600#0#427#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "大力金刚掌"
-    translated: "Vajra's Mighty Palm"
+    translated: "Đại Lực Kim Cang Chưởng"
 - raw: "34328#龙象般若#4#15#14#14#10546#99999#0#1#0#0#miji10#34328#0#36328#0#3600#0#428#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "龙象般若"
-    translated: "Dragon and Elephant Wisdom"
+    translated: "Long Tượng Bát Nhã"
 - raw: "34329#太极拳#4#15#14#14#10546#99999#0#1#0#0#miji10#34329#0#36329#0#3600#0#429#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "太极拳"
-    translated: "Tai Chi Fist"
+    translated: "Thái Cực Quyền"
 - raw: "34330#万径人踪灭#4#15#16#16#27418#99999#0#1#0#0#miji_qicai#34330#0#36330#0#3600#0#430#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "万径人踪灭"
-    translated: "Ten Thousand Paths, No Trace of People"
+    translated: "Vạn Kính Nhân Tung Diệt"
 - raw: "34331#风神腿#4#15#14#14#10546#99999#0#1#0#0#miji10#34331#0#36331#0#3600#0#431#3###0#0#0#0#0#0####0###0##0#0#0#0#狂刀绝剑门贡献堂主处可获得#0#0#0#1#0#"
   splits:
   - split: 1
     text: "风神腿"
-    translated: "Wind God Legs"
+    translated: "Phong Thần Thối"
   - split: 41
     text: "狂刀绝剑门贡献堂主处可获得"
     translated: "At the location of Contribution Hall Master, you can obtain the Blade‑Crazed Swordsman from Sword Breaker Gate."
@@ -9833,7 +9833,7 @@
   splits:
   - split: 1
     text: "猿神拳法"
-    translated: "Ape God Fist Technique"
+    translated: "Viên Thần Quyền Pháp"
 - raw: "34335#白骨神功#4#15#14#14#20111#99999#0#1#0#0#miji10#34335#0#36335#0#3600#0#435#3###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#0#"
   splits:
   - split: 1
@@ -9883,12 +9883,12 @@
   splits:
   - split: 1
     text: "一阳"
-    translated: "One Yang"
+    translated: "Nhất Dương"
 - raw: "34345#六脉#4#15#14#14#16274#99999#0#1#0#0#miji10#34345#0#36345#0#3600#0#445#3###0#0#0#0#0#0####0###0####0####0#0#0#0#"
   splits:
   - split: 1
     text: "六脉"
-    translated: "Six Meridians"
+    translated: "Lục Mạch"
 - raw: "34346#三分归元#4#15#14#14#20111#99999#0#1#0#0#miji10#34346#0#36346#0#0#0#446#3###0#0#0#0#0#0####0###0####0####0#0#0#0#"
   splits:
   - split: 1
@@ -9903,7 +9903,7 @@
   splits:
   - split: 1
     text: "六脉"
-    translated: "Six Meridians"
+    translated: "Lục Mạch"
 - raw: "34349#万劫#4#15#14#14#13710#99999#0#1#0#0#miji10#34349#0#36349##3600#0#449#3###0#0#0#0#0#0####0#65006|138##0####0####0#0#1#0#"
   splits:
   - split: 1
@@ -9918,67 +9918,67 @@
   splits:
   - split: 1
     text: "养剑术"
-    translated: "Nurturing swordsmanship"
+    translated: "Dưỡng Kiếm Thuật"
 - raw: "34401#剑术精要#4#20#11#11#6240#99999#0#1#0#0#miji_b2#34401#0#36401#0#3600#0#10010001#0###0#0#0#0#0#0#31860|10000#10009|2500&10010|2500&10011|2500&10012|2500##0###0##0#1#1#0#1500012863#0#0#0#0#0#"
   splits:
   - split: 1
     text: "剑术精要"
-    translated: "Essentials of Swordsmanship"
+    translated: "Kiếm Thuật Tinh Yếu"
 - raw: "34402#弈剑诀#4#20#12#12#8112#99999#0#1#0#0#miji_b3#34402#0#36402#0#3600#0#10010003#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012862#0#0#0#0#0#"
   splits:
   - split: 1
     text: "弈剑诀"
-    translated: "Secrets of Swordsmanship"
+    translated: "Dịch Kiếm Quyết"
 - raw: "34403#书剑式#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34403#0#36403#0#3600#0#10010004#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "书剑式"
-    translated: "The way of the book and sword"
+    translated: "Thư Kiếm Thức"
 - raw: "34404#玄剑诀#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34404#0#36404#0#3600#0#10010005#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "玄剑诀"
-    translated: "Mystic Sword Technique"
+    translated: "Huyền Kiếm Quyết"
 - raw: "34405#菩提式#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34405#0#36405#0#3600#0#10010006#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "菩提式"
-    translated: "Bodhi Path"
+    translated: "Bồ Đề Thức"
 - raw: "34406#墨剑式#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34406#0#36406#0#3600#0#10010007#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "墨剑式"
-    translated: "Ink Sword Style"
+    translated: "Mặc Kiếm Thức"
 - raw: "34407#伤剑诀#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34407#0#36407#0#3600#0#10010008#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "伤剑诀"
-    translated: "Wounding Sword Technique"
+    translated: "Thương Kiếm Quyết"
 - raw: "34408#心剑诀#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34408#0#36408#0#3600#0#10010009#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "心剑诀"
-    translated: "Heart Sword Technique"
+    translated: "Tâm Kiếm Quyết"
 - raw: "34409#人剑合一#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34409#0#36409#0#3600#0#10010010#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "人剑合一"
-    translated: "Union of Man and Sword"
+    translated: "Nhân Kiếm Hợp Nhất"
 - raw: "34410#剑心通明#4#20#15#15#13710#99999#0#1#0#0#miji_b5#34410#0#36410#0#3600#0#10010011#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "剑心通明"
-    translated: "Clairvoyant Sword Heart"
+    translated: "Kiếm Tâm Thông Minh"
 - raw: "34411#剑意纵横#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34411#0#36411#0#3600#0#10010012#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "剑意纵横"
-    translated: "Boundless Sword Intent"
+    translated: "Kiếm Ý Tung Hoành"
 - raw: "34412#刀法精要#4#20#11#11#6240#99999#0#1#0#0#miji_b2#34412#0#36412#0#3600#0#10020001#1###0#0#0#0#0#0#31860|10000#10023|2500&10024|2500&10025|2500&10026|2500##0###0##0#1#1#0#1500012863#0#0#0#0#0#"
   splits:
   - split: 1
     text: "刀法精要"
-    translated: "Blade Technique Essentials"
+    translated: "Đao Pháp Tinh Yếu"
 - raw: "34413#隐刀式#4#20#12#12#8112#99999#0#1#0#0#miji_b3#34413#0#36413#0#3600#0#10020002#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
@@ -9993,162 +9993,162 @@
   splits:
   - split: 1
     text: "浩然刀式"
-    translated: "Righteous Blade Style"
+    translated: "Hạo Nhiên Đao Thức"
 - raw: "34416#玄机刀式#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34416#0#36416#0#3600#0#10020005#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "玄机刀式"
-    translated: "Mystic Blade Style"
+    translated: "Huyền Cơ Đao Thức"
 - raw: "34417#燃木刀式#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34417#0#36417#0#3600#0#10020006#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "燃木刀式"
-    translated: "Blazing Wood Blade Style"
+    translated: "Nhiên Mộc Đao Thức"
 - raw: "34418#八方式#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34418#0#36418#0#3600#0#10020007#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "八方式"
-    translated: "Eight Directions Style"
+    translated: "Bát Phương Thức"
 - raw: "34419#抱刀式#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34419#0#36419#0#3600#0#10020008#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "抱刀式"
-    translated: "Blade‑Holding Style"
+    translated: "Bão Đao Thức"
 - raw: "34420#乱环诀#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34420#0#36420#0#3600#0#10020009#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "乱环诀"
-    translated: "Chaotic Rings Technique"
+    translated: "Loạn Hoàn Quyết"
 - raw: "34421#霸刀势#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34421#0#36421#0#3600#0#10020010#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012862#0#0#0#0#0#"
   splits:
   - split: 1
     text: "霸刀势"
-    translated: "Dominator Blade Style"
+    translated: "Bá Đao Thế"
 - raw: "34422#八方藏刀诀#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34422#0#36422#0#3600#0#10020011#1###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "八方藏刀诀"
-    translated: "Eight Directions Hidden Blade Technique"
+    translated: "Bát Phương Tàng Đao Quyết"
 - raw: "34423#搏击精要#4#20#11#11#6240#99999#0#1#0#0#miji_b2#34423#0#36423#0#3600#0#10030001#3###0#0#0#0#0#0##10037|2500&10038|2500&10039|2500&10040|2500##0###0##0#0#1#0#1500012863#0#0#0#0#0#"
   splits:
   - split: 1
     text: "搏击精要"
-    translated: "Fighting Technique Essentials"
+    translated: "Bác Kích Tinh Yếu"
 - raw: "34424#气劲#4#20#12#12#8112#99999#0#1#0#0#miji_b3#34424#0#36424#0#3600#0#10030002#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012863#0#0#0#0#0#"
   splits:
   - split: 1
     text: "气劲"
-    translated: "Qi Force"
+    translated: "Khí Kình"
 - raw: "34425#卸劲#4#20#12#12#8112#99999#0#1#0#0#miji_b3#34425#0#36425#0#3600#0#10030003#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "卸劲"
-    translated: "Dissipating Force"
+    translated: "Tá Kình"
 - raw: "34426#书诫劲#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34426#0#36426#0#3600#0#10030004#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "书诫劲"
-    translated: "Written Warning Force"
+    translated: "Thư Giới Kình"
 - raw: "34427#玄门劲#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34427#0#36427#0#3600#0#10030005#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "玄门劲"
-    translated: "Xuanmen force"
+    translated: "Huyền Môn Kình"
 - raw: "34428#菩提劲#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34428#0#36428#0#3600#0#10030006#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "菩提劲"
-    translated: "Bodhi Force"
+    translated: "Bồ Đề Kình"
 - raw: "34429#化劲#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34429#0#36429#0#3600#0#10030007#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012862#0#0#0#0#0#"
   splits:
   - split: 1
     text: "化劲"
-    translated: "Transforming Force"
+    translated: "Hóa Kình"
 - raw: "34430#七伤劲#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34430#0#36430#0#3600#0#10030008#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "七伤劲"
-    translated: "Seven Injuries Force"
+    translated: "Thất Thương Kình"
 - raw: "34431#伏虎劲#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34431#0#36431#0#3600#0#10030009#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "伏虎劲"
-    translated: "Tiger‑Taming Force"
+    translated: "Phục Hổ Kình"
 - raw: "34432#降龙劲#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34432#0#36432#0#3600#0#10030010#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "降龙劲"
-    translated: "Dragon‑Subduing Force"
+    translated: "Hàng Long Kình"
 - raw: "34433#寸劲#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34433#0#36433#0#3600#0#10030011#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "寸劲"
-    translated: "Inch Force"
+    translated: "Thốn Kình"
 - raw: "34434#极劲#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34434#0#36434#0#3600#0#10030012#3###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "极劲"
-    translated: "Extreme force"
+    translated: "Cực Kình"
 - raw: "34435#枪棍精要#4#20#11#11#6240#99999#0#1#0#0#miji_b2#34435#0#36435#0#3600#0#10040001#2###0#0#0#0#0#0##10051|2500&10052|2500&10053|2500&10054|2500##0###0##0#0#1#0#1500012863#0#0#0#0#0#"
   splits:
   - split: 1
     text: "枪棍精要"
-    translated: "Spear and Staff Essentials"
+    translated: "Thương Côn Tinh Yếu"
 - raw: "34436#卸甲#4#20#12#12#8112#99999#0#1#0#0#miji_b3#34436#0#36436#0#3600#0#10040002#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "卸甲"
-    translated: "Removing Armor"
+    translated: "Tá Giáp"
 - raw: "34437#破体技#4#20#12#12#8112#99999#0#1#0#0#miji_b3#34437#0#36437#0#3600#0#10040003#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012862#0#0#0#0#0#"
   splits:
   - split: 1
     text: "破体技"
-    translated: "Body‑Breaking Techniques"
+    translated: "Phá Thể Kỹ"
 - raw: "34438#磅礴枪#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34438#0#36438#0#3600#0#10040004#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "磅礴枪"
-    translated: "Boundless Spear"
+    translated: "Bàng Bạc Thương"
 - raw: "34439#玄真枪#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34439#0#36439#0#3600#0#10040005#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012862#0#0#0#0#0#"
   splits:
   - split: 1
     text: "玄真枪"
-    translated: "Profound Truth Spear"
+    translated: "Huyền Chân Thương"
 - raw: "34440#达摩棍#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34440#0#36440#0#3600#0#10040006#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012862#0#0#0#0#0#"
   splits:
   - split: 1
     text: "达摩棍"
-    translated: "Dharma Staff"
+    translated: "Đạt Ma Côn"
 - raw: "34441#战意技#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34441#0#36441#0#3600#0#10040007#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "战意技"
-    translated: "Combat Spirit Technique"
+    translated: "Chiến Ý Kỹ"
 - raw: "34442#狂战技#4#20#13#13#10546#99999#0#1#0#0#miji_b4#34442#0#36442#0#3600#0#10040008#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012866#0#0#0#0#0#"
   splits:
   - split: 1
     text: "狂战技"
-    translated: "Wild Battle Technique"
+    translated: "Cuồng Chiến Kỹ"
 - raw: "34443#合一技#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34443#0#36443#0#3600#0#10040009#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012865#0#0#0#0#0#"
   splits:
   - split: 1
     text: "合一技"
-    translated: "Unification Technique"
+    translated: "Hợp Nhất Kỹ"
 - raw: "34444#归海技#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34444#0#36444#0#3600#0#10040010#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "归海技"
-    translated: "Return to Sea Technique"
+    translated: "Quy Hải Kỹ"
 - raw: "34445#裂地技#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34445#0#36445#0#3600#0#10040011#2###0#0#0#0#0#0####0###0##0#0#0#0#1500012864#0#0#0#0#0#"
   splits:
   - split: 1
     text: "裂地技"
-    translated: "Earth‑shattering Technique"
+    translated: "Liệt Địa Kỹ"
 - raw: "34446#万法森罗纲要·下#4#20#13#13#13710#99999#0#1#0#0#miji_b4#34446#0#36446#0#3600#0#10050001#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "万法森罗纲要·下"
-    translated: "Outline of Ten Thousand Laws · Part Two"
+    translated: "Vạn Pháp Sâm La Cương Yếu - Hạ"
 - raw: "34447#空蝉依云#4#20#12#12#10546#99999#0#1#0#0#miji_b3#34447#0#36447#0#3600#0#10050004#4###0#0#0#0#0#0####0###0##0#0#0#0#1500012862#0#0#0#0#0#"
   splits:
   - split: 1
@@ -10228,7 +10228,7 @@
   splits:
   - split: 1
     text: "辰星流转"
-    translated: "Turning Star Flow"
+    translated: "Thần Tinh Lưu Chuyển"
 - raw: "34463#砚海潮声#4#20#11#11#6240#99999#0#1#0#0#miji_b2#34463#0#36463#0#3600#0#10010040#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012835#0#0#0#0#0#"
   splits:
   - split: 1
@@ -10288,17 +10288,17 @@
   splits:
   - split: 1
     text: "万法森罗残卷"
-    translated: "Scroll of Ten Thousand Laws"
+    translated: "Vạn Pháp Sâm La Tàn Quyển"
 - raw: "34475#万法森罗纲要·上#4#20#12#12#10546#99999#0#1#0#0#miji_b3#34475#0#36475#0#3600#0#10050027#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "万法森罗纲要·上"
-    translated: "Outline of Ten Thousand Laws · Part One"
+    translated: "Vạn Pháp Sâm La Cương Yếu - Thượng"
 - raw: "34476#万法森罗#4#20#14#14#13710#99999#0#1#0#0#miji_b5#34476#0#36476#0#3600#0#10050028#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "万法森罗"
-    translated: "Ten Thousand Laws"
+    translated: "Vạn Pháp Sâm La"
 - raw: "34477#伤心小箭#4#20#14#14#21090#99999#0#1#0#0#miji10#34477#0#34677#0#3600#0#10060000#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#0#"
   splits:
   - split: 1
@@ -10404,27 +10404,27 @@
   splits:
   - split: 1
     text: "百战圣功"
-    translated: "Divine Merit of a Hundred Battles"
+    translated: "Bách Chiến Thánh Công"
 - raw: "34501#白首太玄经#4#15#13#13#13710#99999#0#1#0#0#miji_b4#34501#0#36501#0#3600#0#501#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "白首太玄经"
-    translated: "Whitehead's Supreme Mystery Classic"
+    translated: "Bạch Thủ Thái Huyền Kinh"
 - raw: "34502#周天吐纳功#4#15#11#11#6240#99999#0#1#0#0#miji_b2#34502#0#36502#0#3600#0#502#4###0#0#0#0#0#0##10009|850&10010|850&10011|850&10012|850&10023|850&10024|850&10025|850&10026|850&10037|850&10038|850&10039|850&10040|850&10051|850&10052|850&10053|850&10054|850##0###0##0#0#1#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "周天吐纳功"
-    translated: "Zhoutian Breathing Technique"
+    translated: "Chu Thiên Thổ Nạp Công"
 - raw: "34503#众生相#4#15#13#13#10546#99999#0#1#0#0#miji_b4#34503#0#36503#0#3600#0#503#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "众生相"
-    translated: "Faces of All Beings"
+    translated: "Chúng Sinh Tướng"
 - raw: "34504#无象#4#15#12#12#10546#99999#0#1#0#0#miji_b3#34504#0#36504#0#3600#0#504#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "无象"
-    translated: "Imageless Form"
+    translated: "Vô Tượng"
 - raw: "34505#十方魔界#4#15#13#13#10546#99999#0#1#0#0#miji_b4#34505#0#36505#0#3600#0#505#4###0#0#0#0#0#0####0###0##0#0#0#0#1500012868#0#0#0#0#0#"
   splits:
   - split: 1
@@ -10434,17 +10434,17 @@
   splits:
   - split: 1
     text: "洗髓功"
-    translated: "Marrow‑Cleansing Skill"
+    translated: "Tẩy Tủy Công"
 - raw: "34507#道心种魔#4#15#14#14#13710#99999#0#1#0#0#miji_b5#34507#0#36507#0#3600#0#507#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "道心种魔"
-    translated: "Demon Seed in Tao's Heart"
+    translated: "Đạo Tâm Chủng Ma"
 - raw: "34508#九阳真经#4#15#14#14#13710#99999#0#1#0#0#miji_b5#34508#0#36508#0#3600#0#508#4###0#0#0#0#0#0####0###0##0#0#0#0#1500012850#0#0#0#0#0#"
   splits:
   - split: 1
     text: "九阳真经"
-    translated: "Nine Yang Classic"
+    translated: "Cửu Dương Chân Kinh"
 - raw: "34509#九转炼骨诀#4#15#10#10#10546#99999#0#1#0#0#miji_b1#34509#0#36509#0#3600#0#509#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
@@ -10454,12 +10454,12 @@
   splits:
   - split: 1
     text: "天罡北斗诀"
-    translated: "Heavenly Force Big Dipper Secret"
+    translated: "Thiên Cương Bắc Đẩu Trận"
 - raw: "34511#全真七星诀#4#15#14#14#13710#99999#0#1#0#0#miji_b5#34511#0#36511#0#3600#0#511#4###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
     text: "全真七星诀"
-    translated: "Quanzhen Seven Star Palm"
+    translated: "Toàn Chân Thất Tinh Quyết"
 - raw: "34512#参天功#4#15#14#14#13710#99999#0#1#0#0#miji_b5#34512#0#36512#0#3600#0#512#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012835#0#0#0#0#0#"
   splits:
   - split: 1
@@ -10474,7 +10474,7 @@
   splits:
   - split: 1
     text: "金刚不坏神功"
-    translated: "Invincible Vajra Divine Skill"
+    translated: "Kim Cang Bất Hoại Thần Công"
 - raw: "34515#五毒心法#4#15#12#12#10546#99999#0#1#0#0#miji8#34515#0#36515#0#3600#0#515#4###0#0#0#0#0#0####0###0##0#0#0#0#1500012867#0#0#0#0#0#"
   splits:
   - split: 1
@@ -10484,12 +10484,12 @@
   splits:
   - split: 1
     text: "天罡童子功"
-    translated: "Heavenly Force Pure Body Method"
+    translated: "Thiên Cương Đồng Tử Công"
 - raw: "34517#弹指神功#4#15#14#14#21090#99999#0#1#0#0#miji10#34517#0#36517#0#3600#0#517#5###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#1#0#"
   splits:
   - split: 1
     text: "弹指神功"
-    translated: "Flicking Finger Divine Skill"
+    translated: "Đạn Chỉ Thần Công"
 - raw: "34518#追星赶月#4#15#12#12#13710#99999#0#1#0#0#miji8#34518#0#36518#0#3600#0#518#5###0#0#0#0#0#0####0###0##0#0#0#0#东厂贡献堂主处可获得#0#0#0#1#0#"
   splits:
   - split: 1
@@ -10520,7 +10520,7 @@
   splits:
   - split: 1
     text: "霸刀"
-    translated: "Dominator Blade"
+    translated: "Bá Đao"
 - raw: "34523#纯阳无极#4#15#15#15#39425#99999#0#0#0#0#miji_b6#34523#0#36523#0#3600#0#523#0###0#0#0#0#0#0####0###0##0#0#0#0##0#0#0#0#0#"
   splits:
   - split: 1
@@ -10585,7 +10585,7 @@
   splits:
   - split: 1
     text: "乾坤挪移"
-    translated: "Shifting of Heaven and Earth"
+    translated: "Càn Khôn Na Di"
 - raw: "34536#魔相神功#4#15#14#14#21090#99999#0#1#0#0#miji10#34536#0#36536#0#0#0#536#4###0#0#0#0#0#0####0###0####0####0#0#1##"
   splits:
   - split: 1
@@ -10808,7 +10808,7 @@
   splits:
   - split: 1
     text: "不老长春功"
-    translated: "Spring of Eternal Youth Skill"
+    translated: "Bất Lão Trường Xuân Công"
 - raw: "34711#不死印法#4#20#14#14#21090#99999#0#0#0#0#miji_b5#34711#0#36711#0#0#0#10050040#4###0#0#0#0#0#0####0###0####0####0#0#1##"
   splits:
   - split: 1
@@ -10858,12 +10858,12 @@
   splits:
   - split: 1
     text: "云鹤吐纳法"
-    translated: "Cloud Crane Breathing Method"
+    translated: "Vân Hạc Thổ Nạp Pháp"
 - raw: "34901#妙手空空#4#15#12#12#4800#99999#0#1#0#0#miji11#34901#0#36901#0#3600#0#901#4###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "妙手空空"
-    translated: "Empty‑Handed Mastery"
+    translated: "Diệu Thủ Không Không"
 - raw: "34902#天魔解体大法#4#15#12#12#4800#99999#0#1#0#0#miji11#34902#0#36902#0#3600#0#902#4###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -10873,22 +10873,22 @@
   splits:
   - split: 1
     text: "天蚕四变"
-    translated: "Heavenly Silkworm's Four Changes"
+    translated: "Thiên Tàm Tứ Biến"
 - raw: "34904#闭穴功#4#15#12#12#4800#99999#0#1#0#0#miji11#34904#0#36904#0#3600#0#904#4###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "闭穴功"
-    translated: "Acupoint Sealing Technique"
+    translated: "Bế Huyệt Công"
 - raw: "34905#三分吸元气#4#15#12#12#4800#99999#0#1#0#0#miji11#34905#0#36905#0#3600#0#905#4###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "三分吸元气"
-    translated: "Absorb three parts of vitality"
+    translated: "Tam Phân Hấp Nguyên Khí"
 - raw: "34906#去阳真决#4#15#12#12#6240#99999#0#1#0#0#miji11#34906#0#36906#0#3600#0#906#4###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "去阳真决"
-    translated: "Dispelling Yang Technique"
+    translated: "Khứ Dương Chân Quyết"
 - raw: "34988#npc-秘籍用#4#15#10#10#6240#99999#0#1#0#0#miji11#0#0#0#0#0#0#0#0###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -11253,12 +11253,12 @@
   splits:
   - split: 1
     text: "万法森罗"
-    translated: "Ten Thousand Laws"
+    translated: "Vạn Pháp Sâm La"
 - raw: "37001#乌草#3#1#10#10#30#99999#0#1#0#0#new1_ttc#37001#0#39001#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
     text: "乌草"
-    translated: "Black Grass"
+    translated: "Ô Thảo"
 - raw: "37002#半枚白玉玉佩#2#1#12#11#0#99999#0#0#0#0#yupei1#37002#0#39002#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -11473,7 +11473,7 @@
   splits:
   - split: 1
     text: "葡萄酒"
-    translated: "Grape wine"
+    translated: "Rượu nho"
 - raw: "37045#金丝软甲#2#2#12#11#0#99999#0#0#0#0#ruanjia4#37045#0#39045#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -11503,7 +11503,7 @@
   splits:
   - split: 1
     text: "琉璃石"
-    translated: "Luminous Jade Stone"
+    translated: "Lưu Ly Thạch"
 - raw: "37051#秦家请帖#2#2#12#11#0#99999#0#0#0#0#shuxin1#37051#0#39051#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -11548,7 +11548,7 @@
   splits:
   - split: 1
     text: "龙珠"
-    translated: "Dragon Ball"
+    translated: "Long Châu"
 - raw: "37060#欠条#2#2#12#11#0#99999#0#0#0#0#qiantiao#37060#0#39060#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -11623,7 +11623,7 @@
   splits:
   - split: 1
     text: "祖传宝刀"
-    translated: "Ancestral Treasure Blade"
+    translated: "Tổ Truyền Bảo Đao"
 - raw: "37075#通行证#2#2#12#11#0#99999#0#0#0#0#yaopai1#37075#0#39075#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -11713,7 +11713,7 @@
   splits:
   - split: 1
     text: "金玉酿"
-    translated: "Golden Jade Brew"
+    translated: "Kim Ngọc Nhưỡng"
 - raw: "37093#药丸#2#2#12#11#0#99999#0#0#0#0#bw_slz#37093#0#39093#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -11768,7 +11768,7 @@
   splits:
   - split: 1
     text: "天麻"
-    translated: "Heavenly Hemp"
+    translated: "Thiên Ma"
 - raw: "37104#棋圣棋谱#2#2#12#11#0#99999#0#0#0#0#miji13#37104#0#39104#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -13044,7 +13044,7 @@
   splits:
   - split: 1
     text: "蓝银石"
-    translated: "Blue Silver Stone"
+    translated: "Lam Ngân Thạch"
 - raw: "37362#王铁的钥匙#2#2#12#11#0#99999#0#0#0#0#baoxiangys#37362#0#39362#0#3600#0#####0#0#0#0#0#0#2025|10000###0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -13094,7 +13094,7 @@
   splits:
   - split: 1
     text: "翡翠钥匙"
-    translated: "Emerald Jade Key"
+    translated: "Phỉ Thúy Thược"
 - raw: "37372#钻玉钥匙#2#2#14#14#0#99999#0#0#0#0#baoxiangys#37372#0#39372#0#3600#0#####0#0#0#0#0#0#10005|10000&1083|10000###0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -13294,7 +13294,7 @@
   splits:
   - split: 1
     text: "玲珑匣"
-    translated: "Intricate Casket"
+    translated: "Linh Lung Hạp"
 - raw: "37421#灵丹盒#2#7#15#16#0#99999#0#0#0#52701#xiaoxiang2#37421#0#39421#0#0#0#0#0###0#0#0#0#0#0####0###0##0#0#0#0#1500012875#0#0#0#0#0#"
   splits:
   - split: 1
@@ -13432,7 +13432,7 @@
   splits:
   - split: 1
     text: "机杼经"
-    translated: "Weaving Loom Sutra"
+    translated: "Cơ Trữ Kinh"
 - raw: "37603#不知品种的树枝#2#2#12#11#30#99999#0#1#0#0#caoyao2#37603#0#39603#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -13492,7 +13492,7 @@
   splits:
   - split: 1
     text: "龙珠"
-    translated: "Dragon Ball"
+    translated: "Long Châu"
 - raw: "37615#无瞿剑胚#2#2#14#11#0#99999#0#0#0#0#jian11#37615#0#39615#0#0#0##10&2###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -13572,7 +13572,7 @@
   splits:
   - split: 1
     text: "万法森罗残卷"
-    translated: "Scroll of Ten Thousand Laws"
+    translated: "Vạn Pháp Sâm La Tàn Quyển"
 - raw: "37652#雁州的粮草#2#2#12#11#0#99999#0#1#0#0#xiaomai#37652#0#39652#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -13924,7 +13924,7 @@
   splits:
   - split: 1
     text: "乾坤一掷"
-    translated: "All in Gamble"
+    translated: "Càn Khôn Nhất Trịch"
 - raw: "37759#绝剑门的推荐信#2#2#11#11#0#99999#0#0#0#0#peifang#3775901#0#3775902#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -13969,7 +13969,7 @@
   splits:
   - split: 1
     text: "肌苏丸"
-    translated: "Skin Rejuvenation Pill"
+    translated: "Cơ Tô Hoàn"
 - raw: "37769#红铅丸#4#5#13#16#2562#99999#0#1#0#0#yaopin2#37769#0#39769#0#3600#0##83&70&0###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -14119,7 +14119,7 @@
   splits:
   - split: 1
     text: "碧霄剑"
-    translated: "Jade Sky Sword"
+    translated: "Bích Tiêu Kiếm"
 - raw: "37804#浑天镔铁杵#1#1#12#10#1080#1#0#1#0#0#new_3762#37804001#0#37804002#3762#3601#30002#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -14169,7 +14169,7 @@
   splits:
   - split: 1
     text: "碧霄剑"
-    translated: "Jade Sky Sword"
+    translated: "Bích Tiêu Kiếm"
 - raw: "37814#桃花玉面的舞伎俑#2#2#12#11#0#99999#0#0#0#0#xiaoxiang2#3781401#0#3781402#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -16808,7 +16808,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "45015#乱鸦#1#1#1000#24#3308#1#0#1#0#0#new_3730#45015#0#47015#3730#3601#30001#####0#0#0#6003#3#5####0#65026|6##0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
@@ -16833,7 +16833,7 @@
   splits:
   - split: 1
     text: "双金斗"
-    translated: "Double Golden Dagger"
+    translated: "Song Kim Đấu"
 - raw: "45020#霜天晓角#1#1#1000#16#31026#1#0#1#0#0#new_3723#45020#0#47020#3723#3601#30001#####0#0#0#6005#4#7####0#65041|96##0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
@@ -16843,7 +16843,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "45022#兽皮拳套#1#1#1000#21#1080#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#3###1|2000&30|2000&999|3000#0###0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
@@ -16863,12 +16863,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "45026#战骨寒#1#1#1000#25#5789#1#0#1#0#0#new_3743#45026#0#47026#1&3743|2&3978#3601#30003#####0#0#0#6003#3#5####0#65021|12##0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "45027#星祁#1#1#1000#26#10131#1#0#1#0#0#new_3742#45027#0#47027#1&3742|2&3977#3601#30003#####0#0#0#6004#4#6####0#65028|24##0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
@@ -16888,7 +16888,7 @@
   splits:
   - split: 1
     text: "龙窟动"
-    translated: "Dragon's Cave Stirs"
+    translated: "Long Quật Động"
 - raw: "45031#木棍#1#1#1000#20#1080#1#0#1#0#0#new_3762#45031#0#47031#3762#3601#30002#####0#0#0#6001#1#3###1|2000&30|2000&999|3000#0###0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
@@ -16943,7 +16943,7 @@
   splits:
   - split: 1
     text: "无瞿"
-    translated: "Clarity"
+    translated: "Vô Cù"
 - raw: "45042#普通的铁剑#1#1#10#10#1080#1#0#1#0#0#jian2#45042#0#47001#3701#3601#30014#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -17078,12 +17078,12 @@
   splits:
   - split: 1
     text: "雷火金丸"
-    translated: "Thunderfire Golden Pill"
+    translated: "Lôi Hỏa Kim Hoàn"
 - raw: "45075#百变链刃#1#1#1000#24#3308#1#0#1#0#0#anqi_lengyuedao#45075#0#47075#0#3601#30000#####0#0#0#6003#3#5####0###0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
     text: "百变链刃"
-    translated: "Shifting Chain Blade"
+    translated: "Bách Biến Liên Nhận"
 - raw: "45076#影缠丝#1#1#1000#25#5789#1#0#1#0#0#anqi1#45076#0#47076#0#3601#30000#####0#0#0#6003#3#5####0###0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
@@ -18738,7 +18738,7 @@
   splits:
   - split: 1
     text: "霜降"
-    translated: "Frost's Descent"
+    translated: "Sương Giáng"
 - raw: "45807#割裂#1#1#1000#24#3308#1#0#1#0#0#dao4#45807#0#47807#3725#3601#30001#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -18773,7 +18773,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "46005#草心苏#1#2#1000#24#4135#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#3#5####0#65005|6##0##0#0#0#0#1500012899#0#2#0#0#0#"
   splits:
   - split: 1
@@ -18908,7 +18908,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "49005#梅消雪动#1#5#1000#24#4410#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#3#5####0#65028|6##0##0#0#0#0#1500012899#0#3#0#0#0#"
   splits:
   - split: 1
@@ -19018,17 +19018,17 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "49027#绿波香露#1#6#1000#26#13507#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#4#6####0#65021|24##0##0#0#0#0#1500012899#0#3#0#0#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "49028#离荧#1#6#1000#27#13507#1#0#1#0#0#xianglian8#49028#0#51028#0#3604#30004#####0#0#0#6004#4#6####0#65034|24##0##0#0#0#0#1500012899#0#3#0#0#0#"
   splits:
   - split: 1
     text: "离荧"
-    translated: "Waning Ember"
+    translated: "Ly Huỳnh"
 - raw: "49029#鹤上仙#1#6#1000#28#23637#1#0#1#0#0#diaozhui4#49029#0#51029#0#3604#30004#####0#0#0#6005#4#7####0#65010|48&65017|24##0##0#0#0#0#1500012899#0#3#0#0#0#"
   splits:
   - split: 1
@@ -19293,7 +19293,7 @@
   splits:
   - split: 1
     text: "白露"
-    translated: "White Dew"
+    translated: "Bạch Lộ"
 - raw: "50537#恶虎錾金#1#1#14#11#2754#1#0#1#0#0#qiang1#50537#0#52537#3953#3601#30002#####0#0#0#80038#3#5####0###0##0#1#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -19360,7 +19360,7 @@
   splits:
   - split: 1
     text: "无瞿"
-    translated: "Clarity"
+    translated: "Vô Cù"
 - raw: "50551#万仞#1#1#14#12#4820#1#0#1#0#0#jian14#50551#0#52551#3907#3601#30000#####0#0#0#80052#3#5####0###0##0#1#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -21513,7 +21513,7 @@
   splits:
   - split: 1
     text: "云海珠"
-    translated: "Cloud Sea Pearl"
+    translated: "Vân Hải Châu"
 - raw: "54337#蝎心果#3#21#11#12#136#99999#0#1#0#0#bw_wdz#54337#0#56337#0#3600#0#####0#0#0#0#0#0###2|3000&3|3000&4|4000&5|3000&6|3000&7|4000&1|1000&999|1000#0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -23243,7 +23243,7 @@
   splits:
   - split: 1
     text: "玉蜂毒"
-    translated: "Jade Bee Poison"
+    translated: "Ngọc Phong Độc"
 - raw: "54909#寒潭白鱼#3#20#14#16#27418#99999#0#1#0#0#hetun#54909#0#56909#0#3600#0####MIJUAN#0#0#0#8709#1#1####0###0##1|8423000#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -23258,7 +23258,7 @@
   splits:
   - split: 1
     text: "血菩提"
-    translated: "Blood Bodhi"
+    translated: "Huyết Bồ Đề"
 - raw: "54912#麒麟鳞片#3#20#14#16#27418#99999#0#1#0#0#zhusha#54912#0#56912#0#3600#0####MIJUAN#0#0#0#8712#1#1####0###0##1|8423000#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -23278,7 +23278,7 @@
   splits:
   - split: 1
     text: "白露"
-    translated: "White Dew"
+    translated: "Bạch Lộ"
 - raw: "54916#神石#3#20#14#16#27418#99999#0#1#0#0#new1_lwjs#54916#0#56916#0#3600#0####MIJUAN#0#0#0#8716#1#1####0###0##1|8423000#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -23313,7 +23313,7 @@
   splits:
   - split: 1
     text: "千叶露"
-    translated: "Thousand‑Petal Dew"
+    translated: "Thiên Diệp Lộ"
 - raw: "54923#天青花#3#20#14#16#27418#99999#0#1#0#0#shouwuteng#54923#0#56923#0#3600#0####MIJUAN#0#0#0#8723#1#1####0###0##1|8423000#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -23548,7 +23548,7 @@
   splits:
   - split: 1
     text: "修为宝册"
-    translated: "Tome of Cultivation"
+    translated: "Tu Vi Bảo Sách"
 - raw: "60012#感悟残篇#4#16#10#10#105#99999#0#1#0#0#miji1#60012#0#62012#0#3605#0##70&408&0###0#0#0#0#0#0###all#0###0##0#0#0#0#1500012907#0#0#0#0#0#"
   splits:
   - split: 1
@@ -28333,7 +28333,7 @@
   splits:
   - split: 1
     text: "逐月履"
-    translated: "Pursuing the Moon's Steps"
+    translated: "Trục Nguyệt Lý"
 - raw: "75547#天机玉石#3#1#12#11#63#99999#0#1#0#0#new1_lingshengshi#75547#0#77547#0#3600#0##10&2###0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -29880,12 +29880,12 @@
   splits:
   - split: 1
     text: "铁矿石"
-    translated: "Iron Ore"
+    translated: "Quặng sắt"
 - raw: "77017#铜矿石#2#2#10#10#1#99999#0#1#0#0#new1_jiuqugang#7701701#0#7701702#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
     text: "铜矿石"
-    translated: "Copper Ore"
+    translated: "Quặng đồng"
 - raw: "77018#煤炭#2#2#10#10#1#99999#0#1#0#0#new2_qiankuang#7701801#0#7701802#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#0#0#"
   splits:
   - split: 1
@@ -30010,7 +30010,7 @@
   splits:
   - split: 1
     text: "阴阳合欢禅"
-    translated: "Yin Yang Union Meditation"
+    translated: "Âm Dương Hợp Hoan Thiền"
 - raw: "80024#村长的私房钱#2#6#12#11#0#99999#0#0#0#0#shuxin1#80024#0#81024#0#3600#0#955280#80024###0#0#0#0#0#0####0###0##0#1#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1
@@ -30720,7 +30720,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "81015#乱鸦#1#1#10#14#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -30740,7 +30740,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "81022#兽皮拳套#1#1#10#11#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -30760,12 +30760,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "81026#战骨寒#1#1#10#15#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "81027#星祁#1#1#10#16#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -30825,7 +30825,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "81045#草心苏#1#2#10#14#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -30930,7 +30930,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "81075#梅消雪动#1#5#10#14#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -31010,12 +31010,12 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "81097#绿波香露#1#6#10#16#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "81101#铁剑#1#1#11#10#1296#1#0#1#0#0#jian2#45001#0#47001#3701#3601#30000#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31070,7 +31070,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "81115#乱鸦#1#1#11#14#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31090,7 +31090,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "81122#兽皮拳套#1#1#11#11#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31110,12 +31110,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "81126#战骨寒#1#1#11#15#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "81127#星祁#1#1#11#16#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#2#2####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31175,7 +31175,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "81145#草心苏#1#2#11#14#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -31280,7 +31280,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "81175#梅消雪动#1#5#11#14#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -31360,12 +31360,12 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "81197#绿波香露#1#6#11#16#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#2#2####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "81201#铁剑#1#1#12#10#1296#1#0#1#0#0#jian2#45001#0#47001#3701#3601#30000#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31420,7 +31420,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "81215#乱鸦#1#1#12#14#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31440,7 +31440,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "81222#兽皮拳套#1#1#12#11#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31460,12 +31460,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "81226#战骨寒#1#1#12#15#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "81227#星祁#1#1#12#16#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31525,7 +31525,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "81245#草心苏#1#2#12#14#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -31630,7 +31630,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "81275#梅消雪动#1#5#12#14#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -31710,12 +31710,12 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "81297#绿波香露#1#6#12#16#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "81301#铁剑#1#1#13#10#1620#1#0#1#0#0#jian2#45001#0#47001#3701#3601#30000#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31770,7 +31770,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "81315#乱鸦#1#1#13#14#4962#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31790,7 +31790,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "81322#兽皮拳套#1#1#13#11#1620#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31810,12 +31810,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "81326#战骨寒#1#1#13#15#8683#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "81327#星祁#1#1#13#16#15196#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -31875,7 +31875,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "81345#草心苏#1#2#13#14#6202#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -31980,7 +31980,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "81375#梅消雪动#1#5#13#14#6615#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -32060,12 +32060,12 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "81397#绿波香露#1#6#13#16#20260#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "81401#铁剑#1#1#12#10#1296#1#0#1#0#0#jian2#45001#0#47001#3701#3601#30000#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32120,7 +32120,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "81415#乱鸦#1#1#12#14#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32140,7 +32140,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "81422#兽皮拳套#1#1#12#11#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32160,12 +32160,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "81426#战骨寒#1#1#12#15#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "81427#星祁#1#1#12#16#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32225,7 +32225,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "81445#草心苏#1#2#12#14#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -32330,7 +32330,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "81475#梅消雪动#1#5#12#14#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -32410,12 +32410,12 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "81497#绿波香露#1#6#12#16#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "82001#铁剑#1#1#13#20#1620#1#0#1#0#0#jian2#45001#0#47001#3701#3601#30000#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32485,7 +32485,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "82015#乱鸦#1#1#13#24#4962#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32510,7 +32510,7 @@
   splits:
   - split: 1
     text: "双金斗"
-    translated: "Double Golden Dagger"
+    translated: "Song Kim Đấu"
 - raw: "82020#霜天晓角#1#1#13#16#46539#1#0#1#0#0#dao9#45020#0#47020#3723#3601#30001#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32520,7 +32520,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "82022#兽皮拳套#1#1#13#21#1620#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32540,12 +32540,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "82026#战骨寒#1#1#13#25#8683#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "82027#星祁#1#1#13#26#15196#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32565,7 +32565,7 @@
   splits:
   - split: 1
     text: "龙窟动"
-    translated: "Dragon's Cave Stirs"
+    translated: "Long Quật Động"
 - raw: "82031#木棍#1#1#13#20#1620#1#0#1#0#0#gun1#45031#0#47031#3762#3601#30002#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -32635,7 +32635,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "82045#草心苏#1#2#13#24#6202#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -32785,7 +32785,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "82075#梅消雪动#1#5#13#24#6615#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -32895,17 +32895,17 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "82097#绿波香露#1#6#13#26#20260#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "82098#离荧#1#6#13#27#20260#1#0#1#0#0#xianglian8#49028#0#51028#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "离荧"
-    translated: "Waning Ember"
+    translated: "Ly Huỳnh"
 - raw: "82099#鹤上仙#1#6#13#28#35455#1#0#1#0#0#diaozhui4#49029#0#51029#0#3604#30004#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -33020,7 +33020,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "82215#乱鸦#1#1#12#24#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33045,7 +33045,7 @@
   splits:
   - split: 1
     text: "双金斗"
-    translated: "Double Golden Dagger"
+    translated: "Song Kim Đấu"
 - raw: "82220#霜天晓角#1#1#12#16#37231#1#0#1#0#0#dao9#45020#0#47020#3723#3601#30001#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33055,7 +33055,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "82222#兽皮拳套#1#1#12#21#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33075,12 +33075,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "82226#战骨寒#1#1#12#25#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "82227#星祁#1#1#12#26#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33100,7 +33100,7 @@
   splits:
   - split: 1
     text: "龙窟动"
-    translated: "Dragon's Cave Stirs"
+    translated: "Long Quật Động"
 - raw: "82231#木棍#1#1#12#20#1296#1#0#1#0#0#gun1#45031#0#47031#3762#3601#30002#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33170,7 +33170,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "82245#草心苏#1#2#12#24#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -33320,7 +33320,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "82275#梅消雪动#1#5#12#24#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -33430,17 +33430,17 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "82297#绿波香露#1#6#12#26#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "82298#离荧#1#6#12#27#16208#1#0#1#0#0#xianglian8#49028#0#51028#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "离荧"
-    translated: "Waning Ember"
+    translated: "Ly Huỳnh"
 - raw: "82299#鹤上仙#1#6#12#28#28364#1#0#1#0#0#diaozhui4#49029#0#51029#0#3604#30004#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -33520,7 +33520,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "82315#乱鸦#1#1#14#24#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33545,7 +33545,7 @@
   splits:
   - split: 1
     text: "双金斗"
-    translated: "Double Golden Dagger"
+    translated: "Song Kim Đấu"
 - raw: "82320#霜天晓角#1#1#14#16#37231#1#0#1#0#0#dao9#45020#0#47020#3723#3601#30001#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33555,7 +33555,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "82322#兽皮拳套#1#1#14#21#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33575,12 +33575,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "82326#战骨寒#1#1#14#25#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "82327#星祁#1#1#14#26#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33600,7 +33600,7 @@
   splits:
   - split: 1
     text: "龙窟动"
-    translated: "Dragon's Cave Stirs"
+    translated: "Long Quật Động"
 - raw: "82331#木棍#1#1#14#20#1296#1#0#1#0#0#gun1#45031#0#47031#3762#3601#30002#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -33670,7 +33670,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "82345#草心苏#1#2#14#24#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -33820,7 +33820,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "82375#梅消雪动#1#5#14#24#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#3#5####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -33930,17 +33930,17 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "82397#绿波香露#1#6#14#26#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "82398#离荧#1#6#14#27#16208#1#0#1#0#0#xianglian8#49028#0#51028#0#3604#30004#####0#0#0#6004#4#6####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "离荧"
-    translated: "Waning Ember"
+    translated: "Ly Huỳnh"
 - raw: "82399#鹤上仙#1#6#14#28#28364#1#0#1#0#0#diaozhui4#49029#0#51029#0#3604#30004#####0#0#0#6005#4#7####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -34020,7 +34020,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "82415#乱鸦#1#1#10#24#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34045,7 +34045,7 @@
   splits:
   - split: 1
     text: "双金斗"
-    translated: "Double Golden Dagger"
+    translated: "Song Kim Đấu"
 - raw: "82420#霜天晓角#1#1#10#16#37231#1#0#1#0#0#dao9#45020#0#47020#3723#3601#30001#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34055,7 +34055,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "82422#兽皮拳套#1#1#10#21#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34075,12 +34075,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "82426#战骨寒#1#1#10#25#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "82427#星祁#1#1#10#26#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34100,7 +34100,7 @@
   splits:
   - split: 1
     text: "龙窟动"
-    translated: "Dragon's Cave Stirs"
+    translated: "Long Quật Động"
 - raw: "82431#木棍#1#1#10#20#1296#1#0#1#0#0#gun1#45031#0#47031#3762#3601#30002#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34170,7 +34170,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "82445#草心苏#1#2#10#24#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -34320,7 +34320,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "82475#梅消雪动#1#5#10#24#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -34430,17 +34430,17 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "82497#绿波香露#1#6#10#26#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "82498#离荧#1#6#10#27#16208#1#0#1#0#0#xianglian8#49028#0#51028#0#3604#30004#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "离荧"
-    translated: "Waning Ember"
+    translated: "Ly Huỳnh"
 - raw: "82499#鹤上仙#1#6#10#28#28364#1#0#1#0#0#diaozhui4#49029#0#51029#0#3604#30004#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -34520,7 +34520,7 @@
   splits:
   - split: 1
     text: "九环刀"
-    translated: "Nine Ring Blade"
+    translated: "Cửu Hoàn Đao"
 - raw: "82515#乱鸦#1#1#11#24#3969#1#0#1#0#0#dao4#45015#0#47015#3722#3601#30001#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34545,7 +34545,7 @@
   splits:
   - split: 1
     text: "双金斗"
-    translated: "Double Golden Dagger"
+    translated: "Song Kim Đấu"
 - raw: "82520#霜天晓角#1#1#11#16#37231#1#0#1#0#0#dao9#45020#0#47020#3723#3601#30001#####0#0#0#6005#2#3####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34555,7 +34555,7 @@
   splits:
   - split: 1
     text: "白护缠"
-    translated: "White Guard Wrap"
+    translated: "Bạch Hộ Triền"
 - raw: "82522#兽皮拳套#1#1#11#21#1296#1#0#1#0#0#shoutao1#45022#0#47022#1&3741|2&3976#3601#30003#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34575,12 +34575,12 @@
   splits:
   - split: 1
     text: "鹤梦重续"
-    translated: "Crane's Dream Reborn"
+    translated: "Hạc Mộng Trùng Tục"
 - raw: "82526#战骨寒#1#1#11#25#6946#1#0#1#0#0#shoutao7#45026#0#47026#1&3760|2&3986#3601#30003#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
     text: "战骨寒"
-    translated: "Battlebone Chill"
+    translated: "Chiến Cốt Hàn"
 - raw: "82527#星祁#1#1#11#26#12157#1#0#1#0#0#shoutao4#45027#0#47027#1&3760|2&3986#3601#30003#####0#0#0#6004#2#2####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34600,7 +34600,7 @@
   splits:
   - split: 1
     text: "龙窟动"
-    translated: "Dragon's Cave Stirs"
+    translated: "Long Quật Động"
 - raw: "82531#木棍#1#1#11#20#1296#1#0#1#0#0#gun1#45031#0#47031#3762#3601#30002#####0#0#0#6001#1#1####0###0##0#0#0#0#0#0#1#0#1#0#"
   splits:
   - split: 1
@@ -34670,7 +34670,7 @@
   splits:
   - split: 1
     text: "乌丝甲"
-    translated: "Black Silk Armor"
+    translated: "Ô Ti Giáp"
 - raw: "82545#草心苏#1#2#11#24#4962#1#0#1#0#0#ruanjia2#46005#0#48005#0#3602#30006#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#2#0#1#0#"
   splits:
   - split: 1
@@ -34820,7 +34820,7 @@
   splits:
   - split: 1
     text: "墨霜月"
-    translated: "Ink Frost Moon"
+    translated: "Mặc Sương Nguyệt"
 - raw: "82575#梅消雪动#1#5#11#24#5292#1#0#1#0#0#jiezhi2#49005#0#51005#0#3604#30005#####0#0#0#6003#1#2####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -34930,17 +34930,17 @@
   splits:
   - split: 1
     text: "千仞凤"
-    translated: "Eminent Phoenix"
+    translated: "Thiên Nhẫn Phượng"
 - raw: "82597#绿波香露#1#6#11#26#16208#1#0#1#0#0#xianglian3#49027#0#51027#0#3604#30004#####0#0#0#6004#2#2####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "绿波香露"
-    translated: "Green Wave Fragrant Dew"
+    translated: "Lục Ba Hương Lộ"
 - raw: "82598#离荧#1#6#11#27#16208#1#0#1#0#0#xianglian8#49028#0#51028#0#3604#30004#####0#0#0#6004#2#2####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
     text: "离荧"
-    translated: "Waning Ember"
+    translated: "Ly Huỳnh"
 - raw: "82599#鹤上仙#1#6#11#28#28364#1#0#1#0#0#diaozhui4#49029#0#51029#0#3604#30004#####0#0#0#6005#2#3####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -34960,7 +34960,7 @@
   splits:
   - split: 1
     text: "屠龙刀"
-    translated: "Dragon Slayer Blade"
+    translated: "Đồ Long Đao"
 - raw: "82692#玉佛吊坠#1#6#13#21#1728#1#0#1#0#0#xianglian10#82692#0#84692#0#3604#30004#####0#0#0#6001#1#3####0###0##0#0#0#0#0#0#3#0#1#0#"
   splits:
   - split: 1
@@ -35015,12 +35015,12 @@
   splits:
   - split: 1
     text: "雷火金丸"
-    translated: "Thunderfire Golden Pill"
+    translated: "Lôi Hỏa Kim Hoàn"
 - raw: "82705#百变链刃#1#1#12#24#5151#1#0#1#0#0#anqi_lengyuedao#45075#0#47075#0#3601#30000#####0#0#0#6003#3#3####0###0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
     text: "百变链刃"
-    translated: "Shifting Chain Blade"
+    translated: "Bách Biến Liên Nhận"
 - raw: "82706#影缠丝#1#1#12#25#8120#1#0#1#0#0#anqi1#45076#0#47076#0#3601#30000#####0#0#0#6003#3#3####0###0##0#0#0#0#1500012899#0#1#0#0#0#"
   splits:
   - split: 1
@@ -35380,7 +35380,7 @@
   splits:
   - split: 1
     text: "太极剑"
-    translated: "Supreme Ultimate Sword"
+    translated: "Thái Cực Kiếm"
   - split: 41
     text: "纯外观DLC《舞弄太极》解锁获得"
     translated: "Unlocked upon obtaining 'Pure Aesthetic DLC: Wumeng Taiji.'"
@@ -35391,7 +35391,7 @@
   splits:
   - split: 1
     text: "太极拳"
-    translated: "Tai Chi Fist"
+    translated: "Thái Cực Quyền"
   - split: 41
     text: "纯外观DLC《舞弄太极》解锁获得"
     translated: "Unlocked upon obtaining 'Pure Aesthetic DLC: Wumeng Taiji.'"
@@ -35710,7 +35710,7 @@
   splits:
   - split: 1
     text: "少泽"
-    translated: "Shao Ze"
+    translated: "Thiếu Trạch"
   - split: 41
     text: "纯外观DLC《剑指六脉》解锁获得"
     translated: "Purely cosmetic DLC 'Sword Point at the Six Meridians' unlocked obtained."
@@ -35825,7 +35825,7 @@
   splits:
   - split: 1
     text: "阴瘴蜂"
-    translated: "Yin plague bee"
+    translated: "Âm Chướng Phong"
 - raw: "85010#人面蝶#3#16#14#16#13709#99999#0#0#0#0#jiu2#85010#0#87010#0#3600#0#####0#0#0#0#0#0####0###0##0#0#0#0#0#0#0#0#1#0#"
   splits:
   - split: 1

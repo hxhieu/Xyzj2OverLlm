@@ -859,7 +859,7 @@
   splits:
   - split: 1
     text: "穆特族"
-    translated: "Mục Đặc Tộc"
+    translated: "Mục Đặc tộc"
 - raw: "40011#丐门#4#0#0#1500011060#1500011362#31#4004201#"
   splits:
   - split: 1
@@ -1109,7 +1109,7 @@
   splits:
   - split: 1
     text: "祖传宝刀"
-    translated: "Tổ truyền bảo đao"
+    translated: "Tổ Truyền Bảo Đao"
 - raw: "60032#捉迷藏#6#0&30|971951|1#0&24|985991|1#1500011110#1500011412#0#60032#"
   splits:
   - split: 1

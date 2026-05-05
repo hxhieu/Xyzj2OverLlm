@@ -104,7 +104,7 @@ def export_prefab(cursor, args, kind: str, output_path: Path) -> tuple[int, int]
             ae.entry_no,
             ae.source_text,
             coalesce(tov.translated_text, tv.translated_text) as translated_text,
-            coalesce(tov.status, toc.status, tv.status) as export_status
+            coalesce(tov.status, tv.status) as export_status
         from asset_entries ae
         join translation_occurrences toc
           on toc.asset_entry_id = ae.id
@@ -140,7 +140,7 @@ def export_dynamic(cursor, args, kind: str, output_path: Path) -> tuple[int, int
             ae.source_text,
             ae.raw_payload,
             coalesce(tov.translated_text, tv.translated_text) as translated_text,
-            coalesce(tov.status, toc.status, tv.status) as export_status
+            coalesce(tov.status, tv.status) as export_status
         from asset_entries ae
         join translation_occurrences toc
           on toc.asset_entry_id = ae.id

@@ -45,6 +45,8 @@
   - `reviewed`: translated by the agent, waiting for user approval.
   - `locked`: accepted/finalized by the user or explicitly agreed as final.
 - When translating Postgres rows, update `translation_values.translated_text` and set `translation_values.status = 'reviewed'`, not `locked`, unless the user explicitly says to lock/chốt them.
+- For translation batch reports, keep chat output concise: report how many rows/values were attempted, how many succeeded, and only mention notable issues or caveats. Do not print detailed translation lists unless the user explicitly asks; the user can inspect the DB directly.
+- In the current dedup workflow, pending `translation_values` are treated as the unique units to translate. Do not spend normal batch time looking for exact locked duplicates of pending values; only check related existing translations when needed for terminology/style consistency or when context suggests a dedup/context anomaly.
 - Keep `translation_occurrences.status` for occurrence-level review/export policy. A pending occurrence may point to a locked deduped value; this is expected dedup behavior. Use strict export only when the user wants occurrence-level reviewed/locked output.
 - Do not assume pending or legacy ignored rows are junk. If the user asks to finish a whole section or asset, translate the pending values for that scope.
 - For targeted audit fixes in Postgres, prefer direct Postgres `UPDATE` statements through MCP. Do not create throwaway override scripts for small or medium correction batches unless the user explicitly asks for a reusable script.

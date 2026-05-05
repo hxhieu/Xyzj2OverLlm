@@ -7,24 +7,38 @@ cd "$repo_root"
 output_dir="${OUTPUT_DIR:-_working/postgres_export}"
 stage_dir="${STAGE_DIR:-_working/BepInEx/resources}"
 section_status_args=()
+translated_status_args=(--translated-status locked --translated-status reviewed)
+dynamic_status_args=(--translated-status locked --translated-status reviewed)
 
 if [[ "${STRICT_OCCURRENCES:-0}" == "1" ]]; then
   section_status_args+=(--require-occurrence-status)
+fi
+
+if [[ "${INCLUDE_PENDING_TRANSLATIONS:-1}" == "1" ]]; then
+  translated_status_args+=(--translated-status pending)
+  dynamic_status_args+=(--translated-status pending)
+fi
+
+if [[ "${INCLUDE_PENDING_DYNAMIC_STRINGS:-1}" == "0" ]]; then
+  dynamic_status_args=(--translated-status locked --translated-status reviewed)
 fi
 
 mkdir -p "$output_dir" "$stage_dir"
 
 python3 _postgres_workflow/export_db1.py \
   --output "$output_dir/db1.txt" \
+  "${translated_status_args[@]}" \
   "${section_status_args[@]}"
 
 python3 _postgres_workflow/export_assets.py \
   --file dumpedPrefabText.txt \
-  --output "$output_dir/dumpedPrefabText.txt"
+  --output "$output_dir/dumpedPrefabText.txt" \
+  "${translated_status_args[@]}"
 
 python3 _postgres_workflow/export_assets.py \
   --file dynamicStrings.txt \
-  --output "$output_dir/dynamicStrings.txt"
+  --output "$output_dir/dynamicStrings.txt" \
+  "${dynamic_status_args[@]}"
 
 cp "$output_dir/db1.txt" "$stage_dir/db1.txt"
 cp "$output_dir/dumpedPrefabText.txt" "$stage_dir/dumpedPrefabText.txt"

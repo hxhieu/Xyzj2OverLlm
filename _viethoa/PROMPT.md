@@ -1,6 +1,6 @@
-# Vietnamese Converted Text Translation Guidelines
+# Vietnamese Postgres Translation Guidelines
 
-Session goal: translate and audit converted game text in Vietnamese using the SQLite workspace in `_viethoa/glossary-audit.db`.
+Session goal: translate and audit game text in Vietnamese using the Postgres workflow. The main working DB is `nextstopjianghu2_translation`; legacy SQLite `_viethoa/glossary-audit.db` is for migration/recovery only.
 
 ## Language
 
@@ -40,16 +40,22 @@ Session goal: translate and audit converted game text in Vietnamese using the SQ
   - `碧霄擒龙手` -> `Bích Tiêu Cầm Long Thủ`
 - Do not translate martial names into plain descriptive Vietnamese unless the user asks.
 
-## Converted File Workflow
+## Postgres Workflow
 
-- Use `converted_file_lines` and `converted_file_splits` in `_viethoa/glossary-audit.db`.
-- Query small batches or individual IDs instead of loading large text files into context.
-- Import a converted YAML file with `dotnet run --project Translate -- import-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt`.
-- Edit `converted_file_splits.translated`, mark reviewed rows with `status = 'reviewed'`, and lock accepted rows with `status = 'locked'`.
-- Export the table back to the source YAML with `dotnet run --project Translate -- export-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt`.
-- For `game_manual.txt`, focus this session on martial arts, internal skills, manuals, techniques, and wuxia references. Non-target rows can remain `ignored`.
-- The export command writes every imported row back to the corresponding file, so the DB must preserve all lines even if only focus candidates are edited.
-- `Files/Glossary.yaml` and glossary DB tables are not part of this workflow.
+- Query small batches from Postgres instead of loading large text/YAML files into context.
+- `Files/Raw/DB/db1.txt` is the canonical DB shape. Runtime exports are generated from Postgres, not from `Files/Converted`.
+- Main tables:
+  - `translation_values`: deduplicated source text and its canonical translation.
+  - `translation_occurrences`: each DB field or asset occurrence that uses a translation value.
+  - `translation_overrides`: occurrence-specific translation when a repeated source needs different wording.
+  - `db_sections`, `db_lines`, `db_fields`: raw `db1.txt` shape and translatable DB fields.
+  - `asset_entries`: non-DB assets such as `dumpedPrefabText.txt` and `dynamicStrings.txt`.
+- When translating a batch, update `translation_values.translated_text` and set `translation_values.status = 'reviewed'`.
+- Only set `status = 'locked'` when the user explicitly says to lock/chốt.
+- A pending occurrence may point to a locked deduped value. This is expected; use strict export only when occurrence-level approval matters.
+- Use `_postgres_workflow/check_workflow.py --format markdown --section-limit 80` to inspect section/asset breakdown.
+- Use `bash stage_test_build.sh` to export all Postgres-backed runtime resources and build/copy plugin DLLs into `_working/BepInEx`.
+- `Files/Glossary.yaml`, SQLite converted-file tables, and the old `dotnet ... import/export/package` workflow are legacy and should not be used unless the user explicitly asks.
 
 ## Caution
 

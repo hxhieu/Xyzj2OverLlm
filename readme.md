@@ -57,51 +57,57 @@ To deploy directly into a game install instead, create an ignored `Directory.Bui
 
 The plugin DLL build does not regenerate translated text resources.
 
-For the Vietnamese workflow, edit translated text through `_viethoa/glossary-audit.db` and export the converted files before packaging:
+For the Vietnamese workflow, Postgres is the current source of truth. The normal all-in-one staging command is:
 
 ```bash
-dotnet run --project Translate -- export-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file <file>
+bash stage_test_build.sh
 ```
 
-Common imported converted files include:
+This exports Postgres-backed resources and copies them into:
 
 ```text
-game_manual.txt
-item_base.txt
-item_base_dangmojianghu.txt
-item_base_xianejianghu.txt
-item_base_zhenshijianghu.txt
-spelleffect.txt
-spellprotype.txt
-stringlang.txt
+_working/BepInEx/resources/db1.txt
+_working/BepInEx/resources/dynamicStrings.txt
+_working/BepInEx/resources/dumpedPrefabText.txt
 ```
 
-To import a converted file into the SQLite workspace:
+Then it builds `EnglishPatch` and deploys DLLs into:
+
+```text
+_working/BepInEx/plugins/
+```
+
+For resources only:
 
 ```bash
-dotnet run --project Translate -- import-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file <file>
+bash _postgres_workflow/stage_resources.sh
 ```
+
+Useful Postgres workflow commands:
+
+```bash
+python3 _postgres_workflow/check_workflow.py --format markdown --section-limit 80 \
+  > _working/postgres_workflow_report.md
+
+python3 _postgres_workflow/backup_postgres.py
+```
+
+The legacy SQLite workflow (`_viethoa/glossary-audit.db`, `Files/Converted`, `export-converted-db`, and `dotnet run --project Translate -- package`) is deprecated for Vietnamese packaging. It remains only for historical migration/reference unless explicitly needed.
 
 The legacy `Files/Glossary.yaml` workflow is not used for Vietnamese packaging.
 
-To rebuild `Files/Mod/db1.txt` and `Files/Mod/Formatted/*` from the translated files under `Files/Converted`, run:
-
-```bash
-dotnet run --project Translate -- package --working-directory Files
-```
-
-To also stage the generated runtime resources into `_working`, run:
-
-```bash
-dotnet run --project Translate -- package --working-directory Files --stage-resources _working/BepInEx/resources
-```
-
-For the runtime mod, copy the generated files you need into the game install:
+For the runtime mod, copy the staged folder into the game install:
 
 ```text
-Files/Mod/db1.txt -> BepInEx/resources/db1.txt
-Files/Mod/Formatted/dynamicStrings.txt -> BepInEx/resources/dynamicStrings.txt
-Files/Mod/Formatted/dumpedPrefabText.txt -> BepInEx/resources/dumpedPrefabText.txt
+_working/BepInEx -> <Game Folder>/BepInEx
+```
+
+The plugin loads resources from:
+
+```text
+BepInEx/resources/db1.txt
+BepInEx/resources/dynamicStrings.txt
+BepInEx/resources/dumpedPrefabText.txt
 ```
   
 ### Name Changer

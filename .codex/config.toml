@@ -7,9 +7,16 @@ args = []
 [mcp_servers.nmem.env]
 NMEM_BRAIN = "nextstopjianghu2-translation"
 
-[mcp_servers.sde-sqlite]
-command = "mcp-server-sqlite"
+[mcp_servers.postgres]
+command = "docker"
 args = [
- "--db-path",
- "./_viethoa/glossary-audit.db"
+ "run",
+ "-i",
+ "--rm",
+ "-e",
+ "DATABASE_URI",
+ "postgres-mcp:local",
+ "--access-mode=unrestricted"
 ]
+[mcp_servers.postgres.env]
+DATABASE_URI = "postgresql://nextstopjianghu2:Dev_123@192.168.0.163:5432/nextstopjianghu2_translation"

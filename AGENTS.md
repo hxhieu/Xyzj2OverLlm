@@ -4,7 +4,9 @@
 
 - Project: Vietnamese translation workflow for `Next Stop Jianghu 2`.
 - Repo root: `/mnt/nfs/game-server/Xyzj2OverLlm`.
-- Main working DB: `_viethoa/glossary-audit.db`.
+- Main working DB: Postgres database `nextstopjianghu2_translation`.
+- Legacy SQLite DB: `_viethoa/glossary-audit.db`, kept only for historical migration/reference unless the user explicitly asks to use it.
+- Postgres workflow scripts live under `_postgres_workflow`.
 - Detailed Vietnamese translation prompt: `_viethoa/PROMPT.md`. Load it before translation/audit work.
 - Use Vietnamese when discussing translation work with the user.
 
@@ -26,107 +28,95 @@
 
 ## Han Viet Batch Workflow
 
-- For repeated terms, prefer existing `locked` translations in `_viethoa/glossary-audit.db` before creating a new translation.
+- For repeated terms, prefer existing `locked` translations in Postgres `translation_values` before creating a new translation.
 - If no locked translation exists, `_viethoa/chinese-hanviet-cognates/inputs/thieuchuu.txt` can be used as a local Thiều Chửu character-reading fallback to draft Hán Việt names.
 - Treat Thiều Chửu output as a draft only. Review multi-reading characters and fixed wuxia phrases manually; do not override established DB translations with mechanical readings.
 - After using any mechanical Hán Việt draft, run the leftover-Han-character QA query before reporting completion.
 
 ## Source Of Truth
 
-- Current workflow is SQLite first, then export back to files.
-- The working DB is intentionally limited to converted-file tables: `metadata`, `converted_file_lines`, and `converted_file_splits`.
+- Current workflow is Postgres first. Do translation/review/status work in Postgres, then export runtime resources from Postgres.
+- `Files/Raw/DB/db1.txt` is the canonical game DB shape. Postgres stores full section/line shape in `db_sections` and `db_lines`; only translatable fields are stored in `db_fields`.
+- `translation_values` stores deduplicated source texts and translations. `translation_occurrences` maps each DB field or asset entry to a translation value. `translation_overrides` stores occurrence-specific translations when a repeated source needs context-specific text.
+- `asset_entries` stores non-DB runtime text such as `dumpedPrefabText.txt` and `dynamicStrings.txt`.
 - `Files/Glossary.yaml` and the glossary import/export/apply commands are legacy support for the upstream LLM translation workflow. Do not use them for this Vietnamese workflow unless the user explicitly asks.
 - Status convention:
   - `pending`: waiting for the agent to translate.
   - `reviewed`: translated by the agent, waiting for user approval.
   - `locked`: accepted/finalized by the user or explicitly agreed as final.
-- For converted files, use `converted_file_lines` and `converted_file_splits`.
-- For converted file focus candidates, use `pending` while untranslated/unreviewed. Do not leave focus candidates as `ignored`; reserve `ignored` for non-target rows.
-- Do not assume `ignored` rows are junk. If the user asks to finish a whole converted file, translate the `ignored` rows too and move them to `reviewed`.
-- When translating converted file rows, set them to `reviewed`, not `locked`, unless the user explicitly says to lock/chốt them.
-- Preserve all imported rows. Non-target rows may stay `ignored`, but export writes the whole file back.
-- For targeted audit fixes in SQLite, prefer direct SQLite MCP `UPDATE` statements. Do not create throwaway override scripts for small or medium DB correction batches unless the user explicitly asks for a reusable script.
+- When translating Postgres rows, update `translation_values.translated_text` and set `translation_values.status = 'reviewed'`, not `locked`, unless the user explicitly says to lock/chốt them.
+- Keep `translation_occurrences.status` for occurrence-level review/export policy. A pending occurrence may point to a locked deduped value; this is expected dedup behavior. Use strict export only when the user wants occurrence-level reviewed/locked output.
+- Do not assume pending or legacy ignored rows are junk. If the user asks to finish a whole section or asset, translate the pending values for that scope.
+- For targeted audit fixes in Postgres, prefer direct Postgres `UPDATE` statements through MCP. Do not create throwaway override scripts for small or medium correction batches unless the user explicitly asks for a reusable script.
 
-## Converted File Workflow
+## Postgres Workflow
 
-Import one converted file into SQLite:
+Install Python dependency if needed:
 
 ```bash
-dotnet run --project Translate -- import-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt
+python3 -m pip install -r _postgres_workflow/requirements.txt
 ```
 
-Export one converted file from SQLite back to `Files/Converted` only when the user explicitly asks to export, generate `db1.txt`, create distribution files, or stage a test build:
+Run read-only workflow QA, including section breakdown:
 
 ```bash
-dotnet run --project Translate -- export-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file game_manual.txt
+python3 _postgres_workflow/check_workflow.py --format markdown --section-limit 80
 ```
 
-Before importing, exporting, or bulk editing, create a DB backup under `_working/backups` so backups stay outside version control:
+Create a Postgres backup under `_working/backups/postgres`:
 
 ```bash
-mkdir -p _working/backups
-cp _viethoa/glossary-audit.db _working/backups/glossary-audit.db.bak-before-<task>
+python3 _postgres_workflow/backup_postgres.py
 ```
+
+The backup script uses `DATABASE_URL` or the Postgres MCP connection string in `.codex/config.toml`; it falls back to Docker `postgres:<server-major>` when local `pg_dump` is too old.
 
 ## Test Game Packaging Workflow
 
 When the user asks to generate `db1.txt`, distribution files, or a test-game build, run the full workflow needed so `_working/BepInEx` ends in a copy-ready state. The user should only need to copy `_working/BepInEx` into the game install.
 
-For a test build, the usual flow is:
-
-1. Export any imported converted files that were edited in DB:
+Use the root all-in-one script:
 
 ```bash
-dotnet run --project Translate -- export-converted-db --working-directory Files --database _viethoa/glossary-audit.db --file <file>
+bash stage_test_build.sh
 ```
 
-Common imported files include:
+This exports Postgres-backed runtime resources and stages them here:
 
 ```text
-game_manual.txt
-item_base.txt
-item_base_dangmojianghu.txt
-item_base_xianejianghu.txt
-item_base_zhenshijianghu.txt
-spelleffect.txt
-spellprotype.txt
-stringlang.txt
+_working/BepInEx/resources/db1.txt
+_working/BepInEx/resources/dumpedPrefabText.txt
+_working/BepInEx/resources/dynamicStrings.txt
 ```
 
-2. Regenerate runtime resources and stage them for local BepInEx testing:
+Then it builds `EnglishPatch` and deploys plugin DLLs to `_working/BepInEx/plugins`.
+
+For resources only, use:
 
 ```bash
-dotnet run --project Translate -- package --working-directory Files --stage-resources _working/BepInEx/resources
+bash _postgres_workflow/stage_resources.sh
 ```
 
-Without `--stage-resources`, `package` only writes:
-
-```text
-Files/Mod/db1.txt
-Files/Mod/Formatted/dynamicStrings.txt
-Files/Mod/Formatted/dumpedPrefabText.txt
-```
-
-With `--stage-resources`, it also copies these into `_working/BepInEx/resources`:
-
-```text
-db1.txt
-dynamicStrings.txt
-dumpedPrefabText.txt
-```
+Set `STRICT_OCCURRENCES=1` for `db1.txt` export that only applies translations whose individual occurrence status is reviewed/locked.
 
 ## Build Notes
 
 - Building `EnglishPatch` copies plugin DLLs to `_working/BepInEx/plugins` by default.
 - The plugin DLL build does not regenerate text resources.
-- Text resources require the package workflow above.
+- Text resources require the Postgres stage workflow above.
 - If plugin code changed or the user asks for distribution files, build `EnglishPatch` as needed so `_working/BepInEx/plugins` contains current DLLs.
 
 ## Cautions
 
-- When the user asks to translate or audit DB rows, update SQLite only and leave `Files/Converted` untouched unless export/package output is explicitly requested.
-- After translating a DB batch, check reviewed/edited rows for leftover Han characters in `translated`, for example `translated GLOB '*[一-鿿]*'`, and fix those defects before reporting completion.
-- When checking underscore/template tokens, use literal checks such as `instr(source_text, '_') > 0`; do not use unescaped SQL `LIKE '%_%'` because `_` is a wildcard there.
-- Do not re-import a converted file after DB edits unless the user wants to discard/refresh those DB edits from `Files/Converted`.
-- Avoid loading huge YAML/text files into context. Query small batches from SQLite instead.
-- Keep `_viethoa/glossary-audit.db` under GitHub's 100MB file limit. Do not add optional audit indexes, uniqueness constraints, or provenance columns such as `notes` unless the user explicitly accepts the DB growing past that limit.
+- When the user asks to translate or audit DB rows, update Postgres only and leave `Files/Converted` untouched unless the user explicitly asks for legacy files.
+- After translating a Postgres batch, check reviewed/edited rows for leftover Han characters in `translated_text`, for example `translated_text ~ '[一-鿿]'`, and fix those defects before reporting completion.
+- When checking underscore/template tokens in Postgres, use literal checks such as `strpos(source_text, '_') > 0`; do not use unescaped SQL `LIKE '%_%'` because `_` is a wildcard there.
+- Avoid loading huge YAML/text files into context. Query small batches from Postgres instead.
+- Keep backups under `_working/backups` so they stay outside version control.
+
+## Legacy SQLite Workflow
+
+- `_viethoa/glossary-audit.db`, `converted_file_lines`, `converted_file_splits`, and `Files/Converted` are deprecated for the Vietnamese workflow.
+- Use SQLite only if the user explicitly asks to inspect legacy migration data or recover old translations.
+- Do not re-import converted files into SQLite as part of normal translation or packaging.
+- Do not use `dotnet run --project Translate -- import-converted-db`, `export-converted-db`, or `package` for the normal Vietnamese workflow unless the user explicitly asks for the legacy pipeline.

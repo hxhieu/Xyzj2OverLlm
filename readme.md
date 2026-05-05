@@ -55,24 +55,59 @@ To deploy directly into a game install instead, create an ignored `Directory.Bui
 
 ## Packaging Text Resources
 
-The plugin DLL build does not regenerate translated text resources. To rebuild `Files/Mod/db1.txt` and `Files/Mod/Formatted/*` from the translated files under `Files/Converted`, run:
+The plugin DLL build does not regenerate translated text resources.
+
+For the Vietnamese workflow, Postgres is the current source of truth. The normal all-in-one staging command is:
 
 ```bash
-dotnet run --project Translate -- package --working-directory Files
+bash stage_test_build.sh
 ```
 
-To also stage the generated runtime resources into `_working`, run:
-
-```bash
-dotnet run --project Translate -- package --working-directory Files --stage-resources _working/BepInEx/resources
-```
-
-For the runtime mod, copy the generated files you need into the game install:
+This exports Postgres-backed resources and copies them into:
 
 ```text
-Files/Mod/db1.txt -> BepInEx/resources/db1.txt
-Files/Mod/Formatted/dynamicStrings.txt -> BepInEx/resources/dynamicStrings.txt
-Files/Mod/Formatted/dumpedPrefabText.txt -> BepInEx/resources/dumpedPrefabText.txt
+_working/BepInEx/resources/db1.txt
+_working/BepInEx/resources/dynamicStrings.txt
+_working/BepInEx/resources/dumpedPrefabText.txt
+```
+
+Then it builds `EnglishPatch` and deploys DLLs into:
+
+```text
+_working/BepInEx/plugins/
+```
+
+For resources only:
+
+```bash
+bash _postgres_workflow/stage_resources.sh
+```
+
+Useful Postgres workflow commands:
+
+```bash
+python3 _postgres_workflow/check_workflow.py --format markdown --section-limit 80 \
+  > _working/postgres_workflow_report.md
+
+python3 _postgres_workflow/backup_postgres.py
+```
+
+The legacy SQLite workflow (`_viethoa/glossary-audit.db`, `Files/Converted`, `export-converted-db`, and `dotnet run --project Translate -- package`) is deprecated for Vietnamese packaging. It remains only for historical migration/reference unless explicitly needed.
+
+The legacy `Files/Glossary.yaml` workflow is not used for Vietnamese packaging.
+
+For the runtime mod, copy the staged folder into the game install:
+
+```text
+_working/BepInEx -> <Game Folder>/BepInEx
+```
+
+The plugin loads resources from:
+
+```text
+BepInEx/resources/db1.txt
+BepInEx/resources/dynamicStrings.txt
+BepInEx/resources/dumpedPrefabText.txt
 ```
   
 ### Name Changer

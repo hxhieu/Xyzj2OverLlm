@@ -1,0 +1,22 @@
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+
+[mcp_servers.nmem]
+command = "nmem-mcp"
+args = []
+[mcp_servers.nmem.env]
+NMEM_BRAIN = "nextstopjianghu2-translation"
+
+[mcp_servers.postgres]
+command = "docker"
+args = [
+ "run",
+ "-i",
+ "--rm",
+ "-e",
+ "DATABASE_URI",
+ "postgres-mcp:local",
+ "--access-mode=unrestricted"
+]
+[mcp_servers.postgres.env]
+DATABASE_URI = "postgresql://nextstopjianghu2:Dev_123@192.168.0.163:5432/nextstopjianghu2_translation"

@@ -154,7 +154,7 @@
   splits:
   - split: 2
     text: "雪晴"
-    translated: "Xueqing"
+    translated: "Tuyết Tình"
 - raw: "48#0#O.O#"
   splits: []
 - raw: "49#0#凉凉#"

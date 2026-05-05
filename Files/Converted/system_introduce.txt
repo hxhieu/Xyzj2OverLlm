@@ -35,7 +35,7 @@
   splits:
   - split: 2
     text: "境界"
-    translated: "Realm"
+    translated: "Cảnh giới"
   - split: 3
     text: "境界既是指人的思想觉悟和精神修养，也是自我修持的能力，是角色武学经脉综合修为感悟的分层级展示，给予明确的角色提升目标和方向。境界提升为单向突破，必须由低至高突破。满足条件后可进行境界突破，会消耗一定的修为值和感悟值。"
     translated: "Jingjie represents both an individual's level of thought and awareness, as well as their willpower cultivation. It is a structured display of a character's comprehensive understanding and attainment in martial arts and spiritual realms, providing clear goals for role progression and direction. Progression through jingjie requires advancing from lower to higher levels in a single direction. Once the necessary conditions are met, a jingjie breakthrough can be undertaken, consuming a certain amount of cultivation points and understanding values."

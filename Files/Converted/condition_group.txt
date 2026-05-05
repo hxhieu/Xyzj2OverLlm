@@ -26656,7 +26656,7 @@
   splits:
   - split: 6
     text: "修炼"
-    translated: "Practice cultivation"
+    translated: "Tu luyện"
 - raw: "200130041#13#1#155018#20013#1500009122#与赵逸云对话#935639#200130031#0#####0#0#0#0#0#0#0#0#0#0#0############"
   splits:
   - split: 6

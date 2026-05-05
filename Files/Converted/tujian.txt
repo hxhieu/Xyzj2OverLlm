@@ -27,7 +27,7 @@
   splits:
   - split: 2
     text: "玄门"
-    translated: "Xuanmen"
+    translated: "Huyền Môn"
 - raw: "300#3#民#########0##0#0###"
   splits:
   - split: 2
@@ -82,17 +82,17 @@
   splits:
   - split: 2
     text: "剑"
-    translated: "Sword"
+    translated: "Kiếm"
 - raw: "401#4#刀#########0##0#0###"
   splits:
   - split: 2
     text: "刀"
-    translated: "Blade"
+    translated: "Đao"
 - raw: "402#4#枪#########0##0#0###"
   splits:
   - split: 2
     text: "枪"
-    translated: "Spear"
+    translated: "Thương"
 - raw: "403#4#拳#########0##0#0###"
   splits:
   - split: 2
@@ -154,13 +154,13 @@
   splits:
   - split: 2
     text: "太初剑宗"
-    translated: "Primordial Origin Sword Sect"
+    translated: "Thái Sơ Kiếm Tông"
   - split: 3
     text: "门派详情"
     translated: "Gatehouse Details"
   - split: 4
     text: "太初剑宗"
-    translated: "Primordial Origin Sword Sect"
+    translated: "Thái Sơ Kiếm Tông"
   - split: 5
     text: "太初剑宗创派人张司过曾为玄门仙师白闻清的弟子，在白闻清离世后，创立太初剑宗。因其庇护了不少受战争影响的百姓，所以在燕国之内开始有了不少弟子，成为了燕国最早出现的宗派之一，也见证了七国之间的兼并，以及齐、燕、楚的鼎盛。而后来随着嘉和帝对玄门的尊崇，不少太初剑宗弟子得以奔走于权皇贵胄之间，甚至能参与到一些士族的争斗当中。同样的也有不少世家将家中学子送入太初剑宗修行，使得太初剑宗逐步成为了玄门之首的宗派。"
     translated: "The founder of the Primordial Origin Sword School, Zhang Siguo, was once a disciple of the Xuanmen immortal master Bai Wenching. After Bai Wenching's passing, Zhang Siguo established the Primordial Origin Sword School. Due to his protection of many civilians affected by war, he gained numerous disciples within the Yan Kingdom, making it one of the earliest schools to emerge there. He witnessed the unification among the seven states and the prosperity of Qi, Yan, and Chu. Later, as Emperor Jiahe revered Xuanmen, many disciples from the Primordial Origin Sword School were able to navigate among nobles and aristocrats, even participating in some noble conflicts. Similarly, numerous families sent their children to the Primordial Origin Sword School for training, gradually establishing it as the foremost school within Xuanmen."
@@ -177,13 +177,13 @@
   splits:
   - split: 2
     text: "季凛"
-    translated: "Ji Lin"
+    translated: "Quý Lẫm"
   - split: 3
     text: "人物详情"
     translated: "Character Details"
   - split: 4
     text: "季凛"
-    translated: "Ji Lin"
+    translated: "Quý Lẫm"
   - split: 5
     text: "太初剑宗现任掌门，号渊微。"
     translated: "The current sect leader of the Primordial Origin Sword Sect is known as Yuan Wei."
@@ -197,13 +197,13 @@
   splits:
   - split: 2
     text: "王铁"
-    translated: "Wang Tie"
+    translated: "Vương Thiết"
   - split: 3
     text: "人物详情"
     translated: "Character Details"
   - split: 4
     text: "王铁"
-    translated: "Wang Tie"
+    translated: "Vương Thiết"
   - split: 12
     text: "人"
     translated: "One person"

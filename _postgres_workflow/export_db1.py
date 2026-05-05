@@ -129,6 +129,10 @@ def translated_fields(
         yield current_key, current_fields
 
 
+def escape_db_field_text(text: str) -> str:
+    return text.replace("\r\n", "\\n").replace("\r", "\\r").replace("\n", "\\n")
+
+
 def main() -> int:
     args = parse_args()
     database_url = args.database_url or load_database_url_from_codex_config()
@@ -214,7 +218,7 @@ def main() -> int:
                             fields = raw_text.split("#")
                             for field_index, translated_text in line_fields.items():
                                 if 0 <= field_index < len(fields):
-                                    fields[field_index] = translated_text
+                                    fields[field_index] = escape_db_field_text(translated_text)
                                     replaced_fields += 1
                             output.write("#".join(fields))
                         else:

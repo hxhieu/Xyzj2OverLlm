@@ -266,18 +266,23 @@ public class FontReplacerPlugin : BaseUnityPlugin
             return;
 
         foreach (var text in __instance.GetComponentsInChildren<TMP_Text>(true))
+        {
+            ApplyFont(text);
             QueueApply(text);
+        }
     }
 
     [HarmonyPostfix, HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.text), MethodType.Setter)]
     public static void Postfix_TMP_Text_SetText(TMP_Text __instance)
     {
+        ApplyFont(__instance);
         QueueApply(__instance);
     }
 
     [HarmonyPostfix, HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.font), MethodType.Setter)]
     public static void Postfix_TMP_Text_SetFont(TMP_Text __instance)
     {
+        ApplyFont(__instance);
         QueueApply(__instance);
     }
 
@@ -314,6 +319,9 @@ public class FontReplacerPlugin : BaseUnityPlugin
             }
         }
 
-        ApplyCoroutine = null;
+        if (PendingApply.Count > 0)
+            ApplyCoroutine = _instance.StartCoroutine(ApplyPendingOverNextFrames());
+        else
+            ApplyCoroutine = null;
     }
 }

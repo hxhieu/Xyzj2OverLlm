@@ -4,6 +4,7 @@ using BepInEx.Logging;
 using EnglishPatch.Support;
 using HarmonyLib;
 using SharedAssembly.TextResizer;
+using System.Collections;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -42,11 +43,17 @@ internal class TextResizerPlugin : BaseUnityPlugin
     // Cache for storing previously matched results
     public static Dictionary<string, TextResizerContract> CachedMatchedResizers = [];
 
+    private static TextResizerPlugin Instance;
+    private static readonly HashSet<TextMeshProUGUI> PendingReapply = [];
+    private static Coroutine ReapplyCoroutine;
+    private static bool IsApplyingResizer;
+
     //TODO: SuperTextMesh for NPC text
 
     private void Awake()
     {
         Logger = base.Logger;
+        Instance = this;
 
         if (!Enabled)
             return; 
@@ -252,6 +259,7 @@ internal class TextResizerPlugin : BaseUnityPlugin
 
         try
         {
+            IsApplyingResizer = true;
             textComponent.wordWrappingRatios = 1.0f; //Disable Word wrapping ratios (should stop eastern rules)
             textComponent.enableKerning = false;
 
@@ -428,6 +436,10 @@ internal class TextResizerPlugin : BaseUnityPlugin
                 $"Error applying resizer to '{textComponent.name}' at path '{path}' " +
                 $"using resizer '{resizer?.Path ?? "<none>"}' sample '{resizer?.SampleText ?? string.Empty}': {ex}");
         }
+        finally
+        {
+            IsApplyingResizer = false;
+        }
     }
 
     public static TextResizerContract FindAppropriateResizer(string path)
@@ -439,16 +451,32 @@ internal class TextResizerPlugin : BaseUnityPlugin
         if (CachedMatchedResizers.TryGetValue(path, out var cachedResizer))
             return cachedResizer;
 
-        // Try wildcard matching for the remaining resizers
+        // Try wildcard matching for the remaining resizers. Multiple wildcard
+        // patterns can match the same object, so prefer the most specific one.
+        TextResizerContract bestWildcardResizer = null;
+        var bestWildcardScore = -1;
+
         foreach (var resizerPair in Resizers)
         {
             var resizer = resizerPair.Value;
 
-            if (WildcardPathMatches(resizer.Path, path))
-                return resizer;
+            if (!WildcardPathMatches(resizer.Path, path))
+                continue;
+
+            var score = GetWildcardSpecificity(resizer.Path);
+            if (score > bestWildcardScore)
+            {
+                bestWildcardScore = score;
+                bestWildcardResizer = resizer;
+            }
         }
 
-        return null;
+        return bestWildcardResizer;
+    }
+
+    private static int GetWildcardSpecificity(string patternPath)
+    {
+        return NormalizePath(patternPath).Count(c => c != '*');
     }
 
     internal static bool WildcardPathMatches(string patternPath, string path)
@@ -486,7 +514,56 @@ internal class TextResizerPlugin : BaseUnityPlugin
         //to get it at as the objects created. But maybe there is post processing occuring after.
         var items = __instance.GetComponentsInChildren<TextMeshProUGUI>();
         foreach (var item in items)
-            ApplyResizing(item);
+            QueueReapply(item);
+    }
+
+    [HarmonyPostfix, HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.text), MethodType.Setter)]
+    public static void Postfix_TMP_Text_SetText(TMP_Text __instance)
+    {
+        if (__instance is TextMeshProUGUI textComponent)
+            QueueReapply(textComponent);
+    }
+
+    [HarmonyPostfix, HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.fontSize), MethodType.Setter)]
+    public static void Postfix_TMP_Text_SetFontSize(TMP_Text __instance)
+    {
+        if (__instance is TextMeshProUGUI textComponent)
+            QueueReapply(textComponent);
+    }
+
+    private static void QueueReapply(TextMeshProUGUI textComponent)
+    {
+        if (!ResizersLoaded
+            || IsApplyingResizer
+            || Instance == null
+            || textComponent == null
+            || textComponent.gameObject == null)
+        {
+            return;
+        }
+
+        PendingReapply.Add(textComponent);
+        if (ReapplyCoroutine == null)
+            ReapplyCoroutine = Instance.StartCoroutine(ReapplyPendingOverNextFrames());
+    }
+
+    private static IEnumerator ReapplyPendingOverNextFrames()
+    {
+        for (var frame = 0; frame < 3; frame++)
+        {
+            yield return null;
+
+            var pending = PendingReapply.ToArray();
+            PendingReapply.Clear();
+
+            foreach (var textComponent in pending)
+            {
+                if (textComponent != null && textComponent.gameObject != null)
+                    ApplyResizing(textComponent);
+            }
+        }
+
+        ReapplyCoroutine = null;
     }
 
     private void ReloadConfiguration()

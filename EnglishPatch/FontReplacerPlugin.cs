@@ -3,6 +3,7 @@ using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -16,8 +17,12 @@ public class FontReplacerPlugin : BaseUnityPlugin
 {
     internal static new ManualLogSource Logger;
 
+    private static FontReplacerPlugin _instance;
     private static bool _enabled;
     private static TMP_FontAsset _fontAsset;
+    private static readonly HashSet<TMP_Text> PendingApply = [];
+    private static Coroutine ApplyCoroutine;
+    private static bool IsApplyingFont;
 
     private ConfigEntry<bool> _enabledConfig;
     private ConfigEntry<string> _fontNameConfig;
@@ -28,6 +33,7 @@ public class FontReplacerPlugin : BaseUnityPlugin
     private void Awake()
     {
         Logger = base.Logger;
+        _instance = this;
 
         _enabledConfig = Config.Bind("General", "Enabled", false,
             "Enable global TextMeshPro font replacement.");
@@ -241,8 +247,16 @@ public class FontReplacerPlugin : BaseUnityPlugin
         if (text.font == _fontAsset)
             return;
 
-        text.font = _fontAsset;
-        text.SetAllDirty();
+        try
+        {
+            IsApplyingFont = true;
+            text.font = _fontAsset;
+            text.SetAllDirty();
+        }
+        finally
+        {
+            IsApplyingFont = false;
+        }
     }
 
     [HarmonyPostfix, HarmonyPatch(typeof(GameObject), nameof(GameObject.SetActive), [typeof(bool)])]
@@ -252,6 +266,54 @@ public class FontReplacerPlugin : BaseUnityPlugin
             return;
 
         foreach (var text in __instance.GetComponentsInChildren<TMP_Text>(true))
-            ApplyFont(text);
+            QueueApply(text);
+    }
+
+    [HarmonyPostfix, HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.text), MethodType.Setter)]
+    public static void Postfix_TMP_Text_SetText(TMP_Text __instance)
+    {
+        QueueApply(__instance);
+    }
+
+    [HarmonyPostfix, HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.font), MethodType.Setter)]
+    public static void Postfix_TMP_Text_SetFont(TMP_Text __instance)
+    {
+        QueueApply(__instance);
+    }
+
+    private static void QueueApply(TMP_Text text)
+    {
+        if (!_enabled
+            || _fontAsset == null
+            || _instance == null
+            || IsApplyingFont
+            || text == null
+            || text.gameObject == null)
+        {
+            return;
+        }
+
+        PendingApply.Add(text);
+        if (ApplyCoroutine == null)
+            ApplyCoroutine = _instance.StartCoroutine(ApplyPendingOverNextFrames());
+    }
+
+    private static IEnumerator ApplyPendingOverNextFrames()
+    {
+        for (var frame = 0; frame < 1; frame++)
+        {
+            yield return null;
+
+            var pending = PendingApply.ToArray();
+            PendingApply.Clear();
+
+            foreach (var text in pending)
+            {
+                if (text != null && text.gameObject != null)
+                    ApplyFont(text);
+            }
+        }
+
+        ApplyCoroutine = null;
     }
 }

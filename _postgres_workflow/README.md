@@ -227,6 +227,9 @@ and `dialoguelist.nextid` to translate in game flow order.
 When translating a dialogue batch, also resolve every `dialoguelist.nameid`.
 Reuse locked speaker names. If a speaker name used by the batch is still
 pending, translate it together with the dialogue batch and set it to `reviewed`.
+Also reuse locked nouns/terms when they appear inside dialogue sentences, such
+as names, places, sects, titles, skills, manuals, medicines, items, and other
+established terminology.
 
 See `_postgres_workflow/dialogue_chain_workflow.md`.
 

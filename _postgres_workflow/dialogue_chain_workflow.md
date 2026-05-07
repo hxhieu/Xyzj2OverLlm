@@ -92,6 +92,12 @@ When a dialogue batch uses speaker names that are still pending, translate those
 speaker names in the same batch and set them to `reviewed`. Do not leave
 displayed speaker names as English placeholders or machine output.
 
+Locked nouns and terminology must be reused inside dialogue sentences whenever
+they appear in source/context. This includes personal names, place names, sects,
+titles, martial skills, manuals, medicines, items, organizations, and other
+established terms. If a locked term sounds awkward in a sentence, keep the term
+itself fixed and adjust the surrounding Vietnamese phrasing.
+
 ## Dialogue Runtime Logic
 
 `NpcChatView.OnClickNext` follows `dialoguelist.nextid` while `nextid != 0`.
@@ -300,7 +306,7 @@ stringlang 3306000: 月兰 -> Nguyệt Lan
 7. Query `stringlang` rows and existing `translated_text`.
 8. Resolve all `nameid` speaker names used by the batch.
 9. Reuse locked names; translate any pending speaker names used by the batch.
-10. Check skill/manual/sect terms, locked nouns, and nearby context.
+10. Check and reuse locked nouns/terms inside each dialogue sentence.
 11. Translate each pending line manually into Vietnamese, preserving tone and tokens.
 12. Update `translation_values.translated_text` and set status to `reviewed`.
 13. Run QA for leftover Han characters and template/token preservation.

@@ -217,3 +217,51 @@ Write a Markdown report:
 python3 _postgres_workflow/check_workflow.py --format markdown --section-limit 80 \
   > _working/postgres_workflow_report.md
 ```
+
+## Dialogue Chain Order
+
+For story dialogue translation, `line_no` is not runtime chronology. Use
+`condition_group`, `scriptsclient`, compiled graph `PopDialog(...)` transitions,
+and `dialoguelist.nextid` to translate in game flow order.
+
+When translating a dialogue batch, also resolve every `dialoguelist.nameid`.
+Reuse locked speaker names. If a speaker name used by the batch is still
+pending, translate it together with the dialogue batch and set it to `reviewed`.
+
+See `_postgres_workflow/dialogue_chain_workflow.md`.
+
+Reusable helpers:
+
+```bash
+_working/venv-unitypy/bin/python _postgres_workflow/extract_dialogue_graphs.py \
+  --contains Quest_101200
+
+python3 _postgres_workflow/inspect_dialogue_graph.py \
+  _working/extracted_scripts/40365_Quest_101200_Condition_4009602.bytes \
+  --mode walk
+```
+
+Default to reusing `_working/extracted_scripts/*.bytes`. Do not re-extract from
+`resources.assets` during normal dialogue work unless the user indicates the
+game data changed, the cache may be stale, or a needed script is missing.
+
+## Mount Game Data SMB
+
+If the server restarts and the mounted Unity data folder is missing, remount it
+with:
+
+```bash
+SMB_USER=... SMB_PASSWORD=... bash _postgres_workflow/mount_game_data_smb.sh
+```
+
+Default mount:
+
+```text
+//192.168.0.222/下一站江湖Ⅱ_Data -> _working/nextstopjianghu2_data
+```
+
+Check status without mounting:
+
+```bash
+bash _postgres_workflow/mount_game_data_smb.sh --check
+```
